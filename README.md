@@ -8,8 +8,8 @@
 [![ArXiv](https://img.shields.io/badge/ArXiv-paper-B31B1B.svg?logo=arXiv&logoColor=Red)](https://arxiv.org/abs/2505.21318)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD210.svg?logo=HuggingFace&logoColor=black)](https://huggingface.co/datasets/OpenMol/ChemCoTBench)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Homepage](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://howardli1984.github.io/ChemCoTBench.github.io/)
-[![LeaderBoard](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://howardli1984.github.io/ChemCoTBench.github.io/)
+[![Homepage](https://img.shields.io/badge/Homepage-brightgreen.svg)](https://howardli1984.github.io/ChemCoTBench.github.io/)
+[![LeaderBoard](https://img.shields.io/badge/Leaderboard-welcome-blue.svg)](https://howardli1984.github.io/ChemCoTBench.github.io/)
 
 
 Huggingface Dataset & Benchmark link: 
