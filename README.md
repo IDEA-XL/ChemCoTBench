@@ -21,7 +21,7 @@
 
 ChemCoTBench features:
 * 📚 **Large-scale Data:** Built upon **2M original chemical molecule samples**, yielding nearly **20K high-quality chain-of-thoughts samples**.
-* 🎯 **Comprehensive Tasks:** A suite of ** four core tasks** challenging LLMs on different facets of chemical tasks:
+* 🎯 **Comprehensive Tasks:** A suite of **four core tasks** challenging LLMs on different facets of chemical tasks:
 
     * Molecule SMILES-level Understanding
     * Molecule Murcko-Scaffold Understanding
@@ -37,12 +37,44 @@ ChemCoTBench features:
 * 🔬 **Standardized Evaluation:** A robust framework combining standard NLP metrics with novel domain-specific measures for accurate performance quantification.
   
 ---
+## 🚀 Motivation
 
-Huggingface Dataset & Benchmark link: 
-```
-  ChemCoTBench: https://huggingface.co/datasets/OpenMol/ChemCoTBench
-  
-  ChemCoTDataset: https://huggingface.co/datasets/OpenMol/ChemCoTBench-CoT
-```
+Despite recent advances in LLM reasoning capabilities, chemistry, a discipline fundamental to areas like drug discovery and materials science, still lacks a benchmark that assesses whether these improvements extend to its complex, domain-specific problem-solving needs. While several benchmarks have been proposed for LLMs in chemistry, they primarily focus on domain-specific question answering, which suffers from several key limitations:
 
-The code and benchmark pages are coming soon!
+* **Lack of Structured, Stepwise Reasoning and Real-World Relevance:** Current evaluations often reduce chemistry assessment to factual recall (e.g., naming compounds or reactions), neglecting the need for operational reasoning akin to arithmetic or coding. Unlike mathematical problems, where solutions demand explicit, verifiable steps, chemistry QA tasks fail to simulate how experts decompose challenges. For instance, they don't capture the process of iteratively refining a molecule’s substructure to optimize properties, considering crucial real-world factors like synthesizability or toxicity, or deducing reaction mechanisms through intermediate transformations. This gap means we're not fully evaluating the analytical depth required in real-world chemistry. Therefore, evaluations must shift from these textbook-like problems to challenges that better reflect practical applications.
+
+* **Ambiguous Skill Attribution in Hybrid Evaluations:** Existing benchmarks often conflate reasoning, knowledge recall, and numerical computation into single "exam-style" metrics—for instance, asking LLMs to calculate reaction yields while simultaneously recalling reagent properties. This obscures whether strong performance stems from structured reasoning (e.g., analyzing reaction pathways) or memorized facts (e.g., solvent boiling points). Such ambiguity hinders targeted model improvement and misaligns evaluations with downstream tasks like drug discovery, where success depends on modular reasoning (e.g., decoupling molecular design from synthesizability checks) rather than monolithic problem-solving.
+
+To address these limitations, we introduce ChemCoTBench, a **step-by-step, application-oriented, and high-quality benchmark** for evaluating LLM reasoning in chemical applications. A core innovation of ChemCoTBench is its formulation of complex chemical tasks, specifically targeting molecular modeling and design, into explicit sequences of verifiable modular chemical operations on SMILES structures (e.g., substructure addition, deletion, or substitution). This approach allows for a granular assessment of an LLM's ability to execute and chain together fundamental chemical transformations. The benchmark features progressively challenging tasks, spanning from basic molecular understanding and editing to property-guided structure optimization and complex multi-molecule chemical reactions. High-quality evaluation is ensured through a dual validation process combining LLM judgment with expert review from 13 chemists.
+
+---
+## 📊 Huggingface Dataset & Benchmark
+
+To visualize the Dataset Samples, and the baseline Leaderboard, please check the Leaderboard-page and huggingface repo.
+
+* **Leaderboard-Page:** [https://howardli1984.github.io/ChemCoTBench.github.io/](https://howardli1984.github.io/ChemCoTBench.github.io/)
+* **ChemCoTBench:** [https://huggingface.co/datasets/OpenMol/ChemCoTBench](https://huggingface.co/datasets/OpenMol/ChemCoTBench)
+* **Large-scale ChemCoTDataset:** [https://huggingface.co/datasets/OpenMol/ChemCoTBench-CoT](https://huggingface.co/datasets/OpenMol/ChemCoTBench-CoT)
+
+The evaluation metrics are being reconstructed and will be available soon!
+
+---
+
+## 🤝 Contributing
+We welcome contributions to enhance BioProBench, including:
+  - New chemical sources
+  - 🧪 Additional chemical domains
+  - 🧠 Novel evaluation tasks
+  - 📝 Annotation improvements
+
+---
+
+## 📜 Citation
+```bibtex
+ @article{li2025beyond,
+  title={Beyond Chemical QA: Evaluating LLM's Chemical Reasoning with Modular Chemical Operations},
+  author={Li, Hao and Cao, He and Feng, Bin and Shao, Yanjun and Tang, Xiangru and Yan, Zhiyuan and Yuan, Li and Tian, Yonghong and Li, Yu},
+  journal={arXiv preprint arXiv:2505.21318},
+  year={2025}
+}
+```
