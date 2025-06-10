@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/HowardLi1984/ChemCoTBench/blob/main/figures/chemcotbench-intro.png?raw=true" alt="BioProBench Logo" width="800"/>
+  <img src="https://github.com/HowardLi1984/ChemCoTBench/blob/main/figures/chemcotbench-intro.png?raw=true" alt="BioProBench Logo" width="900"/>
 </div>
 
 
