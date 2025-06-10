@@ -23,11 +23,17 @@ ChemCoTBench features:
 * 📚 **Large-scale Data:** Built upon **2M original chemical molecule samples**, yielding nearly **20K high-quality chain-of-thoughts samples**.
 * 🎯 **Comprehensive Tasks:** A suite of ** four core tasks** challenging LLMs on different facets of chemical tasks:
 
-    * Protocol Question Answering (PQA)
-    * Step Ordering (ORD)
-    * Error Correction (ERR)
-    * Protocol Generation (GEN)
-    * Protocol Reasoning (REA)
+    * Molecule SMILES-level Understanding
+    * Molecule Murcko-Scaffold Understanding
+    * Molecule Functional Group Counting
+    * Molecule Editing (Add, Delete, Substitute)
+    * Molecule Optimization for Physicochemical Properties (QED, LogP, Solubility)
+    * Molecule Optimization for Protein Activation (DRD-2, JNK-3, GSK-3beta)
+    * Retrosynthesis Prediction
+    * Forward Major-Product Prediction
+    * Forward By-Product Prediction
+    * Reaction Condition Prediction
+    * Reaction Mechanism Prediction
 * 🔬 **Standardized Evaluation:** A robust framework combining standard NLP metrics with novel domain-specific measures for accurate performance quantification.
   
 ---
