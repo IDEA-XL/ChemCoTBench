@@ -11,6 +11,26 @@
 [![Homepage](https://img.shields.io/badge/Homepage-brightgreen.svg)](https://howardli1984.github.io/ChemCoTBench.github.io/)
 [![LeaderBoard](https://img.shields.io/badge/Leaderboard-welcome-blue.svg)](https://howardli1984.github.io/ChemCoTBench.github.io/)
 
+**ChemCoTBench is the first large-scale benchmark for step-wise reasoning on complex chemical problems, specifically designed for large language models (LLMs). It moves beyond simple QA to encompass a comprehensive suite of tasks critical for chemical comprehension.**
+
+---
+
+<div align="center">
+  <img src="https://github.com/HowardLi1984/ChemCoTBench/blob/main/figures/chemcot-distribution.png" alt="BioProBench Logo" width="1000"/>
+</div>
+
+ChemCoTBench features:
+* 📚 **Large-scale Data:** Built upon **2M original chemical molecule samples**, yielding nearly **20K high-quality chain-of-thoughts samples**.
+* 🎯 **Comprehensive Tasks:** A suite of ** four core tasks** challenging LLMs on different facets of chemical tasks:
+
+    * Protocol Question Answering (PQA)
+    * Step Ordering (ORD)
+    * Error Correction (ERR)
+    * Protocol Generation (GEN)
+    * Protocol Reasoning (REA)
+* 🔬 **Standardized Evaluation:** A robust framework combining standard NLP metrics with novel domain-specific measures for accurate performance quantification.
+  
+---
 
 Huggingface Dataset & Benchmark link: 
 ```
