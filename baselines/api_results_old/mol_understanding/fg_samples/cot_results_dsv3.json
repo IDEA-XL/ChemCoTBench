@@ -1,0 +1,902 @@
+[
+    {
+        "smiles": "CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"side-chain hydroxyls (-O)\",\n    \"matching_analysis\": \"The input molecule contains a hydroxyl group (-OH) attached to a side chain (CO).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1cccc(Cl)c1-c1ccc(COC2COc3nc([N+](=O)[O-])cn3C2)cc1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"side-chain hydroxyls (-O)\",\n    \"matching_analysis\": \"The input molecule contains a side-chain hydroxyl group (-O) attached to a carbon atom in the methoxy group (COC).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1ccc(OCC(=O)Nc2ccc3c(c2)nc(CCNC(=O)c2ccco2)n3C)cc1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"=O (carbonyl group)\",\n    \"matching_analysis\": \"The input molecule contains two carbonyl groups (=O) in the side chains: one in the amide (N-C=O) and another in the ketone (C=O) attached to the furan ring.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 3,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"=O represents a carbonyl group (C=O), which is a characteristic feature of aldehydes or ketones.\",\n    \"matching_analysis\": \"The input molecule contains three carbonyl groups (C=O) as part of its structure, which match the fragment =O.\",\n    \"count\": 3\n}\n```"
+    },
+    {
+        "smiles": "CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is an amide group, represented by -C(=O)N.\",\n    \"matching_analysis\": \"The input molecule contains the amide fragment as part of the structure CC(=O)Nc2ccc(F)cc2.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"amide (-C(=O)N) is a functional group consisting of a carbonyl group (C=O) linked to a nitrogen atom (N).\",\n    \"matching_analysis\": \"The input molecule contains the amide fragment (-C(=O)N) as part of the N-substituted amide group in the structure: N(C(=O)C(F)=Cc4ccccc4)CC3.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"halogens (Br)\",\n    \"matching_analysis\": \"The input molecule contains a bromine (Br) atom attached to a phenyl ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCC(=O)NC1CCc2c(Cl)c(OC)c(OC)c(OC)c2-c2ccc(OC)c(=O)cc21",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"halogens (Cl)\",\n    \"matching_analysis\": \"The input molecule contains one chlorine (Cl) atom.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methoxy group (-OMe) consists of a methyl group attached to an oxygen atom\",\n    \"matching_analysis\": \"The input molecule contains one methoxy group attached to the benzene ring (COc1...)\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COCCNC1CCC(Nc2cc(-c3nc(NCC4CCOCC4)ccc3Cl)c(Cl)cn2)CC1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methoxy group (-OMe) attached to a carbon atom\",\n    \"matching_analysis\": \"The input molecule contains a methoxy group (-OMe) attached to the first carbon atom (COCCNC1...).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "NC(=O)c1cccc2c(NCc3cccc(Nc4nccs4)c3)ncnc12",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"primary amines (-NH2)\",\n    \"matching_analysis\": \"The input molecule contains one primary amine group (-NH2) attached to the carbonyl carbon (C=O).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"primary amines (-NH2)\",\n    \"matching_analysis\": \"The input molecule contains a primary amine group (-NH2) attached to a pyridine ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"trifluoromethyl (-CF3) is a functional group consisting of a carbon atom bonded to three fluorine atoms.\",\n    \"matching_analysis\": \"The input molecule contains a trifluoromethyl group attached to a phenyl ring (C(F)(F)F).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "O=C(Nc1ccnc(F)c1)c1ccc(-c2noc(C(F)(F)F)n2)cc1",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"trifluoromethyl (-CF3) is a functional group consisting of a carbon atom bonded to three fluorine atoms.\",\n    \"matching_analysis\": \"The input molecule contains a trifluoromethyl group attached to a heterocyclic ring (c2noc(C(F)(F)F)n2).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)C1(C(=O)NC(Cc2ccc(-c3ccccc3OC)cc2)C(=O)O)CCCO1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"ethoxy group (-OEt) consists of an oxygen atom connected to an ethyl group (-CH2CH3).\",\n    \"matching_analysis\": \"The input molecule contains an ethoxy group (-OEt) attached to a carbonyl carbon (C=O) in the ester functional group (CCOC(=O)).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"ethoxy (-OEt) is a functional group consisting of an oxygen atom connected to an ethyl group.\",\n    \"matching_analysis\": \"The input molecule contains an ethoxy group (-OEt) attached to a carbonyl carbon (C=O) as part of an ester functional group (CCOC=O).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment -COOR represents an ester functional group, where R is any organic substituent.\",\n    \"matching_analysis\": \"The input molecule contains one ester group, specifically the -COOCCN1CCC(C(N)=O)CC1 part, which matches the -COOR fragment.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)c1c(S(=O)(=O)NCC(=O)Nc2cc(C)ccc2C)c(C)n(C)c1C",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment -COOR represents an ester functional group, which consists of a carbonyl group (C=O) bonded to an oxygen atom (O) which is further bonded to an alkyl or aryl group (R).\",\n    \"matching_analysis\": \"The input molecule contains the substructure CCOC(=O), which matches the ester fragment -COOR. Here, the R group is the ethyl group (C2H5).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CSc1nc(N)cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methylthio (-SCH3) is a sulfur-containing group attached to a methyl group.\",\n    \"matching_analysis\": \"The input molecule contains a methylthio group (-SCH3) attached to a nitrogen-containing heterocycle.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CSc1ncc(C(=O)Nc2ccc(C)c(Cl)c2)c(-c2ccccc2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methylthio (-SCH3) is a sulfur-containing group with a methyl group attached.\",\n    \"matching_analysis\": \"The input molecule contains a -SCH3 group attached to a nitrogen atom in the heterocyclic ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COC(=O)c1cccc(-c2cccc(OCC(O)CN3CCc4ccccc4C3)c2)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"carbonyl methyl ester (-C(=O)OMe) consists of a carbonyl group (C=O) attached to a methoxy group (OMe).\",\n    \"matching_analysis\": \"The input molecule contains one instance of the carbonyl methyl ester fragment at the beginning (COC(=O)-).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"carbonyl methyl ester (-C(=O)OMe) consists of a carbonyl group (C=O) attached to a methoxy group (OMe).\",\n    \"matching_analysis\": \"The input molecule contains one instance of the carbonyl methyl ester fragment at the beginning of the structure: COC(=O)-.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"NO2\",\n    \"matching_analysis\": \"The nitro group (-NO2) is present as a substituent on the benzene ring in the input molecule.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "O=C(Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"nitro group (-NO2) with structure [N+](=O)[O-]\",\n    \"matching_analysis\": \"The input molecule contains one nitro group attached to a benzene ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "O=C(Nc1ccc2oc(Cc3ccccc3)nc2c1)c1ccc([N+](=O)[O-])cc1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"-N=O is a nitroso group, consisting of a nitrogen atom double-bonded to an oxygen atom.\",\n    \"matching_analysis\": \"The input molecule contains a nitro group ([N+](=O)[O-]), but not a nitroso group (-N=O). The nitro group is a different functional group.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)C1CCCN(Cc2nc3ccc([N+](=O)[O-])cc3c(=O)n2-c2ccc(OC)cc2OC)C1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is a nitroso group (-N=O), which consists of a nitrogen atom double-bonded to an oxygen atom.\",\n    \"matching_analysis\": \"The input molecule contains a nitro group ([N+](=O)[O-]) but not a nitroso group (-N=O). The nitro group is different from the nitroso group as it has a positive charge on nitrogen and an additional oxygen atom with a negative charge.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1c(Cc2cccc([N+](=O)[O-])c2)c(=O)oc2cc(OC(=O)N(C)C)ccc12",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment =N-O represents an oxime group, which consists of a nitrogen double-bonded to an oxygen atom.\",\n    \"matching_analysis\": \"The input molecule contains a nitro group ([N+](=O)[O-]), which is not the same as an oxime group (=N-O). The nitro group has a positively charged nitrogen and a negatively charged oxygen, whereas the oxime group has a neutral nitrogen and oxygen.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "COC(=O)C1=C(C)N=C(C)C(=C(O)OC)C1c1ccc(Cl)c([N+](=O)[O-])c1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment =N-O represents an oxime group, which consists of a nitrogen double-bonded to a carbon (or another atom) and single-bonded to an oxygen.\",\n    \"matching_analysis\": \"The input molecule does not contain the oxime fragment (=N-O). The nitrogen in the molecule is part of a nitro group ([N+](=O)[O-]), not an oxime.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is a cyano group (-C#N), which consists of a carbon atom triple-bonded to a nitrogen atom.\",\n    \"matching_analysis\": \"The input molecule contains a cyano group attached to a phenyl ring, specifically at the end of the molecule: 'C#N'.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CN1CCN(Cc2ccc(C(=O)NN(c3nc(C#N)ncc3Br)C3CCC3)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"cyano group (-C#N)\",\n    \"matching_analysis\": \"The cyano group is present in the input molecule as part of the structure 'c3nc(C#N)ncc3Br'.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCC(C(=O)NC(C#N)CC(N)=O)N(Cc1ccc(-c2cccc(F)c2F)cc1)S(C)(=O)=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"nitriles (C#N)\",\n    \"matching_analysis\": \"The input molecule contains one nitrile group (C#N) attached to a carbon atom.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is a nitrile group, characterized by a carbon triple-bonded to a nitrogen atom (#N).\",\n    \"matching_analysis\": \"The input molecule contains one nitrile group attached to an aromatic ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCOc1ccccc1NS(=O)(=O)c1cc(-c2cnc(C3CC3)o2)ccc1C",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"cyclopropyl (-cPropyl) is a three-membered carbon ring.\",\n    \"matching_analysis\": \"The input molecule contains a cyclopropyl group attached to a cyanomethyl-oxazole moiety (-c2cnc(C3CC3)o2).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(C)N(c1ccc(C(C)(O)C(F)(F)F)cc1)S(=O)(=O)c1ccccc1C1CC1",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"cyclopropyl (C1CC1)\",\n    \"matching_analysis\": \"The input molecule contains a cyclopropyl group attached to a benzene ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(Nc2nccc(-c3ccc(NC(=O)Cc4cccs4)cc3)n2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"primary sulfonamide (-SO2NH2) consists of a sulfonyl group (SO2) attached to an amino group (NH2).\",\n    \"matching_analysis\": \"The input molecule contains a sulfonamide group (NS(=O)(=O)) attached to a benzene ring, but it is not a primary sulfonamide (-SO2NH2) as the nitrogen is part of an aniline (NH attached to aromatic ring) rather than a free NH2 group.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CN2CCN(c3ccccc3)CC2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"primary sulfonamide (-SO2NH2) consists of a sulfur atom double-bonded to two oxygen atoms and single-bonded to a nitrogen atom which is further bonded to two hydrogen atoms.\",\n    \"matching_analysis\": \"The input molecule contains a sulfonamide group (-SO2NH-), but it is not a primary sulfonamide (-SO2NH2) because the nitrogen is bonded to a carbon atom (part of an amide linkage) instead of two hydrogen atoms.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"carboxylic acids (-C(=O)O)\",\n    \"matching_analysis\": \"The input molecule contains one carboxylic acid group (-C(=O)O) attached to a cyclohexane ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"carboxylic acid group (-C(=O)O)\",\n    \"matching_analysis\": \"The input molecule contains two carboxylic acid groups (-C(=O)O) attached to different parts of the structure.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "CS(=O)(=O)Nc1ccc(-c2cnc3cccc(Nc4ncccc4Cl)c3c2)cc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl sulfonyl (-SO2CH3) is a sulfonyl group attached to a methyl group\",\n    \"matching_analysis\": \"The input molecule contains a sulfonyl group (SO2) attached to an amine (N), not a methyl group (CH3). The SO2 is part of a sulfonamide (SO2NH) in the input molecule.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "CC(CCn1ccc(-c2ccc(F)cc2)cc1=O)(C(=O)NO)S(C)(=O)=O",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl sulfonyl (-SO2CH3) is a sulfonyl group attached to a methyl group.\",\n    \"matching_analysis\": \"The input molecule contains a sulfonyl group (S(=O)(=O)) attached to a carbon, but it is not directly attached to a methyl group (CH3). Instead, it is part of a larger sulfonate group (S(C)(=O)=O).\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N(C)CC4CCOC4)ncc3Cl)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl amide (-NC(=O)CH3) is a functional group consisting of an amide linkage with a methyl group attached to the carbonyl carbon.\",\n    \"matching_analysis\": \"The input molecule contains the fragment -NC(=O)CH3 as part of its structure, specifically at the beginning where CC(=O)NC is present, matching the methyl amide fragment.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"-NC(=O)CH3 is a methyl amide group, consisting of an amide nitrogen connected to a carbonyl carbon and a methyl group.\",\n    \"matching_analysis\": \"The input molecule contains the fragment -NC(=O)CH3 at the beginning, where the nitrogen is part of an amide bond connected to a carbonyl carbon and a methyl group.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "C=CCOCCn1c(SC)nc(-c2ccc(F)cc2)c1-c1ccnc(NC(C)=O)c1",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"terminal aldehyde (-C(=O)H)\",\n    \"matching_analysis\": \"The input molecule does not contain a terminal aldehyde group. The closest group is an amide (NC(C)=O), which is not a terminal aldehyde.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "CCC1OC(C(C)=CC(C)C=CC2C(C)C2C=CC2OC(CC(C)=O)CC(O)C2O)CC=C1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"terminal aldehyde (-C(=O)H)\",\n    \"matching_analysis\": \"The input molecule contains a -C(=O)H group, which is a terminal aldehyde fragment.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3ccnc(N4CCCC(F)(F)C4)n3)C2)cc1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"carbonyl methyl (-C(=O)CH3) consists of a carbonyl group (C=O) attached to a methyl group (CH3).\",\n    \"matching_analysis\": \"The input molecule contains a carbonyl methyl group (-C(=O)CH3) at the beginning of the structure (CC(=O)...).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COC1CCCN(c2nccc(N3CCC(Oc4ccc(C(C)NC(C)=O)cc4)C3)n2)C1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"-C(=O)CH3 (carbonyl methyl) is a functional group consisting of a carbonyl group (C=O) attached to a methyl group (CH3).\",\n    \"matching_analysis\": \"The input molecule contains one instance of the carbonyl methyl fragment, specifically in the structure 'C(C)=O' where the carbonyl is bonded to a methyl group.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CNC(=O)C(NC(=O)C(CC(C)C)C(C(=O)NO)C1CCCC1)C(C)(C)C",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"t-butyl (tert-butyl) group: -C(CH3)3\",\n    \"matching_analysis\": \"The input molecule contains a t-butyl group attached to the central carbon atom.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(C(=O)Nc1ncc(SCc2ncc(C(C)(C)C)o2)s1)c1ccccc1",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"t-butyl (tert-butyl) group: -C(CH3)3\",\n    \"matching_analysis\": \"The input molecule contains a t-butyl group attached to a heterocyclic ring (specifically, a thiazole derivative). The t-butyl group is present as part of the side chain on the thiazole ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "C#Cc1cc(Oc2cnc(NCC(C)O)nc2N)c(C(C)C)cc1OC",
+        "fg_name": "acetylenes",
+        "fg_smarts": "*-[C;D2]#[C;D1;H]",
+        "fg_label": "-C#CH",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is an acetylene group (-C#CH).\",\n    \"matching_analysis\": \"The input molecule contains one acetylene group (-C#CH) attached to the aromatic ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=S)NC(=O)c2cccc([N+](=O)[O-])c2)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is a thiocarbonyl group (=S), which consists of a sulfur atom double-bonded to a carbon atom.\",\n    \"matching_analysis\": \"The input molecule contains two thiocarbonyl groups (=S). One is part of the NC(=S)NC(=O) moiety, and the other is in the [N+](=O)[O-] group, but the latter is actually a nitro group, not a thiocarbonyl. Therefore, only one thiocarbonyl group is present.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1ccc(NC(=S)N(CCN2CCOCC2)Cc2ccccc2F)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is a thiocarbonyl group (C=S).\",\n    \"matching_analysis\": \"The input molecule contains a thiocarbonyl group (C=S) as part of the NC(=S)N structure.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "fg_name": "methyl sulfonamide",
+        "fg_smarts": "*-[N;D2]-[S;D4](=[O;D1])(=[O;D1])-[C;D1;H3]",
+        "fg_label": "-NHSO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl sulfonamide (-NHSO2CH3) consists of a sulfonamide group (SO2) attached to a methyl group (CH3) and an amine (NH).\",\n    \"matching_analysis\": \"The input molecule contains a sulfonamide group (NS(C)(=O)=O) which matches the fragment -NHSO2CH3. The nitrogen is bonded to a hydrogen and the sulfonyl group, and the sulfur is bonded to a methyl group (CH3).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "Cc1oc(-c2ccccc2)nc1CCNC(=O)c1ccc([S@@](C)=O)cc1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl sulfinyl (-SOCH3) is a sulfinyl group attached to a methyl group.\",\n    \"matching_analysis\": \"The input molecule contains a [S@@](C)=O group, which matches the -SOCH3 fragment (sulfinyl group with a methyl substituent).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "C=CCn1c(SCc2nnc([S-])n2-c2ccccc2)nnc1-c1ccccc1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"thiols (-S)\",\n    \"matching_analysis\": \"The input molecule contains a thiol group (-S) attached to a heterocyclic ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "C[C@@H]1CCC/C(=N/[NH+]=C(/[S-])NCc2ccccc2)C1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is a thiol group (-S).\",\n    \"matching_analysis\": \"The input molecule contains a thiolate group ([S-]), which is the deprotonated form of a thiol.\",\n    \"count\": \"1\"\n}\n```"
+    },
+    {
+        "smiles": "C[C@H](NC(=O)NCCC[S@](C)=O)c1ccc(Cl)s1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl sulfinyl (-SOCH3) is a sulfinyl group attached to a methyl group\",\n    \"matching_analysis\": \"The input molecule contains a sulfinyl group (S=O) attached to a methyl group (CH3) at the stereocenter [S@](C)=O\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "O=C=NC(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment isocyanate (-N=C=O) consists of a nitrogen atom double-bonded to a carbon atom, which is in turn double-bonded to an oxygen atom.\",\n    \"matching_analysis\": \"The input molecule contains a central carbon atom bonded to an isocyanate group (-N=C=O) and three phenyl rings (c1ccccc1). The isocyanate fragment is directly attached to the central carbon.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COS(=O)(=O)c1ccc(Cl)c2ccccc12",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment -SO3CH3 (methyl ester sulfonyl) consists of a sulfonyl group (SO2) connected to a methyl group (CH3) via an oxygen atom.\",\n    \"matching_analysis\": \"The input molecule COS(=O)(=O)c1ccc(Cl)c2ccccc12 contains a sulfonyl group (SO2) connected to a methoxy group (OCH3), which matches the fragment -SO3CH3 (methyl ester sulfonyl).\",\n    \"count\": \"1\"\n}\n```"
+    },
+    {
+        "smiles": "CCOc1cc(NC(=O)c2ccccc2)c(OCC)cc1[N+]#N",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is a diazo group (-N#N), which consists of two nitrogen atoms triple-bonded to each other.\",\n    \"matching_analysis\": \"The input molecule contains the diazo group (-N#N) attached to an aromatic ring. The group is clearly present in the structure.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "O=S(=O)([O-])c1ccc(Cl)c2cccnc12",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"sulfonic acid (-SO3H) consists of a sulfur atom double-bonded to two oxygen atoms and single-bonded to a hydroxyl group and another substituent.\",\n    \"matching_analysis\": \"The input molecule contains a sulfonate group (-SO3-) which is the deprotonated form of sulfonic acid, attached to a benzene ring.\",\n    \"count\": \"1\"\n}\n```"
+    },
+    {
+        "smiles": "O=S1(=O)C[C@@H](Nc2ccccc2)[C@@H](S(=O)(=O)[O-])C1",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"sulfonic acid (-SO3H) is a functional group consisting of a sulfur atom double-bonded to two oxygen atoms and single-bonded to a hydroxyl group and another substituent.\",\n    \"matching_analysis\": \"The input molecule contains two sulfonate groups (SO3-) which are deprotonated forms of sulfonic acid. Each sulfonate group can be considered as originating from a sulfonic acid group.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "O=C(N=C=S)c1cccc(C(F)(F)F)c1F",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is an isothiocyanate group (-N=C=S), which consists of a nitrogen atom double-bonded to a carbon atom, which is in turn double-bonded to a sulfur atom.\",\n    \"matching_analysis\": \"The input molecule contains the structure O=C(N=C=S)c1cccc(C(F)(F)F)c1F. The -N=C=S group is present in the molecule, attached to a carbonyl group (C=O).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "N#[N+]c1[nH]nc2nnc(-c3ccccc3)c(-c3ccccc3)c12",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is a diazo group (-N#N), which consists of two nitrogen atoms connected by a triple bond.\",\n    \"matching_analysis\": \"The input molecule contains a diazo group (-N#N) attached to a nitrogen in a heterocyclic ring. The diazo group is clearly present in the structure.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "O=C=Nc1ccc2c(c1)O[C@@H](F)C(F)(F)O2",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment is an isocyanate group (-N=C=O), which is a functional group consisting of a nitrogen atom double-bonded to a carbon atom, which is in turn double-bonded to an oxygen atom.\",\n    \"matching_analysis\": \"The input molecule contains the isocyanate group (-N=C=O) attached to a benzene ring. The group is directly connected to the nitrogen atom of the isocyanate.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC1(C)[C@H]2CC[C@]1(C)C(=O)[C@@H]2N=C=S",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"isothiocyanate (-N=C=S) is a functional group consisting of a nitrogen atom double-bonded to a carbon atom which is further double-bonded to a sulfur atom.\",\n    \"matching_analysis\": \"The input molecule contains the isothiocyanate group (-N=C=S) attached to a carbon in the ring structure.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCCc1n[nH]c2c([O-])nc(-c3cc(S(=O)(=O)Cl)ccc3OCC)nc12",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"sulfonyl chloride (-SO2Cl) is a functional group consisting of a sulfur atom double-bonded to two oxygen atoms and single-bonded to a chlorine atom.\",\n    \"matching_analysis\": \"The input molecule contains a sulfonyl chloride group attached to a phenyl ring, which matches the fragment -SO2Cl.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COS(=O)(=O)[C@@H]1C(=O)[C@]2(C)CC[C@H]1C2(C)C",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl ester sulfonyl (-SO3CH3) is a sulfonyl group attached to a methyl group\",\n    \"matching_analysis\": \"The input molecule contains a sulfonyl group (S=O(=O)) but it is not attached to a methyl group (CH3). Instead, it is attached to a cyclic structure.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1nn(C(C)C)cc1S(=O)(=O)Cl",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"sulfonyl chloride (-SO2Cl) consists of a sulfur atom double-bonded to two oxygen atoms and single-bonded to a chlorine atom.\",\n    \"matching_analysis\": \"The input molecule contains a sulfonyl chloride group (-SO2Cl) attached to a heterocyclic ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "N=Nc1ccccc1-c1ccc([N+](=O)[O-])cc1[N+](=O)[O-]",
+        "fg_name": "hydrazines",
+        "fg_smarts": "*-[N;D2]=[N;D1]",
+        "fg_label": "-N=N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"hydrazines (-N=N)\",\n    \"matching_analysis\": \"The input molecule contains a hydrazine (-N=N) group connected to a phenyl ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"carboxylic acids (-C(=O)O)\",\n    \"matching_analysis\": \"The input molecule contains one carboxylic acid group (-C(=O)O) attached to a carbon in the structure.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"primary sulfonamide (-SO2NH2)\",\n    \"matching_analysis\": \"The input molecule contains two -SO2NH2 groups, one at the beginning (NS(=O)(=O)N) and another within the aromatic ring system (S(=O)(=O)c3cccc(F)c3). Both are primary sulfonamides.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "O=C1c2ccccc2C(=O)N1CCOC(=S)Nc1ccc(F)cc1F",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"thiocarbonyls (=S)\",\n    \"matching_analysis\": \"The input molecule contains one thiocarbonyl group (=S) attached to an oxygen atom in the structure.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1c(N2CCCC(N)C2)c(F)c(N)c2c(=O)c(C(=O)O)cn(C3CC3)c12",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"cyclopropyl (C3CC3)\",\n    \"matching_analysis\": \"The input molecule contains a cyclopropyl group attached to a nitrogen atom in a fused ring system.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)O)cc1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methoxy (-OMe) is a functional group consisting of a methyl group bonded to oxygen.\",\n    \"matching_analysis\": \"The input molecule contains a methoxy group (-OMe) attached to a benzene ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"=N-O\",\n    \"matching_analysis\": \"The input molecule does not contain the oxime fragment (=N-O). The closest nitrogen-oxygen containing group is the nitro group ([N+](=O)[O-]).\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "Nc1cnc(-c2ccc(C3CCC3)c(OCC(O)CNc3cc(N)ncn3)c2F)cn1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"primary amines (-NH2)\",\n    \"matching_analysis\": \"The input molecule contains two primary amine groups (-NH2) attached to the aromatic rings.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "N#CCC1(n2cc(C(N)=O)c(Nc3ccnc(F)c3)n2)CCC(NCc2ccc(O)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"cyano group (-C#N)\",\n    \"matching_analysis\": \"The input molecule contains a cyano group (-C#N) attached to a carbon chain.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCCCOC(=O)c1ccc(NC(=O)C2(c3cccs3)CCOCC2)cc1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"The fragment -COOR represents an ester functional group, where R is an alkyl or aryl group.\",\n    \"matching_analysis\": \"The input molecule contains the structure COOC, which matches the ester fragment -COOR where R is the rest of the molecule.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"trifluoromethyl (-CF3) is a functional group consisting of a carbon atom bonded to three fluorine atoms.\",\n    \"matching_analysis\": \"The input molecule contains a trifluoromethyl group attached to a benzene ring, as seen in the part 'C(F)(F)F' of the SMILES string.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COCCCNC(=O)c1c(C)nn(-c2ccc(F)cc2)c1-n1cccc1",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"amide (-C(=O)N) is a functional group consisting of a carbonyl group (C=O) bonded to a nitrogen atom (N).\",\n    \"matching_analysis\": \"The input molecule contains the fragment -C(=O)N bonded to a carbon atom in the structure COCCCNC(=O)...\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"=O represents a carbonyl group (C=O), which can be part of aldehydes or ketones.\",\n    \"matching_analysis\": \"The input molecule contains one carbonyl group (C=O) as part of an ester (C(=O)Oc2c(OC)cccc2OC).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"cyano group (-C#N)\",\n    \"matching_analysis\": \"The cyano group is present in the input molecule as part of a heterocyclic ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl sulfonyl (-SO2CH3) is a sulfone group where sulfur is double-bonded to two oxygens and single-bonded to a methyl group.\",\n    \"matching_analysis\": \"The input molecule contains a sulfone group (S(=O)(=O)-) attached to a carbon in a heterocyclic ring, but it is not directly bonded to a methyl group (-CH3). Instead, it is part of a thiazole ring system.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3cccc(C(F)(F)F)c3)ccc2C)n1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"=O represents a carbonyl group (C=O), which can be part of aldehydes or ketones.\",\n    \"matching_analysis\": \"The input molecule contains a carbonyl group (C=O) as part of an amide (C(=O)N) and a ketone (C(=O)) in the side chain.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CS(=O)(=O)c1ccc2nc(-c3ccc(Br)cc3)[nH]c2c1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl sulfonyl (-SO2CH3) is a sulfonyl group attached to a methyl group.\",\n    \"matching_analysis\": \"The input molecule contains a sulfonyl group (S(=O)(=O)) attached to a carbon (C), which is part of a larger aromatic system. This matches the -SO2CH3 fragment, where the carbon is part of a benzene ring instead of a methyl group.\",\n    \"count\": \"1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)N1c2ccc(S(=O)(=O)N3CCC(C(=O)Nc4ncccc4C)CC3)cc2CC1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"terminal aldehyde (-C(=O)H) consists of a carbonyl group (C=O) bonded to a hydrogen atom.\",\n    \"matching_analysis\": \"The input molecule does not contain a terminal aldehyde group (-C(=O)H). The carbonyl groups present are part of amide or sulfonamide functionalities, not aldehydes.\",\n    \"count\": \"0\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1cc(O)cc(C)c1CC(N)C(=O)N1Cc2ccccc2CC1C(=O)Nc1nn[nH]n1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"primary amines (-NH2)\",\n    \"matching_analysis\": \"The input molecule contains a primary amine group (-NH2) attached to a carbon chain.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCCCCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"halogens (Cl)\",\n    \"matching_analysis\": \"The input molecule contains two chlorine (Cl) atoms attached to an aromatic ring.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Oc2ccccc2O)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"ethoxy (-OEt) is a functional group consisting of an oxygen atom connected to an ethyl group (-CH2CH3).\",\n    \"matching_analysis\": \"The input molecule contains an ethoxy group (-OEt) connected to a carbon atom in the structure. The SMILES representation of the fragment matches the ethoxy group in the molecule.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"thiocarbonyls (=S)\",\n    \"matching_analysis\": \"The input molecule contains a thiocarbonyl group (=S) attached to a carbon atom which is part of an amide-like structure.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"nitriles (C#N)\",\n    \"matching_analysis\": \"The input molecule contains two nitrile groups (C#N) attached to a pyrimidine ring.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "COC(=O)c1ccc(-c2ccc(C=C3SC(=O)NC3=O)o2)c(O)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"carbonyl methyl ester (-C(=O)OMe)\",\n    \"matching_analysis\": \"The input molecule contains one instance of the carbonyl methyl ester fragment attached to the benzene ring.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)Cc1ccc(C#Cc2ccc(OCc3cnco3)cc2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl amide (-NC(=O)CH3) is a functional group consisting of an amide linked to a methyl group.\",\n    \"matching_analysis\": \"The input molecule contains the fragment -NC(=O)CH3 attached to a carbon atom in the main chain.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"carbonyl methyl ester (-C(=O)OMe) consists of a carbonyl group (C=O) attached to a methoxy group (OMe).\",\n    \"matching_analysis\": \"The input molecule contains one instance of the carbonyl methyl ester fragment, located at the beginning of the molecule (COC(=O)-).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methyl amide (-NC(=O)CH3) consists of an amide group (N-C=O) with a methyl group attached to the carbonyl carbon.\",\n    \"matching_analysis\": \"The input molecule contains a methyl amide fragment (-NC(=O)CH3) attached to a nitrogen atom in the heterocyclic ring system.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCC(=O)NO",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"side-chain hydroxyls (-O)\",\n    \"matching_analysis\": \"The input molecule contains one side-chain hydroxyl group attached to an ethyl group (OCCC).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "N#Cc1ccc(Oc2ccc(NC(=O)CC(CC(=O)O)c3ccccc3)cc2)cc1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"carboxylic acids (-C(=O)O)\",\n    \"matching_analysis\": \"The input molecule contains one carboxylic acid group (-C(=O)O) attached to the carbon chain.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCCCOC(=O)CC1N=C(c2ccc(Cl)cc2)c2cc(OC)ccc2-n2c(C)nnc21",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methoxy group (-OMe) is represented by the SMILES -OMe, which is a methoxy group attached to a molecule.\",\n    \"matching_analysis\": \"The input molecule contains two methoxy groups (-OMe) attached to aromatic rings, specifically at positions where 'OC' is present in the SMILES notation.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OCc3ccccc3)c2)[nH]1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"methylthio (-SCH3) is a sulfur-containing functional group where a methyl group is attached to a sulfur atom.\",\n    \"matching_analysis\": \"The input molecule contains a methylthio group (-SCH3) attached to a nitrogen atom in the thiazole ring (CSc1...).\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)Nc1ncc(Oc2cc(I)c(OC)cc2C(C)C)c(N)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"fragment_structure\": \"ethoxy (-OEt) is a functional group consisting of an oxygen atom connected to an ethyl group.\",\n    \"matching_analysis\": \"The input molecule contains an ethoxy group attached to a benzene ring (Oc2cc(I)c(OC)cc2C(C)C), where the -OEt fragment is present as -OC.\",\n    \"count\": 1\n}\n```"
+    }
+]

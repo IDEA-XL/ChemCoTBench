@@ -1,0 +1,162 @@
+[
+    {
+        "Instruction": "Modify the molecule CCN(Cc1ccccn1)c1ccc(C=O)o1 by removing a aldehyde.",
+        "molecule": "CCN(Cc1ccccn1)c1ccc(C=O)o1",
+        "removed_group": "aldehyde",
+        "reference": "CCN(Cc1ccccn1)c1ccco1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The input molecule SMILES is CCN(Cc1ccccn1)c1ccc(C=O)o1. This molecule contains an ethyl group (CC), a tertiary amine (N) connected to a benzyl group (Cc1ccccn1) and a furan ring (c1ccco1) substituted with an aldehyde group (C=O). The furan ring is a five-membered aromatic ring with an oxygen atom.\",\n    \"functional_group_identification\": \"The aldehyde functional group (C=O) is attached to the furan ring at one of its carbon atoms. The aldehyde group is identified by the 'C=O' moiety in the SMILES string.\",\n    \"delete_strategy\": \"To delete the aldehyde group, we need to remove the 'C=O' moiety from the furan ring. This will leave a hydrogen atom in place of the aldehyde group, effectively converting the carbon atom to a CH group. The furan ring will remain intact but without the aldehyde substitution.\",\n    \"feasibility_analysis\": \"Deleting the aldehyde group is chemically feasible as it involves the removal of a substituent from an aromatic ring. The resulting molecule will be a furan ring with a hydrogen atom replacing the aldehyde group, which is a stable and chemically reasonable modification.\",\n    \"output\": \"CCN(Cc1ccccn1)c1ccco1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule Cc1ccc(O[C@@H](C)C(=O)NC(N)=O)c(C=O)n1 by removing a aldehyde.",
+        "molecule": "Cc1ccc(O[C@@H](C)C(=O)NC(N)=O)c(C=O)n1",
+        "removed_group": "aldehyde",
+        "reference": "Cc1ccc(O[C@@H](C)C(=O)NC(N)=O)cn1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule contains several functional groups: a methyl group (Cc1), an ether (O[C@@H](C)), an amide (C(=O)NC(N)=O), and an aldehyde (C=O) attached to a nitrogen-containing heterocycle (n1). The structure is a complex heterocyclic system with multiple substituents.\",\n    \"functional_group_identification\": \"The aldehyde group is located at the position 'c(C=O)n1', where the carbon of the aldehyde (C=O) is directly attached to the aromatic ring. This is the group to be deleted.\",\n    \"delete_strategy\": \"To delete the aldehyde group, we remove the 'C=O' moiety from the 'c(C=O)n1' part of the SMILES. This will leave the carbon atom in the ring without the aldehyde substituent, simplifying the structure to 'cn1' at that position.\",\n    \"feasibility_analysis\": \"Deleting the aldehyde group is chemically viable as it does not disrupt the core aromatic ring system. The remaining structure will still be stable, though the electronic properties of the molecule will change due to the absence of the electron-withdrawing aldehyde group.\",\n    \"output\": \"Cc1ccc(O[C@@H](C)C(=O)NC(N)=O)cn1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C(Cn1nnc(-c2ccccc2Cl)n1)N/N=C/c1cc(Cl)ccc1O by removing a amide.",
+        "molecule": "O=C(Cn1nnc(-c2ccccc2Cl)n1)N/N=C/c1cc(Cl)ccc1O",
+        "removed_group": "amide",
+        "reference": "Cn1nnc(-c2ccccc2Cl)n1.N/N=C/c1cc(Cl)ccc1O",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The given SMILES string represents a molecule with multiple functional groups including an amide (O=C-N), a diazole ring (n1nnc), a chlorinated phenyl ring (-c2ccccc2Cl), an imine (N/N=C), and a hydroxyl group (O) attached to another chlorinated phenyl ring.\",\n    \"functional_group_identification\": \"The amide group is identified as 'O=C(Cn1nnc(-c2ccccc2Cl)n1)N'. The carbonyl carbon (C=O) is connected to a nitrogen (N) which is part of the diazole ring and also connected to another nitrogen (N) via a single bond.\",\n    \"delete_strategy\": \"To delete the amide group, we need to remove the carbonyl carbon (C=O) and the nitrogen (N) directly attached to it. The remaining part of the molecule should retain the diazole ring and the imine group. The deletion will result in the removal of the 'O=C-N' segment, leaving the rest of the structure intact.\",\n    \"feasibility_analysis\": \"The proposed deletion is chemically viable as it involves removing a terminal amide group without disrupting the core structure of the molecule. The remaining fragments (diazole ring, imine, and phenyl rings) are stable and can exist independently.\",\n    \"output\": \"Cn1nnc(-c2ccccc2Cl)n1N/N=C/c1cc(Cl)ccc1O\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule CC[C@@H](NC(=O)[C@@H]1Cc2cc(C)c(C)cc2O1)c1nc2ccccc2[nH]1 by removing a amide.",
+        "molecule": "CC[C@@H](NC(=O)[C@@H]1Cc2cc(C)c(C)cc2O1)c1nc2ccccc2[nH]1",
+        "removed_group": "amide",
+        "reference": "CC[C@@H]([C@@H]1Cc2cc(C)c(C)cc2O1)c1nc2ccccc2[nH]1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The input molecule is a complex structure containing an amide group (NC=O), a chiral center, a fused aromatic system (indole-like structure), and a substituted benzene ring. The amide group is connected to the chiral carbon and the rest of the molecule.\",\n    \"functional_group_identification\": \"The amide group is identified as 'NC(=O)' in the SMILES string. It is attached to the chiral carbon ([C@@H]) and the aromatic system ([C@@H]1Cc2cc(C)c(C)cc2O1). The nitrogen (N) of the amide is directly bonded to the chiral carbon.\",\n    \"delete_strategy\": \"To delete the amide group, we need to remove the 'NC(=O)' moiety while preserving the rest of the molecule. The chiral carbon will remain, but the amide's nitrogen and carbonyl group will be removed. The bond between the chiral carbon and the nitrogen will be broken, and the chiral carbon will retain its remaining substituents.\",\n    \"feasibility_analysis\": \"Deleting the amide group is chemically feasible, as it involves breaking the C-N bond and removing the carbonyl group. The remaining structure will still be stable, with the chiral carbon now bonded only to the ethyl group (CC) and the indole-like structure (c1nc2ccccc2[nH]1).\",\n    \"output\": \"CC[C@@H]([C@@H]1Cc2cc(C)c(C)cc2O1)c1nc2ccccc2[nH]1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C(Nc1ccc(Nc2ccccc2)cc1)c1ccc(O)nc1 by removing a amine.",
+        "molecule": "O=C(Nc1ccc(Nc2ccccc2)cc1)c1ccc(O)nc1",
+        "removed_group": "amine",
+        "reference": "O=C(Nc1ccccc1)c1ccc(O)nc1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule contains an amide group (O=C(N)), an aromatic ring with an amine substituent (Nc1ccc(Nc2ccccc2)cc1), and another aromatic ring with a hydroxyl group (O) and a nitrogen atom (nc1). The amine functional group is part of the secondary amine (Nc2ccccc2) attached to the first aromatic ring.\",\n    \"functional_group_identification\": \"The amine group to be deleted is the secondary amine (Nc2ccccc2) attached to the first aromatic ring (c1ccc(Nc2ccccc2)cc1). This amine is connected to the aromatic ring via a nitrogen atom, which is also part of the amide group (O=C(N)).\",\n    \"delete_strategy\": \"To delete the amine group (Nc2ccccc2), we need to remove the nitrogen atom and the attached phenyl ring (c2ccccc2). This will leave the remaining part of the molecule as O=C(Nc1ccccc1)c1ccc(O)nc1, where the nitrogen in the amide group remains intact.\",\n    \"feasibility_analysis\": \"The proposed deletion is chemically viable as it involves removing a substituent from an aromatic ring without disrupting the core structure of the molecule. The remaining amide group and the hydroxyl-substituted aromatic ring are stable and maintain the molecule's integrity.\",\n    \"output\": \"O=C(Nc1ccccc1)c1ccc(O)nc1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule Nc1cc2[nH]c(=O)[nH]c2cc1S(=O)(=O)[O-] by removing a amine.",
+        "molecule": "Nc1cc2[nH]c(=O)[nH]c2cc1S(=O)(=O)[O-]",
+        "removed_group": "amine",
+        "reference": "c1cc2[nH]c(=O)[nH]c2cc1S(=O)(=O)[O-]",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule is a complex heterocyclic compound containing an amine group (-NH2), a sulfonyl group (S(=O)(=O)[O-]), and a lactam-like structure (nHc(=O)[nH]). The amine group is attached to an aromatic ring, which is part of a fused bicyclic system.\",\n    \"functional_group_identification\": \"The amine group (-NH2) is located at the first carbon (c1) of the aromatic ring. This is evident from the 'N' atom directly bonded to 'c1' in the SMILES string (Nc1...).\",\n    \"delete_strategy\": \"To delete the amine group, we simply remove the 'N' atom from the SMILES string. This will leave a hydrogen atom in its place due to the aromatic nature of the carbon. The rest of the molecule remains unchanged.\",\n    \"feasibility_analysis\": \"This modification is chemically viable. Removing the amine group from an aromatic ring is a common operation, and the resulting molecule would be stable. The aromaticity of the ring is preserved, and no other functional groups are affected by this change.\",\n    \"output\": \"c1cc2[nH]c(=O)[nH]c2cc1S(=O)(=O)[O-]\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule COc1ccc(CCNc2ncnc3sc(C(=O)[O-])c(C)c23)cc1OC by removing a benzene_ring.",
+        "molecule": "COc1ccc(CCNc2ncnc3sc(C(=O)[O-])c(C)c23)cc1OC",
+        "removed_group": "benzene_ring",
+        "reference": "CCNc1ncnc2sc(C(=O)[O-])c(C)c12",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The given SMILES string represents a molecule with a central benzene ring (c1ccc...cc1) substituted with two methoxy groups (OC), an ethylamine chain (CCN), and a complex heterocyclic system (c2ncnc3sc(C(=O)[O-])c(C)c23). The benzene ring is a core component of the molecule, connecting multiple functional groups.\",\n    \"functional_group_identification\": \"The benzene ring is located at the center of the molecule, connected to two methoxy groups (OC) at positions 1 and 4, and an ethylamine chain (CCN) at position 3. The heterocyclic system is attached to the nitrogen of the ethylamine chain.\",\n    \"delete_strategy\": \"Deleting the benzene ring requires removing the central aromatic system while retaining the attached functional groups. The methoxy groups and the ethylamine-heterocycle system must be reconnected or modified to form a chemically viable structure. The most straightforward approach is to remove the benzene ring and directly connect the remaining fragments, but this may not always be chemically feasible.\",\n    \"feasibility_analysis\": \"Directly deleting the benzene ring without reconnecting the fragments is not chemically viable, as it would leave disconnected molecular fragments. A more reasonable approach is to consider the benzene ring as part of a larger scaffold, and its deletion would require significant restructuring of the molecule, which is beyond a simple functional group deletion. Therefore, the deletion of the benzene ring is not feasible without extensive molecular redesign.\",\n    \"output\": \"Deletion of the benzene ring is not chemically feasible without extensive restructuring of the molecule.\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule CC(=O)Nc1ccc(C[NH+]2CCC(C3CCOCC3)CC2)cc1 by removing a benzene_ring.",
+        "molecule": "CC(=O)Nc1ccc(C[NH+]2CCC(C3CCOCC3)CC2)cc1",
+        "removed_group": "benzene_ring",
+        "reference": "CC(=O)N.C[NH+]1CCC(C2CCOCC2)CC1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The input molecule is a complex structure containing an acetamide group (CC(=O)N), a benzene ring (c1ccc...cc1), and a piperidine-like ring with a morpholine substituent (C[NH+]2CCC(C3CCOCC3)CC2). The benzene ring is connected to the acetamide group and the piperidine-like ring.\",\n    \"functional_group_identification\": \"The benzene ring is identified as 'c1ccc...cc1' in the SMILES string. It is directly connected to the nitrogen of the acetamide group (Nc1...) and the carbon of the piperidine-like ring (C[NH+]2...).\",\n    \"delete_strategy\": \"To delete the benzene ring, we need to remove the entire 'c1ccc(C[NH+]2CCC(C3CCOCC3)CC2)cc1' fragment and adjust the connections. The acetamide group (CC(=O)N) will remain, but since the benzene ring is deleted, the nitrogen will lose its connection to the ring. The piperidine-like ring is attached to the benzene ring via a carbon atom, so this connection will also be lost.\",\n    \"feasibility_analysis\": \"Deleting the benzene ring is chemically feasible but will significantly alter the molecule's structure and properties. The remaining fragments (acetamide and piperidine-like ring with morpholine) will be disconnected, resulting in two separate molecules. However, since the input specifies deleting only the benzene ring, the output will reflect the removal of the ring and its direct connections.\",\n    \"output\": \"CC(=O)N.C[NH+]2CCC(C3CCOCC3)CC2\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C(NCc1nncn1C1CC1)Nc1cccc(Cl)c1F by removing a halo.",
+        "molecule": "O=C(NCc1nncn1C1CC1)Nc1cccc(Cl)c1F",
+        "removed_group": "halo",
+        "reference": "O=C(NCc1nncn1C1CC1)Nc1cccc(Cl)c1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule contains several functional groups: an amide (O=C(N)), a secondary amine (Nc1cccc(Cl)c1F), a triazole ring (c1nncn1), a cyclopropyl group (C1CC1), and halogens (Cl and F). The structure is complex with multiple rings and substituents.\",\n    \"functional_group_identification\": \"The halogens in the molecule are a chlorine (Cl) and a fluorine (F) attached to the benzene ring (c1cccc(Cl)c1F). These are the 'halo' groups to be deleted.\",\n    \"delete_strategy\": \"To delete the halo groups, we will remove both the chlorine and fluorine atoms from the benzene ring. This will leave the benzene ring with only hydrogen atoms at those positions, simplifying the structure to c1ccccc1.\",\n    \"feasibility_analysis\": \"Removing halogens from a benzene ring is chemically feasible, as it is a common modification in organic chemistry. The resulting molecule will be less polar and may have different reactivity, but the core structure remains intact.\",\n    \"output\": \"O=C(NCc1nncn1C1CC1)Nc1ccccc1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C(NCCC(=O)N1CCN(S(=O)(=O)c2ccc(Cl)cc2)CC1)Nc1ccccc1 by removing a halo.",
+        "molecule": "O=C(NCCC(=O)N1CCN(S(=O)(=O)c2ccc(Cl)cc2)CC1)Nc1ccccc1",
+        "removed_group": "halo",
+        "reference": "O=C(NCCC(=O)N1CCN(S(=O)(=O)c2ccccc2)CC1)Nc1ccccc1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule contains several functional groups including amides (O=C-N), sulfonamides (S(=O)(=O)-N), and a halo group (Cl attached to an aromatic ring). The structure also includes aromatic rings and aliphatic chains.\",\n    \"functional_group_identification\": \"The halo group is identified as a chlorine (Cl) atom attached to a benzene ring (c2ccc(Cl)cc2). This is the only halo group in the molecule.\",\n    \"delete_strategy\": \"To delete the halo group, the chlorine atom should be removed from the benzene ring. This will leave a hydrogen atom in its place, maintaining the aromaticity of the ring. The benzene ring will then be represented as c2ccccc2.\",\n    \"feasibility_analysis\": \"Removing the chlorine atom from the benzene ring is chemically feasible. The resulting molecule will retain its aromatic character and the remaining functional groups will remain intact. This modification is common in medicinal chemistry to alter the properties of a molecule.\",\n    \"output\": \"O=C(NCCC(=O)N1CCN(S(=O)(=O)c2ccccc2)CC1)Nc1ccccc1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C(CC1(n2cccc2)CCCCC1)NCCO by removing a hydroxyl.",
+        "molecule": "O=C(CC1(n2cccc2)CCCCC1)NCCO",
+        "removed_group": "hydroxyl",
+        "reference": "O=C(CC1(n2cccc2)CCCCC1)NCC",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The given SMILES string is O=C(CC1(n2cccc2)CCCCC1)NCCO. The molecule contains a carbonyl group (C=O), an amide linkage (NC), a piperidine ring (CC1(n2cccc2)CCCCC1), and a hydroxyl group (OH) attached to an ethylene chain (CCO).\",\n    \"functional_group_identification\": \"The hydroxyl group is located at the end of the ethylene chain, specifically the 'O' in 'NCCO'. The hydroxyl group is bonded to the last carbon in the chain.\",\n    \"delete_strategy\": \"To delete the hydroxyl group, we need to remove the oxygen atom (O) from the 'NCCO' segment. This will leave us with 'NCC', effectively converting the ethylene chain with a hydroxyl group into an ethylamine group.\",\n    \"feasibility_analysis\": \"The proposed modification is chemically viable. Removing the hydroxyl group from the ethylene chain is straightforward and does not disrupt the rest of the molecule's structure. The resulting molecule will still maintain its amide and piperidine components.\",\n    \"output\": \"O=C(CC1(n2cccc2)CCCCC1)NCC\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C(Cn1nc2c(cc1=O)CCCC2)N1CC[C@]2(O)CCCC[C@@H]2C1 by removing a hydroxyl.",
+        "molecule": "O=C(Cn1nc2c(cc1=O)CCCC2)N1CC[C@]2(O)CCCC[C@@H]2C1",
+        "removed_group": "hydroxyl",
+        "reference": "O=C(Cn1nc2c(cc1=O)CCCC2)N1CC[C@H]2CCCC[C@@H]2C1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule contains several functional groups including a hydroxyl group (-OH), a carbonyl group (C=O), an amide group (C(=O)N), and a heterocyclic ring (n1nc2c(cc1=O)CCCC2). The hydroxyl group is part of a cyclohexane ring system with an oxygen atom attached to a carbon atom (C[C@]2(O)CCCC[C@@H]2C1).\",\n    \"functional_group_identification\": \"The hydroxyl group is located on the cyclohexane ring system, specifically at the position marked by the '@' symbol indicating stereochemistry (C[C@]2(O)CCCC[C@@H]2C1). The oxygen atom is bonded to a carbon atom in the ring.\",\n    \"delete_strategy\": \"To delete the hydroxyl group, we need to remove the oxygen atom and the hydrogen atom attached to it. This will convert the carbon atom bearing the hydroxyl group into a carbon atom with two hydrogen atoms (CH2). The stereochemistry at this carbon will be lost upon deletion.\",\n    \"feasibility_analysis\": \"The deletion of the hydroxyl group is chemically viable. The resulting molecule will have a cyclohexane ring without the hydroxyl substituent, which is a stable modification. The loss of stereochemistry at the carbon atom where the hydroxyl was attached is acceptable in this context.\",\n    \"output\": \"O=C(Cn1nc2c(cc1=O)CCCC2)N1CC[C@]2CCCC[C@@H]2C1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule CCSCCOC(=O)/C=C/c1cccc(C#N)c1 by removing a nitrile.",
+        "molecule": "CCSCCOC(=O)/C=C/c1cccc(C#N)c1",
+        "removed_group": "nitrile",
+        "reference": "CCSCCOC(=O)/C=C/c1ccccc1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The given SMILES string is CCSCCOC(=O)/C=C/c1cccc(C#N)c1. The molecule contains several functional groups: a thioether (C-S-C), an ester (C(=O)O-), an alkene (C=C), and a nitrile (C#N) attached to an aromatic ring.\",\n    \"functional_group_identification\": \"The nitrile group (C#N) is located on the aromatic ring at position 'c1cccc(C#N)c1'. The nitrile is directly attached to the benzene ring, replacing one of the hydrogen atoms.\",\n    \"delete_strategy\": \"To delete the nitrile group, we need to remove the C#N moiety from the aromatic ring. This will leave a hydrogen atom in place of the nitrile group, as the ring must remain aromatic and satisfy valency rules. The modified aromatic ring will be 'c1ccccc1'.\",\n    \"feasibility_analysis\": \"The deletion of the nitrile group is chemically viable. The resulting molecule will retain its aromaticity, and the remaining structure will be stable. The ester, thioether, and alkene functionalities are unaffected by this modification.\",\n    \"output\": \"CCSCCOC(=O)/C=C/c1ccccc1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule N#CCC[C@H](C#N)CN1CCc2c(cccc2N2CCOC2=O)C1 by removing a nitrile.",
+        "molecule": "N#CCC[C@H](C#N)CN1CCc2c(cccc2N2CCOC2=O)C1",
+        "removed_group": "nitrile",
+        "reference": "N#CCC[C@H](C)CN1CCc2c(cccc2N2CCOC2=O)C1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule contains two nitrile groups (N#C), a piperidine ring (N1CCc2c(cccc2N2CCOC2=O)C1), and a chiral center at [C@H]. The nitrile groups are terminal functional groups attached to carbon chains.\",\n    \"functional_group_identification\": \"The nitrile groups are located at the ends of the carbon chains: one is attached to the first carbon (N#CCC...) and the other to the chiral carbon ([C@H](C#N)...). Both are terminal and can be removed by cleaving the bond between the nitrile carbon and the adjacent carbon.\",\n    \"delete_strategy\": \"To delete a nitrile group, we remove the terminal -C#N and replace it with a hydrogen atom. For the first nitrile (N#CCC...), we remove N#C and replace it with H, resulting in CCC... For the second nitrile ([C@H](C#N)...), we remove C#N and replace it with H, resulting in [C@H](H).... The chiral center remains intact.\",\n    \"feasibility_analysis\": \"The deletion is chemically viable as nitriles are terminal groups, and their removal does not disrupt the core structure of the molecule. The resulting molecule will retain its chirality and piperidine ring.\",\n    \"output\": \"CCC[C@H](H)CN1CCc2c(cccc2N2CCOC2=O)C1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=[N+]([O-])c1cc(C(F)(F)F)cc(Cl)c1F by removing a nitro.",
+        "molecule": "O=[N+]([O-])c1cc(C(F)(F)F)cc(Cl)c1F",
+        "removed_group": "nitro",
+        "reference": "c1cc(C(F)(F)F)cc(Cl)c1F",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule is a benzene ring substituted with a nitro group (O=[N+]([O-])), a trifluoromethyl group (C(F)(F)F), a chlorine atom (Cl), and a fluorine atom (F). The nitro group is attached to the benzene ring at position 1, the trifluoromethyl group at position 2, the chlorine at position 4, and the fluorine at position 5.\",\n    \"functional_group_identification\": \"The nitro group is identified as O=[N+]([O-]) and is attached to the benzene ring. It is located at the first position of the benzene ring in the given SMILES string.\",\n    \"delete_strategy\": \"To delete the nitro group, we remove the entire O=[N+]([O-]) fragment from the SMILES string. This will leave the benzene ring with the remaining substituents: trifluoromethyl, chlorine, and fluorine.\",\n    \"feasibility_analysis\": \"Deleting the nitro group is chemically feasible as it does not disrupt the aromaticity of the benzene ring. The remaining substituents will retain their positions on the ring, and the molecule will remain stable.\",\n    \"output\": \"Fc1cc(C(F)(F)F)cc(Cl)c1F\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C([O-])CCCC(=O)Nc1ccc([N+](=O)[O-])cc1 by removing a nitro.",
+        "molecule": "O=C([O-])CCCC(=O)Nc1ccc([N+](=O)[O-])cc1",
+        "removed_group": "nitro",
+        "reference": "O=C([O-])CCCC(=O)Nc1ccccc1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule is a complex structure containing a carboxylate group (O=C([O-])), an amide group (CCCC(=O)Nc1ccc([N+](=O)[O-])cc1), and a nitro group ([N+](=O)[O-]) attached to a benzene ring. The benzene ring is further substituted with an amide linkage.\",\n    \"functional_group_identification\": \"The nitro group is identified as [N+](=O)[O-] and is attached to the benzene ring at position 4 (para position relative to the amide nitrogen). The nitro group is an electron-withdrawing group and is directly bonded to the aromatic ring.\",\n    \"delete_strategy\": \"To delete the nitro group, we need to remove the [N+](=O)[O-] moiety from the benzene ring. This involves breaking the bond between the nitrogen of the nitro group and the carbon of the benzene ring. The resulting structure will have a hydrogen atom in place of the nitro group to satisfy the valency of the carbon atom.\",\n    \"feasibility_analysis\": \"The deletion of the nitro group is chemically viable as it does not disrupt the aromaticity of the benzene ring. The remaining structure will be stable, and the amide linkage and carboxylate group remain unaffected. The modification is straightforward and does not require additional reagents or conditions.\",\n    \"output\": \"O=C([O-])CCCC(=O)Nc1ccccc1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule Sc1sccc1/C=N/c1ccc2ccccc2c1 by removing a thiol.",
+        "molecule": "Sc1sccc1/C=N/c1ccc2ccccc2c1",
+        "removed_group": "thiol",
+        "reference": "c1sccc1/C=N/c1ccc2ccccc2c1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The input molecule is Sc1sccc1/C=N/c1ccc2ccccc2c1. It contains a thiol group (S), a double bond (C=N), and a naphthalene-like structure (c1ccc2ccccc2c1). The thiol group is attached to a carbon atom in a five-membered ring (sulfur heterocycle).\",\n    \"functional_group_identification\": \"The thiol group is identified by the 'S' in the SMILES string, specifically in the fragment 'Sc1sccc1'. The 'S' is directly bonded to a carbon atom in the ring.\",\n    \"delete_strategy\": \"To delete the thiol group, we remove the sulfur atom ('S') from the SMILES string. The remaining part of the molecule will be the five-membered ring without the sulfur atom, which will now be a simple carbon ring (c1ccc1). The rest of the molecule (/C=N/c1ccc2ccccc2c1) remains unchanged.\",\n    \"feasibility_analysis\": \"Removing the thiol group is chemically viable as it does not disrupt the rest of the molecule's structure. The resulting molecule will have a five-membered carbon ring instead of a sulfur-containing ring, which is a stable configuration.\",\n    \"output\": \"c1ccc1/C=N/c1ccc2ccccc2c1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule SCC1(COC2CCCC2)CC1 by removing a thiol.",
+        "molecule": "SCC1(COC2CCCC2)CC1",
+        "removed_group": "thiol",
+        "reference": "CC1(COC2CCCC2)CC1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The input SMILES 'SCC1(COC2CCCC2)CC1' represents a molecule with a thiol group (-SH) attached to a carbon, which is part of a cyclopropane ring (C1CC1). The cyclopropane ring is further substituted with a methoxy group (COC) attached to another cyclohexane ring (C2CCCC2).\",\n    \"functional_group_identification\": \"The thiol group is identified by the 'S' atom in the SMILES string, which is directly bonded to a carbon ('C') in the cyclopropane ring. The thiol group is at the beginning of the SMILES string, indicating it is a terminal functional group.\",\n    \"delete_strategy\": \"To delete the thiol group, we remove the 'S' atom from the SMILES string. This leaves the carbon it was attached to as part of the cyclopropane ring. The rest of the molecule remains unchanged.\",\n    \"feasibility_analysis\": \"Removing the thiol group is chemically viable as it does not disrupt the core structure of the molecule. The resulting molecule will be a cyclopropane ring substituted with a methoxy-cyclohexane group, which is a stable configuration.\",\n    \"output\": \"CC1(COC2CCCC2)CC1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule COC(=O)c1ccc(NC(=O)C2CCN(C(=O)O)CC2)cc1 by removing a carboxyl.",
+        "molecule": "COC(=O)c1ccc(NC(=O)C2CCN(C(=O)O)CC2)cc1",
+        "removed_group": "carboxyl",
+        "reference": "COC(=O)c1ccc(NC(=O)C2CCNCC2)cc1",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule is a complex structure containing an ester group (COC(=O)-), a benzene ring (c1ccc...cc1), an amide linkage (NC(=O)-), and a piperidine derivative (C2CCN(C(=O)O)CC2). The ester and amide groups are attached to the benzene ring, and the piperidine derivative has a carboxyl group (C(=O)O) attached to the nitrogen.\",\n    \"functional_group_identification\": \"The carboxyl group to be deleted is part of the piperidine derivative, specifically attached to the nitrogen atom (N) in the ring. The group is identified as C(=O)O, which is a carboxylate functional group.\",\n    \"delete_strategy\": \"To delete the carboxyl group, we need to remove the C(=O)O moiety attached to the nitrogen in the piperidine ring. This will leave the nitrogen with a lone pair, effectively converting it into a secondary amine within the ring.\",\n    \"feasibility_analysis\": \"The deletion is chemically viable as it involves removing a substituent from a nitrogen atom, which is a common modification in organic chemistry. The resulting structure will be a piperidine ring with a secondary amine, which is stable and commonly found in many organic compounds.\",\n    \"output\": \"COC(=O)c1ccc(NC(=O)C2CCNCC2)cc1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C(O)C2CCCN2C(=O)[C@H](NC(=O)c3ccccc3)C(=O)O by removing a carboxyl.",
+        "molecule": "O=C(O)C2CCCN2C(=O)[C@H](NC(=O)c3ccccc3)C(=O)O",
+        "removed_group": "carboxyl",
+        "reference": "C2CCCN2C(=O)[C@H](NC(=O)c3ccccc3)C(=O)O",
+        "task": "delete",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The molecule contains multiple functional groups including carboxyl groups (-COOH), amide groups (-CONH-), and a cyclic amine (pyrrolidine ring). The SMILES string indicates the presence of two carboxyl groups attached to the pyrrolidine ring and one amide group linked to a phenyl ring.\",\n    \"functional_group_identification\": \"The carboxyl groups are located at the positions 'O=C(O)C' and 'C(=O)O' in the SMILES string. The first carboxyl is part of a larger fragment 'O=C(O)C2CCCN2C(=O)', and the second is at the end of the molecule 'C(=O)O'. The amide group is 'NC(=O)c3ccccc3'.\",\n    \"delete_strategy\": \"To delete a carboxyl group, we can remove one of the '-COOH' groups. The most straightforward deletion is the terminal carboxyl group 'C(=O)O', as it is not part of a cyclic structure and its removal would not disrupt the core framework of the molecule.\",\n    \"feasibility_analysis\": \"Removing the terminal carboxyl group is chemically viable as it does not affect the cyclic structure or the amide linkage. The resulting molecule will retain its core functionality while losing one carboxyl group.\",\n    \"output\": \"O=C(O)C2CCCN2C(=O)[C@H](NC(=O)c3ccccc3)C\"\n}\n```"
+    }
+]

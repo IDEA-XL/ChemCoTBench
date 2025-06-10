@@ -1,0 +1,92 @@
+{
+    "logp": {
+        "improvement": {
+            "mean": 0.40150640876066307,
+            "variance": 0.29226963762791236,
+            "min": -1.3751086516319795,
+            "max": 2.103988486430931,
+            "success_rate": 0.81,
+            "best_rate": 0.32
+        },
+        "scaffold": {
+            "hard": 0.72,
+            "soft": 0.9038459342980477
+        },
+        "invalid_rate": 0.0
+    },
+    "solubility": {
+        "improvement": {
+            "mean": 0.5902406100000005,
+            "variance": 2.08992367678681,
+            "min": -4.466626199999995,
+            "max": 6.546247400000004,
+            "success_rate": 0.77,
+            "best_rate": 0.33
+        },
+        "scaffold": {
+            "hard": 0.79,
+            "soft": 0.8783154572632265
+        },
+        "invalid_rate": 0.0
+    },
+    "qed": {
+        "improvement": {
+            "mean": 0.08706450221604178,
+            "variance": 0.04040575386483464,
+            "min": -0.6080795347697161,
+            "max": 0.38851489430221864,
+            "success_rate": 0.73,
+            "best_rate": 0.14
+        },
+        "scaffold": {
+            "hard": 0.66,
+            "soft": 0.818949146508879
+        },
+        "invalid_rate": 0.0
+    },
+    "drd": {
+        "improvement": {
+            "mean": 0.17405564818686187,
+            "variance": 0.0751680321892474,
+            "min": -0.2671302544658105,
+            "max": 0.895675662011121,
+            "success_rate": 0.63,
+            "best_rate": 0.29
+        },
+        "scaffold": {
+            "hard": 0.65,
+            "soft": 0.8210760262639147
+        },
+        "invalid_rate": 0.04
+    },
+    "jnk": {
+        "improvement": {
+            "mean": -0.0054999999999999945,
+            "variance": 0.010926750000000002,
+            "min": -0.41,
+            "max": 0.41999999999999993,
+            "success_rate": 0.49,
+            "best_rate": 0.02
+        },
+        "scaffold": {
+            "hard": 0.71,
+            "soft": 0.8459197843874006
+        },
+        "invalid_rate": 0.0
+    },
+    "gsk": {
+        "improvement": {
+            "mean": 0.006958333333333337,
+            "variance": 0.010006921875000003,
+            "min": -0.68,
+            "max": 0.37000000000000005,
+            "success_rate": 0.57,
+            "best_rate": 0.01
+        },
+        "scaffold": {
+            "hard": 0.67,
+            "soft": 0.828189227258781
+        },
+        "invalid_rate": 0.02
+    }
+}

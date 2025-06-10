@@ -1,0 +1,1102 @@
+[
+    {
+        "src_smiles": "c1ccc(-c2cc(NCc3cccnc3)n3nccc3n2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a biphenyl-linked heterocyclic compound with an aminopyridine moiety. The structure contains a phenyl ring connected to a 1,3,5-triazine ring via a pyridin-2-amine linker.",
+            "Property Analysis": "The molecule has potential for Glycogen Synthase Kinase 3-beta inhibition due to the presence of nitrogen-containing heterocycles which are commonly involved in kinase binding through hydrogen bonding and pi-pi stacking interactions.",
+            "Limitation in Source Molecule for Property": "The molecule might lack potency and selectivity due to insufficient specific interactions with GSK3-beta active site residues, potentially resulting from a lack of functional groups that enhance binding affinity.",
+            "Optimization for Source Molecule": "Enhance the binding interactions by introducing electron-donating groups (such as methoxy) on the phenyl rings to improve binding affinity. Consider adding a sulfonamide or carboxamide group to increase hydrogen bonding potential.",
+            "Final Target Molecule": "COc1ccc(cc1)-c2cc(NC(=O)Nc3ncccc3)n3nccc3n2"
+        }
+    },
+    {
+        "src_smiles": "O=c1cc(Br)c2cccc([N+](=O)[O-])c2[nH]1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzene ring fused to a pyrrole ring with a bromine atom and a nitro group attached. The pyrrole ring is nitrogen-substituted, suggesting potential interactions with kinase active sites.",
+            "Property Analysis": "The presence of the nitro group offers electron-withdrawing effects which can impact binding through potential H-bond acceptor interactions. The bromine atom can participate in halogen bonding or serve as a handle for further chemical modifications.",
+            "Limitation in Source Molecule for Property": "The nitro group, while potentially beneficial for binding through electronic effects, can also offer poor metabolic stability and reduce oral bioavailability. Bromine might introduce steric hindrance detrimental to optimal binding orientation within the GSK3-beta active site.",
+            "Optimization for Source Molecule": "Replace the nitro group with a more metabolically stable electron-withdrawing moiety, such as a cyano group. Consider substituting the bromine for a less sterically hindering atom or functional group that can enhance interactions, such as a small alkyl or cycloalkyl group.",
+            "Final Target Molecule": "O=c1cc(C#N)c2cccc(C)c2[nH]1"
+        }
+    },
+    {
+        "src_smiles": "O=C(O)c1ccccc1Nc1ccnc(N2CCCCC2)n1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzene ring with a carboxylic acid group and an aniline derivative with a pyridine ring substituted with a piperidine moiety.",
+            "Property Analysis": "The presence of the carboxylic acid group may potentially enhance solubility in aqueous environments but could limit cell permeability. The aromatic heterocyclic core provides potential for hydrogen bonding and pi-stacking interactions, crucial for GSK3-beta binding.",
+            "Limitation in Source Molecule for Property": "The carboxylic acid might be too polar, reducing permeability and bioavailability. Furthermore, the bulky piperidine group may hinder optimal binding within the active site of GSK3-beta due to steric hindrance.",
+            "Optimization for Source Molecule": "Replace the carboxylic acid with a less polar functional group, such as an amide or ester, to enhance permeability. Additionally, consider modifying the piperidine ring to a less bulky cycloalkane or heterocycle to improve binding accommodation in the active site.",
+            "Final Target Molecule": "O=C(N)c1ccccc1Nc1ccnc(N2CCCC2)n1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2ncnc(N(C)c3ccc(C)c(Cl)c3)c2cc1OC",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heteroaromatic compound featuring a methoxy-substituted phenyl ring connected to a pyrimidine core. There is an N,N-dimethylaniline moiety attached to the pyrimidine ring, indicating potential configurational rigidity and electronic charge distribution influence on interactions.",
+            "Property Analysis": "This molecule may have moderate inhibitory activity against GSK3-beta due to the aromatic groups facilitating pi-stacking interactions. The electron-donating methoxy group and electron-withdrawing chloro group might affect binding affinity by modulating electronic properties.",
+            "Limitation in Source Molecule for Property": "Current limitations possibly include suboptimal orientation or insufficient hydrophobic interactions needed to enhance binding affinity to the GSK3-beta active site. The variety in steric bulk and electronic interactions might prevent optimal interaction efficiency.",
+            "Optimization for Source Molecule": "Introduce bulkier hydrophobic groups to increase van der Waals interactions, such as a tert-butyl group. Additionally, consider adding hydrogen bond donors/acceptors to facilitate interaction with the protein's active site, improving binding specificity.",
+            "Final Target Molecule": "COc1cc2ncnc(N(C)c3cc(C(C)(C)C)c(C)c3)c2cc1OC"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(-c2cc3c(NCc4ccccc4)ncnc3o2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heterocyclic compound with a methoxyphenyl group connected via a linker to a fused heterocycle. This fused system incorporates a bicyclic purine structure with a pyrimidine and an imidazole ring fused together.",
+            "Property Analysis": "The source molecule appears to have potential for interaction with kinase enzymes due to the purine-like structure, which is often found in ATP-competitive inhibitors.",
+            "Limitation in Source Molecule for Property": "The molecule's lipophilicity and rigidity might limit its ability to optimally bind the GSK3-beta enzyme. The methoxy group might also not be ideal for enhancing interactions with the kinase active site.",
+            "Optimization for Source Molecule": "Introduce more flexibility in the methoxyphenyl region, and consider replacing the methoxy group with an amine or hydroxyl to enhance hydrogen bonding with the kinase active site. Additionally, explore adding substituents to the imidazole ring to optimize binding affinity.",
+            "Final Target Molecule": "COc1ccc(-c2nc3c(NCc4ccccc4)c4[nH]c[nH]c4n3o2)cc1"
+        }
+    },
+    {
+        "src_smiles": "CNc1nn2c(C)cc(CO)nc2c1S(=O)(=O)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a sulfonamide derivative featuring a 1,2,4-triazole ring substituted with methyl, amino, and hydroxymethyl groups, connected to a phenyl group through a sulfone linker.",
+            "Property Analysis": "GSK3-beta inhibition is often associated with molecules that can interact with ATP-binding sites through hydrogen bonding, hydrophobic interactions, and van der Waals forces. The triazole and sulfonamide functionalities could facilitate these interactions.",
+            "Limitation in Source Molecule for Property": "The hydroxymethyl group, while potentially increasing solubility, might not contribute optimally to binding interactions specific to GSK3-beta's active site. Additionally, the phenyl ring is unsubstituted, which might limit its ability to engage in pi-stacking or other favorable interactions.",
+            "Optimization for Source Molecule": "Consider replacing the hydroxymethyl group with a larger, more lipophilic moiety to enhance hydrophobic interactions. or add substituents to the phenyl ring that can engage in pi-pi interactions or provide additional electronic effects. Incorporating a fluorine or a methoxy group could be beneficial.",
+            "Final Target Molecule": "CNc1nn2c(C)cc(CF)nc2c1S(=O)(=O)c1ccc(OC)cc1"
+        }
+    },
+    {
+        "src_smiles": "Nc1nonc1-c1nc2ccccc2n1Cc1ccncc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of two heterocyclic structures: a purine ring fused with a benzimidazole structure and a pyridine linkage. It contains multiple nitrogen atoms, which can participate in hydrogen bonding, potentially influencing its interaction with GSK3-beta.",
+            "Property Analysis": "GSK3-beta inhibitors typically bind to the ATP binding site of the enzyme. The presence of aromatic and heterocyclic rings can be advantageous for pi-pi stacking and other hydrophobic interactions.",
+            "Limitation in Source Molecule for Property": "The molecule may lack specific functional groups that can form strong hydrogen bonds or enhance selectivity towards the GSK3-beta enzyme. Additionally, the rigidity of the structure might limit the optimal alignment within the binding pocket.",
+            "Optimization for Source Molecule": "Introduce functionalities such as hydroxyl or amide groups to enable stronger hydrogen bonding with GSK3-beta. Consider flexible linkers or substitutions that can support optimal binding orientation and interaction patterns, while maintaining the hydrophobic interactions.",
+            "Final Target Molecule": "Nc1nonc1-c1nc2cc(C(=O)N)ccc2n1Cc1ccncc1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a fused heterocyclic compound with a cyclopropyl group and a secondary amide. It contains a 6,5-bicyclic aromatic system with an isopropyl and cyclopropyl substituent, potentially influencing lipophilicity and steric effects.",
+            "Property Analysis": "The molecule likely interacts with GSK3-beta through hydrogen bonding and pi-\u03c0 stacking. The isopropyl and cyclopropyl groups may contribute to hydrophobic interactions, influencing its potency and selectivity.",
+            "Limitation in Source Molecule for Property": "The steric bulk of the isopropyl group might hinder optimal binding. Lack of polar groups may limit solubility and hydrogen bonding capabilities, affecting its bioavailability and interaction with the kinase active site.",
+            "Optimization for Source Molecule": "Introduce a polar group such as a hydroxyl or methoxy to improve hydrogen bonding and solubility. Consider removing or altering the isopropyl group to enhance binding affinity and selectivity by reducing steric hindrance.",
+            "Final Target Molecule": "CC(CO)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1"
+        }
+    },
+    {
+        "src_smiles": "CCc1[nH]c2ccc(OC)cc2c1C1=CCNCC1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is composed of a substituted indole core with a piperidine ring. The indole consists of a methyl and methoxy substituent, affecting its electronic properties.",
+            "Property Analysis": "GSK3-beta inhibitors often interact with the ATP-binding site of the enzyme, requiring molecules to have good hydrogen bonding potential and favorable hydrophobic interactions. The current molecule lacks strong hydrogen bond donors/acceptors and has limited polar surface area.",
+            "Limitation in Source Molecule for Property": "The presence of methoxy and methyl groups, while potentially increasing lipophilicity and permeability, may not provide sufficient interaction with the kinase active site for optimal inhibition. Additionally, the piperidine ring lacks polar groups necessary for hydrogen bonding.",
+            "Optimization for Source Molecule": "Introduce polar functional groups capable of hydrogen bonding, such as hydroxyl or amide groups, in positions that can engage with the kinase active site. Consider bioisosteric replacements for the existing methoxy group to improve binding efficiency.",
+            "Final Target Molecule": "CCc1[nH]c2ccc(NC(=O)C)cc2c1C1=CC(=O)NCC1"
+        }
+    },
+    {
+        "src_smiles": "Cc1ccc(-c2nnc(SCc3ccccc3)o2)c(O)c1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is comprised of a phenyl ring with a methoxy group and a thiazole ring, with an additional phenyl ring attached through a sulfide connector. This structure suggests potential for aromatic interactions with its targets.",
+            "Property Analysis": "The source molecule contains polar functional groups and aromatic rings, which are beneficial for interactions with the GSK3-beta binding site. However, the overall binding affinity could be improved.",
+            "Limitation in Source Molecule for Property": "The sulfide linkage may introduce flexibility that reduces binding affinity. The presence of both electron-donating and withdrawing groups can affect the binding negatively.",
+            "Optimization for Source Molecule": "To enhance GSK3-beta inhibition, introduce rigidifying elements such as additional aromatic rings or heterocycles to reduce flexibility. Replace the sulfide link with an ether or amide linkage to improve binding interactions.",
+            "Final Target Molecule": "Cc1ccc(-c2nnc(OCc3ccccc3)o2)c(O)c1"
+        }
+    },
+    {
+        "src_smiles": "O=C(O)CSc1nonc1-c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is composed of a thiazole ring bound to a benzene ring with an ester group attached to the sulfur atom of the thiazole.",
+            "Property Analysis": "The GSK3-beta inhibition could potentially be affected by the electronic distribution of the molecule, potential binding affinity and solubility.",
+            "Limitation in Source Molecule for Property": "The source molecule may lack specific interactions or binding groups that are essential for strong GSK3-beta inhibition.",
+            "Optimization for Source Molecule": "Introduce electron-donating groups or possible hydrogen bonding groups like hydroxyl or amino groups to enhance binding affinity with the kinase.",
+            "Final Target Molecule": "O=C(O)CSc1nonc1-c1ccc(Nc2ccccc2)cc1"
+        }
+    },
+    {
+        "src_smiles": "CN(C)c1ccc(C(=O)NCc2ccccc2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is N,N-dimethyl-4-(2-phenylethylcarbamoyl)aniline. It features an aniline moiety substituted with a dimethylamino group and a phenylethylcarbamoyl group.",
+            "Property Analysis": "The molecule contains an amide linkage, a common feature in many GSK3-beta inhibitors, and a dimethylamino group, which can enhance binding through electronic effects or hydrogen bonding.",
+            "Limitation in Source Molecule for Property": "The aniline nitrogen may not sufficiently interact with the GSK3-beta active site. The bulky phenylethyl group might limit optimal binding orientation or access necessary binding residues and pockets.",
+            "Optimization for Source Molecule": "To enhance GSK3-beta inhibition, consider introducing a hydroxyl group on the phenyl ring for better active site interaction or replace the phenylethyl group with a more conformationally flexible or bioactive group to improve binding affinity.",
+            "Final Target Molecule": "CN(C)c1ccc(C(=O)NCc2ccc(O)cc2)cc1"
+        }
+    },
+    {
+        "src_smiles": "Nc1ccccc1NC(=O)c1ccc(CNc2ncccn2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzene ring with an aniline group (Nc1ccccc1), an amide linkage (NC(=O)), another benzene ring (c1ccc(CNc2)cc1), and a pyridine ring (ncccn2) connected via a methylene bridge (CN).",
+            "Property Analysis": "The Glycogen Synthase Kinase 3-beta (GSK3-beta) inhibition property is often influenced by molecular interactions such as hydrogen bonding, hydrophobic interactions, and steric factors within the binding site. Source molecules should have optimal binding affinity and specificity for effective inhibition.",
+            "Limitation in Source Molecule for Property": "One limitation could be the steric hindrance and flexibility due to the methylene bridge between the secondary amine and the pyridine, which may affect binding affinity. Additionally, the current structure may lack specific functional groups that enhance specific interactions with the GSK3-beta active site.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider introducing electron-withdrawing groups on the aromatic systems to enhance interactions. Additionally, rigidifying the linker or introducing heteroatoms in the ring systems could increase specificity and binding affinity. Modifications such as incorporating a sulfonamide or modifying the pyridine ring to a more electron-rich or electron-deficient system may also be beneficial.",
+            "Final Target Molecule": "NC1=CC=CC=C1NC(=O)C1=CC=C(CN2C=NC=N2)C=C1"
+        }
+    },
+    {
+        "src_smiles": "COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heteroaromatic compound consisting of a core purine-like structure with a methoxy group at the 1-position and a nitrogen amide chain extension at the 6-position, with an additional aromatic phenyl ring appended.",
+            "Property Analysis": "GSK3-beta inhibitors often contain heteroaromatic structures with functional groups capable of forming hydrogen bonds or other interactions with the enzyme's active site. The methoxy group may contribute to ligand solubility and binding interactions.",
+            "Limitation in Source Molecule for Property": "The presence of the methoxy group may limit optimal binding due to steric hindrance. Additionally, there may be a lack of specific binding interactions required for strong GSK3-beta inhibition within the structure.",
+            "Optimization for Source Molecule": "Introduce a more polar or hydrogen-bond accepting group at the 1-position instead of the methoxy group to enhance interactions, or modify the phenyl ring to a more planar, electron-rich heteroaromatic ring to improve \u03c0-stacking and binding affinity.",
+            "Final Target Molecule": "COc1nnc2cc(C(=O)NC(C)c3c[nH]cn3)ncc12"
+        }
+    },
+    {
+        "src_smiles": "CCC(C)Nc1ncnc2cc(OC)c(OC)cc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted purine derivative, featuring a tertiary butyl group attached to an amine, and two methoxy groups on the aromatic ring.",
+            "Property Analysis": "The molecule targets glycogen synthase kinase 3-beta (GSK3-beta), a serine/threonine kinase, essential for various cellular functions. The aromatic purine scaffold is typically beneficial for kinase interaction.",
+            "Limitation in Source Molecule for Property": "While methoxy groups can improve solubility, they may not effectively enhance binding affinity to GSK3-beta. The bulky tert-butyl group may cause steric hindrance at the active site.",
+            "Optimization for Source Molecule": "Introduce small polar groups like hydroxyl or amino at positions likely to interact with key kinase active site residues to improve binding affinity. Consider replacing one methoxy with a hydroxyl group to balance solubility and binding.",
+            "Final Target Molecule": "CCC(C)Nc1ncnc2cc(O)c(OC)cc12"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)CSc1nc(-c2ccc(F)cc2)c(-c2ccncc2)[nH]1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an aromatic heterocycle with a methoxycarbonyl thioether moiety, a fluoro-substituted phenyl ring, and a pyridyl group attached to a triazole core.",
+            "Property Analysis": "The molecule possesses structural motifs that are likely to engage in hydrogen bonding and aromatic stacking interactions with the GSK3-beta active site, potentially resulting in moderate inhibition activity.",
+            "Limitation in Source Molecule for Property": "The methoxy carbonyl group might not be optimal for interaction with the active site compared to other groups like amides or improved hydrogen bond acceptors/donors.",
+            "Optimization for Source Molecule": "Replace the methoxy carbonyl group with an amide to enhance hydrogen bonding capabilities and improve binding interaction with the GSK3-beta active site.",
+            "Final Target Molecule": "CC(=O)NSc1nc(-c2ccc(F)cc2)c(-c2ccncc2)[nH]1"
+        }
+    },
+    {
+        "src_smiles": "Cc1cccc2[nH]c(-c3ccccn3)nc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an indole derivative with a pyridine ring attached to the indole core structure. The SMILES representation indicates a methyl group on the indole ring and a pyridine substituent.",
+            "Property Analysis": "GSK3-beta inhibitors often possess structural features that allow them to interact with the ATP-binding site of the kinase. Important interactions are typically hydrophobic contacts and hydrogen bonds with key amino acids in the active site.",
+            "Limitation in Source Molecule for Property": "The lack of polar functional groups in the source molecule may limit hydrogen bonding capabilities crucial for strong binding with the kinase. Additionally, the pyridine ring might not be optimally positioned for interaction within the active site of GSK3-beta.",
+            "Optimization for Source Molecule": "Introduce polar functional groups like hydroxyl or amino groups to enhance hydrogen bonding. Modify the pyridine ring position or replace it with another heterocycle to improve binding affinity. The addition of methoxy groups may also enhance binding via additional hydrophobic and hydrogen bonding interactions.",
+            "Final Target Molecule": "Cc1cc(OC)c2[nH]c(-c3cocn3)nc12"
+        }
+    },
+    {
+        "src_smiles": "CN1CCC(c2c[nH]c3ccc(N=C(N)c4cccs4)cc23)CC1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a bicyclic structure containing a pyrrole and a piperazine ring. It includes a thiophene ring attached to an aryl hydrazone moiety.",
+            "Property Analysis": "The molecule has potential hydrogen bond donors and acceptors, alongside aromatic rings, which are conducive to GSK3-beta inhibition.",
+            "Limitation in Source Molecule for Property": "The current structure may lack optimal hydrophobic interactions and may have excessive flexibility due to the piperazine ring.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, enhance hydrophobic interactions by adding small hydrophobic groups or rigidify the structure by introducing a methylene bridge to limit flexibility.",
+            "Final Target Molecule": "CN1CCN(CC1C2=NC3=C(S2)C=CC=C3)C=Nc4cccs4"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(OC)c(-c2ccnc(N)n2)c(OC)c1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a trimethoxyphenyl-substituted purine derivative, which may exhibit potent biological activity due to the purine core. The trimethoxyphenyl group offers potential hydrogen bond interactions and steric properties.",
+            "Property Analysis": "GSK3-beta is a serine/threonine kinase involved in various cellular processes. Inhibition of GSK3-beta is associated with therapeutic effects in diseases like diabetes and neurodegenerative disorders. The source molecule's trimethoxyphenyl and purine structure indicates its potential as an inhibitor.",
+            "Limitation in Source Molecule for Property": "While the purine core is beneficial, the methoxy groups might increase steric hindrance, reducing binding efficiency to GSK3-beta. Additionally, the molecule lacks polar or charged functionalities for better kinase binding affinity.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider replacing or modifying methoxy groups with less bulky or more polar substituents. Introducing heteroatoms or hydrogen bond donor/acceptor groups could enhance binding interactions with the kinase active site.",
+            "Final Target Molecule": "COc1cc(O)c(-c2nccc(N)n2)c(O)c1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2ncnc(NC(C)C)c2cc1OC",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted quinazoline derivative, which features a methoxy group at positions 4 and 8 of the benzene ring, and a secondary amine group linked to an isopropyl moiety connected to the quinazoline core.",
+            "Property Analysis": "This molecule may interact with the ATP binding site of GSK3-beta due to its heterocyclic nature and potential hydrogen bonding interactions. The methoxy groups could enhance solubility and membrane permeability.",
+            "Limitation in Source Molecule for Property": "While the core structure resembles ATP-binding site inhibitors, it may lack sufficient interaction strength due to steric or electronic factors. The presence of both methoxy groups may also influence metabolic stability and binding specificity.",
+            "Optimization for Source Molecule": "Consider replacing one or both methoxy groups with smaller or differently functional groups to enhance binding specificity and decrease steric hindrance. Introducing a more planar or extended structure could improve binding interactions. Additionally, substituting the isopropyl moiety with a more polar or larger group might enhance interaction with the binding pocket.",
+            "Final Target Molecule": "COc1cc2ncnc(NC(C)=O)c2cc1OC"
+        }
+    },
+    {
+        "src_smiles": "Nc1ccnc(Nc2ccc(Oc3ccc(Cl)cc3)cc2)c1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an anilino-pyrimidine derivative with a phenoxy group. It contains a pyrimidine ring (1,3-diazine), an aniline linkage, and a chlorophenyl group linked via an ether bond.",
+            "Property Analysis": "The compound may have moderate activity against GSK3-beta due to the presence of hydrogen bond donors (NH groups) and acceptors (N atoms in pyrimidine, ether oxygen). The chlorophenyl group might also contribute to hydrophobic interactions with the kinase.",
+            "Limitation in Source Molecule for Property": "The source molecule might have suboptimal activity due to insufficient hydrophobic interaction or poor binding affinity at the active site of GSK3-beta. The absence of potent functional groups for binding at the ATP-binding pocket could also limit the inhibition.",
+            "Optimization for Source Molecule": "To optimize the molecule, introduce additional hydrophobic or electron-withdrawing groups at the para position of the chlorophenyl ring. Additionally, consider adding a bulky group to enhance interactions with the kinase binding site.",
+            "Final Target Molecule": "Nc1ccnc(Nc2ccc(Oc3ccc(Cl)c(C(F)(F)F)c3)cc2)c1"
+        }
+    },
+    {
+        "src_smiles": "c1ccc(-c2c[nH]c(-c3ccccc3)n2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a biphenyl derivative with a pyrrole core. It consists of a pyrrole ring that is substituted at the 2-position with a phenyl group and at the 4-position with an aniline group.",
+            "Property Analysis": "GSK3-beta inhibitors typically require high binding affinity, which can be enhanced by introducing electron-donating groups that increase interaction with the kinase.",
+            "Limitation in Source Molecule for Property": "The current structure lacks polar functional groups that can interact more strongly with the GSK3-beta binding site and may need improved solubility and bioavailability.",
+            "Optimization for Source Molecule": "Introduce an electron-donating methoxy group ortho or para to the phenyl ring to enhance interactions, and add a hydroxyl group to the pyrrole ring to increase binding affinity.",
+            "Final Target Molecule": "COc1cc(-c2c[nH]c(-c3ccc(O)cc3)n2)ccc1"
+        }
+    },
+    {
+        "src_smiles": "c1cnc(-c2c[nH]c3ncnc(N4CCOCC4)c23)cn1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heterocyclic compound with a benzimidazole core structure fused to another five-membered ring. It contains nitrogen atoms which can contribute to hydrogen bonding interactions. There is also a morpholine ring attached to the imidazole ring, which can increase solubility and possibly enhance binding interactions.",
+            "Property Analysis": "This molecule likely has some potential as a GSK3-beta inhibitor due to the presence of nitrogen heterocycles that can form hydrogen bonds and participate in pi-pi stacking interactions, which are important for binding to the ATP binding site of kinases.",
+            "Limitation in Source Molecule for Property": "The molecule may lack specific hydrogen bond donors or acceptors for optimal interaction with residues in the GSK3-beta binding site. Additionally, the presence and position of substituents on the heterocyclic rings may not provide optimal steric or electronic features necessary for improved binding affinity.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider introducing electron-withdrawing groups or additional hydrogen bond donors/acceptors on the imidazole ring to improve binding interactions. Alternatively, modifying the morpholine ring to include more polar substituents could enhance binding specificity and affinity.",
+            "Final Target Molecule": "c1cnc(-c2c[nH]c3ncnc(N4CCOCC4)c23)cn1C(F)(F)F"
+        }
+    },
+    {
+        "src_smiles": "CC(C)n1cnc2c(NCc3ccccc3)ncnc21",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a 7H-pyrrolo[2,3-d]pyrimidine derivative with a 2-aminopropyl and a phenyl substituent.",
+            "Property Analysis": "This structure suggests potential activity for kinase inhibition, particularly due to its purine-like scaffold resembling ATP which is a common feature in kinase inhibitors.",
+            "Limitation in Source Molecule for Property": "The presence of alkyl chains and lack of polar functional groups may limit its solubility and binding affinity. Additionally, steric hindrance from bulky substituents can impact the effectiveness as a GSK3-beta inhibitor.",
+            "Optimization for Source Molecule": "Introduce polar groups such as hydroxyl or amine on the alkyl side chains to improve solubility and enhance hydrogen bonding potential. A sulfonamide group can be introduced to enhance interactions with the kinase binding pocket. Additionally, reducing steric hindrance by modifying the size of substitutes might be beneficial.",
+            "Final Target Molecule": "CC(C)c1ncc2c(NCc3ccccc3)ncnc2n1C(C)C(=O)NS(=O)(=O)c4ccc(N)cc4"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(SC)cc1CNC1CCCNC1c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy-substituted benzene ring attached to a thioether group, which is further connected to a piperazine ring. The piperazine is fused with a phenyl ring.",
+            "Property Analysis": "GSK3-beta inhibitors often benefit from increased electron density in specific moieties and pi-pi stacking ability. Aromatic groups and basic nitrogen atoms can contribute positively to inhibitory activity.",
+            "Limitation in Source Molecule for Property": "The presence of only one methoxy group provides limited electron-donating capability, and the thioether linkage might not contribute significantly to binding affinity. The molecule might benefit from improved aromatic stacking or hydrogen bonding.",
+            "Optimization for Source Molecule": "Introduce additional electron-donating groups, such as methoxy groups on the phenyl rings, or replace the thioether with an amide linkage to improve hydrogen bonding capacity.",
+            "Final Target Molecule": "COc1cc(S(=O)C)ccc1CNC1CCCNC1c1ccc(OC)cc1"
+        }
+    },
+    {
+        "src_smiles": "c1ccc(Cn2cc(CSc3nnc(C4CCCC4)o3)nn2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted phenyl compound featuring a methylene bridging to a triazole ring system. An oxadiazole moiety is attached via a thioether linkage, and a cyclohexyl group is appended to the oxadiazole.",
+            "Property Analysis": "The source compound's ability to inhibit GSK3-beta can be attributed to its triazole and oxadiazole rings. However, improvements in binding affinity could be achieved by enhancing interactions with the kinase active site.",
+            "Limitation in Source Molecule for Property": "The bulky cyclohexyl group may hinder optimal binding to GSK3-beta's active site. Improved potency might be achieved by increasing hydrogen bonding, pi-pi stacking, or optimizing steric interactions.",
+            "Optimization for Source Molecule": "Consider replacing the cyclohexyl group with a smaller, potentially bioisosteric, aromatic group to enhance pi-stacking capabilities. Adjust heteroatoms in the triazole/oxadiazole structure to favor hydrogen bonding with the kinase active site.",
+            "Final Target Molecule": "c1ccc(Cn2cc(CSc3nnc(C4CCC5=CC=CC=C5)no3)nn2)cc1"
+        }
+    },
+    {
+        "src_smiles": "Cc1cc2[nH]ncc2cc1-c1ccccc1C(F)(F)F",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a trifluoromethylphenyl group attached to a phenyl-pyrazole ring. The molecule has multiple aromatic systems and a trifluoromethyl group which can enhance lipophilicity and metabolic stability.",
+            "Property Analysis": "GSK3-beta inhibitors often benefit from hydrogen bond donors/acceptors, as well as planar aromatic systems for stacking interactions with the enzyme's active site.",
+            "Limitation in Source Molecule for Property": "The current structure lacks optimal hydrogen bond donors and acceptors, which could result in weaker interactions with the GSK3-beta active site.",
+            "Optimization for Source Molecule": "Introduce a hydroxyl or amine group on the pyrazole ring to provide additional hydrogen bonding potential. Additionally, consider increasing the planarity for better stacking with aromatic residues in the active site.",
+            "Final Target Molecule": "Cc1cc2[nH]n(C)c(O)c2cc1-c1ccccc1C(F)(F)F"
+        }
+    },
+    {
+        "src_smiles": "c1ccc2c(N3CCCCCC3)nc(-c3ccncc3)nc2c1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a bicyclic aromatic compound with a piperidine moiety attached to the pyridine ring. The basic structure consists of a naphthyridine core connected to a phenyl ring through a methine group with a piperidine attached.",
+            "Property Analysis": "The molecule shows potential activity against GSK3-beta due to the presence of heterocyclic aromatic rings and nitrogen atoms, which can participate in hydrogen bonding and pi-pi interactions with the enzyme.",
+            "Limitation in Source Molecule for Property": "The bulky nature of the piperidine moiety may hinder optimal interactions with GSK3-beta's active site. Additionally, the distribution of electron density might not fully favor interactions required for potent inhibition.",
+            "Optimization for Source Molecule": "Reduce or replace the piperidine group with a smaller, less sterically hindered moiety. Introduce electron-withdrawing groups on the aromatic rings to enhance binding interactions. Consider adding additional hydrogen bond acceptors or donors to improve affinity for GSK3-beta.",
+            "Final Target Molecule": "c1ccc2c(NC)nc(-c3ccncc3)nc2c1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(-c2nnc(SCC#N)o2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a methoxyphenyl connected to a 1,2,4-oxadiazole ring with a thioether linkage connecting a cyano group.",
+            "Property Analysis": "The source molecule has potential GSK3-beta inhibition due to the presence of an oxadiazole ring which can participate in hydrogen bonding and pi interactions, aiding in effective binding to the kinase domain.",
+            "Limitation in Source Molecule for Property": "The current molecule might have limited potency due to insufficient hydrophobic or electrostatic interactions from the methoxyphenyl group. Additionally, the cyano group may not optimally engage with the active site residues of GSK3-beta.",
+            "Optimization for Source Molecule": "Introduce a hydrophobic group at the para position relative to the methoxy group and replace the terminal cyano group with a more hydrophilic, hydrogen bond donor or acceptor group to enhance binding affinity.",
+            "Final Target Molecule": "COc1ccc(C2=NN=C(O2)SCC(=O)N)cc1"
+        }
+    },
+    {
+        "src_smiles": "Cn1ccc(Oc2ccc3cc(NC(=O)C4CC4)ncc3c2)n1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex aromatic system with a benzimidazole core and an N-acylated cyclobutane ring as a substituent. The presence of a methoxy group linked to a pyridine nitrogen may indicate interactions influencing bioactivity.",
+            "Property Analysis": "GSK3-beta inhibition is commonly associated with molecules that can engage in hydrogen bonding and \u03c0-\u03c0 interactions at the ATP binding site, indicating a need for planar aromatic systems and hydrogen bond donors/acceptors.",
+            "Limitation in Source Molecule for Property": "The cyclobutane ring may introduce undue sterics and reduce aromatic planar interaction critical for GSK3-beta active site affinity. Additionally, the methoxy group may not actively contribute to required binding interactions.",
+            "Optimization for Source Molecule": "Replacing the cyclobutane ring with a phenyl group or extending the aromatic conjugation could enhance \u03c0-\u03c0 stacking potential. Introducing hydroxyl or amine groups might improve hydrogen bonding capacity.",
+            "Final Target Molecule": "Cn1ccc(Oc2ccc3cc(NC(=O)C4=CC=CC=C4)ncc3c2)n1"
+        }
+    },
+    {
+        "src_smiles": "OCc1cccc(Nc2nc(-c3cccnc3)nc3ccccc23)c1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a phenyl ring with a hydroxymethyl group (OC), an aniline group (Nc), and a fused bicyclic system involving a pyrimidine and benzene ring. It also includes a pyridine ring attached to the pyrimidine part.",
+            "Property Analysis": "The presence of bicyclic aromatic systems and nitrogen atoms suggests that the molecule has potential for hydrogen bonding and \u03c0-\u03c0 interactions, which are key for GSK3-beta inhibition.",
+            "Limitation in Source Molecule for Property": "The hydroxymethyl substituent might not be optimal for aqueous solubility and may contribute little to the core interactions with GSK3-beta. The molecule might benefit from improved interaction with the active site through improved hydrogen bonding or additional hydrophobic interactions.",
+            "Optimization for Source Molecule": "Introducing a substituent capable of forming stronger hydrogen bonds, such as a primary or secondary amine, could enhance binding. Additionally, increasing lipophilicity in designated regions while preserving aqueous solubility could improve interaction with hydrophobic pockets.",
+            "Final Target Molecule": "O=C(Nc1nc(-c2cccnc2)nc2ccccc12)C3CCCN3"
+        }
+    },
+    {
+        "src_smiles": "Cn1nc(C(N)=O)c2c1-c1nc(NCc3ccccc3)ncc1CC2",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a pyrimidine core with a urea moiety, and a benzyl amine side chain. Key features include aromaticity, nitrogen functionalities that are potential hydrogen bond acceptors or donors, and sterically bulky aromatic groups.",
+            "Property Analysis": "The molecule is designed to inhibit GSK3-beta by fitting into the active site and interacting through hydrogen bonds and hydrophobic interactions. The benzyl group may aid in binding affinity, while nitrogen atoms could form key interactions in the active site.",
+            "Limitation in Source Molecule for Property": "The bulky aromatic groups may affect the solubility and bioavailability. The presence of multiple nitrogen atoms increases polarity, which could affect cell permeability. The urea moiety could be optimized for improved binding affinity.",
+            "Optimization for Source Molecule": "Consider replacing the benzyl amine side chain with a less bulky substituent to enhance cell permeability. The urea moiety could be modified to form a more potent hydrogen bond interaction with GSK3-beta. Introducing a hydrophobic substituent on the pyrimidine core might improve binding affinity.",
+            "Final Target Molecule": "Cn1nc(C(NC)=O)c2c1-c1nc(Cc2)ncc1CC"
+        }
+    },
+    {
+        "src_smiles": "Cc1sc2ncnc(NCCCO)c2c1C",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a thieno[2,3-d]pyrimidine derivative with a butanolamine side chain. It contains an alkyl substituent on the thiophene ring, which may contribute to its hydrophobic character.",
+            "Property Analysis": "Thieno[2,3-d]pyrimidine derivatives are known scaffolds for kinase inhibition, including GSK3-beta. The butanolamine side chain may impart some degree of water solubility and may interact with active site residues through hydrogen bonding.",
+            "Limitation in Source Molecule for Property": "The presence of methyl groups may increase hydrophobicity, potentially reducing the solubility and limiting interactions with polar residues in the GSK3-beta active site. Additionally, the butanolamine may not optimally orient to engage key binding interactions necessary for potent inhibition.",
+            "Optimization for Source Molecule": "To enhance GSK3-beta inhibition, consider replacing the methyl group with a polar or hydrogen bond donor/acceptor group to improve solubility and binding affinity. Also, optimizing the side chain to better align with key binding interactions can enhance potency.",
+            "Final Target Molecule": "Cc1sc2ncnc(NC(CO)CO)c2c1C"
+        }
+    },
+    {
+        "src_smiles": "CCNc1nc2cc(Cl)c(C#CCCCC#N)cc2nc1NCC",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a 2,6-diaminopurine core with a chloro-substituted phenyl ring and a nitrile-acetylene terminated alkyl chain.",
+            "Property Analysis": "The presence of the 2,6-diaminopurine nucleus indicates potential interactions with kinases like GSK3-beta, primarily through hydrogen bonding and \u03c0-stacking interactions. The chloro group can enhance hydrophobic interactions, while the alkyne-nitrile group might allow additional \u03c0-interactions.",
+            "Limitation in Source Molecule for Property": "The chloro group may contribute to steric hindrance, and the linear alkyl chain might lack specific interactions necessary for strong GSK3-beta binding. Furthermore, the nitrile group can sometimes reduce overall polarity, possibly affecting solubility.",
+            "Optimization for Source Molecule": "Introduce a methoxy group to the phenyl ring to enhance binding affinity through additional hydrogen bonding. Replace the terminal nitrile with a more polar moiety like an amide to enhance solubility and interaction with the enzyme\u2019s active site. Consider ring-closing the alkyl chain to reduce entropy loss upon binding.",
+            "Final Target Molecule": "CCNc1nc2cc(OC)c(C#CC(=O)NC)cc2nc1NCC"
+        }
+    },
+    {
+        "src_smiles": "c1ccc(Cn2c(-c3ccccc3)nc3ccccc32)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a phenyl-linked benzimidazole derivative. It has two phenyl rings attached to a benzimidazole core, one with a direct connection and the other through a methylene linker.",
+            "Property Analysis": "The molecule may exhibit initial binding affinity towards GSK3-beta due to the planar aromatic systems that facilitate pi-stacking interactions with the active site. However, more specific interactions might be necessary for potent inhibition.",
+            "Limitation in Source Molecule for Property": "The absence of functional groups capable of forming hydrogen bonds or other specific interactions may limit its inhibitory capacity against GSK3-beta.",
+            "Optimization for Source Molecule": "Introduce a hydroxyl or amine group on the benzimidazole core to enhance hydrogen bonding capabilities. Modifying the methylene linker to a polar group could improve binding affinity.",
+            "Final Target Molecule": "c1ccc(Cn2c(-c3ccccc3)nc3cc(O)ccc32)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc2nc(NC(=O)CSc3ccccc3)sc2c1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule has a methoxyphenyl group attached to a thiazole ring, which is further connected to an amide linkage. The thiazole ring is fused with a pyridine-like structure creating a thiadiazole moiety. The amide linkage extends to a thioetherified benzene ring.",
+            "Property Analysis": "The source molecule potentially interacts with GSK3-beta through hydrogen bonding and hydrophobic interactions, facilitated by the amide and aromatic systems.",
+            "Limitation in Source Molecule for Property": "The current molecule may have suboptimal binding affinity due to electronic and steric constraints, limiting its interaction with the active site of GSK3-beta. The methoxy group, while providing some electronic influence, may not sufficiently enhance binding affinity.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider modifying the methoxy group to an electron-withdrawing group such as trifluoromethyl to enhance binding affinity. Additionally, substituting a more flexible or polar moiety at the thioether position could increase interaction with the enzyme\u2019s polar residues.",
+            "Final Target Molecule": "COc1cc(CS(=O)c2ccccc2O)nc2nc(NC(=O)CSc3ccccc3)sc2c1"
+        }
+    },
+    {
+        "src_smiles": "c1ccc(-c2nc(-c3ccccc3)c(-c3ccccc3)[nH]2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a 1,3-diphenyl-1H-pyrazole, consisting of a pyrazole core with phenyl groups at positions 1 and 3.",
+            "Property Analysis": "GSK3-beta inhibitors typically form hydrogen bonds with key amino acid residues in the kinase active site and fit into the ATP-binding pocket, which requires a balance of hydrophobic and hydrophilic interactions.",
+            "Limitation in Source Molecule for Property": "The source molecule lacks polar functional groups that can form hydrogen bonds with the GSK3-beta active site residues, which reduces its potential as an inhibitor.",
+            "Optimization for Source Molecule": "Introduce a polar functional group, such as an amine or hydroxyl group, onto the pyrazole ring or phenyl rings to enhance hydrogen bonding potential, and consider adding halogen atoms to improve binding affinity through halogen bonding.",
+            "Final Target Molecule": "c1ccc(-c2nc(-c3cc(O)ccc3)c(N)-[nH]2)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1n[nH]c2cc(NC(=O)NC(C)c3ccc(F)cc3)ncc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a methoxy group, a pyrazole ring, and an amide linkage, with a fluorophenyl moiety. It is a small, aromatic, nitrogen-containing compound often seen in kinase inhibition.",
+            "Property Analysis": "GSK3-beta inhibitors often require a balance of hydrophobic and hydrogen-bonding interactions with the enzyme active site, making aromatic systems and amide linkages advantageous.",
+            "Limitation in Source Molecule for Property": "The source molecule may lack optimal hydrophobic interactions due to its size and possible limitations in electronic properties due to the electron-withdrawing effect of the fluoro group.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, enhancing hydrophobic interactions could be crucial. Consider replacing the fluorophenyl group with a bulkier biaryl moiety to increase hydrophobic surface area and improve binding affinity.",
+            "Final Target Molecule": "COc1n[nH]c2cc(NC(=O)NC(C)c3c(cccc3)c4ccccc4)ncc12"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(C(=O)OCC(=O)NCc2ccco2)cc1OC",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an aryl ether with a methoxyphenyl group. It has an ester linkage along with an amide group, connected to a 2-pyranyl group.",
+            "Property Analysis": "The presence of ester and amide groups may contribute to potential hydrogen bonding, which can be favorable for interacting with the GSK3-beta active site. However, the molecule's size and lipophilicity could potentially limit its binding efficiency.",
+            "Limitation in Source Molecule for Property": "The source molecule may have suboptimal binding affinity due to lack of specific polar functional groups or heteroatom interactions which are typically essential for potent GSK3-beta inhibition.",
+            "Optimization for Source Molecule": "Introduce polar substituents or hinge-binding motifs that could enhance GSK3-beta binding, such as incorporating a nitrogen heterocycle or increasing the hydrogen bonding capacity with hydroxyl or amino groups.",
+            "Final Target Molecule": "COc1ccc(C(=O)NCc2cc(O)oc2)cc1OC"
+        }
+    },
+    {
+        "src_smiles": "O=C1NC(=O)C(=Cc2ccc(O)cc2)N1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a planar lactam with a cyclohexene ring, substituted with a phenyl group that carries a hydroxyl group. The structure is characterized by its conjugated system and potential for hydrogen bonding due to the carbonyls and hydroxyl group.",
+            "Property Analysis": "For GSK3-beta inhibition, molecules often need to have specific hydrogen bond donors and acceptors, as well as hydrophobic interactions. The phenyl group may contribute to hydrophobic interactions, while the hydroxyl and carbonyl groups provide potential for hydrogen bonding.",
+            "Limitation in Source Molecule for Property": "The source molecule may lack sufficient hydrophobic regions or the optimal spatial orientation of hydrogen bond donors/acceptors needed for effective binding to the GSK3-beta active site. The rigid structure might also inhibit proper orientation and binding affinity.",
+            "Optimization for Source Molecule": "Introducing more hydrophobic groups, such as alkyl or aromatic substituents, could improve binding interactions. Alternatively, modifying the hydroxyl or carbonyl groups to enhance hydrogen bonding while maintaining or improving the conformation might be effective.",
+            "Final Target Molecule": "O=C1NC(=O)C(=Cc2ccccc2)N1C3CCCCC3"
+        }
+    },
+    {
+        "src_smiles": "CC(CO)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains an ether moiety, a naphthyridine system, and an amide linkage connected to a phenyl ring, indicating potential interactions with the kinase active site.",
+            "Property Analysis": "The presence of a hydrogen bond donor on the naphthyridine nitrogen and the amide group can facilitate binding to the GSK3-beta active site. The phenyl group may provide hydrophobic interactions.",
+            "Limitation in Source Molecule for Property": "The molecule may exhibit suboptimal binding due to a lack of additional hydrogen bond acceptors or donors and limited conformational flexibility.",
+            "Optimization for Source Molecule": "Introduction of additional hydrogen bond acceptors, such as a carbonyl group, or incorporation of a polar substituent on the phenyl ring could enhance electrostatic interactions. Additionally, rigidifying the structure could improve binding affinity.",
+            "Final Target Molecule": "CC(CO)COc1n[nH]c2cc(NC(=O)NC(C)c3ccc(C=O)cc3)ncc12"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCc3ccccc3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex organic compound featuring an amide linkage, a heterocyclic ring with nitrogen atoms, and a methoxyphenyl group attached via an ether linkage. The molecule's structural complexity allows for potential interactions with biological targets but may also influence solubility and stability properties.",
+            "Property Analysis": "For the GSK3-beta inhibition property, the presence of heterocycles and substituents capable of hydrogen bonding and hydrophobic interactions generally contribute positively to inhibitory activity.",
+            "Limitation in Source Molecule for Property": "The current structure might suffer from suboptimal binding efficiency due to steric hindrance or lack of sufficient polar groups that can engage strongly with the active site residues of GSK3-beta.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider incorporating additional polar functional groups or modifying existing ones to increase hydrogen bonding capacity. Reducing steric bulk near the heterocycle could also improve access to the enzyme's active site.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(OCC(=O)Nc3ccccc3)c2cn1)c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "CC(c1ccncc1)c1nnc(Nc2ccc(Cl)cc2)c2ccccc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heterocyclic compound with both aromatic and aliphatic characters. It contains a pyridine ring connected to a pyrazolyl phenyl group. The presence of chlorine on the phenyl ring may contribute to its electronic properties.",
+            "Property Analysis": "This molecule is a candidate for GSK3-beta inhibition due to its heterocyclic structure and presence of nitrogen atoms which may interact with the kinase active site.",
+            "Limitation in Source Molecule for Property": "The existing structure may not have optimal binding affinity or selectivity for the GSK3-beta active site. The steric and electronic effects due to the presence of chlorine might not adequately enhance interactions with the enzyme.",
+            "Optimization for Source Molecule": "Introduce electron-withdrawing groups at positions that could enhance hydrogen bonding, such as fluorine or nitrile groups on the phenyl rings, and consider increasing planarity of the molecule for better stacking interactions.",
+            "Final Target Molecule": "CC(c1ccncc1)c1nnc(Nc2ccc(F)cc2)c2ccc(C#N)cc12"
+        }
+    },
+    {
+        "src_smiles": "CCC(O)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a substituted benzamide core attached to a 3-methoxy-4-hydroxybutyl chain and an aromatic heterocyclic moiety, which is 1H-pyrazole with an amine substitution.",
+            "Property Analysis": "The molecule has potential hydrogen bonding sites due to the hydroxyl, amide, and pyrazole NH groups, which are critical for potential binding interactions with the active site of GSK3-beta.",
+            "Limitation in Source Molecule for Property": "The sterics around the amide nitrogen and limited planarity could reduce binding affinity. Also, the presence of flexible alkyl chain might not be optimal for positioning in the GSK3-beta binding site.",
+            "Optimization for Source Molecule": "Increase planarity by adding a conjugated system, such as a double bond, near the pyrazole ring or reducing flexibility by cyclizing the alkyl chain. Additionally, consider introducing electronegative groups to enhance hydrogen bonding interactions specifically tailored for the GSK3-beta active site.",
+            "Final Target Molecule": "Cc1ccc(CNC(=O)Nc2cc(C(=O)OC)cn2-c2ccn[nH]2)c(N)n1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)O)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy-substituted phenyl ring connected to another phenyl ring via an ether linkage. This second phenyl ring is further substituted with a propanoic acid chain that contains an amide linker to a triazole group.",
+            "Property Analysis": "The source molecule likely exhibits some level of inhibitory activity against GSK3-beta due to the presence of the phenyl ring systems and the triazole moiety, which are known to interact with kinase pockets. The methoxy group may also contribute to binding affinity and specificity.",
+            "Limitation in Source Molecule for Property": "The current structure may have suboptimal interactions within the GSK3-beta binding site. The presence of the bulky methoxy group could hinder deeper binding pocket access. Additionally, the carboxylic acid group is often ionized at physiological pH, potentially reducing cell permeability and thus bioavailability.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider modifying the methoxy group to a smaller electron-donating group or removing it to better fit the binding pocket. Replacing the carboxylic acid with a bioisostere that maintains hydrogen bonding but improves cell permeability, such as an ester or an amide, may enhance properties.",
+            "Final Target Molecule": "COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)OC)cc1"
+        }
+    },
+    {
+        "src_smiles": "Brc1cnc(N2CCOCC2)nc1Nc1cc(C2CC2)[nH]n1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a benzothiazole derivative with a piperazine moiety and an imidazole ring. It contains bromine, which may contribute to potential halogen bonding, and a cyclopropyl group which can influence the molecule's conformation.",
+            "Property Analysis": "The molecule might possess moderate GSK3-beta inhibitory activity due to the presence of heteroatoms like nitrogen, which can form hydrogen bonds with the kinase, and aromatic moieties that allow \u03c0-stacking interactions.",
+            "Limitation in Source Molecule for Property": "The presence of bulky groups like cyclopropyl and piperazine might impede optimal binding orientation and limit flexibility. The bromo group could either hinder or enhance activity depending on its interaction with the binding site.",
+            "Optimization for Source Molecule": "To optimize, consider replacing the bromo group with a smaller electronegative atom like fluorine to possibly enhance binding affinity through halogen bonding. Additionally, modify the cyclopropyl group to a hydrogen-bond capable group to strengthen interactions with the kinase enzyme. Introducing a methoxy or hydroxyl group might provide better positioning in the binding pocket.",
+            "Final Target Molecule": "Fc1cnc(N2CCOCC2)nc1Nc1cc(CO)[nH]n1"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCc3ccccc3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central urea linkage flanked by an indole moiety and a benzyl amine group. The molecule also includes a methoxyphenyl group attached to the indole nitrogen through a methylene bridge.",
+            "Property Analysis": "The presence of the indole moiety and the benzyl amine suggests potential activity towards GSK3-beta due to possible stacking interactions and hydrogen bonding. The methoxyphenyl group could contribute to lipophilicity and additional binding interactions.",
+            "Limitation in Source Molecule for Property": "The methoxy attachment at the indole nitrogen might limit the flexibility and proper orientation needed for optimal interaction with the GSK3-beta active site. Additionally, the benzyl amine could be optimized for better electronic properties or interaction potential.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider replacing the methoxyphenyl group with a more polar or flexible substituent to enhance interactions in the active site. Optimizing the benzyl amine region could involve introducing electron-withdrawing groups to enhance binding affinity.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(COc3ccncc3)c2cn1)c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "CC(CCn1ccc(-c2ccc(F)cc2)cc1=O)(C(=O)NO)S(C)(=O)=O",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a sulfonamide group attached to a carbon chain with a phenyl ring substituted with a fluorine atom and a pyridine ring. The carbon chain also has a hydroxy amide group.",
+            "Property Analysis": "The source molecule's sulfonamide and amide groups can interact with biological target sites, including Glycogen Synthase Kinase 3-beta, through hydrogen bonding and dipole interactions. The fluorinated phenyl ring is expected to enhance binding affinity through hydrophobic interactions.",
+            "Limitation in Source Molecule for Property": "The presence of a bulky sulfonamide moiety may hinder optimal binding to the active site of GSK3-beta. Additionally, the fluorine atom on the phenyl ring, while enhancing hydrophobic interactions, might limit solubility and metabolic stability.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider replacing the sulfonamide group with a smaller group such as a methanesulfonyl to reduce steric hindrance. Additionally, modifying the phenyl ring to a pyridine could improve solubility and enhance interaction with GSK3-beta's active site.",
+            "Final Target Molecule": "CC(CCn1ccc(-c2cccnc2)cc1=O)(C(=O)NO)S(C)(=O)C"
+        }
+    },
+    {
+        "src_smiles": "COCCSc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heterocyclic compound featuring a benzimidazole core substituted with a methoxyethyl group, an aniline segment linked to an amide, and additional aromatic groups. This structure suggests potential binding interactions due to polar and aromatic regions.",
+            "Property Analysis": "GSK3-beta inhibitors typically need features like strong hydrogen bond donors/acceptors, planar aromatic systems for stacking interactions, and substituents that fit well into the enzyme\u2019s active site. The provided structure includes potential hydrogen bond donors/acceptors, but the overall interaction efficiency with GSK3-beta needs to be analyzed.",
+            "Limitation in Source Molecule for Property": "While the benzimidazole core is common in kinase inhibitors, the current substituents may not optimally interact with key residues within GSK3-beta\u2019s active site, potentially due to steric hindrance or suboptimal electronic properties.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider enhancing polar interactions by adding more hydrogen bond donors/acceptors or improving \u03c0-\u03c0 interactions by optimizing aromaticity. Additionally, modifying the methoxyethyl side chain to better fit the enzyme pocket can increase binding affinity.",
+            "Final Target Molecule": "COCCSc1n[nH]c2cc(NC(=O)NC(C)c3ccc(OC)cc3)ncc12"
+        }
+    },
+    {
+        "src_smiles": "COCCOc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an ether-containing pteridine derivative with an amide bond linkage to a secondary phenyl amine. The core pteridine structure may be crucial for potential kinase inhibition, especially targeting GSK3-beta.",
+            "Property Analysis": "The amide linkage and the aromatic moieties in the molecule are noteworthy for potential hydrogen-bonding interactions and \u03c0-\u03c0 stacking, which can enhance binding affinity to the active site of GSK3-beta.",
+            "Limitation in Source Molecule for Property": "The methoxy groups may reduce overall lipophilicity, possibly affecting membrane permeability. Additionally, the sterics around the amide bond could limit flexibility, impacting conformational adaptability required for effective binding.",
+            "Optimization for Source Molecule": "Consider replacing one methoxy group with a slightly bulkier group to enhance lipophilicity. Introduce a fluorine atom on the phenyl ring to potentially enhance binding affinity through halogen bonding and increase metabolic stability. For better flexibility, explore modifications around the amide bond to improve the dynamic fit in the kinase binding pocket.",
+            "Final Target Molecule": "COCCOc1n[nH]c2cc(NC(=O)NC(C(F)c1)C3)c4ccccc4ncc23"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)F)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an amide with a phenyl group and a substituted pyrrolo[2,3-d]pyrimidine core. The presence of the 1,4-difluorobutane side-chain could be a polar and lipophilic functional group.",
+            "Property Analysis": "The source molecule likely has some inhibitory action against GSK3-beta due to the polar and hydrophobic nature of the molecule paired with the known bioactive pyrrolo[2,3-d]pyrimidine scaffold.",
+            "Limitation in Source Molecule for Property": "The presence of a large phenyl group might contribute to a high molecular weight and reduced flexibility, affecting bioavailability. The difluoromethyl groups might impede cellular permeability due to increased polarity.",
+            "Optimization for Source Molecule": "To optimize the molecule for better GSK3-beta inhibition, consider reducing the steric bulk of the phenyl group by replacing it with a smaller aromatic ring such as a pyridine. Furthermore, replace the difluoromethyl groups with a less polar alkyl chain like a methyl or ethyl group to improve permeability.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(CNCC)c2cn1)c1ncncc1"
+        }
+    },
+    {
+        "src_smiles": "CCCNC(=O)N1C(C#N)C(c2ccc(C3=CCCCC3)cc2)C1CO",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a piperidine ring with a nitrile group and a benzyl group attached. It also has an aniline moiety connected to a cyclohexane, forming an N-benzyl amide structure.",
+            "Property Analysis": "The presence of the nitrile group and the amide linkage is beneficial for GSK3-beta inhibition due to the potential for hydrogen bonding and hydrophobic interactions. However, the cyclohexyl group may contribute to steric hindrance, affecting binding affinity.",
+            "Limitation in Source Molecule for Property": "The steric bulk of the cyclohexyl group could interfere with optimal binding to the GSK3-beta active site, possibly leading to reduced inhibitory activity.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider replacing the cyclohexyl group with a smaller aromatic or heteroaromatic ring to enhance binding interactions without significant steric clashes.",
+            "Final Target Molecule": "CCCNC(=O)N1C(C#N)C(c2ccc(C3=CC=CN3)cc2)C1CO"
+        }
+    },
+    {
+        "src_smiles": "Cc1cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)cc(C)n1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted purine derivative with a quinazoline backbone and a terminal piperazine ring. The molecule includes fluorinated phenyl and tertiary amino groups, suggesting potential interactions with GSK3-beta enzyme active sites.",
+            "Property Analysis": "The source molecule likely exhibits some level of GSK3-beta inhibition due to its aromatic structure and hydrogen bond donor and acceptor sites, which may facilitate binding to the ATP-binding pocket of GSK3-beta.",
+            "Limitation in Source Molecule for Property": "The molecule may have limited solubility and suboptimal interaction with the GSK3-beta active site due to the bulky piperazine group and lack of additional hydrogen bonding groups that could improve specificity and binding affinity.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, modifications could include introducing additional hydrogen bond donors or acceptors, minimizing steric hindrance by selecting smaller substituents on the piperazine ring, and experimenting with electron-withdrawing or donating groups to enhance binding affinity.",
+            "Final Target Molecule": "Cc1cc(-c2c(-c3ccc(OC)cc3)ncn2CCCN2C)cc(C)n1"
+        }
+    },
+    {
+        "src_smiles": "COc1c(N2CCCC(N)C2)c(F)c(N)c2c(=O)c(C(=O)O)cn(C3CC3)c12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex heterocyclic compound containing a methoxy group, fluorine, and multiple nitrogen atoms in its structure. It has a bicyclic core system with potential protonation sites and substituents that could influence its interaction with biological targets like GSK3-beta.",
+            "Property Analysis": "Inhibition of GSK3-beta typically involves hydrogen bond donors, acceptors, and possibly pi-pi stacking interactions facilitated by aromatic rings. The source molecule possesses features like the amine group, carbonyl moieties, and a pyridine-like structure that may contribute to such interactions.",
+            "Limitation in Source Molecule for Property": "The source molecule may lack optimal potency against GSK3-beta due to sterics or electronic factors from non-ideal positioning of essential groups. The methoxy group, although potentially beneficial for solubility, might hinder necessary hydrogen bonding interactions. The ring structure and positioning of functional groups limit flexibility, potentially affecting binding efficacy.",
+            "Optimization for Source Molecule": "Consider modifications such as replacing the methoxy group with a hydroxyl group or another hydrogen bond donor/acceptor group closer to the active site of GSK3-beta. Altering or extending the bicyclic core to enhance interactions in the active site and improve binding affinity could be beneficial.",
+            "Final Target Molecule": "COc1c(N2CCCC(N)C2)c(F)c(O)c2c(=O)c(C(=O)O)cn(C3CC3)c12"
+        }
+    },
+    {
+        "src_smiles": "CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C(C)CN1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heteroaromatic compound containing a quinazoline core structure with multiple functional groups such as fluorine atoms, a carboxylic acid group, and a piperazine ring. The presence of multiple fluorine atoms suggests attempts to enhance binding affinity and metabolic stability.",
+            "Property Analysis": "The molecule is designed to inhibit GSK3-beta, likely through interactions with the kinase ATP-binding pocket. The aromatic and heteroaromatic groups can facilitate \u03c0-\u03c0 stacking and hydrogen bonding, while the fluorine atoms can enhance lipophilicity and binding strength.",
+            "Limitation in Source Molecule for Property": "The source molecule may have limitations such as steric hindrance due to its bulky structure, potential for off-target interactions due to the piperazine moiety, and reduced solubility caused by multiple aromatic rings and fluorine atoms.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, modifications could include reducing steric bulk by altering the size or orientation of substituents, increasing solubility by adding polar functional groups, and optimizing the piperazine ring to minimize off-target effects. Additionally, adjustments to the electronic properties of the quinazoline core might enhance selective binding to GSK3-beta.",
+            "Final Target Molecule": "CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)N)cn(C4CC4)c3c2F)C(C)CN1"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCc3cncs3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a benzamide moiety linked to a heterocyclic ring structure comprising an imidazole fused to a pyridine, with additional functional groups such as a thiophene ring and various heteroatoms (N, O, S) which are often critical for kinase inhibition.",
+            "Property Analysis": "The molecule is likely to exhibit interactions with the ATP binding site of GSK3-beta through hydrogen bonds and hydrophobic interactions due to its amide and heteroaromatic structures. The presence of nitrogen and oxygen can help in forming critical hydrogen bonds with the kinase enzyme.",
+            "Limitation in Source Molecule for Property": "The current molecule may lack optimal interactions required for high potency against GSK3-beta due to possible suboptimal fit within the binding pocket or insufficient hydrophobic/hydrophilic balance. Furthermore, the metabolic stability might be compromised due to the presence of possibly metabolizable functional groups like the methoxy group.",
+            "Optimization for Source Molecule": "To enhance GSK3-beta inhibition, consider modifications such as introducing electron-withdrawing substituents on the phenyl ring to enhance binding, increasing rigidity to improve binding affinity, and introducing additional hydrogen bond donors or acceptors. Exploring bioisosteric replacements can also improve metabolic stability and binding affinity.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(OCc3cncs3)c2cn1)c1cc(F)ccc1"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted aniline derivative with a benzamide linkage. It consists of a phenyl ring, an amide bond, a pyrrole-like moiety, and a sulfonamide group attached.",
+            "Property Analysis": "The molecule targets GSK3-beta through interactions likely involving the amide linkage and heterocyclic moiety. The bulky sulfonamide could play a role in enhancing specificity by engaging in polar interactions with the active site.",
+            "Limitation in Source Molecule for Property": "The presence of a bulky sulfonamide and the potential for limited flexibility in the main chain might restrict its binding efficacy and adaptability to the enzyme active site conformations. Additionally, the limited polar groups that can interact with the active site may need enhancement.",
+            "Optimization for Source Molecule": "Introduce polar functional groups on the benzene ring for improved solubility and binding interactions. Consider replacing the sulfonamide with a smaller, more flexible group to potentially enhance binding orientation and adaptivity to the enzyme pocket.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(C(=O)O)c2cn1)c1ccc(O)cc1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a chloroaryl group, a benzene ring with two chlorine atoms, and a heterocyclic core containing nitrogen atoms often associated with bioactivity. The presence of tertiary amine and isopropylamine side chain are notable features.",
+            "Property Analysis": "Glycogen Synthase Kinase 3-beta (GSK3-beta) inhibitors typically interact with the ATP binding pocket or allosteric sites within the enzyme. Structural aspects such as hydrogen bond donors/acceptors and hydrophobic interactions within the active site are critical for effective inhibition.",
+            "Limitation in Source Molecule for Property": "The molecule may lack optimal hydrogen bonding interactions or electronic properties needed for sufficient GSK3-beta inhibition. The chloroaryl group might not be optimally positioned or suitable for enhancing selectivity towards GSK3-beta.",
+            "Optimization for Source Molecule": "Introduce functional groups capable of forming additional hydrogen-donor or acceptor interactions, such as hydroxyl or amide groups. Modify the aromatic nature of the chloroaryl groups to improve interaction specificity with the enzyme, possibly by introducing electron-donating groups.",
+            "Final Target Molecule": "CC(C)Nc1ncc2cc(-c3cccc(CF)3)c(=O)n(C)c2n1"
+        }
+    },
+    {
+        "src_smiles": "Cn1c(-c2ccnc(Oc3ccccc3)n2)c(-c2ccc(F)cc2)c(=O)n1C",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a pteridine core with a fluorophenyl group and an anisole group. The structure exhibits aromatic characteristics and includes several functional groups such as ether and amide linkages.",
+            "Property Analysis": "The source molecule is designed to inhibit GSK3-beta through interactions with the kinase active site. Its activity is influenced by its ability to form hydrogen bonds, participate in \u03c0-\u03c0 stacking interactions, and maintain a suitable conformation to fit the binding pocket.",
+            "Limitation in Source Molecule for Property": "The presence of the fluorine atom on the phenyl ring might limit conformational flexibility and reduce interactions with the kinase binding pocket. The ether linkage may also affect lipophilicity and binding efficiency.",
+            "Optimization for Source Molecule": "Introduce substituents that can enhance hydrogen bonding without disrupting the existing aromatic system. Consider replacing the fluorophenyl group with a group that has electron-donating properties to improve binding affinity. Alter the methoxy group to optimize the overall balance of hydrophobic and hydrophilic interactions.",
+            "Final Target Molecule": "COc1cc(-c2[nH]c(=O)c3c(n2)c(F)cn3)ncc1O"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(OC)cc(-c2nnc(SCC(=O)c3ccccc3)o2)c1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a 1,3-benzenediol structure with methoxy groups at the 1 and 3 positions and a bulky substituent attached to the 5-position. This substituent is a thiazole moiety linked to an acetophenone structure through a thio-ether bond.",
+            "Property Analysis": "GSK3-beta inhibitors typically require interaction with the ATP-binding site of the enzyme. The source molecule has a potentially suitable aromatic backbone and polar functionalities that could interact with this active site.",
+            "Limitation in Source Molecule for Property": "The source molecule may have limited potency as a GSK3-beta inhibitor due to potential steric hindrance from the bulky thiazole and acetophenone groups, which might inhibit optimal binding within the enzyme active site.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider reducing steric hindrance and enhancing hydrogen bonding capabilities. This could involve replacing the thiazole and acetophenone groups with smaller groups that can still establish pi-pi or hydrogen bond interactions with the GSK3-beta active site.",
+            "Final Target Molecule": "COc1cc(OC)cc(-c2nc(N)c(N)n2)c1"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCC3CCCO3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzamide core attached to a triazole and a morpholine moiety. The structure reveals a potential GSK3-beta inhibition due to its heterocyclic components and aromatic systems.",
+            "Property Analysis": "The molecule features hydrophobic interactions via its phenyl ring and possible hydrogen bonding from its triazole and morpholine moieties. These characteristics suggest partial GSK3-beta inhibition potential.",
+            "Limitation in Source Molecule for Property": "The presence of bulky groups and limited flexibility might hinder optimal kinase binding. The lack of specific structural features that enhance kinase inhibition, such as additional hydrogen bonding donors/acceptors or increased molecular flexibility, may limit its activity against GSK3-beta.",
+            "Optimization for Source Molecule": "To enhance GSK3-beta inhibition, consider introducing a pyridine ring to increase polarity and hydrogen bonding potential. Additionally, replacing the morpholine with a piperazine moiety could improve interaction flexibility and thereby enhance binding efficiency.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(OCCN3CCNCC3)c2cn1)c1ccncc1"
+        }
+    },
+    {
+        "src_smiles": "COCc1nc(NC(=O)NC(C)c2ccccc2)cc2[nH]nc(OC)c12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted pyrazolo[1,5-a]pyrimidine containing a methoxy group, a secondary amide linkage, and a benzyl group.",
+            "Property Analysis": "The source molecule is expected to interact with GSK3-beta due to its heterocyclic core, which is often engaged in kinase inhibition. The presence of hydrogen bond donors and acceptors supports binding affinity.",
+            "Limitation in Source Molecule for Property": "The lipophilicity and steric bulk from the benzyl group may impede optimal kinase affinity or selectivity. Additionally, the methoxy group could be optimized for better interaction with the kinase hinge region.",
+            "Optimization for Source Molecule": "Consider replacing the benzyl group with a smaller, more polar substituent to enhance solubility and selectivity. Modify the methoxy group to a hydroxyl group or an amino group for improved hydrogen bonding.",
+            "Final Target Molecule": "COCc1nc(NC(=O)NC(C)Cc2cnc[nH]2)cc2[nH]nc(O)c12"
+        }
+    },
+    {
+        "src_smiles": "CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an amide derivative with a pyrimidine core linked to two chlorinated phenyl rings. It contains a methyl group, a ketone group, and a dimethyl group on the pyrimidine ring which can influence its interaction with GSK3-beta.",
+            "Property Analysis": "GSK3-beta inhibition is commonly enhanced by molecules that can form strong hydrogen bonds and have hydrophobic interactions with the kinase binding pocket. The presence of halogen atoms might improve binding affinity via halogen bonds.",
+            "Limitation in Source Molecule for Property": "The molecule lacks functional groups that can act as strong hydrogen bond donors or acceptors necessary for effective GSK3-beta inhibition. The steric hindrance from two chlorine atoms might also affect the optimal fit in the binding site.",
+            "Optimization for Source Molecule": "Replace one chlorine atom with a group that can act as a hydrogen bond donor, such as an amine group. Additionally, consider modifying the amide group to improve its hydrogen bonding capability, such as converting to a urea or sulfonamide group.",
+            "Final Target Molecule": "CC(=O)Nc1ncc2cc(-c3c(N)cccc3Cl)c(=O)n(C)c2n1"
+        }
+    },
+    {
+        "src_smiles": "O=C(Nc1ccc(Cl)cc1)Nc1ccc(C(F)(F)F)cc1Cl",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a urea linkage connecting two aromatic rings, one with a chloro and trifluoromethyl group and the other with a chloro group.",
+            "Property Analysis": "The presence of electron-withdrawing groups such as chloro and trifluoromethyl may enhance binding affinity due to potential interactions like halogen bonding, which could be relevant for GSK3-beta inhibition.",
+            "Limitation in Source Molecule for Property": "The rigidity of the structure and limited electronic modulation may restrict binding conformation flexibility and hinder optimal interactions with GSK3-beta.",
+            "Optimization for Source Molecule": "Introduce a flexible linker or additional polar functional groups that could engage in hydrogen bonding or dipole interactions, improving specificity and affinity to GSK3-beta without significantly increasing molecular weight.",
+            "Final Target Molecule": "O=C(Nc1ccc(Cl)cc1)NC(CO)c1ccc(C(F)(F)F)cc1Cl"
+        }
+    },
+    {
+        "src_smiles": "CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a piperazine ring linked to a fluoro-substituted benzene. It also features a quinolone moiety with a methoxy group, a ketone, and a carboxylic acid group. A cyclobutane ring is attached to the nitrogen of the quinolone.",
+            "Property Analysis": "The molecule's structure suggests potential interactions with GSK3-beta due to the presence of multiple aromatic systems which can engage in pi-stacking interactions, and polar functional groups that could form hydrogen bonds.",
+            "Limitation in Source Molecule for Property": "The bulky cyclobutane ring might hinder binding affinity by causing steric hindrance. The molecule could benefit from improved hydrophobic or pi-pi interactions or enhanced hydrogen bonding capabilities.",
+            "Optimization for Source Molecule": "Consider replacing the cyclobutane ring with a smaller, more flexible alkyl chain or polar hydrogen-bond donating group to improve binding interaction and reduce steric hindrance. Introduce additional pi-conjugated systems or electron-withdrawing groups to the aromatic regions to enhance binding affinity through pi-pi interactions.",
+            "Final Target Molecule": "CCN1CCN(c2cc3c(=O)c(C(=O)O)cn(CC)c3c2OC)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)(F)F)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a complex polycyclic structure with an amide linkage, trifluoromethyl group, and aromatic rings. Key pharmacophoric elements include a planar bicyclic system potentially interacting with GSK3-beta's active site.",
+            "Property Analysis": "The molecule has a potential to inhibit GSK3-beta due to the presence of hydrogen bond donors and acceptors, a typical structural feature for kinase inhibition. The trifluoromethyl group may enhance the binding affinity and metabolic stability.",
+            "Limitation in Source Molecule for Property": "The bulky trifluoromethyl group might cause steric hindrance, affecting optimal binding in the GSK3-beta active site. Additionally, the molecule might lack sufficient water solubility due to its hydrophobic aromatic moiety.",
+            "Optimization for Source Molecule": "To enhance GSK3-beta inhibition, optimize the side chain interaction by reducing steric hindrance, possibly by replacing the trifluoromethyl group with a smaller electron-withdrawing group. Alternatively, increase hydrogen bonding potential by incorporating polar substituents.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(CNCC#N)c2cn1)c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "COC(C)(C)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted benzimidazole derivative featuring a methoxy group, an amide linkage, and an isopropoxy group, potentially contributing to its interaction with biological targets.",
+            "Property Analysis": "The molecule may have inhibitory activity against GSK3-beta due to its aromatic structure and potential for hydrogen bonding via the amide group. However, the bulky isopropoxy group could affect binding affinity by steric hindrance.",
+            "Limitation in Source Molecule for Property": "The steric bulk of the isopropoxy may limit the flexibility and conformational binding at the GSK3-beta active site. Additionally, the methoxy group might not adequately exploit binding interactions like hydrogen bonding or \u03c0-stacking.",
+            "Optimization for Source Molecule": "Replace the isopropoxy group with a smaller, more flexible moiety to reduce steric hindrance. Introduce an additional hydrogen bond donor or acceptor to enhance interaction with the target protein.",
+            "Final Target Molecule": "COc1n[nH]c2cc(NC(=O)NCc3ccccc3)ncc12"
+        }
+    },
+    {
+        "src_smiles": "O=C(Nc1ncc(CCNc2ncnc3ccsc23)s1)NC1CCCCC1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a substituted benzonitrile core with an amide linkage to a cyclohexylamine. It contains a bicyclic heteroaromatic system with nitrogen and sulfur atoms, which can potentially engage in hydrogen bonding and other interactions with the active site of GSK3-beta.",
+            "Property Analysis": "The aromatic nitrogens and the carbonyl groups may provide anchors for interaction with the active site of GSK3-beta. However, the steric bulk of the cyclohexyl group may limit interactions with critical residues in the kinase.",
+            "Limitation in Source Molecule for Property": "The cyclohexyl substitution may introduce steric hindrance, reducing the molecule's ability to fit within the GSK3-beta active site efficiently. Additionally, the electronic properties could be optimized further to enhance binding affinity.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, consider reducing steric bulk by replacing the cyclohexyl group with a less bulky moiety like a linear alkyl chain or a smaller cyclic group. Further modifications could be introducing additional polar functional groups to enhance binding interactions.",
+            "Final Target Molecule": "O=C(Nc1ncc(CCNc2ncnc3ccsc23)s1)NCC"
+        }
+    },
+    {
+        "src_smiles": "O=C(Nc1cc(-c2ccccc2)ccc1O)c1ccc(CN2CCOCC2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a benzamide derivative featuring a phenyl ring substitution on the aniline nitrogen, and a morpholine moiety is attached to the aromatic ring via a methylene bridge.",
+            "Property Analysis": "The molecule has a structure that allows potential interaction with GSK3-beta through hydrogen bonding and \u03c0-\u03c0 interactions, possibly contributing to its inhibitory properties.",
+            "Limitation in Source Molecule for Property": "The bulky phenyl group on the aniline nitrogen might hinder optimal binding to GSK3-beta's active site due to steric clashes, potentially reducing efficacy. Additionally, the electron-rich aromatic system could cause non-specific interactions.",
+            "Optimization for Source Molecule": "Introduce a smaller substituent or a heteroatom in place of the phenyl ring to reduce steric hindrance and increase specificity, such as a pyridyl group. This can enhance binding interaction by fitting better into the active site and promoting additional polar interactions.",
+            "Final Target Molecule": "O=C(Nc1cc(-c2ccncc2)ccc1O)c1ccc(CN2CCOCC2)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(C(O)(Cn2ccnc2)c2ccc(Br)cc2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a methoxy phenyl group connected to a central quaternary carbon with hydroxyl and benzoimidazole moieties. Additionally, it has a para-bromo phenyl group.",
+            "Property Analysis": "The molecule's potential to inhibit GSK3-beta can be enhanced by modulating hydrogen bond donor and acceptor sites, and improving affinity.",
+            "Limitation in Source Molecule for Property": "The bulky central carbon group may limit interaction with the active site. The hydroxyl group could be strategically positioned differently to enhance binding.",
+            "Optimization for Source Molecule": "Consider exchanging the quaternary hydroxyl group for a carbonyl to increase hydrogen bond acceptors or incorporate heterocyclic scaffolds to increase affinity for the GSK3-beta site.",
+            "Final Target Molecule": "COc1ccc(C(=O)Cn2ccnc2)c2ccc(Br)cc2"
+        }
+    },
+    {
+        "src_smiles": "CC1CN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)CCN1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a diazepane ring connected to two distinct aromatic systems: a fluoro-chloro-substituted napthoquinone structure tethered to a carboxylate ester. The presence of a piperazine linked to the aromatic system suggests it may interact through various binding modes with the GSK3-beta protein.",
+            "Property Analysis": "GSK3-beta is commonly inhibited by molecules which can establish strong hydrophobic interactions and hydrogen bonding with the ATP-binding pocket. The molecule shows potential due to its aromatic systems and polar functionalities, which can engage in such interactions.",
+            "Limitation in Source Molecule for Property": "The fluorine and chlorine atoms may not provide optimal electronic or steric contributions for strong GSK3-beta binding affinity. Additionally, the carboxylate group's position might limit key interactions within the binding pocket.",
+            "Optimization for Source Molecule": "Consider replacing the halogen atoms with groups that facilitate stronger hydrogen bonding or increase hydrophobic interactions, such as methoxy or hydroxyl groups. Modify the ester linkage to potentially enhance binding affinity; for example, converting it to an amide. Reducing steric hindrance near the binding region can also be beneficial.",
+            "Final Target Molecule": "CC1CN(c2cc(O)cc3c(=O)c(C(=O)N)cn(C4CC4)c3c2OC)CCN1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(c2ncc3nc(CCc4ccccc4)c(=O)n(C)c3n2)CC1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a piperazine derivative with a triazine core. The molecule contains a piperazine ring, a triazine ring with a side chain involving a phenyl group, and several alkyl groups. The presence of nitrogen atoms in the rings suggests possible hydrogen bond interactions, which are crucial for receptor binding.",
+            "Property Analysis": "The molecule's structure supports interactions necessary for GSK3-beta inhibition, such as hydrogen bonds and hydrophobic interactions. The phenyl ring may contribute to pi-stacking interactions. However, the overall geometry and electronic distribution could be further optimized for enhanced binding affinity.",
+            "Limitation in Source Molecule for Property": "The source molecule may have suboptimal orientation or electronic distribution for maximal inhibition of GSK3-beta. Additionally, saturation of the side chains or introduction of steric hindrance could limit its ability to integrate into the active site of the enzyme, impacting efficacy.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibitory activity, consider introducing electron-withdrawing groups to the phenyl ring to enhance binding interactions. Modifying the piperazine to include a rigidifying moiety could also increase the binding affinity by reducing conformational flexibility. Alternatively, adding hydrogen bond donors near the triazine could improve receptor binding.",
+            "Final Target Molecule": "CN1CCN(c2ncc3nc(CCc4ccc(Cl)cc4)c(=O)n(C)c3n2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted purine derivative with a tertiary butyl group and a cyano group in the structure, along with an aminoethyl linkage to a pyridine.",
+            "Property Analysis": "GSK3-beta inhibitors often contain heteroaromatic systems that can participate in hydrogen bonding or pi-stacking interactions with the kinase binding site. The source molecule already contains a suitable heteroaromatic core.",
+            "Limitation in Source Molecule for Property": "The presence of a bulky tertiary butyl group might hinder optimal interactions within the GSK3-beta active site. Additionally, the cyano group, while possibly beneficial for certain electronic effects, may not contribute to optimal binding affinity.",
+            "Optimization for Source Molecule": "Consider replacing the tertiary butyl group with a smaller, more flexible substituent or one that can form additional hydrogen bonds, such as a hydroxyl or amino group. Evaluate removing or substituting the cyano group for a substituent that can enhance interaction with the kinase binding pocket.",
+            "Final Target Molecule": "CC(C)Nc1c(C=O)cnc2cnc(NCc3cccnc3)cc12"
+        }
+    },
+    {
+        "src_smiles": "CC(C(=O)Nc1ncc(SCc2ncc(C(C)(C)C)o2)s1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is composed of a central amide linkage (C(=O)N) connecting an aromatic thiazolyl ring substituted with a thiomethyl group, and a phenyl ring. Additionally, the thiazolyl ring is connected to a 3,3-dimethyl-2-butanol fragment via another aromatic methoxylated ring.",
+            "Property Analysis": "The molecule contains functional groups that could potentially interact with GSK3-beta, such as the amide linkage and the thiazole ring, which are known to participate in hydrogen bonding and pi-stacking interactions. The presence of aromatic systems may facilitate binding through pi-pi interactions.",
+            "Limitation in Source Molecule for Property": "The bulky tert-butyl group at the periphery of the molecule may hinder optimal interaction with the enzyme due to steric hindrance. Additionally, the electronic environment of the thiazole might not be optimal for interaction with the GSK3-beta binding pocket.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, we could consider reducing the steric bulk of the tert-butyl group to enhance binding accommodation. Modifying the electronic properties of the thiazole ring, possibly by introducing electron-withdrawing groups, could also optimize its interaction with the enzyme.",
+            "Final Target Molecule": "CC(C(=O)Nc1ncc(SCc2ncc(C=O)o2)s1)c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)n1cnc2c(NCc3ccccc3)nc(I)nc21",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a halogenated purine derivative with an isopropyl group attached to a 9-deazapurine core, and an arylamine substituent at the C6 position.",
+            "Property Analysis": "GSK3-beta inhibitors often benefit from having high specificity towards the ATP-binding pocket, with interactions that include hydrogen bonding and hydrophobic interactions.",
+            "Limitation in Source Molecule for Property": "The presence of iodine might contribute to increased molecular weight and lipophilicity, affecting bioavailability and selectivity. Additionally, the isopropyl group may not optimally engage with the ATP pocket or key residues.",
+            "Optimization for Source Molecule": "Replace the iodine with a smaller, more polar group like a hydroxyl group to decrease molecular weight and enhance hydrogen bonding potential. Consider modifying the isopropyl group to a more planar aromatic ring to improve \u03c0-stacking interactions in the ATP-binding site.",
+            "Final Target Molecule": "CC(C)n1cnc2c(NCc3ccccc3)nc(O)nc21"
+        }
+    },
+    {
+        "src_smiles": "COCCSc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted purine derivative with a methoxyethyl side chain and a benzamide moiety. It includes a 1,2,4-triazole fused with a phenyl ring, which is linked to an amine and a secondary amide functionality.",
+            "Property Analysis": "The molecule has potential for GSK3-beta inhibition due to its planar conjugated structure, capable of interacting with the ATP-binding site of the enzyme. The presence of hydrogen bond donors and acceptors can facilitate binding to the kinase.",
+            "Limitation in Source Molecule for Property": "The methoxyethyl group may introduce steric hindrance, reducing the efficacy of binding. The lipophilicity from the benzamide may affect solubility and bioavailability adversely.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, replacing the methoxyethyl group with a smaller, polar functional group could reduce steric clash and enhance hydrogen bonding capabilities. Additionally, modifying the benzamide to a more hydrophilic moiety could improve solubility and bioavailability.",
+            "Final Target Molecule": "COC(=O)Nc1cc2[nH]c3cc(NC(=O)NC(C)c4ccccc4)ncc3n2c1"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCC3CCOCC3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule has a benzamide structure with a substituted morpholine ring linked through a hydrogen-bond capable NH group. The molecule features potential binding sites due to its heteroatoms and aromatic systems.",
+            "Property Analysis": "Inhibition of GSK3-beta often requires molecules to have strong binding affinities towards the ATP-binding pocket or other allosteric sites on the enzyme. Functional groups such as amines, amides, and heterocycles are commonly involved in hydrogen bonding or pi-pi stacking interactions.",
+            "Limitation in Source Molecule for Property": "The source molecule may lack sufficient hydrophilic functionality that could enhance binding interactions through additional hydrogen bonds. Additionally, improved planarity or electron-rich groups might increase binding to the active site of GSK3-beta.",
+            "Optimization for Source Molecule": "Consider introducing polar groups such as hydroxyl or methoxy on the aromatic ring to enhance hydrogen bonding. Alternatively, adding electron-donating groups like methoxy would increase electron density, potentially improving pi interactions.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(OCC3CCOCC3)c2cn1)c1ccc(OC)c(OC)c1"
+        }
+    },
+    {
+        "src_smiles": "CC(=O)c1ccc(-c2cccc(COC3COc4nc([N+](=O)[O-])cn4C3)c2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an acetophenone derivative with a phenyl ether linked to a nitroimidazole moiety. This molecule features a combination of aromatic rings, an ether linkage, a nitro group, and a ketone functional group.",
+            "Property Analysis": "The GSK3-beta inhibitory activity could be influenced by the molecule's ability to interact with the active site of the kinase, primarily through hydrogen bonding, pi stacking interactions, and steric complementarity. The presence of the nitro group may negatively impact the molecule's pharmacokinetic properties or binding affinity due to its electron-withdrawing nature and potential for metabolic instability.",
+            "Limitation in Source Molecule for Property": "The nitro group attached to the imidazole ring is often associated with poor drug-like properties, such as metabolic instability and toxicity. Additionally, the overall lipophilicity and steric hindrance might affect the binding affinity and selectivity for GSK3-beta.",
+            "Optimization for Source Molecule": "To optimize the molecule for better GSK3-beta inhibition, consider replacing the nitro group with a less electron-withdrawing group or a hydrogen bond donor/acceptor, such as an amine or hydroxyl group. Additionally, enhancing the planarity or flexibility between the aromatic systems might improve binding interactions with the kinase's active site.",
+            "Final Target Molecule": "CC(=O)c1ccc(-c2cccc(COC3COc4nc(cn4C3)N)N)c2"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)(F)F)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is composed of a substituted benzamide connected to a pteridine-like ring system and a trifluoromethyl group. The benzamide moiety suggests potential hydrogen bonding interactions. The pteridine-like core is common in kinase inhibitors, indicative of its role in interacting with GSK3-beta.",
+            "Property Analysis": "The molecule likely possesses potency as a GSK3-beta inhibitor due to the presence of multiple hydrogen bond donors and acceptors, which are essential for binding interactions. The trifluoromethyl group might enhance metabolic stability and membrane permeability.",
+            "Limitation in Source Molecule for Property": "The molecule may suffer from suboptimal solubility and permeability due to its size and polar functional groups. Additionally, specificity for GSK3-beta could be improved by optimizing interactions within the active site.",
+            "Optimization for Source Molecule": "Introduce lipophilic substituents to enhance permeability and adjust the electronic characteristics of the pteridine core for improved specificity. Consider maximizing interactions with hinge and ATP-binding regions of GSK3-beta by exploring modifications at the trifluoromethyl-adjacent amine.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)(F)F)c2cn1)c1ccc(cc1)F"
+        }
+    },
+    {
+        "src_smiles": "Cc1ccccc1-c1ccc(CC2NC(=O)c3cc(Cl)ccc3N(C)C2=O)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a biphenyl derivative with a linked cyclic amide structure. It contains a tertiary amide linked to a phenyl ring with chloro and methoxy substituents.",
+            "Property Analysis": "The source molecule is likely to have moderate activity against GSK3-beta due to the presence of an amide linkage and aromatic rings, providing a potential for pi-stacking and hydrogen bonding interactions.",
+            "Limitation in Source Molecule for Property": "The chloro and methoxy groups might provide steric hindrance or may not ideally align for optimal GSK3-beta interactions. Furthermore, the lack of polar functional groups could limit binding affinity.",
+            "Optimization for Source Molecule": "Introduce polar functional groups or hydrogen bond donors/acceptors to increase binding affinity. Consider replacing chloro with a fluorine for better electronic properties or introducing an amine or hydroxyl group.",
+            "Final Target Molecule": "Cc1ccccc1-c1ccc(CC2NC(=O)c3cc(F)ccc3N(C)C2=O)cc1O"
+        }
+    },
+    {
+        "src_smiles": "COCC(O)CNC(=O)c1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex organic structure featuring ester, amide, and triazole moieties, alongside an aromatic phenyl ring, with potential multiple hydrogen bond donors and acceptors.",
+            "Property Analysis": "The source molecule shows an ability to interact with GSK3-beta via hydrogen bonds and pi-stacking due to its heterocyclic and aromatic structures, which is crucial for inhibition.",
+            "Limitation in Source Molecule for Property": "The presence of hydroxyl groups and bulky side chains may lead to solubility or permeability issues, potentially affecting the bioavailability and binding efficiency to GSK3-beta.",
+            "Optimization for Source Molecule": "Enhance binding by introducing electron-withdrawing groups into the aromatic region to improve pi-stacking interactions. Remove the hydroxyl group to potentially increase membrane permeability.",
+            "Final Target Molecule": "COC(C)CNC(=O)c1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12"
+        }
+    },
+    {
+        "src_smiles": "CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3cccc(C(F)(F)F)c3)ccc2C)n1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex aromatic structure with a trifluoromethyl group and an amide linkage. The molecule contains a purine moiety and a substituted phenyl ring connected through an ether linkage.",
+            "Property Analysis": "The molecule has potential GSK3-beta inhibition activity due to its purine scaffold, which is commonly involved in kinase inhibition. However, the bulky trifluoromethyl group and the linear ether linkage might affect binding efficiency and solubility.",
+            "Limitation in Source Molecule for Property": "The bulky trifluoromethyl group might lead to steric hindrance in the ATP binding site of GSK3-beta. Moreover, the linear ether linkage might limit conformational flexibility, affecting optimal binding.",
+            "Optimization for Source Molecule": "Optimizations could focus on reducing steric hindrance by replacing the trifluoromethyl group with a smaller electron-withdrawing group. The ether linkage could be altered for increased conformational flexibility, such as using a methylene bridge. Ring substitutions that enhance hydrophobic interactions at the binding site might improve potency.",
+            "Final Target Molecule": "CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3ccc(F)cc3)ccc2C)n1"
+        }
+    },
+    {
+        "src_smiles": "CCOC(=O)C1(C(=O)NC(Cc2ccc(-c3ccccc3OC)cc2)C(=O)O)CCCO1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an ester with a lactone ring, featuring a benzyl and phenyl linkage with an ether group, as well as amide and carboxylic acid functionalities.",
+            "Property Analysis": "The molecule contains multiple aromatic rings and polar functional groups which may contribute to its potential as a GSK3-beta inhibitor through hydrophobic interactions and hydrogen bonding.",
+            "Limitation in Source Molecule for Property": "The bulkiness of the lactone ring and the linear ether linkage may hinder optimal binding in the active site of GSK3-beta, possibly limiting inhibitory potency.",
+            "Optimization for Source Molecule": "Consider reducing steric hindrance by modifying or reducing the size of the lactone ring, and introducing a more flexible linkage or alkyl spacer to enhance binding affinity. The introduction of additional hydrogen bond donor/acceptor groups may also enhance interaction with the kinase active site.",
+            "Final Target Molecule": "CCOC(=O)NC(Cc2ccc(-c3cc(O)ccc3)cc2)C(=O)O"
+        }
+    },
+    {
+        "src_smiles": "CC(C)CC(NC(c1ccc(-c2ccc(C#N)cc2)cc1)C(F)(F)F)C(=O)NCC#N",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule has a trifluoromethyl group and a cyano group in the aromatic ring which may contribute to the electronic properties required for binding with GSK3-beta. The isopropyl chain may also influence the molecule's hydrophobic interactions.",
+            "Property Analysis": "The current structural groups in the molecule like the aryl ring, cyano, and trifluoromethyl groups may contribute to ligand binding efficiency at the GSK3-beta active site by providing electronic and steric effects.",
+            "Limitation in Source Molecule for Property": "The large size and relative rigidity could limit accessibility to the binding site. Additionally, the electron-withdrawing trifluoromethyl and cyano groups may also affect binding affinity due to excessive polarity.",
+            "Optimization for Source Molecule": "Modify the isopropyl chain to a smaller, more flexible substituent like an ethyl group to potentially improve the binding affinity and access to the active site. Additionally, replacing one of the electronegative groups with a hydrogen bond donor could enhance interaction with the enzyme.",
+            "Final Target Molecule": "CC(CC(NC(c1ccc(-c2ccc(C#N)cc2)cc1)C(F)(F)F)C(=O)NCC#N)N"
+        }
+    },
+    {
+        "src_smiles": "Cc1c(F)ccc(C(=O)Nc2cc(C(=O)O)ccc2N2CCN(C)CC2)c1Cl",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a chloro-fluoro acetanilide derivative with a carboxylic acid group and a piperazine moiety. It exhibits pharmacophoric features such as a carbonyl, aromatic rings, and secondary amine that can interact with biological targets including GSK3-beta.",
+            "Property Analysis": "The molecule has potential GSK3-beta inhibitory properties due to its ability to engage in hydrogen bonding and hydrophobic interactions with the target kinase's active site.",
+            "Limitation in Source Molecule for Property": "The presence of the carboxylic acid may lead to poor cell permeability, reducing its bioavailability. The fluoro and chloro substituents, while potentially beneficial for binding affinity, might also contribute to metabolic instability or undesirable off-target effects.",
+            "Optimization for Source Molecule": "Introduce alkyl or ester groups to replace the carboxylic acid to improve cell permeability and bioavailability. Maintain the aromatic rings for hydrophobic interactions while potentially modifying halogen substituents to balance metabolic stability and selectivity.",
+            "Final Target Molecule": "Cc1c(F)ccc(C(=O)Nc2cc(C(=O)OC)ccc2N2CCN(C)CC2)c1Cl"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(CCCNc2ncc3cc(-c4c(Cl)cccc4Cl)c(=O)n(C)c3n2)CC1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a piperazine derivative with a triazine core. It contains two chlorine atoms attached to a phenyl ring and has various substitutions providing potential points of interaction with the GSK3-beta enzyme.",
+            "Property Analysis": "The source molecule is designed to interact with GSK3-beta, potentially inhibiting its activity through binding at the ATP site. The electron-withdrawing chlorine substituents may help in increasing binding affinity.",
+            "Limitation in Source Molecule for Property": "The presence of the electron-donating methoxy group in the triazine ring could reduce binding efficiency. In addition, the steric hindrance from the piperazine ring may limit conformational flexibility, affecting binding.",
+            "Optimization for Source Molecule": "Enhance the binding affinity towards GSK3-beta by replacing the methoxy group with a nitro group to increase electron-withdrawing properties. Consider replacing one chlorine atom with a fluorine to maintain lipophilicity while potentially reducing steric bulk.",
+            "Final Target Molecule": "CN1CCN(CCCNc2ncc3cc(-c4c(F)cccc4Cl)c(=O)[n+](=O)c3n2)CC1"
+        }
+    },
+    {
+        "src_smiles": "COc1cccc(Cl)c1-c1ccc(COC2COc3nc([N+](=O)[O-])cn3C2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a chlorophenyl group linked to a methoxy group and a secondary aromatic system, which is connected to a complex heterocyclic ether with an isoxazole ring containing a nitro group.",
+            "Property Analysis": "The source molecule could have GSK3-beta inhibitory activity due to the presence of aromatic systems and the potential for these structures to interact with kinase active sites. Additionally, the nitro group could contribute to improved binding affinity through electrostatic interactions.",
+            "Limitation in Source Molecule for Property": "One limitation is the presence of the nitro group, which could be metabolically unstable or may lead to undesirable toxicity. Additionally, the methoxy and chloro groups may not contribute positively to GSK3-beta inhibition and could be modified for better activity.",
+            "Optimization for Source Molecule": "Consider replacing the nitro group with a less toxic electron-withdrawing group, such as a cyano group. The methoxy group can be replaced with a hydrogen or small alkyl group to potentially improve binding affinity. Optimize the aromatic connection to improve electronic distribution favorable for binding.",
+            "Final Target Molecule": "COc1cccc(Cl)c1-c1ccc(COC2COc3nc(cn3C#N)cn3C2)cc1"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(C(=O)N3CC(=O)N(C)C3)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heterocyclic compound featuring an amide linkage, a bicyclic structure with imidazole-like characteristics, and additional aromatic functionality. Key aspects include a benzamide moiety, a bicyclic purine mimic, and a substituted pyrimidine core.",
+            "Property Analysis": "Glycogen Synthase Kinase 3-beta (GSK3-beta) inhibition requires molecules that can effectively occupy the ATP binding site, forming hydrogen bonds and hydrophobic interactions. The current structure resembles kinase inhibitors with hydrogen bond donor and acceptor groups, providing potential for interaction with the kinase active site.",
+            "Limitation in Source Molecule for Property": "The source molecule may lack optimal hydrophobic interactions due to limited alkyl chain presence and may benefit from enhanced specificity through additional modifications such as increased conformational rigidity or aromatic interactions.",
+            "Optimization for Source Molecule": "Introduce additional hydrophobic groups such as methyl or ethyl groups on the aromatic rings or benzene group to enhance van der Waals interactions within the ATP pocket. Substituting hydrogen bond acceptors/donors with stronger counterparts could strengthen binding affinity.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(C(=O)N3CC(=O)N(C)C3)c2cn1)c1cc(C)ccc1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(NC(=O)Cc2c(C)n(C(=O)c3ccc(Cl)cc3)c3ccc(OC)cc23)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains methoxy-substituted phenyl groups, an amide linkage, a chlorophenyl group, and a purine-like structure, which are common in kinase inhibitors.",
+            "Property Analysis": "The source molecule's structure suggests potential GSK3-beta inhibition due to its purine-like core and presence of hydrophobic and polar substituents which can interact with the kinase domain.",
+            "Limitation in Source Molecule for Property": "The presence of a bulky methoxy group might reduce binding efficiency by causing steric hindrance, and the balance of hydrophobic and polar groups may not sufficiently optimize interaction with the ATP-binding site of GSK3-beta.",
+            "Optimization for Source Molecule": "To optimize GSK3-beta inhibition, consider replacing the methoxy group with smaller groups or hydrogen to reduce sterics, and introduce hydrogen bond donors/acceptors to improve interaction with the kinase domain.",
+            "Final Target Molecule": "COc1ccc(NC(=O)Cc2c(C)nc(=O)c3ccc(Cl)cc23)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccccc1N(C)c1cc[nH]c(=O)c1C(=O)Nc1ccc(N2CCN(C)CC2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of an anisole moiety (COc1ccccc1), a secondary amine attached to a pyridinone ring, and a phenyl ring substituted with an N-methylpiperazine.",
+            "Property Analysis": "Glycogen Synthase Kinase 3-beta (GSK3-beta) inhibitors often benefit from a balanced combination of \u03c0-\u03c0 stacking interactions and hydrogen bonds with the enzyme's active site.",
+            "Limitation in Source Molecule for Property": "The molecule may have limited hydrogen bond donor ability due to the lack of free NH groups or hydroxyl groups, which could limit its interaction with the GSK3-beta active site.",
+            "Optimization for Source Molecule": "Introduce a hydroxyl group on the pyridinone to enhance hydrogen bonding. Replace methylpiperazine with morpholine to improve binding affinity through additional polar interactions while potentially increasing solubility.",
+            "Final Target Molecule": "COc1ccccc1N(C)c1cc(OH)[nH]c(=O)c1C(=O)Nc1ccc(N2CCOCC2)cc1"
+        }
+    },
+    {
+        "src_smiles": "O=C(NC(Cc1ccc(O)cc1)C(=O)NCC1CC(Br)=NO1)OCc1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a carboxamide moiety linking a phenolic benzene ring, a secondary amide, an oxime ether, and a phenyl ester group. It includes a chiral center at the alpha position of the phenolic benzene ring.",
+            "Property Analysis": "The existing structure provides potential inhibition sites due to the presence of phenolic and amide groups, offering hydrogen bonding potential. The oxime ether fragment might interfere with binding due to steric hindrance or unfavorable electronic effects.",
+            "Limitation in Source Molecule for Property": "The presence of the bromine atom and the oxime ether could contribute to steric hindrance or electronic imbalance, potentially obstructing optimal binding with the GSK3-beta enzyme. Also, the ester linkage might be metabolically labile.",
+            "Optimization for Source Molecule": "Remove or modify the oxime ether to decrease steric hindrance and potentially enhance hydrogen bonding or pi-stacking interactions. Consider replacing the ester group with a more stable linkage, such as an amide, and explore adding small polar groups to improve solubility and binding interactions.",
+            "Final Target Molecule": "O=C(NC(Cc1ccc(O)cc1)C(=O)NC(C)C)NCc1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "Cc1cc(C(N)=O)ccc1-n1c(CCC(=O)O)ccc1-c1ccc(-c2cnn(C)c2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains several key functional groups: an amide group (C(N)=O), a carboxylic acid (CCC(=O)O), and a 1,2,4-triazole ring (c2cnn(C)c2). The molecule also features multiple aromatic rings, which are common in kinase inhibitors due to their ability to form pi-pi interactions.",
+            "Property Analysis": "The presence of multiple aromatic rings and the triazole group suggests the molecule may interact effectively with the ATP binding site of GSK3-beta, an enzyme critical in various cellular processes. Another key feature is the carboxylic acid, which can form hydrogen bonds and contribute to the binding affinity.",
+            "Limitation in Source Molecule for Property": "While the molecule has several structures conducive to inhibition, the amide group might not be optimally oriented for binding. The size and rigidity of the multi-ring structure could potentially limit its fit within the active site of GSK3-beta.",
+            "Optimization for Source Molecule": "To enhance GSK3-beta inhibition, a potential modification could involve enhancing the interaction of the amide with the enzyme pocket, possibly by converting the amide group to a urea group, which can offer more hydrogen bonding opportunities. Another modification could involve introducing flexibility into the aromatic structure to better align with various active site conformations.",
+            "Final Target Molecule": "Cc1cc(C(NC)=O)ccc1-n1c(CCC(=O)O)ccc1-c1ccc(-c2cnn(C)c2)cc1"
+        }
+    },
+    {
+        "src_smiles": "CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an amide derivative with a nitroaryl group and a chlorophenyl group attached to a pyrrolidinone system. It includes a nitro group, which can interact with biological targets but could also affect solubility and toxicity.",
+            "Property Analysis": "The molecule likely has moderate inhibitory activity against GSK3-beta, partially due to its aromatic groups and potential interactions from the nitro group. The presence of both hydrophobic and polar functionalities supports binding. However, the nitro group could reduce specificity and increase undesired interactions.",
+            "Limitation in Source Molecule for Property": "The nitro group might cause non-specific binding and toxicity issues, and the presence of a single chlorine may not sufficiently enhance binding affinity toward GSK3-beta. The overall size and polarity balance may limit optimal receptor interaction.",
+            "Optimization for Source Molecule": "Introduce an electron-withdrawing group in place of the nitro group to maintain receptor hydrophobic interactions while reducing potential toxicity. Consider substituting the chlorine with a fluorine to balance hydrophobicity and polarity, and explore adding a hydrogen bond donor or acceptor to improve receptor binding.",
+            "Final Target Molecule": "CN1C(=O)C(Cc2ccc(-c3ccccc3F)cc2)NC(=O)c2cc(F)ccc21"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(C(=O)NCC(O)C(F)F)c2cn1)c1ccccc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a benzamide moiety connected to a 1,3,5-triazine core, along with an aryl amine and difluoro alcohol side chain. This structure is characteristic for kinase inhibitors, offering potential for hydrogen bonding and hydrophobic interactions within the kinase active site.",
+            "Property Analysis": "The source molecule is designed to interact with GSK3-beta, primarily through hydrogen bonding, hydrophobic interactions, and possibly stack over aromatic residues in the binding site. The difluoro group could enhance lipophilicity and metabolic stability.",
+            "Limitation in Source Molecule for Property": "While the molecule has potential interaction sites, its potency towards GSK3-beta can be hampered by steric hindrance, suboptimal orientation of functional groups, or lack of additional interaction points that could further enhance binding affinity.",
+            "Optimization for Source Molecule": "Introduce electron-withdrawing groups on the aromatic ring to enhance pi-stacking interactions. Modifying the difluoro alcohol chain to a sulfonyl group may improve binding and metabolic stability. Redesign the triazine core for better geometric alignment with the GSK3-beta binding site.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(C(=O)NCC(O)S(=O)F)c2cn1)c1ccccn1"
+        }
+    },
+    {
+        "src_smiles": "CCCCCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex aromatic heterocycle featuring a primary amine side chain, a methoxy group on a benzene ring, and a chlorine-substituted phenyl ring. It seems to be a small-molecule inhibitor typically targeting kinases, potentially offering binding interactions through hydrogen bonding and hydrophobic contacts with the kinase binding site.",
+            "Property Analysis": "The presence of the primary amine could potentially interact with GSK3-beta through hydrogen bonding. The dichlorophenyl moiety could enhance hydrophobic interactions, thus aiding in binding affinity. The methoxy group in the n-methylated heterocycle could enhance lipophilicity and, in turn, cell permeability.",
+            "Limitation in Source Molecule for Property": "The steric hindrance due to the dichlorophenyl group might limit its ability to fit optimally in the GSK3-beta catalytic site, potentially reducing inhibitory activity. Furthermore, the electron-withdrawing nature of the chlorine atoms might reduce the availability of electrons for optimal bonding interaction with the target.",
+            "Optimization for Source Molecule": "To enhance GSK3-beta inhibition, consider replacing one of the chlorine atoms with a more electron-donating group like a methoxy group to enhance electron density in the aromatic ring. This change could improve pi-stacking and other non-covalent interactions. Additionally, consider introducing a polar group near the primary amine to facilitate stronger hydrogen bonding within the active site.",
+            "Final Target Molecule": "CCCCCNc1ncc2cc(-c3cc(OC)ccc3Cl)c(=O)n(C)c2n1"
+        }
+    },
+    {
+        "src_smiles": "CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Oc2ccccc2O)n1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features an aromatic ring connected via an ether linkage to a furanone structure, with a fluorophenyl group and a substituted pyridine group with a diphenylether moiety. The molecule has functionality suggestive of interacting with biological targets through hydrophobic interactions and potential hydrogen bonding due to the presence of ether and hydroxyl groups.",
+            "Property Analysis": "The source molecule likely exhibits moderate GSK3-beta inhibition due to its aromaticity and the presence of potential hydrogen bond donors and acceptors that can interact with the enzyme's active site. The hydrophobic and electron-withdrawing properties of the fluorophenyl group may enhance binding affinity.",
+            "Limitation in Source Molecule for Property": "Although the molecule has relevant functional groups for interaction, the spatial orientation and steric bulk of the phenyl ether moiety might hinder optimal binding to the GSK3-beta active site. The electron-withdrawal by the fluorine and oxygen atoms could also diminish interaction strength if not balanced with sufficient electron-donating groups.",
+            "Optimization for Source Molecule": "To enhance GSK3-beta inhibition, one approach would be to modify the diphenylether group to a less bulky substituent, increasing flexibility or introducing groups known to enhance enzyme binding such as an imidazole or a smaller alkoxy group. An additional modification could involve the inclusion of nitrogen-containing heterocycles known to improve binding interactions.",
+            "Final Target Molecule": "CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Cn2c3ccccc3n2)n1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(Cc2cnc(N)nc2N)ccc1OCc1ccc(-c2csnn2)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a central aromatic ring system with methoxy groups and is linked to a heterocyclic moiety containing nitrogen atoms, potentially relevant for kinase inhibition.",
+            "Property Analysis": "The primary property of interest is the inhibition of GSK3-beta, which may benefit from strategic enhancements to improve binding affinity or specificity.",
+            "Limitation in Source Molecule for Property": "The current structure may lack optimal interactions with the GSK3-beta binding site due to its size or positioning of functional groups.",
+            "Optimization for Source Molecule": "Consider adding or modifying electron-donating groups on the aromatic rings to enhance interaction with the kinase, or introducing additional hydrogen bond donors or acceptors to improve binding site contacts.",
+            "Final Target Molecule": "COc1cc(Cc2cnc(N)c(-c3csnn3)n2)ccc1OCc1ccc(-c2csnn2)cc1"
+        }
+    },
+    {
+        "src_smiles": "COCCn1c(=O)c(-c2ccc(OC)cc2)nc2cnc(OCc3ccccc3)nc21",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted xanthine derivative, with methoxy and benzyl ether substituents at the phenyl rings. Xanthines are often used in pharmaceuticals for their effect on the central nervous system, and the presence of ether groups could influence lipophilicity.",
+            "Property Analysis": "For GSK3-beta inhibition, the molecule should ideally have a binding affinity towards the involved kinase active sites, which often require the presence of hydrogen bond donors and acceptors, as well as hydrophobic interactions.",
+            "Limitation in Source Molecule for Property": "The current structure might present limited hydrogen bond donors and acceptors. Additionally, the bulky ether groups could hinder necessary binding interactions with the kinase active site due to steric hindrance.",
+            "Optimization for Source Molecule": "To improve GSK3-beta inhibition, the molecule could be optimized by introducing additional hydrogen bond donors and removing sterically hindering groups. One approach could be replacing a methoxy group with a hydroxyl group, or redesigning the ether linker to a more flexible and less bulky moiety.",
+            "Final Target Molecule": "COCCn1c(=O)c(-c2ccc(O)cc2)nc2cnc(O)c(OCc3ccccc3)nc21"
+        }
+    },
+    {
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(OCCOC(F)(F)F)c2cn1)c1ccc(F)cc1",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a small organic compound consisting of a piperazine moiety linked to a heterocyclic base with a trifluoroethyl ether substituent. It also contains an amide linkage and a phenyl group with a fluorine substitution.",
+            "Property Analysis": "The compound is designed to potentially act as an inhibitor for Glycogen Synthase Kinase 3-beta due to the presence of an aromatic heterocyclic ring and amide linkage, which are common in kinase inhibitors.",
+            "Limitation in Source Molecule for Property": "The molecule might have limited efficacy or selectivity due to steric hindrance from the trifluoromethyl group and suboptimal interactions with the active site of GSK3-beta. The electronegativity of the fluorine in the phenyl ring can affect binding affinity.",
+            "Optimization for Source Molecule": "Introduce an additional hydrogen bond donor or acceptor to improve interactions with the GSK3-beta active site. Replace the trifluoromethyl group with a small polar group to enhance solubility and reduce steric hindrance. Consider substituting the phenyl fluorine with a group that may form additional interactions with the kinase.",
+            "Final Target Molecule": "CC(NC(=O)Nc1cc2[nH]nc(OCCO)c2cn1)c1ccc(OC)cc1"
+        }
+    },
+    {
+        "src_smiles": "Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(NCCCN3CCOCC3)nc21",
+        "prop": "gsk",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex heterocyclic compound with a benzodiazepine core. It includes two chloro-substituted benzene rings, a piperazine moiety, and a pyrimidinedione core.",
+            "Property Analysis": "The presence of the chloro-substituted benzene rings may contribute to the compound's binding affinity with GSK3-beta. The piperazine moiety can enhance solubility and bioavailability, while the pyrimidinedione core may interact with the kinase active site.",
+            "Limitation in Source Molecule for Property": "The chloro groups might lead to unwanted off-target interactions or toxicity. The overall molecular weight and potential hydrogen bonding interactions might also affect selectivity and efficacy.",
+            "Optimization for Source Molecule": "Replace one or both chloro groups with fluorine to reduce molecular weight and potential toxicity while retaining lipophilicity. Modify the piperazine to a more hydrophilic amine to increase solubility. Introduce additional groups to the pyrimidinedione core to enhance binding affinity to GSK3-beta.",
+            "Final Target Molecule": "Cn1c(=O)c(-c2c(F)cccc2F)cc2cnc(NCCCN3CCNCC3)nc21"
+        }
+    }
+]

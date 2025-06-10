@@ -1,0 +1,1062 @@
+[
+    {
+        "smiles": "CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COc1cccc(Cl)c1-c1ccc(COC2COc3nc([N+](=O)[O-])cn3C2)cc1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 0
+        }
+    },
+    {
+        "smiles": "COc1ccc(OCC(=O)Nc2ccc3c(c2)nc(CCNC(=O)c2ccco2)n3C)cc1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "2"
+        }
+    },
+    {
+        "smiles": "CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 3,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "3"
+        }
+    },
+    {
+        "smiles": "CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CCC(=O)NC1CCc2c(Cl)c(OC)c(OC)c(OC)c2-c2ccc(OC)c(=O)cc21",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "COCCNC1CCC(Nc2cc(-c3nc(NCC4CCOCC4)ccc3Cl)c(Cl)cn2)CC1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "NC(=O)c1cccc2c(NCc3cccc(Nc4nccs4)c3)ncnc12",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "2"
+        }
+    },
+    {
+        "smiles": "Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "> Reasoning\n**Ensuring clarity and efficacy**\nI\u2019m focusing on confirming the request's components and ensuring clarity. Now I\u2019m mapping the logical steps to respond accurately.\n**Crafting a response**\nI\u2019m mapping out a clear and concise chemical response by focusing on its molecular structure and fragment. This ensures that the reply is precise and directly addresses the user's query.\n**Analyzing input molecules**\nI\u2019m detailing the process of analyzing molecules and fragments, ensuring accuracy and relevance. This approach clarifies the structures and their connections, leading to precise conclusions.\n**Mapping molecular structures**\nI\u2019m breaking down the analysis of input molecules and fragments for precise molecular structure determination. This involves comparing chemical viewpoints to ensure the structures are accurately identified.\n**Organizing the analysis**\nI\u2019m sorting through chemical structures, ensuring I match molecular structures with consistent references from chemical viewpoints for a thorough comparison, which clarifies the process.\n**Mapping molecular dynamics**\nI\u2019m analyzing molecular structures and fragments to ensure consistent references. This streamlines the process and enhances clarity and precision.\n**Matching molecular structures**\nI\u2019m focused on aligning each molecular structure and fragment with specific chemical viewpoints. This approach ensures clarity and precision in the identification process.\nReasoned for 7 seconds\n\n{\n    \"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "O=C(Nc1ccnc(F)c1)c1ccc(-c2noc(C(F)(F)F)n2)cc1",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CCOC(=O)C1(C(=O)NC(Cc2ccc(-c3ccccc3OC)cc2)C(=O)O)CCCO1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "> Reasoning\n**Crafting the response**\nI'm honing a response for a chemical assistant, ensuring it effectively addresses the input molecule and fragment query, all while keeping it concise. Progress is steady, focusing on clarity and precision.\n**Clarifying the task**\nI\u2019m laying out the challenge: I\u2019m a chemical assistant responding to an input molecule and fragment. Ensuring clarity and precision in this context is my primary goal.\n**Crafting the response**\nI\u2019m focusing on formulating an appropriate and concise response to the input molecule and fragment, maintaining clarity and precision throughout.\n**Understanding the query**\nI\u2019m gathering info about responding to an input molecule and fragment, ensuring clarity and brevity are prioritized to maintain precision throughout the discussion.\n**Crafting the response**\nI\u2019m piecing together how to effectively respond to the input molecule and fragment, ensuring the reply is concise and clear, emphasizing precision throughout the discussion.\n**Replying effectively**\nPiecing together the best way to respond to an input molecule and fragment, ensuring precision and clarity in the communication.\n**Mapping the response**\nFiguring out the most concise and informative way to respond to an input molecule and fragment request, ensuring clarity and relevance throughout the communication.\nReasoned for 8 seconds\n\n{\n    \"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CCOC(=O)c1c(S(=O)(=O)NCC(=O)Nc2cc(C)ccc2C)c(C)n(C)c1C",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CSc1nc(N)cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CSc1ncc(C(=O)Nc2ccc(C)c(Cl)c2)c(-c2ccccc2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "COC(=O)c1cccc(-c2cccc(OCC(O)CN3CCc4ccccc4C3)c2)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "O=C(Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "O=C(Nc1ccc2oc(Cc3ccccc3)nc2c1)c1ccc([N+](=O)[O-])cc1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CCOC(=O)C1CCCN(Cc2nc3ccc([N+](=O)[O-])cc3c(=O)n2-c2ccc(OC)cc2OC)C1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "Cc1c(Cc2cccc([N+](=O)[O-])c2)c(=O)oc2cc(OC(=O)N(C)C)ccc12",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "0"
+        }
+    },
+    {
+        "smiles": "COC(=O)C1=C(C)N=C(C)C(=C(O)OC)C1c1ccc(Cl)c([N+](=O)[O-])c1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CN1CCN(Cc2ccc(C(=O)NN(c3nc(C#N)ncc3Br)C3CCC3)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CCC(C(=O)NC(C#N)CC(N)=O)N(Cc1ccc(-c2cccc(F)c2F)cc1)S(C)(=O)=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CCOc1ccccc1NS(=O)(=O)c1cc(-c2cnc(C3CC3)o2)ccc1C",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CC(C)N(c1ccc(C(C)(O)C(F)(F)F)cc1)S(=O)(=O)c1ccccc1C1CC1",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(Nc2nccc(-c3ccc(NC(=O)Cc4cccs4)cc3)n2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CN2CCN(c3ccccc3)CC2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CS(=O)(=O)Nc1ccc(-c2cnc3cccc(Nc4ncccc4Cl)c3c2)cc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CC(CCn1ccc(-c2ccc(F)cc2)cc1=O)(C(=O)NO)S(C)(=O)=O",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N(C)CC4CCOC4)ncc3Cl)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "C=CCOCCn1c(SC)nc(-c2ccc(F)cc2)c1-c1ccnc(NC(C)=O)c1",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "0"
+        }
+    },
+    {
+        "smiles": "CCC1OC(C(C)=CC(C)C=CC2C(C)C2C=CC2OC(CC(C)=O)CC(O)C2O)CC=C1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "0"
+        }
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3ccnc(N4CCCC(F)(F)C4)n3)C2)cc1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COC1CCCN(c2nccc(N3CCC(Oc4ccc(C(C)NC(C)=O)cc4)C3)n2)C1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CNC(=O)C(NC(=O)C(CC(C)C)C(C(=O)NO)C1CCCC1)C(C)(C)C",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "> Reasoning\n**Formulating the response**\nWondering how to frame the user's request effectively, using concise language to enhance the user's understanding.\n**Simplifying input**\nI\u2019m focusing on clarifying the user's task by refining the input molecule and fragment for more straightforward assistance, aiming to enhance comprehension and streamline the process.\n**Reflecting on the task**\nI\u2019m considering how to enhance understanding of the user's request by refining the input molecule and fragment, aiming for a clear and concise response.\n**Streamlining the process**\nI'm mapping out the best way to address the user's request by focusing on refining the input molecule and fragment for a clear and precise response.\n**Enhancing clarity**\nI\u2019m refining the input molecule and fragment to ensure precise and understandable assistance, aiming for a clear and effective response to the user's request.\n**Enhancing clarity**\nI\u2019m refining the user's request by addressing the input molecule and fragment concisely to ensure a clear and effective response.\n**Streamlining the process**\nI\u2019m ensuring clarity by refining the input molecule and fragment to provide a concise and effective response to the user's request, aiming to enhance understanding.\nReasoned for 7 seconds\n\n{\n    \"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "CC(C(=O)Nc1ncc(SCc2ncc(C(C)(C)C)o2)s1)c1ccccc1",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "> Reasoning\n**Piecing together details**\nThis entry seems to involve organizing a chemical synthesis approach, particularly focusing on the steps needed to prepare a target molecule and a specific fragment.\n**Breaking down the process**\nI'm dissecting the steps to synthesize a target molecule, ensuring the reaction is set up correctly and smoothly, and addressing any issues that arise.\n**Piecing together the plan**\nI am honing the synthesis of a target molecule, ensuring precision in reaction setup and addressing any arising issues to refine the process.\n**Synthesizing molecules**\nI\u2019m thinking through the steps to synthesize the target molecule, ensuring accurate reaction dynamics and tackling any challenges that arise, aiming for optimal smoothness and progress.\n**Synthesizing molecules**\nI\u2019m piecing together synthesis steps for a molecule, aiming for purity through crystallization, and troubleshooting issues for precision and clarity in the process.\n**Synthesizing and refining**\nWondering about synthesizing a target molecule, purifying it through crystallization, and addressing any reaction issues for optimal yield and purity.\n**Piecing together a solution**\nI'm analyzing the synthesis of a target molecule, including crystallization for purity and troubleshooting reaction issues, to ensure smooth progress towards achieving the desired outcome.\nReasoned for 7 seconds\n\n{\n    \"count\": \"2\"\n}"
+    },
+    {
+        "smiles": "C#Cc1cc(Oc2cnc(NCC(C)O)nc2N)c(C(C)C)cc1OC",
+        "fg_name": "acetylenes",
+        "fg_smarts": "*-[C;D2]#[C;D1;H]",
+        "fg_label": "-C#CH",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=S)NC(=O)c2cccc([N+](=O)[O-])c2)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COc1ccc(NC(=S)N(CCN2CCOCC2)Cc2ccccc2F)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "fg_name": "methyl sulfonamide",
+        "fg_smarts": "*-[N;D2]-[S;D4](=[O;D1])(=[O;D1])-[C;D1;H3]",
+        "fg_label": "-NHSO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "Cc1oc(-c2ccccc2)nc1CCNC(=O)c1ccc([S@@](C)=O)cc1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "C=CCn1c(SCc2nnc([S-])n2-c2ccccc2)nnc1-c1ccccc1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "2"
+        }
+    },
+    {
+        "smiles": "C[C@@H]1CCC/C(=N/[NH+]=C(/[S-])NCc2ccccc2)C1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "C[C@H](NC(=O)NCCC[S@](C)=O)c1ccc(Cl)s1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\"count\": \"1\"}\n```"
+    },
+    {
+        "smiles": "O=C=NC(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\"count\": \"1\"}\n```"
+    },
+    {
+        "smiles": "COS(=O)(=O)c1ccc(Cl)c2ccccc12",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CCOc1cc(NC(=O)c2ccccc2)c(OCC)cc1[N+]#N",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"count\": \"1\"\n}\n```"
+    },
+    {
+        "smiles": "O=S(=O)([O-])c1ccc(Cl)c2cccnc12",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "0"
+        }
+    },
+    {
+        "smiles": "O=S1(=O)C[C@@H](Nc2ccccc2)[C@@H](S(=O)(=O)[O-])C1",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "O=C(N=C=S)c1cccc(C(F)(F)F)c1F",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "> Reasoning\n**Crafting a personalized approach**\nI\u2019m considering the request for a chemical assistant to provide an input molecule and a fragment more efficiently. Emphasizing the need for brevity and clarity.\n**Considering the request**\nI\u2019m reflecting on the user's need for guidance regarding an input molecule and a fragment, aiming to provide a precise and succinct chemical assistance.\n**Enhancing clarity**\nI'm thinking through the user's request for simplifying the response to an input molecule and a fragment, aiming for a more streamlined and concise chemical assistance.\n**Improving response clarity**\nI\u2019m refining the chemical assistance response to ensure it addresses the user's input molecule and fragment with clarity and conciseness, avoiding unnecessary complexity.\n**Crafting responses**\nI\u2019m synthesizing streamlined chemical assistance responses, ensuring they are concise and directly related to the user's input molecule and fragment, achieving clarity and effectiveness.\n**Enhancing chemical insights**\nI\u2019m focusing on optimizing responses to a user's input molecule and fragment, crafting concise and effective chemical assistance to facilitate understanding.\n**Enhancing chemical queries**\nI\u2019m refining the response to a user's input molecule and fragment, ensuring it is concise and accurate, which will help in providing clear and effective chemical assistance.\nReasoned for 6 seconds\n\n{\n    \"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "N#[N+]c1[nH]nc2nnc(-c3ccccc3)c(-c3ccccc3)c12",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "> Reasoning\n**Mapping out chemical details**\nI\u2019m piecing together the structure of the input molecule and fragment, and will identify a common chemical functional group once these are clear.\n**Clarifying chemical details**\nI\u2019m refining the molecule and fragment details, ensuring accurate depiction before identifying a common chemical functional group. Progressing through these steps methodically to gather precise information.\n**Finalizing structure**\nI\u2019m wrapping up the depiction of the input molecule and fragment, preparing to identify a common chemical functional group that aligns with these structures.\n**Finalizing and identifying**\nI\u2019m finalizing the depiction of the input molecule and fragment, gearing up to identify a common chemical functional group that aligns with these structures. Progress is evident in these steps.\n**Finalizing structural dynamics**\nWrapping up the input molecule and fragment depiction, I'm set to pinpoint a common chemical functional group. Progressing methodically towards identifying molecular connections.\n**Mapping out molecule components**\nI\u2019m charting the path to draw each molecule and fragment, ensuring they fit the criteria for identifying a common chemical functional group. This approach maintains a clear, professional focus.\n**Charting molecular structures**\nI\u2019m mapping out how to illustrate the input molecule and fragment, ensuring they meet the criteria for identifying a common chemical functional group. This approach keeps the process clear and efficient.\nReasoned for 6 seconds\n\n{\n    \"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "O=C=Nc1ccc2c(c1)O[C@@H](F)C(F)(F)O2",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "> Reasoning\n**Streamlining the approach**\nI'm pausing to think about how to dissect the chemical assistant's request. Consolidating similar inputs to focus on essential, unique pieces is simplifying the analysis process.\n**Pinpointing key insights**\nOK, I\u2019m mapping out how to identify the main ideas in chemical analysis by pinpointing key fragments and input molecules. The goal is to highlight essential, unique pieces.\n**Identifying crucial elements**\nOK, let me see. Isolating the main components to help with our chemical analysis involves zeroing in on the significant molecules and fragments. This focus aids in pinpointing key differences.\n**Identifying key molecules**\nI'm highlighting primary molecules and fragments to detect significant similarities or differences. This leads to a better understanding of their chemical and structural impacts.\n**Isolating unique features**\nI'm examining how the molecular structure and behavior of the input molecule diverge from the fragment's traits, leading to new insights. Progress is evident through these distinctions.\n**Pinpointing key differences**\nMapping out the task involves distinguishing between molecules and fragments to highlight crucial differences, which simplifies the chemical analysis process.\n**Identifying distinctions**\nAssessing the molecular structure and behavior of input molecules and fragments, I\u2019m honing in on key differences to clarify their distinctions. This focuses on precise chemical traits and reactions.\nReasoned for 9 seconds\n\n{\n    \"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "CC1(C)[C@H]2CC[C@]1(C)C(=O)[C@@H]2N=C=S",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CCCc1n[nH]c2c([O-])nc(-c3cc(S(=O)(=O)Cl)ccc3OCC)nc12",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COS(=O)(=O)[C@@H]1C(=O)[C@]2(C)CC[C@H]1C2(C)C",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "Cc1nn(C(C)C)cc1S(=O)(=O)Cl",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "N=Nc1ccccc1-c1ccc([N+](=O)[O-])cc1[N+](=O)[O-]",
+        "fg_name": "hydrazines",
+        "fg_smarts": "*-[N;D2]=[N;D1]",
+        "fg_label": "-N=N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "O=C1c2ccccc2C(=O)N1CCOC(=S)Nc1ccc(F)cc1F",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COc1c(N2CCCC(N)C2)c(F)c(N)c2c(=O)c(C(=O)O)cn(C3CC3)c12",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)O)cc1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 0
+        }
+    },
+    {
+        "smiles": "Nc1cnc(-c2ccc(C3CCC3)c(OCC(O)CNc3cc(N)ncn3)c2F)cn1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "2"
+        }
+    },
+    {
+        "smiles": "N#CCC1(n2cc(C(N)=O)c(Nc3ccnc(F)c3)n2)CCC(NCc2ccc(O)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\"count\":\"1\"}\n```"
+    },
+    {
+        "smiles": "CCCCOC(=O)c1ccc(NC(=O)C2(c3cccs3)CCOCC2)cc1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\"count\": \"1\"}\n```"
+    },
+    {
+        "smiles": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "> Reasoning\n**Formulating a response**\nI'm considering how to respond to the user's request, delicately considering the best approach to address the query.\n**Taking a closer look**\nI\u2019m reflecting on the user's request to provide both an input molecule and a fragment, ensuring the response is concise and relevant. Ok, let me see.\n**Crafting a response**\nOK, let me see. I\u2019m noting the user's input molecule and fragment, ensuring the response is clear and relevant. This involves breaking down the request methodically.\n**Breaking it down**\nI'm refining the approach to address the user's request effectively, ensuring clarity and relevance by methodically analyzing the input molecule and fragment.\n**Crafting a response**\nEnsuring clarity and conciseness, I\u2019m refining the response strategy to address the user's request for an input molecule and a fragment effectively.\n**Analyzing the request**\nTaking a closer look at the user's input molecule and fragment, ensuring a precise and relevant response. This involves methodical analysis to address the request effectively.\n**Crafting the response**\nI'm focusing on a precise response by analyzing the input molecule and fragment methodically. Ensuring clarity and brevity, the aim is to address the request effectively.\nReasoned for 7 seconds\n\n{\n    \"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "COCCCNC(=O)c1c(C)nn(-c2ccc(F)cc2)c1-n1cccc1",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "\n```python\n from rdkit import Chem\n\nmol = Chem.MolFromSmiles(\"COCCCNC(=O)c1c(C)nn(-c2ccc(F)cc2)c1-n1cccc1\")\nfrag = Chem.MolFromSmiles(\"C(=O)N\")\n# Perform substructure search\nmatches = mol.GetSubstructMatches(frag)\nlen(matches), matches\n```\nResult: run failed\u274c \n```shell\n  No module named 'rdkit'\n```\n\n{\"count\": \"1\"}"
+    },
+    {
+        "smiles": "C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3cccc(C(F)(F)F)c3)ccc2C)n1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"count\": \"1\"\n}\n```"
+    },
+    {
+        "smiles": "CS(=O)(=O)c1ccc2nc(-c3ccc(Br)cc3)[nH]c2c1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\"count\":\"1\"}\n```"
+    },
+    {
+        "smiles": "CC(=O)N1c2ccc(S(=O)(=O)N3CCC(C(=O)Nc4ncccc4C)CC3)cc2CC1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 0
+        }
+    },
+    {
+        "smiles": "Cc1cc(O)cc(C)c1CC(N)C(=O)N1Cc2ccccc2CC1C(=O)Nc1nn[nH]n1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CCCCCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": "> Reasoning\n**Aligning communication**\nI'm prepping to convey user requests and respond efficiently.\n**Prioritizing valuable info**\nI'm sorting through a large molecule library, focusing on the most abundant and easily detectable fragments to balance specificity and efficiency.\n**Pinpointing key fragments**\nI\u2019m focused on identifying key fragments in the molecule library. By honing in on the most abundant and easily detectable ones, I\u2019m ensuring specificity and efficiency in analysis.\n**Assessing key fragments**\nI'm focusing on critically evaluating key fragments within the molecule library to ensure the analysis is both detailed and manageable, aiming for optimal results.\n**Mixing segments**\nI\u2019m curious about combining different molecule fragments to uncover potential hit compounds. This approach explores meaningful chemical space, potentially speeding up the chemical research process.\n**Crafting results**\nI\u2019m categorizing molecules into hit, non-hit, and wherever. This helps identify precise fragments and other key findings, streamlining the analysis process and ensuring thoroughness.\n**Tracking molecules**\nI\u2019m curious about the prevalence of hit and non-hit molecules and their fragments in data increments over time, aiming to uncover precise chemical changes and trends within the molecules.\nReasoned for 6 seconds\n\n```json\n{\n    \"count\": \"2\"\n}\n```"
+    },
+    {
+        "smiles": "CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Oc2ccccc2O)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 2,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "2"
+        }
+    },
+    {
+        "smiles": "COC(=O)c1ccc(-c2ccc(C=C3SC(=O)NC3=O)o2)c(O)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "```json\n{\n    \"count\": \"1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)Cc1ccc(C#Cc2ccc(OCc3cnco3)cc2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "\n```python\n from rdkit import Chem\n\n# define molecule and fragment\nmol_smiles = \"CC(=O)NC(C)Cc1ccc(C#Cc2ccc(OCc3cnco3)cc2)cc1\"\nfrag_smiles = \"NC(=O)C\"  # fragment SMARTS? Actually fragment SMILES: -NC(=O)CH3, so N C(=O) C\n# Use SMARTS for substructure match \n# The fragment is N-C(=O)-C with the terminal C being CH3. We can specify [NX3;!$(N[*]=O)]C(=O)C\n# But simplest: NC(=O)C\nfrag = Chem.MolFromSmiles(\"NC(=O)C\")\nmol = Chem.MolFromSmiles(mol_smiles)\n\n# count matches\nmatches = mol.GetSubstructMatches(frag)\nmatches\n```\nResult: run failed\u274c \n```shell\n  No module named 'rdkit'\n```\n\n```json\n{\"count\": \"1\"}\n```"
+    },
+    {
+        "smiles": "COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": "\n```python\n from rdkit import Chem\n\n# Define molecule and fragment\nmol_smiles = \"COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1\"\nfrag_smiles = \"C(=O)O C\"  # incorrectly spaced: fragment is C(=O)OMe -> C(=O)O C, but methyl ester: C(=O)O C\n# Actually fragment SMILES: C(=O)O C with Me group: C\nfrag_smiles = \"C(=O)OC\"  # best representation: C(=O)O C (Me)\nmol = Chem.MolFromSmiles(mol_smiles)\nfrag = Chem.MolFromSmiles(frag_smiles)\n\n# Count matches\nmatches = mol.GetSubstructMatches(frag)\nlen(matches), matches\n```\nResult: run failed\u274c \n```shell\n  No module named 'rdkit'\n```\n\n```json\n{\"count\": \"1\"}\n```"
+    },
+    {
+        "smiles": "CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCC(=O)NO",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "N#Cc1ccc(Oc2ccc(NC(=O)CC(CC(=O)O)c3ccccc3)cc2)cc1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CCCCOC(=O)CC1N=C(c2ccc(Cl)cc2)c2cc(OC)ccc2-n2c(C)nnc21",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": "1"
+        }
+    },
+    {
+        "smiles": "CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OCc3ccccc3)c2)[nH]1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CCOC(=O)Nc1ncc(Oc2cc(I)c(OC)cc2C(C)C)c(N)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "task": "fg_samples",
+        "json_results": {
+            "count": 1
+        }
+    }
+]

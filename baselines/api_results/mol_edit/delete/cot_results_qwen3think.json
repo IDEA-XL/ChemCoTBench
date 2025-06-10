@@ -1,0 +1,202 @@
+[
+    {
+        "Instruction": "Modify the molecule CCN(Cc1ccccn1)c1ccc(C=O)o1 by removing a aldehyde.",
+        "molecule": "CCN(Cc1ccccn1)c1ccc(C=O)o1",
+        "removed_group": "aldehyde",
+        "reference": "CCN(Cc1ccccn1)c1ccco1",
+        "task": "delete",
+        "json_results": {
+            "output": "CCN(Cc1ccccn1)c1ccc(CO)o1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1ccc(O[C@@H](C)C(=O)NC(N)=O)c(C=O)n1 by removing a aldehyde.",
+        "molecule": "Cc1ccc(O[C@@H](C)C(=O)NC(N)=O)c(C=O)n1",
+        "removed_group": "aldehyde",
+        "reference": "Cc1ccc(O[C@@H](C)C(=O)NC(N)=O)cn1",
+        "task": "delete",
+        "json_results": {
+            "output": "Cc1ccc(O[C@@H](C)C(=O)NC(N)=O)c(C)n1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C(Cn1nnc(-c2ccccc2Cl)n1)N/N=C/c1cc(Cl)ccc1O by removing a amide.",
+        "molecule": "O=C(Cn1nnc(-c2ccccc2Cl)n1)N/N=C/c1cc(Cl)ccc1O",
+        "removed_group": "amide",
+        "reference": "Cn1nnc(-c2ccccc2Cl)n1.N/N=C/c1cc(Cl)ccc1O",
+        "task": "delete",
+        "json_results": {
+            "output": "O=C(Cn1nnc(-c2ccccc2Cl)n1)Nc1cc(Cl)ccc1O"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC[C@@H](NC(=O)[C@@H]1Cc2cc(C)c(C)cc2O1)c1nc2ccccc2[nH]1 by removing a amide.",
+        "molecule": "CC[C@@H](NC(=O)[C@@H]1Cc2cc(C)c(C)cc2O1)c1nc2ccccc2[nH]1",
+        "removed_group": "amide",
+        "reference": "CC[C@@H]([C@@H]1Cc2cc(C)c(C)cc2O1)c1nc2ccccc2[nH]1",
+        "task": "delete",
+        "json_results": {
+            "output": "CC[C@@H](N[C@@H]1Cc2cc(C)c(C)cc2O1)c1nc2ccccc2[nH]1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C(Nc1ccc(Nc2ccccc2)cc1)c1ccc(O)nc1 by removing a amine.",
+        "molecule": "O=C(Nc1ccc(Nc2ccccc2)cc1)c1ccc(O)nc1",
+        "removed_group": "amine",
+        "reference": "O=C(Nc1ccccc1)c1ccc(O)nc1",
+        "task": "delete",
+        "json_results": {
+            "output": "O=C(Nc1ccc(Nc2ccccc2)cc1)c1ccc(O)nc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Nc1cc2[nH]c(=O)[nH]c2cc1S(=O)(=O)[O-] by removing a amine.",
+        "molecule": "Nc1cc2[nH]c(=O)[nH]c2cc1S(=O)(=O)[O-]",
+        "removed_group": "amine",
+        "reference": "c1cc2[nH]c(=O)[nH]c2cc1S(=O)(=O)[O-]",
+        "task": "delete",
+        "json_results": {
+            "output": "c1cc2[nH]c(=O)[nH]c2cc1S(=O)(=O)[O-]"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule COc1ccc(CCNc2ncnc3sc(C(=O)[O-])c(C)c23)cc1OC by removing a benzene_ring.",
+        "molecule": "COc1ccc(CCNc2ncnc3sc(C(=O)[O-])c(C)c23)cc1OC",
+        "removed_group": "benzene_ring",
+        "reference": "CCNc1ncnc2sc(C(=O)[O-])c(C)c12",
+        "task": "delete",
+        "json_results": {
+            "output": "COc1ccc(CCNc2ncnc3sc(C(=O)[O-])c(C)c23)cc1OC"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC(=O)Nc1ccc(C[NH+]2CCC(C3CCOCC3)CC2)cc1 by removing a benzene_ring.",
+        "molecule": "CC(=O)Nc1ccc(C[NH+]2CCC(C3CCOCC3)CC2)cc1",
+        "removed_group": "benzene_ring",
+        "reference": "CC(=O)N.C[NH+]1CCC(C2CCOCC2)CC1",
+        "task": "delete",
+        "json_results": {
+            "output": "CC(=O)Nc1ccc(C[NH+]2CCC(C3CCOCC3)CC2)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C(NCc1nncn1C1CC1)Nc1cccc(Cl)c1F by removing a halo.",
+        "molecule": "O=C(NCc1nncn1C1CC1)Nc1cccc(Cl)c1F",
+        "removed_group": "halo",
+        "reference": "O=C(NCc1nncn1C1CC1)Nc1cccc(Cl)c1",
+        "task": "delete",
+        "json_results": {
+            "output": "O=C(NCc1nncn1C1CC1)Nc1cccc(c1)F"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C(NCCC(=O)N1CCN(S(=O)(=O)c2ccc(Cl)cc2)CC1)Nc1ccccc1 by removing a halo.",
+        "molecule": "O=C(NCCC(=O)N1CCN(S(=O)(=O)c2ccc(Cl)cc2)CC1)Nc1ccccc1",
+        "removed_group": "halo",
+        "reference": "O=C(NCCC(=O)N1CCN(S(=O)(=O)c2ccccc2)CC1)Nc1ccccc1",
+        "task": "delete",
+        "json_results": {
+            "output": "O=C(NCCC(=O)N1CCN(S(=O)(=O)c2ccccl1)CC1)Nc1ccccc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C(CC1(n2cccc2)CCCCC1)NCCO by removing a hydroxyl.",
+        "molecule": "O=C(CC1(n2cccc2)CCCCC1)NCCO",
+        "removed_group": "hydroxyl",
+        "reference": "O=C(CC1(n2cccc2)CCCCC1)NCC",
+        "task": "delete",
+        "json_results": {
+            "output": "O=C(CC1(n2cccc2)CCCCC1)NCC"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C(Cn1nc2c(cc1=O)CCCC2)N1CC[C@]2(O)CCCC[C@@H]2C1 by removing a hydroxyl.",
+        "molecule": "O=C(Cn1nc2c(cc1=O)CCCC2)N1CC[C@]2(O)CCCC[C@@H]2C1",
+        "removed_group": "hydroxyl",
+        "reference": "O=C(Cn1nc2c(cc1=O)CCCC2)N1CC[C@H]2CCCC[C@@H]2C1",
+        "task": "delete",
+        "json_results": {
+            "output": "O=C(Cn1nc2c(cc1=O)CCCC2)N1CC[C@]2(O)CCCC[C@@H]2C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCSCCOC(=O)/C=C/c1cccc(C#N)c1 by removing a nitrile.",
+        "molecule": "CCSCCOC(=O)/C=C/c1cccc(C#N)c1",
+        "removed_group": "nitrile",
+        "reference": "CCSCCOC(=O)/C=C/c1ccccc1",
+        "task": "delete",
+        "json_results": {
+            "output": "CCSCCOC(=O)/C=C/c1cccc(C)C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule N#CCC[C@H](C#N)CN1CCc2c(cccc2N2CCOC2=O)C1 by removing a nitrile.",
+        "molecule": "N#CCC[C@H](C#N)CN1CCc2c(cccc2N2CCOC2=O)C1",
+        "removed_group": "nitrile",
+        "reference": "N#CCC[C@H](C)CN1CCc2c(cccc2N2CCOC2=O)C1",
+        "task": "delete",
+        "json_results": {
+            "output": "N#CCC[C@H](C)CN1CCc2c(cccc2N2CCOC2=O)C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=[N+]([O-])c1cc(C(F)(F)F)cc(Cl)c1F by removing a nitro.",
+        "molecule": "O=[N+]([O-])c1cc(C(F)(F)F)cc(Cl)c1F",
+        "removed_group": "nitro",
+        "reference": "c1cc(C(F)(F)F)cc(Cl)c1F",
+        "task": "delete",
+        "json_results": {
+            "output": "O=[N+](O-)c1cc(C(F)(F)F)cc(Cl)c1F"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C([O-])CCCC(=O)Nc1ccc([N+](=O)[O-])cc1 by removing a nitro.",
+        "molecule": "O=C([O-])CCCC(=O)Nc1ccc([N+](=O)[O-])cc1",
+        "removed_group": "nitro",
+        "reference": "O=C([O-])CCCC(=O)Nc1ccccc1",
+        "task": "delete",
+        "json_results": {
+            "output": "O=C([O-])CCCC(=O)Nc1ccc([O-])cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Sc1sccc1/C=N/c1ccc2ccccc2c1 by removing a thiol.",
+        "molecule": "Sc1sccc1/C=N/c1ccc2ccccc2c1",
+        "removed_group": "thiol",
+        "reference": "c1sccc1/C=N/c1ccc2ccccc2c1",
+        "task": "delete",
+        "json_results": {
+            "output": "c1sccc1/C=N/c1ccc2ccccc2c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule SCC1(COC2CCCC2)CC1 by removing a thiol.",
+        "molecule": "SCC1(COC2CCCC2)CC1",
+        "removed_group": "thiol",
+        "reference": "CC1(COC2CCCC2)CC1",
+        "task": "delete",
+        "json_results": {
+            "output": "SC1(COC2CCCC2)CC1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule COC(=O)c1ccc(NC(=O)C2CCN(C(=O)O)CC2)cc1 by removing a carboxyl.",
+        "molecule": "COC(=O)c1ccc(NC(=O)C2CCN(C(=O)O)CC2)cc1",
+        "removed_group": "carboxyl",
+        "reference": "COC(=O)c1ccc(NC(=O)C2CCNCC2)cc1",
+        "task": "delete",
+        "json_results": {
+            "output": "COC(=O)c1ccc(NC(=O)C2CCNCC2)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C(O)C2CCCN2C(=O)[C@H](NC(=O)c3ccccc3)C(=O)O by removing a carboxyl.",
+        "molecule": "O=C(O)C2CCCN2C(=O)[C@H](NC(=O)c3ccccc3)C(=O)O",
+        "removed_group": "carboxyl",
+        "reference": "C2CCCN2C(=O)[C@H](NC(=O)c3ccccc3)C(=O)O",
+        "task": "delete",
+        "json_results": {
+            "output": "C2CCCN2C(=O)[C@H](NC(=O)c3ccccc3)C(=O)O"
+        }
+    }
+]

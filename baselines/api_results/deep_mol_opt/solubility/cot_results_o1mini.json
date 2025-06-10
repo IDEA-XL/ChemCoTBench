@@ -1,0 +1,1102 @@
+[
+    {
+        "src_smiles": "CC(C)(C)Nc1cc(-c2ccccc2)nc2ccccc12",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a t-butylamino group attached to a fused aromatic ring system comprising phenyl and pyridine rings. The structure includes two interconnected benzene rings fused with a pyridine moiety, creating a tricyclic system.",
+            "Property Analysis": "The compound exhibits high lipophilicity due to the presence of multiple aromatic rings and a bulky t-butyl group. While this structure may offer favorable interactions in non-polar environments, its solubility in water is significantly limited.",
+            "Limitation in Source Molecule for Property": "The bulky t-butyl group and extensive hydrophobic aromatic rings reduce the molecule's water solubility by increasing its overall hydrophobic character and steric hindrance, which hampers interactions with polar solvents like water.",
+            "Optimization for Source Molecule": "To enhance water solubility, the bulky t-butyl group can be replaced with a smaller, more polar functional group such as a hydroxyl or amino group. Additionally, introducing polar substituents like hydroxyl or methyl groups on the aromatic rings can increase hydrophilicity. Reducing the overall lipophilicity by minimizing large hydrophobic regions will also contribute to improved solubility.",
+            "Final Target Molecule": "CCN(c1cc(-c2ccccc2)nc2ccccc12)O"
+        }
+    },
+    {
+        "src_smiles": "Cc1sc(NC(=O)C=Cc2ccco2)c(C(=O)OC(C)C)c1C",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a thiazole ring substituted with a methyl group, a carbamate linkage connected to a vinylated thienyl group, and an ester-functionalized side chain. Specifically, it features a methyl group attached to the thiazole ring, a carbamate (NC(=O)) linked to a vinyl group (C=C) connected to a thiophene ring, and an isopropyl ester moiety attached to the thiazole.",
+            "Property Analysis": "The compound exhibits low to moderate water solubility. The presence of aromatic rings and ester functionalities contributes to hydrophobic character, while the carbamate linkage offers some potential for hydrogen bonding. However, the overall balance of polar and non-polar groups results in limited solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The primary limitation affecting water solubility is the high degree of hydrophobicity due to multiple aromatic rings and the presence of an isopropyl ester group. These non-polar regions reduce the molecule's ability to interact favorably with water molecules, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups and reduce hydrophobic regions. Specifically, replacing the isopropyl ester with a more hydrophilic group such as a carboxylic acid or hydroxyl group can increase polarity. Additionally, adding hydroxyl or amino substituents to the aromatic rings can provide sites for hydrogen bonding, further improving solubility.",
+            "Final Target Molecule": "Cc1sc(NC(=O)C=Cc2ccco2)c(C(=O)O)c1C"
+        }
+    },
+    {
+        "src_smiles": "CCN(C)c1ncnc2c1ncn2Cc1ccccc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule, CCN(C)c1ncnc2c1ncn2Cc1ccccc1, consists of a dimethylaminoethyl side chain attached to a fused heterocyclic system, specifically a triazine ring, which is further connected to a tolyl (methylphenyl) group. The molecule contains both aromatic and heteroaromatic rings, as well as basic nitrogen atoms in the triazine moiety.",
+            "Property Analysis": "The compound exhibits moderate to low solubility in water. This is due to the presence of hydrophobic aromatic rings and limited polar functional groups, which reduce its ability to interact favorably with water molecules.",
+            "Limitation in Source Molecule for Property": "The primary limitation affecting water solubility is the extensive hydrophobic aromatic (tolyl) group and the rigid fused heterocyclic triazine system. These structural features decrease the overall polarity of the molecule and limit hydrogen-bonding interactions with water.",
+            "Optimization for Source Molecule": "To enhance water solubility, the optimization strategy involves introducing polar functional groups and reducing hydrophobic regions. Specifically, replacing the hydrophobic tolyl group with a more polar substituent, such as a hydroxyl or carboxyl group, can increase solubility. Additionally, introducing ether linkages or reducing the size of the aromatic system can further improve hydrophilicity.",
+            "Final Target Molecule": "CCN(C)c1ncnc2c1ncn2COc1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "O=C(NC(Cc1c[nH]c2ccccc12)C(=O)O)c1ccc(Cl)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features an amide linkage connecting a chlorinated benzoyl group to a substituted side chain. The side chain includes a carbon connected to a purine-like fused aromatic system and a carboxylic acid group, resulting in a complex structure with multiple aromatic rings and polar functional groups.",
+            "Property Analysis": "The compound has moderate water solubility attributed to the presence of polar functional groups such as amide and carboxylic acid. However, the extensive aromatic system contributes to hydrophobic character, which can limit solubility.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of a chlorine substituent increase the molecule's hydrophobic nature, reducing its overall solubility in water.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar groups such as hydroxyl groups and replace the hydrophobic chlorine atom with a more hydrophilic substituent like a hydroxyl group. This modification reduces the molecule's hydrophobicity and increases its ability to form hydrogen bonds with water.",
+            "Final Target Molecule": "O=C(NC(Cc1c[nH]c2ccccc12)C(=O)O)c1ccc(O)cc1"
+        }
+    },
+    {
+        "src_smiles": "CC1(C)N=C(N)N=C(N)N1c1ccc(I)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule CC1(C)N=C(N)N=C(N)N1c1ccc(I)cc1 consists of a cyclic structure with multiple nitrogen atoms forming a conjugated system, and an iodine-substituted benzene ring. The presence of the iodine atom contributes to the molecule's hydrophobic character and increases its molecular weight.",
+            "Property Analysis": "The molecule exhibits low water solubility due to its large hydrophobic aromatic regions and the presence of the iodine atom, which is nonpolar.",
+            "Limitation in Source Molecule for Property": "The bulky iodine substituent and extensive aromatic system hinder the molecule's ability to interact favorably with water, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "To enhance solubility, replace the iodine atom with a more hydrophilic group such as hydroxyl or amino. Additionally, introducing polar functional groups or solubilizing linkers can increase the overall polarity of the molecule.",
+            "Final Target Molecule": "CC1(C)N=C(N)N=C(N)N1c1ccc(O)cc1"
+        }
+    },
+    {
+        "src_smiles": "CCOc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a bicyclic heteroaromatic core with two nitrogen atoms. An ethoxy group is attached to the aromatic ring, and there is an amide functional group linked to a phenyl ring. The presence of both aromatic rings and amide groups contributes to the molecule's overall structure and properties.",
+            "Property Analysis": "The molecule has moderate hydrophobic character due to the aromatic rings and ethoxy group. The presence of amide groups may offer some hydrogen bonding capability, but overall water solubility is limited due to the size and lipophilic portions of the structure.",
+            "Limitation in Source Molecule for Property": "The bulky aromatic rings and ethoxy substituent increase hydrophobicity, reducing the molecule's solubility in water. Limited polar functional groups restrict the formation of hydrogen bonds with water, further decreasing solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce additional polar or ionizable groups, reduce the bulkiness of hydrophobic regions, or increase the number of hydrogen bond donors/acceptors. Possible modifications include replacing the ethoxy group with hydroxyl or carboxyl groups, adding sulfonic acid groups, or introducing charged moieties to enhance hydrophilicity.",
+            "Final Target Molecule": "CCOc1n[nH]c2cc(NC(=O)NC(C)(O)C)c3ccccc3ncc12"
+        }
+    },
+    {
+        "src_smiles": "Cc1noc(C)c1C(=O)N1CCC2CC(c3ccncn3)OC2C1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a triazole ring substituted with a methyl group and connected to a cyclic structure containing nitrogen and oxygen atoms. It features a fused ring system with both aromatic and non-aromatic components, contributing to its overall molecular architecture.",
+            "Property Analysis": "The compound exhibits limited water solubility, which may affect its bioavailability and effectiveness in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The molecule contains multiple hydrophobic aromatic rings and lacks sufficient polar functional groups, reducing its ability to form hydrogen bonds and interact favorably with water molecules.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl (-OH) or amino (-NH\u2082) groups to enhance hydrogen bonding capabilities. Alternatively, add ionic moieties to increase solubility through charge interactions with water.",
+            "Final Target Molecule": "Cc1noc(C)c1C(=O)N1CCC2CC(c3ccncn3)OC2C1O"
+        }
+    },
+    {
+        "src_smiles": "CC(C)(C)n1ncc2c1NC(=O)CC2c1cccs1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a bulky tert-butyl group (CC(C)(C)), a bicyclic structure with nitrogen atoms (n1ncc2c1NC), an amide linkage (C(=O)), a piperazine ring (CC2), and a thioether-containing aromatic ring (c1cccs1). The molecule exhibits both hydrophobic and hydrophilic regions.",
+            "Property Analysis": "Water solubility is influenced by the molecule's ability to form hydrogen bonds, its polarity, and the balance between hydrophilic and hydrophobic groups. Enhanced solubility requires increasing polar functional groups and reducing hydrophobic regions.",
+            "Limitation in Source Molecule for Property": "The presence of bulky hydrophobic tert-butyl groups and the thioether-containing aromatic ring reduce the molecule's overall polarity, limiting its ability to interact effectively with water molecules and thus decreasing solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce polar functional groups such as hydroxyl (-OH) or carboxyl (-COOH) groups. Replace bulky hydrophobic tert-butyl groups with smaller, more polar substituents. Modify the thioether group to a more hydrophilic sulfoxide or sulfonyl group to increase polarity.",
+            "Final Target Molecule": "CC(O)N1ncc2c1NC(=O)CC2c1ccso1"
+        }
+    },
+    {
+        "src_smiles": "CN1CC2C=C(c3cncc(Oc4ccccc4)c3)CC(C2)C1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a bicyclic structure containing a nitrogen atom fused within two rings. It features a pyridine ring substituted with a methoxyphenyl group, contributing to its aromatic and rigid framework.",
+            "Property Analysis": "The compound exhibits low water solubility, primarily due to its extensive aromatic systems and hydrophobic regions, which limit its interaction with polar water molecules.",
+            "Limitation in Source Molecule for Property": "The presence of multiple aromatic rings and the lack of polar or ionizable functional groups significantly reduce the molecule's ability to dissolve in water.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl (-OH) groups or ionizable groups like carboxylates (-COOH) to increase hydrophilicity. For instance, adding a hydroxyl group to the pyridine ring can enhance solubility.",
+            "Final Target Molecule": "CN1CC2C=C(c3cncc(Oc4ccccc4)c3O)CC(C2)C1"
+        }
+    },
+    {
+        "src_smiles": "CCOC(=O)C(NC(=O)c1ccccc1)c1ccccc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule CCOC(=O)C(NC(=O)c1ccccc1)c1ccccc1 consists of an ethyl ester group connected to a central carbonyl-bearing carbon, which is bonded to a nitrogen atom. The nitrogen is further connected to another carbonyl group and two phenyl (benzene) rings. Overall, the molecule contains ester, amide, and aromatic moieties.",
+            "Property Analysis": "The molecule exhibits moderate hydrophobic characteristics due to the presence of two aromatic phenyl rings and ester groups, which can limit its solubility in water. The amide linkage may provide some hydrogen bonding capacity, potentially enhancing solubility to a limited extent.",
+            "Limitation in Source Molecule for Property": "The high degree of hydrophobic aromatic rings and ester groups significantly reduce the molecule's solubility in water. The limited number of hydrogen bond donors and acceptors restricts water interaction, making the compound less soluble.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce hydrophilic functional groups such as hydroxyl or amino groups. Alternatively, increase the polarity of the molecule by adding polar substituents or introducing ionic groups. Reducing the number of aromatic rings could also decrease hydrophobic character.",
+            "Final Target Molecule": "CCOC(=O)C(NC(=O)c1ccccc1)C(O)c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "CCC(C)C(=O)N1CCC(NC(=O)NC2CCCCCC2)CC1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central amide linkage connecting a branched alkyl chain to a piperidine ring, which is further linked to another amide connected to a cyclohexyl group. The molecule exhibits significant hydrophobic character due to the presence of the cyclohexyl moiety and multiple alkyl chains.",
+            "Property Analysis": "The compound currently has low solubility in water, which may limit its bioavailability and effectiveness in aqueous environments. The presence of amide groups provides potential sites for hydrogen bonding, which could be leveraged to enhance solubility.",
+            "Limitation in Source Molecule for Property": "The high hydrophobicity arising from the cyclohexyl group and the alkyl chains outweighs the hydrophilic contributions of the amide groups, resulting in poor aqueous solubility.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl or carboxyl groups to increase hydrophilicity. Replace some of the hydrophobic alkyl chains with more polar or ionizable groups. Alternatively, reduce the size of the cyclohexyl moiety to decrease overall hydrophobic interactions.",
+            "Final Target Molecule": "CC(C)C(=O)N1CCC(NC(=O)NC2CCOCC2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCCCCOC(=O)Cc1ccc2c(c1)C(=O)c1ccccc1CO2",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The molecule consists of a pentyl ether linked to a carbonyl group, followed by a complex fused aromatic system containing multiple benzene rings and a bridging oxygen atom. It has a relatively large and hydrophobic structure.",
+            "Property Analysis": "The compound has low solubility in water due to its extensive hydrophobic aromatic system and limited hydrophilic functional groups.",
+            "Limitation in Source Molecule for Property": "The high number of aromatic rings and nonpolar alkyl chains reduce the overall polarity, limiting the interaction with water molecules necessary for solubility.",
+            "Optimization for Source Molecule": "Introduce additional hydrophilic functional groups such as hydroxyl groups and reduce the overall hydrophobicity by modifying or removing certain aromatic rings to increase polarity and hydrogen bonding capability.",
+            "Final Target Molecule": "CCCCCOC(=O)Cc1ccc2c(c1)C(=O)c1ccccc1CO2O"
+        }
+    },
+    {
+        "src_smiles": "CSC1OC(n2cnc3c(N)nc(F)nc32)C(O)C1O",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule, CSC1OC(n2cnc3c(N)nc(F)nc32)C(O)C1O, comprises a cyclic structure featuring a dioxane ring substituted with hydroxyl groups and a sulfur atom. Additionally, it contains a fused heterocyclic moiety with nitrogen and fluorine atoms, contributing to its overall structural complexity.",
+            "Property Analysis": "The compound exhibits moderate solubility in water due to the presence of multiple hydroxyl (-OH) groups and polar nitrogen atoms. These functionalities can engage in hydrogen bonding with water molecules, enhancing solubility. However, the presence of fluorine and sulfur may impact its hydrophilicity.",
+            "Limitation in Source Molecule for Property": "Despite the polar functional groups, the molecule's overall size and the presence of the fluorine atom and cyclic ether may limit its water solubility. The internal hydrogen bonding between hydroxyl groups and nitrogen atoms can reduce their availability to interact with water, thereby restricting solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce additional hydroxyl or amine groups to increase hydrogen bonding capacity. Alternatively, replace the fluorine atom with a more hydrophilic substituent or reduce the molecular size by modifying the cyclic structure to enhance polar interactions with water.",
+            "Final Target Molecule": "CSC1O[C](O)C(O)C1O"
+        }
+    },
+    {
+        "src_smiles": "CCN(CC)c1n[n+]([O-])c2ccccc2[n+]1[O-]",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a dimethylamino group attached to a pyridine ring that is N-oxidized at two nitrogen positions, resulting in a quaternary ammonium center with corresponding negative oxide groups.",
+            "Property Analysis": "The molecule exhibits ionic character due to the charged groups, which confers moderate water solubility. However, the presence of bulky aromatic rings may limit its overall hydrophilicity.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and limited hydrogen bonding sites restrict the molecule's ability to interact effectively with water, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "Introduce additional hydroxyl (-OH) groups to increase hydrogen bonding capacity and reduce aromatic substitution to enhance polarity, thereby improving water solubility.",
+            "Final Target Molecule": "CCN(CC)C1N([O-])c2cc(c(c2O)O)ccc1[N+]([O-])"
+        }
+    },
+    {
+        "src_smiles": "CCNc1ccc(S(=O)(=O)c2ccc(N)cc2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a secondary ethylamino group attached to a benzene ring. This benzene ring is further substituted with a sulfonyl group linked to another benzene ring that bears a primary amino group. The presence of both amine and sulfonyl functional groups contributes to the molecule's overall chemical properties.",
+            "Property Analysis": "The molecule exhibits moderate water solubility due to the presence of polar functional groups such as the sulfonyl and amino groups. These groups can engage in hydrogen bonding and ionic interactions with water molecules, enhancing solubility.",
+            "Limitation in Source Molecule for Property": "Despite the polar groups, the molecule contains relatively large hydrophobic aromatic rings and a secondary amine group, which can reduce its overall solubility in water. The secondary amine may also limit the formation of strong hydrogen bonds compared to primary amines.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce additional polar or ionizable groups. One approach is to replace the secondary ethylamino group with a quaternary ammonium group, increasing the molecule's ionic character. Alternatively, adding hydroxyl groups to the aromatic rings can enhance hydrogen bonding capabilities. Introducing sulfonate groups can also significantly improve solubility by increasing ionic interactions with water.",
+            "Final Target Molecule": "CN(C)C1=CC=C(S(=O)(=O)C2=CC=C(N)C=C2)C=C1"
+        }
+    },
+    {
+        "src_smiles": "Brc1ccc(OCCCCN2CCCCC2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is 2-bromo-4-(4-(piperidin-1-yl)butoxy)phenol, comprising a brominated benzene ring substituted with a hydroxyl group connected via a four-carbon ether linker to a piperidine ring.",
+            "Property Analysis": "The molecule exhibits both hydrophilic and hydrophobic characteristics. The hydroxyl group and piperidine moiety contribute to potential hydrogen bonding and polarity, which can enhance solubility in water. However, the bromine atom and the piperidine ring also introduce significant hydrophobicity, which may impede water solubility.",
+            "Limitation in Source Molecule for Property": "The presence of the bromine atom and the bulky piperidine ring increases the molecule's hydrophobic nature, reducing its overall solubility in water. Additionally, the existing polar groups may not be sufficient to overcome the hydrophobic effects of these substituents.",
+            "Optimization for Source Molecule": "To improve water solubility, the bromine atom can be replaced with a more hydrophilic substituent such as a hydroxyl group. Introducing additional polar or hydrogen-bonding functional groups can further enhance solubility. For example, converting the bromine to a hydroxyl group would increase the molecule's polarity and its ability to interact with water molecules.",
+            "Final Target Molecule": "c1ccc(OCCCCN2CCCCC2)cc1O"
+        }
+    },
+    {
+        "src_smiles": "FC(F)(F)c1ccccc1-c1nccc(NCc2ccccc2)n1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a trifluoromethyl-substituted phenyl ring connected to a pyridine ring, which is further substituted with an N-phenyl aniline moiety. The presence of multiple aromatic rings and highly electronegative fluorine atoms contributes to the molecule's overall structure.",
+            "Property Analysis": "The compound exhibits high lipophilicity due to the multiple aromatic systems and the trifluoromethyl groups. While these features can enhance interactions with non-polar environments, they generally reduce the molecule's solubility in polar solvents like water.",
+            "Limitation in Source Molecule for Property": "The extensive hydrophobic character from the aromatic rings and trifluoromethyl groups hinders the molecule's ability to dissolve in water. Additionally, the lack of polar functional groups limits potential hydrogen bonding with water molecules.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce hydrophilic functional groups such as hydroxyl (-OH) or sulfonate (-SO\u2083H) groups. These additions can increase the molecule's polarity and enable hydrogen bonding with water. Alternatively, reducing the number of hydrophobic aromatic rings or incorporating polar substituents can also enhance solubility.",
+            "Final Target Molecule": "FC(F)(F)c1ccccc1-c1nccc(NCc2ccccc2S(=O)(=O)[O-])n1"
+        }
+    },
+    {
+        "src_smiles": "CC(=O)N(O)c1ccc(C=Cc2ccccc2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule, represented by the SMILES string CC(=O)N(O)c1ccc(C=Cc2ccccc2)cc1, consists of an acetyl group (CC(=O)) attached to a hydroxylamine moiety (N(O)), which is connected to a substituted benzene ring. The benzene ring is further substituted with a stilbene moiety (C=Cc2ccccc2), making the molecule relatively rigid and aromatic.",
+            "Property Analysis": "The compound exhibits limited water solubility due to its extensive hydrophobic aromatic system and the presence of only one hydrophilic group (hydroxylamine). The molecule has potential hydrogen bonding capabilities but is dominated by nonpolar regions.",
+            "Limitation in Source Molecule for Property": "The primary limitation affecting water solubility is the molecule's high degree of hydrophobicity resulting from multiple aromatic rings and the absence of sufficient hydrophilic functional groups to engage in strong interactions with water molecules.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic functional groups such as hydroxyl (-OH) groups on the aromatic rings to increase the number of hydrogen bond donors and acceptors. Alternatively, attaching a sulfonate (-SO3H) group could significantly increase solubility. Minimizing hydrophobic regions by reducing the number of aromatic rings or introducing polar substituents could also be beneficial.",
+            "Final Target Molecule": "CC(=O)N(O)c1c(O)cc(C=Cc2ccccc2)cc1"
+        }
+    },
+    {
+        "src_smiles": "CCCCOc1ccc(C(=O)N2CCCC2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule, CCCCOc1ccc(C(=O)N2CCCC2)cc1., consists of a butyl ether group (CCCCO) attached to a benzene ring, which is further substituted with a piperidine-linked amide group (C(=O)N2CCCC2).",
+            "Property Analysis": "The compound has moderate water solubility due to the presence of polar functional groups such as the ether and amide. However, the hydrophobic butyl chain and the aromatic ring contribute to overall lipophilicity, limiting its solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The long hydrophobic butyl ether chain and the aromatic benzene ring increase the molecule's lipophilicity, which adversely affects its water solubility. Additionally, the piperidine ring adds to the hydrophobic character, further reducing solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, the hydrophobic butyl ether chain can be replaced with more hydrophilic substituents such as hydroxyl groups or shorter alkyl chains. Introducing polar functional groups like hydroxyl (-OH) or sulfonamide (-SO\u2082NH\u2082) groups can increase hydrogen bonding with water, thereby improving solubility.",
+            "Final Target Molecule": "CCCOc1ccc(C(=O)N2CCCC2)cc1O"
+        }
+    },
+    {
+        "src_smiles": "CCCCOc1ccccc1NC(=O)NC1CC2CCC(C1)N2C",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a pentyl ether attached to a benzamide linked to a piperazine ring. It features both hydrophobic components (alkyl chain, aromatic ring) and polar functional groups (amide linkage).",
+            "Property Analysis": "The compound exhibits moderate water solubility due to polar amide groups but is limited by the presence of hydrophobic alkyl chains and aromatic rings.",
+            "Limitation in Source Molecule for Property": "The long hydrophobic alkyl chain and aromatic ring reduce overall water solubility, counteracting the solubilizing effect of the polar amide groups.",
+            "Optimization for Source Molecule": "To enhance water solubility, the hydrophobic alkyl chain can be shortened or replaced with more polar substituents. Additionally, introducing hydroxyl or amino groups could increase polarity and hydrogen bonding capacity.",
+            "Final Target Molecule": "CCOc1ccccc1NC(=O)NC1CC2CCC(C1)N2C"
+        }
+    },
+    {
+        "src_smiles": "O=C(CN1CCCCC1)Nc1ccccc1Oc1ccccc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central ketone group linked to a piperidine ring and a urea functional group. Additionally, it contains two methoxy-substituted phenyl rings, contributing to its overall aromatic and lipophilic nature.",
+            "Property Analysis": "The compound is characterized by low water solubility due to its multiple aromatic rings and limited presence of hydrophilic functional groups.",
+            "Limitation in Source Molecule for Property": "The high lipophilicity imparted by multiple aromatic rings and methoxy groups restricts the molecule's ability to interact favorably with water, thereby decreasing its solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic functional groups such as hydroxyl groups and reduce lipophilicity by modifying or removing some aromatic rings.",
+            "Final Target Molecule": "O=C(CN1CCCCC1)Nc1ccccc1Oc1ccc(O)cc1"
+        }
+    },
+    {
+        "src_smiles": "Clc1cccc(-c2ccc(N3CCOCC3)nc2)c1Cl",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzene ring substituted with two chlorine atoms at the 1 and 4 positions. Attached to this ring is a secondary aromatic ring that is further connected to a bicyclic structure containing nitrogen and oxygen atoms (N3CCOCC3). This combination of aromatic and heterocyclic components contributes to the molecule's overall stability and hydrophobic character.",
+            "Property Analysis": "The molecule exhibits limited water solubility primarily due to its hydrophobic aromatic rings and chlorinated substituents. While the heterocyclic moiety introduces some polar characteristics, the overall structure lacks sufficient hydrophilic groups to interact favorably with water molecules.",
+            "Limitation in Source Molecule for Property": "The presence of two chlorine atoms increases the molecule's lipophilicity, reducing its ability to dissolve in water. Additionally, the absence of strong hydrogen bonding sites or other polar functional groups limits interactions with water, further hindering solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce polar functional groups such as hydroxyl (-OH) or amino (-NH2) groups to enhance hydrogen bonding capability. Alternatively, replace one or both chlorine atoms with more hydrophilic substituents like sulfonic acid groups (-SO3H) or reduce the number of chlorine atoms to decrease overall lipophilicity.",
+            "Final Target Molecule": "Clc1ccc(cc1O)N2CCOCC2"
+        }
+    },
+    {
+        "src_smiles": "FC(F)(F)c1ccc2c(c1)nc1n2CCOc2ccccc2-1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule FC(F)(F)c1ccc2c(c1)nc1n2CCOc2ccccc2-1 consists of a trifluoromethyl group attached to a phenyl ring, fused with a pyrimidine ring. Additionally, it contains an ether linkage connecting to a diphenyl ether moiety. The presence of fluorine atoms and aromatic rings contributes to the molecule's overall hydrophobicity.",
+            "Property Analysis": "The molecule exhibits low water solubility due to its highly hydrophobic aromatic rings and multiple fluorine substituents. These structural features limit the molecule's ability to interact favorably with water molecules.",
+            "Limitation in Source Molecule for Property": "The primary limitation affecting solubility is the presence of bulky, hydrophobic aromatic rings and the trifluoromethyl group, which reduces the molecule's polarity and ability to form hydrogen bonds with water.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce polar functional groups such as hydroxyl (-OH) or amino (-NH\u2082) groups. Alternatively, reduce the number of fluorine atoms or replace them with more hydrophilic substituents. Incorporating charged groups like sulfonic acid (-SO\u2083H) or carboxylate (-COO\u207b) can also improve solubility.",
+            "Final Target Molecule": "FC(F)c1ccc2c(c1)nc1n2CCO[C@H](O)c3ccccc3"
+        }
+    },
+    {
+        "src_smiles": "Cc1ccc(-c2nc3ccc(C)cn3c2Cc2ccsc2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central aromatic benzene ring substituted with a methyl group and a complex heterocyclic moiety. The heterocyclic portion includes a fused system of triazine and thiazole rings, contributing to the molecule's overall aromaticity and rigidity.",
+            "Property Analysis": "The molecule exhibits low water solubility due to its extensive aromatic system and lack of polar functional groups. Its hydrophobic character is primarily driven by multiple aromatic rings and non-polar carbon chains.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and absence of hydrophilic functional groups limit the molecule's ability to form hydrogen bonds with water, resulting in poor solubility.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl (-OH) or sulfonic acid (-SO\u2083H) to increase hydrophilicity. Adding these groups can enhance the molecule's ability to form hydrogen bonds with water, thereby improving solubility. Additionally, reducing the overall hydrophobic surface area by modifying or removing certain aromatic rings may further enhance solubility.",
+            "Final Target Molecule": "Cc1ccc(-c2nc3ccc(C)cn3c2C(Cc2ccsc2)O)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1cccc(C(C)Nc2cc(-c3ccccc3F)nc(C)n2)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy-substituted benzene ring attached to a dihydropyrimidine core. The structure includes multiple nitrogen atoms and a fluorinated phenyl group, indicating the presence of both electron-donating and electron-withdrawing functional groups. The molecule has a relatively rigid aromatic system with potential sites for hydrogen bonding.",
+            "Property Analysis": "The compound exhibits moderate solubility in water. The presence of polar functional groups such as amines and fluorine atoms contributes to its hydrophilic character. However, the extensive aromatic system and methyl groups may hinder solubility due to increased hydrophobic interactions.",
+            "Limitation in Source Molecule for Property": "The primary limitations to water solubility in the source molecule include the bulky aromatic rings and the presence of methyl groups, which enhance hydrophobicity. Additionally, intramolecular hydrogen bonding may reduce the availability of polar groups for interaction with water molecules.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce additional hydrophilic groups such as hydroxyl or carboxyl groups. Reducing the number of methyl groups or replacing them with more polar substituents can decrease hydrophobic interactions. Introducing flexible linkers between the aromatic rings may also enhance solubility by reducing molecular rigidity and allowing better interaction with water.",
+            "Final Target Molecule": "COc1cccc(C(C)Nc2cc(-c3ccccc3F)nc(C)n2)c1O"
+        }
+    },
+    {
+        "src_smiles": "CCCN1CCC(COc2nc3ccsc3n3cccc23)CC1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The molecule comprises a piperidine ring attached to a propyl chain and a complex fused heterocyclic system featuring ether and nitrogen-containing rings.",
+            "Property Analysis": "The compound has limited water solubility due to its hydrophobic piperidine ring and aromatic heterocyclic structures.",
+            "Limitation in Source Molecule for Property": "Presence of non-polar rings and lack of polar functional groups reduce water solubility.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl groups to increase hydrophilicity and enhance hydrogen bonding with water.",
+            "Final Target Molecule": "CCCOC1CC(CO)CCC1COc2nc3ccsc3n3cccc23"
+        }
+    },
+    {
+        "src_smiles": "O=C(Nc1ccccc1)Nc1ccc(C(=O)N2CCCC2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a bis(urea) structure connected to two phenyl rings and a piperidine ring. Specifically, it has two urea linkages: one connecting to a phenyl ring and another connecting to a phenyl ring substituted with a piperidine-linked carbonyl group.",
+            "Property Analysis": "The molecule exhibits moderate hydrophilicity due to the presence of urea and carbonyl functional groups, which can form hydrogen bonds with water. However, the aromatic phenyl rings and the piperidine ring contribute to its overall lipophilicity, limiting its solubility in water.",
+            "Limitation in Source Molecule for Property": "The high lipophilicity from the aromatic and piperidine rings reduces the compound's ability to dissolve in water. Additionally, the lack of ionizable or highly polar groups limits its water solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic functional groups such as hydroxyl groups on the phenyl rings. Alternatively, replace the piperidine ring with a more polar group or introduce ionizable groups to increase polarity and hydrogen bonding capacity.",
+            "Final Target Molecule": "O=C(Nc1cc(O)ccc1)Nc1ccc(C(=O)O)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1-n1cccc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzene ring substituted with two methoxy groups and a side chain containing a nitrogen-rich heterocycle. Specifically, the benzene ring (c1cc(ccc1) indicates a benzene core) has methoxy substituents at the 3 and 5 positions (COc1cc(ccc1OC)) and a side chain Cc2cnc(N)nc2N attached, which suggests a pyrimidine-like moiety with amino groups. Additionally, there is an aniline component (-n1cccc1.) indicating a nitrogen attached to another aromatic ring.",
+            "Property Analysis": "The compound currently exhibits limited water solubility due to its predominantly aromatic and nonpolar characteristics. Although it contains nitrogen atoms, they are part of an aromatic heterocycle, which does not significantly enhance solubility. The presence of methoxy groups provides some polarity but insufficient for high solubility in water.",
+            "Limitation in Source Molecule for Property": "The main limitations for water solubility in the source molecule are its extended aromatic systems and lack of sufficient polar or ionizable functional groups. The nonpolar aromatic rings dominate the molecule's character, reducing interactions with water molecules. Additionally, the nitrogen atoms are part of stable heterocycles without available sites for ionization under physiological conditions.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar or ionizable groups. This can be achieved by adding hydroxyl (-OH) groups or sulfonic acid (-SO3H) groups to increase hydrogen bonding capabilities. Alternatively, introducing ionizable groups such as carboxylic acids (-COOH) or amino groups (-NH2) can improve solubility by increasing the molecule's ability to interact with water through ion-dipole interactions.",
+            "Final Target Molecule": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1C(=O)O"
+        }
+    },
+    {
+        "src_smiles": "CCC(O)c1ccc(OC)c(OC)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzene ring substituted with two methoxy (-OCH\u2083) groups and a 3-propanol side chain. The SMILES notation CCC(O)c1ccc(OC)c(OC)c1 indicates a propane backbone with a hydroxyl group attached to the third carbon, and a dimethoxy-substituted benzene ring.",
+            "Property Analysis": "The molecule exhibits moderate hydrophobic character due to the presence of the benzene ring and methoxy groups, along with some hydrophilicity from the hydroxyl group. However, its overall water solubility is limited.",
+            "Limitation in Source Molecule for Property": "The presence of multiple ether (methoxy) groups and a hydrophobic aromatic ring reduces the overall polarity of the molecule, hindering its ability to interact effectively with water molecules, thereby limiting its solubility in water.",
+            "Optimization for Source Molecule": "To enhance water solubility, replace the methoxy groups with hydroxyl (-OH) groups to increase hydrogen bonding capacity. Additionally, introducing more hydroxyl groups on the side chain or the aromatic ring can further improve solubility by increasing the molecule's polarity.",
+            "Final Target Molecule": "CCC(O)c1ccc(O)c(O)c1"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)CCC(=O)Nc1cccc(C(F)(F)F)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of an ester group (COC(=O)), a propanone moiety (CCC(=O)), an amide linkage (Nc1), and a trifluoromethyl-substituted phenyl ring (c1cccc(C(F)(F)F)c1).",
+            "Property Analysis": "The molecule exhibits moderate lipophilicity due to the ester and trifluoromethyl groups, which may limit its solubility in water.",
+            "Limitation in Source Molecule for Property": "The presence of the highly lipophilic trifluoromethyl (CF3) group reduces the compound's ability to dissolve in aqueous environments.",
+            "Optimization for Source Molecule": "Replace the trifluoromethyl group with a more hydrophilic substituent, such as a hydroxyl group, to enhance water solubility.",
+            "Final Target Molecule": "COC(=O)CCC(=O)Nc1cccc(CO)c1"
+        }
+    },
+    {
+        "src_smiles": "C(=Cc1ccccc1)CSc1nnc(-c2cccnc2)o1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzylidene group attached to a thioether linkage, which is connected to a heterocyclic ring containing nitrogen and oxygen atoms. Additionally, it features a pyridine ring as a substituent.",
+            "Property Analysis": "The compound exhibits low water solubility, primarily due to its extensive hydrophobic aromatic rings and the presence of a thioether group, which do not contribute to solubility.",
+            "Limitation in Source Molecule for Property": "The hydrophobic aromatic benzylidene and pyridine rings, along with the thioether linkage, significantly reduce the molecule's ability to dissolve in water.",
+            "Optimization for Source Molecule": "Introduce polar functional groups, such as hydroxyl groups, to increase hydrogen bonding potential. Specifically, adding a hydroxyl group to the pyridine ring can enhance water solubility without altering the core structure significantly.",
+            "Final Target Molecule": "C(=Cc1ccccc1)CSc1nnc(-c2ccc(nc2O))o1"
+        }
+    },
+    {
+        "src_smiles": "c1ccc(Nc2ncnc3ccc(-c4cncs4)cc23)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a multi-ring heterocyclic compound featuring a central benzene ring substituted with an amino group. This amino group is connected to a fused diazole system, comprising a 1,2,4-triazole ring fused to another benzene ring, which is further substituted with a thiocarbonyl-containing heterocycle.",
+            "Property Analysis": "The compound has limited water solubility primarily due to its extensive aromatic structure and the absence of sufficiently polar or ionizable functional groups that can form hydrogen bonds with water molecules.",
+            "Limitation in Source Molecule for Property": "The large hydrophobic aromatic rings reduce the molecule's ability to interact favorably with water, while the lack of charged or highly polar groups limits hydrogen bonding and ionic interactions that enhance solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce polar functional groups such as hydroxyl (-OH) groups to increase hydrogen bonding potential. Alternatively, adding a sulfonate (-SO\u2083H) group can introduce ionic character, significantly enhancing solubility in aqueous environments.",
+            "Final Target Molecule": "c1ccc(Nc2ncnc3ccc(-c4cncs4)cc23)cc1O"
+        }
+    },
+    {
+        "src_smiles": "Cc1c(Sc2cccc(Cl)c2)n(COCCO)c(=O)[nH]c1=O",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a heterocyclic ring system containing sulfur and nitrogen atoms. It is substituted with a methyl group, a chlorophenylthio group, and a diethylene glycol linker connected to an amide functional group.",
+            "Property Analysis": "The molecule has moderate polarity due to the presence of ether linkages and polar functional groups, which contributes to its solubility in water. However, the chlorophenyl and thioether groups introduce hydrophobic characteristics that may limit its overall solubility.",
+            "Limitation in Source Molecule for Property": "The presence of hydrophobic chlorophenyl and thioether groups reduces the compound's overall water solubility by increasing lipophilicity.",
+            "Optimization for Source Molecule": "To enhance water solubility, replace hydrophobic groups with more hydrophilic functional groups. For instance, substituting the chlorophenyl group with a hydroxyl- or amino-substituted phenyl group can increase polarity. Additionally, introducing more ether linkages or hydroxyl groups can further improve solubility.",
+            "Final Target Molecule": "Cc1c(Sc2c(ccc(O)c2)N(COCCO)c(=O)[nH]c1=O)"
+        }
+    },
+    {
+        "src_smiles": "CC1(C)CCN(c2ccc(C#Cc3cc(F)ccc3F)cn2)C(=O)O1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule, represented by the SMILES string CC1(C)CCN(c2ccc(C#Cc3cc(F)ccc3F)cn2)C(=O)O1, consists of a piperidine ring substituted with a carboxylate group. It also contains a biphenyl system with two fluorine atoms and a nitrile-functionalized alkyne moiety, contributing to its overall structure.",
+            "Property Analysis": "The compound exhibits moderate hydrophobic character due to the presence of aromatic rings and fluorine atoms, which can limit its solubility in water. The carboxylate group introduces some polarity, but the overall balance may not be sufficient for high water solubility.",
+            "Limitation in Source Molecule for Property": "The extensive hydrophobic aromatic system and multiple fluorine substituents reduce the compound's ability to interact favorably with water molecules, thereby limiting its solubility in aqueous environments.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar or ionizable groups to increase hydrophilicity. This could involve adding hydroxyl groups or sulfonate groups to the aromatic rings, or modifying the alkyne moiety to include more polar functionalities. Alternatively, reducing the number of fluorine atoms or incorporating side chains that can form hydrogen bonds with water may also improve solubility.",
+            "Final Target Molecule": "CC1(C)CCN(c2ccc(C#Cc3cc(CO)ccc3F)cn2)C(=O)O1"
+        }
+    },
+    {
+        "src_smiles": "Cn1c(=O)n(CCOc2ccc(Cl)cc2Cl)c2ccccc21",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a fused heterocyclic ring system containing nitrogen and oxygen atoms, connected to two dichlorophenyl ether groups. It features multiple aromatic rings and electron-withdrawing chlorine substituents, contributing to its overall hydrophobic character.",
+            "Property Analysis": "The compound exhibits low water solubility primarily due to its extensive aromatic system and the presence of electron-withdrawing chlorine atoms. These structural elements reduce the molecule's ability to interact favorably with water molecules.",
+            "Limitation in Source Molecule for Property": "The high degree of hydrophobic aromatic rings and chlorine substituents limit the compound's solubility in water. These features increase the molecule's lipophilicity, hindering its dispersion in aqueous environments.",
+            "Optimization for Source Molecule": "Introduce hydrophilic functional groups such as hydroxyl or amino groups to increase polarity. Alternatively, replace some chlorines with more polar substituents or add solubilizing moieties like sulfonate groups to enhance water solubility without significantly altering the molecule's core structure.",
+            "Final Target Molecule": "Cn1c(=O)n(CCOc2ccc(Cl)cc2O)c2ccccc21"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(NC(=O)Nc2nnc(N3CCCC3)s2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy-substituted benzene ring connected to a urea linkage, which is further attached to a thiazole-like heterocyclic ring containing nitrogen and sulfur atoms. The structure includes multiple nitrogen atoms and a sulfur atom within the heterocycle, contributing to its overall polarity.",
+            "Property Analysis": "The compound exhibits moderate water solubility due to the presence of polar functional groups such as methoxy and urea moieties. However, the aromatic benzene ring and the hydrophobic nature of the heterocyclic thiazole ring limit its solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The limited water solubility is primarily caused by the presence of the nonpolar aromatic benzene ring and the hydrophobic thiazole-like heterocycle. These structural features reduce the overall polarity of the molecule, hindering its ability to interact favorably with water molecules.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar or charged functional groups. One approach is to replace the methoxy group with a hydroxyl group to increase hydrogen bonding capacity. Additionally, modifying the nitrogen in the heterocycle to a quaternary ammonium group can introduce a positive charge, enhancing solubility through ionic interactions with water.",
+            "Final Target Molecule": "cOc1ccc(NC(=O)Nc2nnc([N+](C)3CCCC3)s2)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(C(=O)NO)cc1NC(=O)c1ccccc1Cl",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains multiple aromatic rings, a methoxy group, an amide linkage, and a chloro substituent.",
+            "Property Analysis": "The compound exhibits low water solubility due to the presence of multiple hydrophobic aromatic rings and a chlorine substituent.",
+            "Limitation in Source Molecule for Property": "High hydrophobic character from aromatic rings and chlorine reduces the molecule's ability to interact with water, limiting solubility.",
+            "Optimization for Source Molecule": "Introduce polar functional groups by replacing the chloro substituent with a hydroxyl group to enhance hydrogen bonding and overall hydrophilicity.",
+            "Final Target Molecule": "COc1ccc(C(=O)NO)cc1NC(=O)c1ccccc1O"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2c(cc1OC)C(c1ccc([N+](=O)[O-])cc1)=NNC(=O)C2",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a polyaromatic compound featuring fused benzene rings with methoxy substituents, a nitro group, and amide linkages. It comprises two methoxy groups positioned on aromatic rings, a nitro group providing electron-withdrawing character, and amide functional groups which can engage in hydrogen bonding.",
+            "Property Analysis": "The compound exhibits limited water solubility primarily due to its extensive aromatic system and hydrophobic character. The presence of nitro and methoxy groups provides some polarity and hydrogen bonding potential, but the overall structure remains largely non-polar.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and presence of non-polar methoxy groups reduce the molecule's solubility in water. Additionally, the bulky fused ring system limits the number of polar or ionizable groups available to enhance solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, transform the methoxy groups to more hydrophilic hydroxyl groups, thereby increasing hydrogen bonding capability. Alternatively, introduce sulfonate or carboxylate groups to provide ionizable sites that enhance solubility in aqueous environments.",
+            "Final Target Molecule": "COc1cc2c(cc1O)C(c1ccc([N+](=O)[O-])cc1)=NNC(=O)C2"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2nc(C(C)(C)C)oc(=O)c2cc1OC",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule COc1cc2nc(C(C)(C)C)oc(=O)c2cc1OC comprises a polycyclic structure featuring multiple methoxy (-OCH\u2083) groups and a bulky tert-butyl substituent. The molecule consists of fused aromatic rings connected by ether and amide linkages, contributing to its overall hydrophobic character.",
+            "Property Analysis": "The compound exhibits low water solubility due to the presence of bulky hydrophobic tert-butyl groups and extensive aromatic systems. These structural features limit the molecule's ability to form favorable interactions with water molecules, hindering its dissolution in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The bulky tert-butyl groups and multiple aromatic rings increase the molecule's hydrophobicity, which adversely affects its water solubility. Additionally, the lack of polar functional groups reduces the potential for hydrogen bonding and other interactions that could enhance solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, the bulky tert-butyl groups can be replaced with smaller, more hydrophilic substituents such as hydroxyl (-OH) or amino (-NH\u2082) groups. Introducing polar functional groups will increase the molecule's ability to engage in hydrogen bonding and other polar interactions with water, thereby enhancing solubility.",
+            "Final Target Molecule": "COc1cc2nc(CO)oc(=O)c2cc1OC"
+        }
+    },
+    {
+        "src_smiles": "Nc1nc(-c2ccccc2)nc2c1nc(O)n2Cc1ccccc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule comprises a fused heterocyclic system with multiple nitrogen atoms incorporated into a pyrimidine-like ring. It features two phenyl rings attached to the heterocyclic system, one directly bonded to a nitrogen atom and another linked via a methylene (CH2) spacer. Additionally, there is a hydroxyl group attached to one of the nitrogen atoms, enhancing potential hydrogen bonding capabilities.",
+            "Property Analysis": "The compound exhibits low water solubility, which can limit its bioavailability and effectiveness in aqueous environments. The presence of multiple aromatic rings contributes to its hydrophobic character, while hydrogen bond donors and acceptors offer some polar interactions with water.",
+            "Limitation in Source Molecule for Property": "The high lipophilicity resulting from the multiple phenyl rings and the overall rigid aromatic structure reduces the molecule's ability to interact favorably with water molecules. This hydrophobicity hinders its solubility in aqueous media.",
+            "Optimization for Source Molecule": "To enhance water solubility, the molecule can be modified by reducing lipophilicity and increasing polarity. This can be achieved by introducing additional polar functional groups such as hydroxyl or sulfonate groups. Replacing one of the phenyl rings with a more hydrophilic moiety like a hydroxymethyl group or introducing a charged group can significantly improve solubility. Additionally, introducing flexible linkers can enhance hydrogen bonding with water.",
+            "Final Target Molecule": "Nc1nc(-C(O)C)nc2c1nc(O)n2Cc1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(C)n3)C2)CC1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxybenzene (anisole) moiety connected to a tricyclic system. It features a nitrogen atom forming part of a pyrrolidine-like ring, linked to a piperazine ring substituted with a side chain containing a sulfonyl group attached to a thiazole ring containing a methyl group.",
+            "Property Analysis": "The molecule exhibits moderate lipophilicity due to the presence of aromatic rings and ethyl chains, which can hinder water solubility. However, the presence of basic nitrogen atoms and a sulfonyl group can offer sites for hydrogen bonding, potentially enhancing solubility.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of bulky hydrophobic groups reduce the overall solubility of the molecule in water. The methoxy group, while offering some polarity, is not sufficient to counterbalance the hydrophobic regions.",
+            "Optimization for Source Molecule": "Introduce additional polar functional groups to enhance hydrogen bonding capabilities. Replace or modify hydrophobic groups with more hydrophilic substituents. For instance, converting the methoxy group to a hydroxyl group and adding sulfonic acid groups can significantly improve water solubility.",
+            "Final Target Molecule": "COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(C)n3)C2)CC1O"
+        }
+    },
+    {
+        "src_smiles": "CCOC(=O)C1=C(C)NC(C)=C(C(=O)OCC)C1c1c(F)cccc1Cl",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains an ethoxy ester group, a nitrogen-containing heterocyclic ring, and multiple aromatic rings substituted with fluorine and chlorine atoms, contributing to its overall hydrophobic character.",
+            "Property Analysis": "The compound exhibits low water solubility, which can limit its bioavailability and usability in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The presence of multiple hydrophobic aromatic rings and halogen substituents (fluorine and chlorine) reduces the molecule's ability to interact favorably with water molecules, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "Introduce hydrophilic functional groups such as hydroxyl groups, reduce or replace halogen substituents with more polar atoms, and decrease the overall hydrophobic surface area by modifying the aromatic system to enhance water solubility.",
+            "Final Target Molecule": "CCOC(=O)C1=C(C)NC(C)=C(C(=O)OCC)C1c1c(F)cccc1O"
+        }
+    },
+    {
+        "src_smiles": "CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule, CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1, consists of a piperidine ring substituted with multiple functional groups, including an amide linkage and a triazole moiety. It features several aromatic rings, contributing to its overall lipophilicity.",
+            "Property Analysis": "The compound exhibits low water solubility, primarily due to its hydrophobic aromatic rings and bulky structure. Enhanced solubility in water is desirable for improved bioavailability and pharmaceutical efficacy.",
+            "Limitation in Source Molecule for Property": "The high lipophilicity from multiple aromatic rings and the absence of polar functional groups limit the molecule's ability to interact with water, resulting in poor solubility.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl or sulfonamide moieties to increase hydrogen bonding capability. Additionally, reducing the number of aromatic rings or incorporating heteroatoms can decrease lipophilicity. Alternatively, adding salt-forming groups like carboxylic acids can enhance water solubility.",
+            "Final Target Molecule": "CC1CC(C)CN(C(C(=O)NC2CCCCC2)C(=O)O)c2ccnc3ccccc23)C1"
+        }
+    },
+    {
+        "src_smiles": "CCNc1ccc(NC(=O)c2c(-c3c(Cl)cccc3Cl)noc2C)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a dimethylaminoethyl group attached to a benzene ring, which is further substituted with an amide linked to a pyrimidine ring. The pyrimidine ring is highly chlorinated with two chlorine atoms on the aromatic system. The molecule contains multiple aromatic rings, amide functionality, and a dimethylamino group.",
+            "Property Analysis": "The compound has moderate water solubility due to the presence of polar functional groups such as the amide and dimethylamino group. However, the multiple chlorine atoms on the aromatic rings contribute to increased lipophilicity, which can hinder solubility in water.",
+            "Limitation in Source Molecule for Property": "High lipophilicity resulting from the presence of two chlorine atoms on the aromatic rings reduces the overall water solubility of the compound.",
+            "Optimization for Source Molecule": "To enhance water solubility, the number of chlorine atoms on the aromatic rings can be reduced or substituted with more hydrophilic groups such as hydroxyl or amino groups. Additionally, introducing more polar functional groups can improve hydrogen bonding with water molecules.",
+            "Final Target Molecule": "CCNc1ccc(NC(=O)c2c(-c3c(O)cccc3O)noc2C)cc1."
+        }
+    },
+    {
+        "src_smiles": "COc1cnc(Oc2ccccc2-c2ccc(-c3cnc(N)cn3)c(F)c2)nc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy-substituted pyrimidine ring connected to a substituted phenyl ring, which includes a fluorine atom and a fused triazole ring. The structure features multiple aromatic systems and electron-withdrawing groups.",
+            "Property Analysis": "The compound exhibits low water solubility due to its extensive aromatic framework and the presence of fluorine atoms, which contribute to hydrophobicity.",
+            "Limitation in Source Molecule for Property": "High hydrophobic character from multiple aromatic rings and fluorine substituents limits the compound's ability to dissolve in water.",
+            "Optimization for Source Molecule": "Introduce hydrophilic functional groups such as hydroxyl (-OH) or amino (-NH\u2082) groups and reduce the number of fluorine atoms to enhance water solubility.",
+            "Final Target Molecule": "COc1cnc(Oc2ccccc2-c2ccc(-c3cnc(N)cn3)c(F)c2)nc1O"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(OC)c2oc(-c3cn4nc(SC)sc4n3)cc12",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a biphenyl system with methoxy (-OCH\u2083) substituents and a fused pyrimidine-oxazole heterocycle containing a thiocyanate (-SCN) functional group. The structure includes multiple aromatic rings, contributing to its rigidity and hydrophobic character.",
+            "Property Analysis": "The molecule exhibits low water solubility, primarily due to its extensive hydrophobic aromatic framework and the presence of methoxy groups which offer limited polarity.",
+            "Limitation in Source Molecule for Property": "The abundance of hydrophobic aromatic rings reduces the molecule's affinity for water, and the methoxy groups do not provide sufficient polar interactions to enhance solubility significantly.",
+            "Optimization for Source Molecule": "Introduce additional polar functional groups such as hydroxyl (-OH) or sulfonate (-SO\u2083H) groups to increase hydrogen bonding capabilities. Replace some methoxy groups with more hydrophilic substituents to reduce overall hydrophobicity and enhance solubility.",
+            "Final Target Molecule": "COc1ccc(O)c2oc(-c3cn4nc(SC)sc4n3)cc12"
+        }
+    },
+    {
+        "src_smiles": "CCCCC(CC)CNC(=O)CCCn1c(=O)[nH]c2ccsc2c1=O",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule comprises a long aliphatic chain with branching (CCCCCC(CC)), connected to a secondary amine (CNC), linked to a carbonyl group (C(=O)), followed by a propyl chain (CCC) and a thiadiazole heterocycle (n1c(=O)[nH]c2ccsc2c1=O).",
+            "Property Analysis": "The compound has low water solubility due to its extended hydrophobic aliphatic chains and the presence of heterocyclic rings.",
+            "Limitation in Source Molecule for Property": "The high lipophilicity from the long alkyl chains and heterocycles reduces the compound's ability to interact with water, thereby decreasing its solubility.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl or amine groups to increase hydrophilicity, reduce the length of the alkyl chains to decrease lipophilicity, and incorporate more hydrogen bond donors or acceptors to enhance water solubility.",
+            "Final Target Molecule": "CCCC(CC)CNC(=O)CC(CO)n1c(=O)[nH]c2ccsc2c1=O"
+        }
+    },
+    {
+        "src_smiles": "CC(CCc1ccc(-c2ccc(C#N)cc2)cc1)(C(=O)NO)S(C)(=O)=O",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central carbon atom bonded to two isopropyl groups, a sulfone group (S(C)(=O)=O), and a benzene ring substituted with a nitrile group (C#N). The molecule has multiple functional groups including esters, nitriles, and aromatic rings, contributing to its structural complexity.",
+            "Property Analysis": "The compound exhibits limited water solubility. The presence of bulky hydrophobic aromatic rings and multiple non-polar groups reduces its ability to interact favorably with water molecules.",
+            "Limitation in Source Molecule for Property": "The high hydrophobic character due to multiple aromatic rings and the sulfone group hinders the molecule's solubility in water. Additionally, the lack of sufficient hydrogen bond donors or acceptors limits its interaction with water.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce polar functional groups such as hydroxyl or amino groups to increase hydrogen bonding capacity. Reduce the size or number of hydrophobic aromatic rings and consider adding ionic groups to improve solubility.",
+            "Final Target Molecule": "CC(CCc1ccc(-c2ccc(CN)cc2)cc1)(C(=O)NO)S(C)(=O)=O"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(Oc2c(Cl)cnn(-c3cccc(Cl)c3)c2=O)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule, COc1ccc(Oc2c(Cl)cnn(-c3cccc(Cl)c3)c2=O)cc1, consists of a methoxy-substituted benzene ring connected to a chlorinated pyrimidine core. The structure includes multiple aromatic rings and chlorine atoms, which contribute to its overall hydrophobic character and potential for extensive \u03c0-\u03c0 stacking interactions.",
+            "Property Analysis": "Water solubility is influenced by the molecule's ability to form hydrogen bonds, its overall polarity, and the presence of ionizable groups. Enhanced solubility typically requires increased polarity and the presence of functional groups that can interact favorably with water molecules.",
+            "Limitation in Source Molecule for Property": "The molecule has multiple aromatic rings and chlorine substituents, which increase hydrophobicity and reduce its ability to interact with water. The lack of polar or ionizable functional groups limits the molecule's hydrogen bonding capability, thereby lowering its solubility in water.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce polar functional groups such as hydroxyl (-OH) or amino (-NH\u2082) groups. Reducing the number of chlorine atoms or replacing them with more hydrophilic substituents can also enhance solubility. Additionally, incorporating ionizable groups like carboxyl (-COOH) can increase the molecule's ability to interact with water.",
+            "Final Target Molecule": "COc1ccc(Oc2c(Cl)cnn(-c3cccc(Cl)c3)c2=O)cc1O"
+        }
+    },
+    {
+        "src_smiles": "CN(C)CCNC(=O)c1cc(F)cc(-c2ccc3ncnc(N)c3n2)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule comprises a tertiary amine connected via an ethyl chain to an amide linkage, which is attached to a fluorinated aromatic ring substituted with a triazine moiety. The presence of aromatic rings and a fluorine atom contributes to the molecule's hydrophobic character, while the amine and amide groups introduce polar functionalities.",
+            "Property Analysis": "The molecule exhibits moderate polarity due to the amine and amide groups, which can engage in hydrogen bonding. However, the multiple aromatic rings and fluorine substituent increase the overall hydrophobicity, limiting its solubility in water.",
+            "Limitation in Source Molecule for Property": "The extensive hydrophobic regions from the aromatic rings and the fluorine substituent overshadow the polar functional groups, resulting in low water solubility. Additionally, the tertiary amine lacks sufficient polarity to enhance solubility effectively.",
+            "Optimization for Source Molecule": "To improve water solubility, the tertiary amine can be quaternized to form a quaternary ammonium salt, introducing a permanent positive charge. This modification increases the molecule's polarity and enhances its ability to interact with water. Alternatively, introducing additional polar groups such as hydroxyl or sulfonic acid moieties on the aromatic rings can further enhance hydrophilicity.",
+            "Final Target Molecule": "C[N+](C)(C)CCNC(=O)c1cc(F)cc(-c2ccc3ncnc(N)c3n2)c1.Cl-"
+        }
+    },
+    {
+        "src_smiles": "Cc1cc(N)ncc1-c1nc(N2CCOCC2)nc(N2CCOCC2)n1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule comprises a substituted pyridine ring connected to a triazole-like heterocyclic system with multiple nitrogen atoms. It features a methyl group attached to the pyridine ring and piperazine linkers that connect to the triazole moiety.",
+            "Property Analysis": "The compound exhibits basicity and potential hydrogen bonding capabilities due to the presence of multiple nitrogen atoms. However, the hydrophobic methyl group and the cyclic piperazine linkers may limit its solubility in water.",
+            "Limitation in Source Molecule for Property": "The primary limitations affecting water solubility are the presence of hydrophobic groups such as the methyl substituent and the piperazine rings, which reduce the molecule's overall polarity and hinder effective interaction with water molecules.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups such as hydroxyl (-OH) groups or sulfonamide linkages. Alternatively, replace the hydrophobic methyl group with a more polar substituent like hydroxymethyl (-CH2OH) to increase the molecule's hydrophilicity.",
+            "Final Target Molecule": "CCO[c]1cc(N)c[n]c1-c1nc(N2CCOCC2)nc(N2CCOCC2)n1"
+        }
+    },
+    {
+        "src_smiles": "CCCNC(=O)c1ccc(NC(=O)N2Cc3ccc(-c4ccncc4)cc3C2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a propylamine group connected via an amide bond to a substituted benzamide. The benzamide is further linked to a piperazine-like ring, which is substituted with a quinoline derivative. The molecule features multiple aromatic rings and amide functionalities, contributing to its structural complexity and potential hydrogen bonding capabilities.",
+            "Property Analysis": "The compound exhibits moderate water solubility due to the presence of amide groups, which can engage in hydrogen bonding with water molecules. However, the extensive aromatic systems and the propyl chain increase the molecule's lipophilicity, potentially limiting its solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The primary limitations to water solubility are the lengthy propyl chain and the multiple bulky aromatic rings, which enhance lipophilicity and reduce the molecule's overall polarity. These structural features hinder effective interaction with water molecules, thereby decreasing solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, the propyl chain can be shortened to reduce lipophilicity. Additionally, removing or replacing some of the bulky aromatic rings with more polar or heteroaromatic systems can enhance polarity. Introducing additional hydrophilic functional groups, such as hydroxyl or carboxyl groups, can further increase solubility through enhanced hydrogen bonding capabilities.",
+            "Final Target Molecule": "CCNC(=O)c1ccc(NC(=O)N2Cc3ccncc3C2)cc1."
+        }
+    },
+    {
+        "src_smiles": "Cc1cc(C(=O)N2CCC3CN(c4ncccn4)CCOC3C2)c(C)o1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule, Cc1cc(C(=O)N2CCC3CN(c4ncccn4)CCOC3C2)c(C)o1, comprises a benzofuran core substituted with methyl groups, a ketone-linked piperidine ring, and a triazole-containing side chain. The molecule features aromatic rings, ether linkages, and a nitrogen heterocycle.",
+            "Property Analysis": "The compound exhibits moderate hydrophobicity due to its multiple aromatic rings and alkyl chains, which likely result in low water solubility. Its structure lacks sufficient polar or ionizable groups that facilitate interaction with water molecules.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of non-polar alkyl and ether groups reduce the molecule's ability to interact favorably with water, thereby limiting its solubility. Additionally, the absence of hydrophilic functional groups such as hydroxyl or amine groups further hampers solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce polar functional groups like hydroxyl (\u2013OH) or carboxyl (\u2013COOH) groups. Reducing the number of aromatic rings or adding ionizable groups can also improve solubility. For instance, adding a hydroxyl group to the benzofuran core or modifying the side chains to include polar moieties would increase hydrophilicity.",
+            "Final Target Molecule": "Cc1cc(C(O)C(=O)N2CCC3CN(c4ncccn4)CCOC3C2)c(C)o1"
+        }
+    },
+    {
+        "src_smiles": "N#Cc1cc(S(=O)(=O)Nc2ccc(F)cn2)ccc1Oc1ccccc1F",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a nitrile group (N#C) attached to a benzene ring. It includes a sulfonamide linkage (S(=O)(=O)N) connected to a fluorinated aromatic ring via an ether bridge. Additionally, there are multiple fluorine atoms attached to the aromatic rings, contributing to the molecule's overall hydrophobic character.",
+            "Property Analysis": "The molecule possesses moderate water solubility due to the presence of polar functional groups such as sulfonamide and nitrile. However, the multiple fluorine atoms and extensive aromatic systems increase lipophilicity, which may hinder its solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The high number of fluorine substituents and the expansive aromatic framework reduce the molecule's hydrophilicity, limiting its ability to interact favorably with water molecules and decreasing overall solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, reduce the number of fluorine atoms and introduce additional polar functional groups. For instance, replacing one fluorine atom with a hydroxyl (-OH) group can increase hydrogen bonding capacity, thereby improving solubility.",
+            "Final Target Molecule": "N#Cc1cc(S(=O)(=O)Nc2ccc(O)cn2)ccc1Oc1ccccc1F"
+        }
+    },
+    {
+        "src_smiles": "CSc1ccc(Oc2ncccc2C(=NO)NCc2ccncc2)cc1C",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central thioether linkage connecting two aromatic rings. One aromatic ring is substituted with a methoxy group and a complex heterocyclic moiety containing nitrogen and oxygen atoms. The presence of multiple aromatic rings and heteroatoms contributes to the molecule's overall rigidity and planarity.",
+            "Property Analysis": "The molecule exhibits limited water solubility due to its extensive aromatic system, which increases hydrophobicity. The presence of heteroatoms like nitrogen and oxygen can offer potential sites for hydrogen bonding, but their efficiency is hindered by the surrounding hydrophobic environment.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of multiple non-polar regions reduce the molecule's ability to interact favorably with water. Additionally, the existing polar functional groups are insufficiently exposed or numerous to significantly enhance solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce additional polar functional groups such as hydroxyl or amino groups to increase hydrogen bonding capacity. Reducing the number of aromatic rings or adding ionizable moieties can also enhance solubility. Introducing sulfonamide groups or replacing some aryl rings with more polar heterocycles may provide better interaction with water.",
+            "Final Target Molecule": "CSc1ccc(Oc2nc(CCN)nc3ccncc3)c(C)cc1C"
+        }
+    },
+    {
+        "src_smiles": "COc1cccc(-c2nnc(SCc3ccc(C#N)cc3)n2Cc2ccco2)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The molecule consists of a methoxyphenyl core attached to a triazole ring, which is linked via a thioether bond to a 4-cyanophenyl group and a tetrahydropyran-containing moiety. Key functional groups include methoxy, thioether, triazole, nitrile, and ether groups, contributing to its overall aromatic and heterocyclic structure.",
+            "Property Analysis": "The compound exhibits low water solubility due to its multiple aromatic rings and hydrophobic thioether linkages. While the nitrile and ether groups introduce some polarity, the dominant hydrophobic regions limit its ability to interact favorably with water molecules.",
+            "Limitation in Source Molecule for Property": "The high hydrophobic surface area from the aromatic rings and thioether bonds hinders the formation of hydrogen bonds and other polar interactions with water, resulting in poor aqueous solubility.",
+            "Optimization for Source Molecule": "Introduce additional polar functional groups such as hydroxyl or sulfonamide groups to enhance hydrogen bonding capabilities. Alternatively, modify the thioether linkages to more polar sulfoxide or sulfone groups, or incorporate charged groups to increase hydrophilicity and improve water solubility.",
+            "Final Target Molecule": "COc1cccc(-c2nnc(S(=O)Cc3ccc(C#N)cc3)n2Cc2ccco2)c1O"
+        }
+    },
+    {
+        "src_smiles": "Cc1cccc(CCNC(=O)c2nn(C)c3c2CSc2ccccc2-3)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methyl-substituted benzene ring connected to a propylamine moiety linked to an amide group, further attached to a triazole-thiophene fused ring system. The compound contains multiple aromatic rings and heteroatoms (nitrogen and sulfur), contributing to its hydrophobic character.",
+            "Property Analysis": "The compound exhibits low solubility in water due to its extensive hydrophobic aromatic system and limited polar functional groups, which restrict its ability to form favorable interactions with water molecules.",
+            "Limitation in Source Molecule for Property": "The high proportion of nonpolar aromatic rings and lack of sufficient polar or ionizable functional groups reduce the molecule's overall hydrophilicity, limiting its solubility in aqueous environments.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce polar functional groups such as hydroxyl groups into the aromatic rings. For instance, adding a hydroxyl group para to the existing methyl group on the benzene ring can increase hydrophilicity. Alternatively, incorporating ionizable moieties like a carboxylate group can further improve solubility.",
+            "Final Target Molecule": "Cc1ccc(CO)cc(CCNC(=O)c2nn(C)c3c2CSc2ccccc2-3)c1"
+        }
+    },
+    {
+        "src_smiles": "O=C1NC(=O)C(=Cc2ccc(OCc3ccccc3)c(Br)c2)S1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a thiazine ring system fused with carbonyl and amide functionalities. It contains a brominated aromatic ring substituted with a methoxyphenyl group, contributing to its overall structure and electronic distribution.",
+            "Property Analysis": "The compound exhibits moderate hydrophobicity due to the presence of aromatic rings and halogen substituents. The amide and carbonyl groups provide hydrogen bonding capabilities, which can aid in solubility to some extent.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of bromine and methoxy groups increase the molecule's lipophilicity, thereby reducing its water solubility. The limited number of polar functional groups also hampers its ability to form sufficient hydrogen bonds with water molecules.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups by replacing the methoxy group with a hydroxyl group and substituting the bromine atom with an amino group. These modifications increase hydrogen bonding potential and reduce lipophilicity, thereby improving solubility.",
+            "Final Target Molecule": "O=C1NC(=O)C(=Cc2ccc(O)c(N)c2)S1"
+        }
+    },
+    {
+        "src_smiles": "CCCC1(C(=O)Nc2ccc(C#N)c(C(F)(F)F)c2)CC(C(F)(F)F)=NN1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a triazine ring substituted with a ketamide group (C(=O)N), a cyanophenyl moiety (C#N attached to an aromatic ring), and multiple trifluoromethyl groups (C(F)(F)F). Additionally, there is a butyl chain attached to the triazine ring, contributing to the molecule's overall structure.",
+            "Property Analysis": "The molecule exhibits low water solubility, primarily due to its highly lipophilic trifluoromethyl groups and the presence of a long alkyl butyl chain. The molecule's overall structure hinders its ability to interact favorably with water molecules.",
+            "Limitation in Source Molecule for Property": "The extensive use of trifluoromethyl groups and the long butyl chain increase the molecule's hydrophobicity, reducing its solubility in aqueous environments. These groups limit the molecule's ability to form hydrogen bonds and other polar interactions with water.",
+            "Optimization for Source Molecule": "To enhance water solubility, reduce the number of trifluoromethyl groups and replace the long butyl chain with more polar or hydrophilic substituents. Introducing hydroxyl or amino groups can increase hydrogen bonding capabilities. Additionally, incorporating sulfonate or carboxylate groups may improve solubility by increasing the molecule's polarity.",
+            "Final Target Molecule": "CCC1(C(=O)NCCc2ccc(C#N)c(C(F)(F)F)c2)CC=NN1"
+        }
+    },
+    {
+        "src_smiles": "O=[N+]([O-])c1ccc(CN2CCN(c3cccc(C(F)(F)F)c3)CC2)o1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a nitro group attached to a benzene ring, a morpholine ring linked via a carbon-nitrogen bond, and a trifluoromethyl-substituted phenyl group. The presence of aromatic rings and fluorinated groups contributes to the molecule's stability and lipophilicity.",
+            "Property Analysis": "The compound currently has moderate solubility in water, which may limit its bioavailability and effectiveness in aqueous environments. Enhancing solubility is crucial for its application in pharmaceutical or other aqueous-based systems.",
+            "Limitation in Source Molecule for Property": "The high lipophilicity arising from multiple aromatic rings and the trifluoromethyl group hinders water solubility. Additionally, the presence of bulky fluorinated substituents reduces the molecule's ability to form hydrogen bonds with water molecules.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl or amino groups to increase hydrogen bonding capacity. Reduce the number of fluorinated or aromatic rings to decrease lipophilicity. Alternatively, incorporate ionic groups to enhance solubility through ionic interactions with water.",
+            "Final Target Molecule": "O=[N+]([O-])c1ccc(CN2CCN(Cc3ccccc3O)CC2)o1"
+        }
+    },
+    {
+        "src_smiles": "COc1cccc(C(=O)OCC(C)C2CCC3C(O)CCCC23C)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy-substituted benzene ring connected to an ester functional group. This ester is further linked to a complex cyclohexane-fused multi-ring system containing a hydroxyl group. The molecule features multiple hydrophobic regions due to the aromatic ring and fused cycloalkane structures, alongside a single hydrophilic functional group (hydroxyl).",
+            "Property Analysis": "The compound exhibits moderate lipophilicity, which influences its solubility in water. The presence of the methoxy group and the hydroxyl group introduces some polarity, but the extensive hydrophobic ring systems dominate the overall solubility profile.",
+            "Limitation in Source Molecule for Property": "The high hydrophobic character from the aromatic and fused cycloalkane rings significantly reduces the compound's solubility in water. The limited number of hydrophilic groups is insufficient to counterbalance the hydrophobic regions, leading to poor water solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic functional groups such as hydroxyl or carboxyl groups. Alternatively, reduce the size of hydrophobic moieties by modifying or removing some of the cycloalkane rings. Introducing polar linkers or increasing the polarity of the ester linkage can also improve solubility.",
+            "Final Target Molecule": "COc1cccc(C(=O)OCC(C)C2C(O)CC3C(O)CCCC23C)c1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(-c2nnc(SCc3ccccc3Cl)o2)cc(OC)c1OC",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule, COc1cc(-c2nnc(SCc3ccccc3Cl)o2)cc(OC)c1OC, contains a methoxy-substituted aromatic ring with a thioether linkage to a chlorobenzene moiety. Key functional groups include methoxy (-OCH3) groups, a thioether (-S-) linkage, and a chloro-substituted benzene ring.",
+            "Property Analysis": "The molecule exhibits moderate hydrophobic character due to the presence of multiple aromatic rings and halogen substituents, which can limit its solubility in water. Methoxy groups provide some hydrophilic interactions, but the overall balance may not be sufficient for high solubility.",
+            "Limitation in Source Molecule for Property": "The extensive aromatic system and the presence of a chloro group increase the molecule's lipophilicity, reducing its ability to form favorable interactions with water molecules. Additionally, the thioether linkage does not contribute significantly to hydrophilicity.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce more hydrophilic functional groups such as hydroxyl (-OH) groups or amino (-NH2) groups. Alternatively, reduce the number of aromatic rings or replace the chloro substituent with a more hydrophilic group. Introducing a sulfonic acid (-SO3H) group could also significantly increase solubility.",
+            "Final Target Molecule": "COc1cc(-c2nnc(SCc3ccccc3SO3H)o2)cc(OC)c1OC"
+        }
+    },
+    {
+        "src_smiles": "CC(C)(C)Cc1nc2cc(S(=O)(=O)CC3CCNCC3)ccc2n1CC1CC1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a bulky tert-butyl group (CC(C)(C)C) attached to a fused bicyclic ring system containing a sulfonyl linker (S(=O)(=O)) connected to a piperazine ring (CCNCC). The overall structure is highly hydrophobic due to multiple methyl groups and cyclic alkyl chains.",
+            "Property Analysis": "The compound exhibits low water solubility, which can hinder its bioavailability and effectiveness in aqueous environments. Improved solubility is desirable for better interaction with biological targets and enhanced pharmacokinetic properties.",
+            "Limitation in Source Molecule for Property": "The presence of large, hydrophobic groups such as the tert-butyl moiety and cyclic alkyl rings significantly reduces the molecule's ability to interact with water molecules, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, the bulky tert-butyl group can be replaced with a smaller alkyl group, such as a methyl or ethyl group. Additionally, introducing polar functional groups like hydroxyl (-OH) or amino (-NH2) groups can increase hydrophilicity. Reducing the size of cyclic alkyl rings or incorporating ether linkages may also contribute to improved solubility.",
+            "Final Target Molecule": "CCCOc1nc2cc(S(=O)(=O)CC3CCNCC3)ccc2n1CC1CC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(O)c1c[nH]c2cc(Cl)c(-c3ccc(OCCCC4COC4)cc3)cc12",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzoic acid moiety with a chlorinated pyridine ring and a side chain containing a tetrahydrofuran ether linked to a piperazine derivative. Functional groups present include carboxylic acid, amine, chlorine substituent, ether linkages, and a cyclic structure.",
+            "Property Analysis": "The molecule has moderate to low water solubility due to the presence of aromatic rings, chlorine substituent, and ether linkages, which contribute to hydrophobic character. However, it also contains polar functional groups like carboxylic acid and amine that can engage in hydrogen bonding.",
+            "Limitation in Source Molecule for Property": "The hydrophobic aromatic and ether components limit water solubility. The bulky structure and limited number of hydrophilic groups restrict the molecule's ability to interact effectively with water molecules.",
+            "Optimization for Source Molecule": "Introduce additional hydrophilic groups such as hydroxyl or amine groups to enhance hydrogen bonding with water. Reduce hydrophobic regions by modifying or removing chlorine substituents and aromatic rings. Consider increasing the flexibility of the molecule to improve solubility through better conformational adaptability.",
+            "Final Target Molecule": "O=C(O)c1c[nH]c2cc(O)c(-c3ccc(OCCCC4COC4)cc3)cc12"
+        }
+    },
+    {
+        "src_smiles": "CSc1ccc(NC(=O)NC2CCN(Cc3ccccc3)CC2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a thiourea derivative featuring a benzene ring substituted with a thiocarbonyl group linked to a urea moiety. It incorporates a piperazine ring connected via a carbamate linkage to a phenyl group.",
+            "Property Analysis": "The molecule exhibits moderate hydrophobicity due to the presence of multiple aromatic rings and the piperazine moiety, resulting in limited water solubility.",
+            "Limitation in Source Molecule for Property": "The high hydrophobic character from the multiple aromatic rings and limited hydrogen bonding sites restricts the compound's ability to dissolve effectively in water.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl or amino groups on the aromatic rings to increase hydrogen bonding capabilities and enhance water solubility. Additionally, reducing the number of aromatic rings or incorporating more hydrophilic linkers can improve solubility.",
+            "Final Target Molecule": "CSc1ccc(O)NC(=O)NC2CCN(CCO)CC2)cc1"
+        }
+    },
+    {
+        "src_smiles": "CCCNC(=O)Cn1c(=O)oc2cc(S(=O)(=O)N3CCCC3)ccc21",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains an amine group, an amide linkage, a sulfonamide moiety, a piperidine ring, and fused aromatic and heteroaromatic (furan) rings.",
+            "Property Analysis": "The compound exhibits moderate water solubility due to the presence of polar functional groups such as the amine, amide, and sulfonamide groups.",
+            "Limitation in Source Molecule for Property": "The overall hydrophobic character introduced by the alkyl chains and aromatic rings limits the molecule's solubility in water despite the presence of polar groups.",
+            "Optimization for Source Molecule": "Introduce additional hydrophilic functional groups, such as hydroxyl groups, to increase polarity and enhance water solubility. Alternatively, reduce the length of alkyl chains or introduce ionic moieties to improve solubility.",
+            "Final Target Molecule": "CCCNC(=O)Cn1c(=O)oc2cc(S(=O)(=O)N3CCCC3)ccc21O"
+        }
+    },
+    {
+        "src_smiles": "CCNC(=O)Nc1nc2cc(-c3cccnc3)cc(-c3cccnc3)n2n1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of an acetamide linker connecting a pyrazinone core with two triazole substituents. The molecular structure includes two aromatic rings and multiple nitrogen atoms, contributing to its overall rigidity and potential hydrogen bonding capabilities.",
+            "Property Analysis": "The compound exhibits moderate solubility in water, which is influenced by its molecular structure. Solubility is a critical property for its effectiveness in biological systems and formulation applications.",
+            "Limitation in Source Molecule for Property": "The presence of multiple aromatic rings and a relatively non-polar acetamide moiety reduces the overall polarity of the molecule, limiting its ability to form hydrogen bonds with water and thereby decreasing solubility.",
+            "Optimization for Source Molecule": "Introduce polar functional groups such as hydroxyl (-OH) or sulfonamide (-SO2NH2) to increase hydrogen bonding with water. Alternatively, incorporate ionizable groups like carboxylic acid (-COOH) or amino (-NH2) groups to enhance solubility through ionic interactions.",
+            "Final Target Molecule": "CCNC(=O)Nc1nc2cc(-c3cccnc3)cc(-c3cccnc3)n2n1O"
+        }
+    },
+    {
+        "src_smiles": "CCCNc1nc(-c2ccccc2)nc2c1nnn2Cc1ccccc1F",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a propylamine linker attached to a series of fused heteroaromatic rings, including multiple nitrogen-containing rings. It features a fluorophenyl group, which contributes to the molecule's hydrophobic character. The overall structure is highly aromatic and contains several nitrogen atoms that can act as hydrogen bond donors or acceptors.",
+            "Property Analysis": "The molecule exhibits low solubility in water, which is attributed to its extensive aromatic system and hydrophobic regions. The presence of multiple aromatic rings reduces the molecule's polarity, limiting its ability to interact favorably with water molecules.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of fluorinated and hydrophobic groups significantly decrease the molecule's water solubility. The lack of sufficient polar functional groups limits hydrogen bonding and other interactions with water.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce polar functional groups such as hydroxyl (-OH) or sulfonamide (-SO2NH2) groups. Reducing the number of aromatic rings or adding ionizable groups like carboxylic acids (-COOH) or amines (-NH2) can enhance hydrophilicity. Additionally, introducing charges at physiological pH can significantly improve solubility.",
+            "Final Target Molecule": "CCCNc1nc(-c2ccccc2)nc2c1nnn2Cc1ccccc1FCl"
+        }
+    },
+    {
+        "src_smiles": "O=C(O)c1cc2ccc(N(Cc3ccccc3)Cc3ccccc3)cc2oc1=O",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule comprises a dicarboxylic acid moiety linked to a biaryl diamine, forming a bicyclic lactone structure with multiple aromatic rings.",
+            "Property Analysis": "The molecule exhibits low water solubility due to extensive hydrophobic aromatic systems and limited polar functional groups.",
+            "Limitation in Source Molecule for Property": "High number of aromatic rings and lack of sufficient hydrophilic functionalities reduce its solubility in water.",
+            "Optimization for Source Molecule": "Introduce hydroxyl groups to the aromatic rings to increase hydrophilicity and enhance water solubility.",
+            "Final Target Molecule": "O=C(O)c1cc2ccc(N(Cc3c(ccc(O)cc3))Cc3c(ccc(O)cc3))cc2oc1=O"
+        }
+    },
+    {
+        "src_smiles": "O=c1cc(N2CCOCC2)oc2cc(OCc3ccc(Cl)cc3)ccc12",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a tricyclic core with an amide linkage. It contains multiple methoxy groups, a chlorine substituent, and a piperazine-like ether bridge, contributing to its overall structure and functionality.",
+            "Property Analysis": "The compound exhibits limited water solubility due to its multiple aromatic rings, hydrophobic chlorine substituent, and extensive methoxy groups which increase lipophilicity.",
+            "Limitation in Source Molecule for Property": "High lipophilicity from multiple aromatic systems and chlorine substituent reduces the compound's ability to interact favorably with water molecules, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "Introduce additional polar functional groups such as hydroxyl or amino groups to increase hydrophilicity. Remove or replace the chlorine substituent with a more hydrophilic moiety. Reduce the number of methoxy groups to decrease lipophilicity.",
+            "Final Target Molecule": "O=C1cc(N2CCOCC2)oc2cc(O)cc3c(c(O)cc3Cl)ccc12"
+        }
+    },
+    {
+        "src_smiles": "O=C(Nc1ccccc1)N1CCN(Cc2cccc(OCc3ccccc3)c2)CC1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains an amide functional group connected to a phenyl ring, a piperazine ring system, and a benzyl group substituted with a methoxy group attached to another phenyl ring. The structure includes multiple aromatic rings which contribute to its overall rigidity and hydrophobicity.",
+            "Property Analysis": "The molecule exhibits low solubility in water due to the presence of multiple aromatic rings and limited polar functional groups. The amide linkage provides some polarity, but the overall structure is predominantly hydrophobic.",
+            "Limitation in Source Molecule for Property": "The high number of aromatic rings and limited hydrophilic functional groups reduce the molecule's ability to interact favorably with water, thereby decreasing its solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups such as hydroxyl (-OH) or amino (-NH2) groups. Alternatively, incorporating ionizable groups like carboxylic acid (-COOH) can increase solubility. Reducing the number of aromatic rings or introducing smaller, more flexible linkers can also help improve solubility.",
+            "Final Target Molecule": "O=C(Nc1ccccc1)N1CCN(CC(O)c2cccc(OC)c2)CC1"
+        }
+    },
+    {
+        "src_smiles": "Cc1cc(CCCOc2c(C)cc(-c3cccc(C#N)c3)cc2C)on1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzene ring substituted with a methyl group and an ether-linked side chain. The side chain includes a piperidine ring with isopropyl groups and a cyano-substituted phenyl ring. Overall, the molecule features multiple aromatic rings and alkyl chains, contributing to its hydrophobic nature.",
+            "Property Analysis": "The compound exhibits moderate solubility in water due to the presence of ether and cyano functional groups, which can engage in hydrogen bonding and dipole-dipole interactions. However, the extensive aromatic and alkyl portions of the molecule reduce its overall polarity.",
+            "Limitation in Source Molecule for Property": "The high degree of hydrophobic aromatic rings and long alkyl chains limits the compound's solubility in water, as these nonpolar regions hinder interaction with polar water molecules.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce more polar functional groups such as hydroxyl or carboxyl groups, reduce the length of alkyl chains to decrease hydrophobicity, and incorporate charged or ionizable groups to enhance interaction with water.",
+            "Final Target Molecule": "Cc1cc(CCCOc2c(CO)cc(-c3cccc(C#N)c3)cc2C)on1"
+        }
+    },
+    {
+        "src_smiles": "CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCO3)C1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a thiophene ring connected via an amide linkage to a piperazine-like ring. This central ring is further substituted with a ketone group attached to a benzene ring fused with an ether moiety. The molecule comprises multiple aromatic rings and a thioether linkage, contributing to its overall rigidity and hydrophobic character.",
+            "Property Analysis": "The compound exhibits limited solubility in water, which can impede its bioavailability and effectiveness in aqueous biological environments. Enhancing water solubility is essential for improving the compound's pharmacokinetic and pharmacodynamic profiles.",
+            "Limitation in Source Molecule for Property": "The presence of multiple hydrophobic aromatic rings and a thioether group significantly reduces the molecule's polarity, leading to poor interaction with water molecules. Additionally, the absence of polar functional groups limits the compound's ability to form hydrogen bonds or ionic interactions with water, further diminishing its solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce polar functional groups such as hydroxyl (-OH) or amino (-NH\u2082) groups to increase hydrophilicity. Alternatively, incorporating ionizable groups like carboxylic acids (-COOH) can enhance solubility through ion-dipole interactions. Reducing the number of aromatic rings or adding flexible linkers can also decrease hydrophobicity and increase molecular flexibility, promoting better interaction with water.",
+            "Final Target Molecule": "CSc1c(cc(cc1O))NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCO3)C1"
+        }
+    },
+    {
+        "src_smiles": "N#Cc1ncc(F)c(N(Cc2ccc(Cl)cc2)Cc2ccc3c(c2)OCO3)n1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a nitrile group (N#C) attached to a substituted indole core. The indole ring is substituted with a fluorine atom, a chloro-phenyl group connected via an ethyl linker, and a methoxyethyl ether linked to a secondary aromatic ring.",
+            "Property Analysis": "The molecule exhibits moderate lipophilicity due to multiple aromatic rings and halogen substituents, which can limit its solubility in water. The presence of polar functional groups like the nitrile and ether linkages can contribute to some degree of solubility.",
+            "Limitation in Source Molecule for Property": "High lipophilicity from multiple aromatic and halogen substituents reduces the ability of the molecule to form favorable interactions with water, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "Introduce additional polar functional groups such as hydroxyl or amine groups to increase hydrogen bonding capacity. Alternatively, reduce the number of aromatic rings or halogen substituents to decrease lipophilicity. For instance, replacing one of the chloro-phenyl groups with a hydroxyl-phenyl group could enhance hydrophilicity.",
+            "Final Target Molecule": "N#Cc1ncc(F)c(N(Cc2ccc(O)cc2)Cc2ccc3c(c2)OCO3)n1."
+        }
+    },
+    {
+        "src_smiles": "NC1=NC2(c3ccc(F)cc3F)COC(c3ccc(Cl)cc3)CC2CS1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a tricyclic compound featuring a nitrogen-containing heterocycle fused with two aromatic rings. It includes difluorophenyl and chlorophenyl substituents, a methoxy ether linkage, and a thioether bridge, contributing to its overall structural complexity and aromatic character.",
+            "Property Analysis": "The compound exhibits moderate water solubility. Polar functional groups such as the amine and methoxy groups enhance solubility, while multiple halogenated aromatic rings and the thioether bridge contribute to hydrophobicity, limiting its solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The high hydrophobicity arising from multiple halogenated aromatic rings and the presence of a thioether bridge reduces the compound's ability to interact favorably with water molecules, thereby decreasing its water solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce additional polar or ionizable groups and reduce hydrophobic character. This can be achieved by replacing one of the chlorophenyl groups with a hydroxyl group to increase hydrogen bonding capacity and introducing a carboxylate moiety to enhance ionic interactions in aqueous solutions.",
+            "Final Target Molecule": "NC1=NC2(c3ccc(F)cc3F)COC(c3ccc(O)cc3)CC2CS1C(=O)[O-]"
+        }
+    },
+    {
+        "src_smiles": "CCSc1nnc(NC(=O)C(NC(=O)c2ccccc2F)C(C)C)s1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a thiazole ring substituted with an ethylthio group (CCS) and two amide linkages. It features a 2-fluorophenyl group attached via an amide bond and an isopropyl substituent on the nitrogen atom.",
+            "Property Analysis": "The compound exhibits moderate water solubility due to the presence of polar amide groups and the fluorophenyl moiety. However, its overall solubility is hindered by hydrophobic elements like the ethylthio and isopropyl groups.",
+            "Limitation in Source Molecule for Property": "The hydrophobic ethylthio and isopropyl groups reduce the compound's ability to interact favorably with water, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, replace hydrophobic alkyl groups with more polar or hydrophilic substituents. Introducing hydroxyl or amino groups can increase hydrogen bonding with water. Additionally, reducing the size of hydrophobic side chains or incorporating ionic groups may further improve solubility.",
+            "Final Target Molecule": "CCOSc1nnc(NC(=O)C(NC(=O)c2ccccc2F)C(O)C)s1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2c3c(n(C)c2cc1OC)C(=O)NCC=C3c1ccc(O)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a complex tricyclic aromatic system with multiple substituents. It includes methoxy (-OCH\u2083) groups attached to aromatic rings, an amide linkage (C=O-N), a vinyl side chain (CC=C), and a hydroxyl (-OH) group on one of the phenyl rings. The presence of these methoxy and hydroxyl groups introduces some polarity, but the extensive aromatic structure contributes to overall hydrophobicity.",
+            "Property Analysis": "The compound exhibits low water solubility primarily due to its extensive aromatic rings, which enhance hydrophobic characteristics. While methoxy and hydroxyl substituents add some polar interactions, they are insufficient to overcome the hydrophobic nature imparted by the multiple aromatic systems.",
+            "Limitation in Source Molecule for Property": "The primary limitation affecting water solubility is the high degree of aromaticity combined with bulky substituents like methoxy groups. This results in a predominantly non-polar molecule with limited capacity for hydrogen bonding and ionic interactions with water molecules.",
+            "Optimization for Source Molecule": "To improve water solubility, replace methoxy groups with more hydrophilic hydroxyl groups to increase hydrogen bonding capability. Additionally, introducing ionizable groups such as sulfonic acid or ammonium moieties can enhance solubility through ionic interactions. Reducing the number of aromatic rings or incorporating polar linkers may also contribute to increased hydrophilicity.",
+            "Final Target Molecule": "cOc1cc2c3c(n(C)c2cc1O)C(=O)NCC=C3c1ccc(O)cc1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)(C)OC(=O)NC1CCC(n2cnc3cnc4[nH]ccc4c32)CC1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central tert-butyl ether linked to an amide bond. The amide is connected to a piperidine ring that is fused with multiple nitrogen-containing heterocycles, including triazole and pyridine moieties. The molecule contains several aromatic rings and a bulky tert-butyl group, contributing to its overall hydrophobic character.",
+            "Property Analysis": "The compound exhibits low water solubility, which may limit its bioavailability and effectiveness in aqueous environments. The presence of multiple hydrophobic aromatic rings and a large tert-butyl group significantly reduce its ability to interact with water molecules.",
+            "Limitation in Source Molecule for Property": "High hydrophobicity due to the bulky tert-butyl group and multiple aromatic heterocycles restricts the molecule's ability to form hydrogen bonds and interact favorably with water, resulting in poor solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, the bulky tert-butyl group can be replaced with a smaller alkyl group such as ethyl. Additionally, introducing polar functional groups like hydroxyl or amino groups can enhance hydrogen bonding with water. Reducing the number of aromatic rings or incorporating ionizable groups may also contribute to increased solubility.",
+            "Final Target Molecule": "CCOC(=O)NC1CCC(n2cnc3cnc4[nH]ccc4c32)CC1"
+        }
+    },
+    {
+        "src_smiles": "C=CCN(c1ccc(C(=O)NCCCn2ccnc2)cc1)S(C)(=O)=O",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a vinyl group (C=CC) attached to a secondary amine. This amine is connected to an aromatic benzene ring substituted with an amide linkage (C(=O)N) that extends to a pyridine moiety. Additionally, a sulfonyl group (S(C)(=O)=O) is attached to the nitrogen atom, introducing polar characteristics to the molecule.",
+            "Property Analysis": "The compound exhibits moderate water solubility attributed to the presence of polar sulfonyl and amide groups, which can engage in hydrogen bonding with water molecules. However, the extensive hydrophobic aromatic and vinyl groups may hinder its overall solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The large hydrophobic aromatic rings and vinyl groups decrease water solubility by limiting the molecule's ability to interact favorably with water. The relatively few polar functional groups are insufficient to overcome the hydrophobic regions.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic functional groups such as hydroxyl (-OH) or amino (-NH2) groups. Alternatively, reduce the size or number of hydrophobic aromatic rings or incorporate polar substituents into the aromatic system to increase overall polarity without significantly altering the molecule's core structure.",
+            "Final Target Molecule": "C=CCN(c1ccc(C(=O)NCCCn2ccnc2)cc1O)S(C)(=O)=O"
+        }
+    },
+    {
+        "src_smiles": "COc1cscc1C(=O)N1CCC(F)(CNCc2ccc(C)cn2)CC1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy-substituted thiophene ring connected via a carbonyl group to a piperidine ring. The piperidine ring is further substituted with a fluorine atom and a secondary amine linked to a substituted indole moiety. The molecule features both aromatic and heterocyclic systems, with polar functional groups such as methoxy, carbonyl, and amine groups.",
+            "Property Analysis": "The molecule has moderate molecular weight and contains polar functional groups that can engage in hydrogen bonding, which can contribute to water solubility. However, the presence of multiple aromatic rings and halogen atoms may reduce its solubility by increasing hydrophobic character.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of fluorine atoms increase the molecule's hydrophobicity, which can limit its ability to dissolve in water. Additionally, bulky substituents may hinder solubility by reducing the molecule's overall polarity.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce additional hydrophilic groups such as hydroxyl or sulfonamide groups. Reducing the number of aromatic rings or replacing some with more polar heterocycles can also enhance solubility. Introducing ionizable groups at physiological pH, such as carboxylic acids or amines, can significantly increase solubility in water.",
+            "Final Target Molecule": "COc1cscc1C(=O)N1CCC(F)(COC)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCOC(=O)N1CCN(S(=O)(=O)c2ccc(C(=O)Nc3nc4c(s3)CC(C)CC4)cc2)CC1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features an ether linkage (CCO), an amide bond (C(=O)N1), a sulfonamide group (S(=O)(=O)), and multiple aromatic rings. It contains nitrogen and sulfur heteroatoms, which can participate in hydrogen bonding and dipole interactions, potentially influencing its physicochemical properties.",
+            "Property Analysis": "The compound has moderate water solubility attributed to its polar functional groups, such as amide and sulfonamide. However, the extensive hydrophobic regions from aromatic rings and aliphatic chains may limit its overall solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The molecule's solubility is hindered by multiple hydrophobic aromatic rings and long aliphatic chains, which reduce its affinity for water. Additionally, the bulky structure may impede effective interaction with water molecules, further decreasing solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar or ionizable functional groups such as hydroxyl (-OH) or amino (-NH\u2082) groups. Reducing the number of aromatic rings or incorporating more hydrophilic substituents can also increase solubility. Alternatively, introducing salts or zwitterionic forms can improve aqueous solubility without significantly altering the molecule's core structure.",
+            "Final Target Molecule": "CCO[C](=O)N1CCN(S(=O)(=O)c2ccc(C(=O)Nc3nc4c(s3)CC(C)CC4)cc2)CC1O"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy-substituted aromatic ring connected to a cyclohexane ring, which is further linked to another aromatic system containing a urea and a thiourea moiety. The molecule has multiple nitrogen and sulfur atoms, contributing to its potential hydrogen bonding capacity.",
+            "Property Analysis": "The molecule exhibits moderate water solubility due to the presence of polar functional groups like urea and thiourea. However, the extensive aromatic and methoxy groups confer significant hydrophobic character, limiting its overall solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of methoxy groups increase the molecule's hydrophobicity, reducing its solubility in water. Additionally, bulky substituents may hinder effective hydrogen bonding with water molecules, further limiting solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic functional groups such as hydroxyl or amino groups. Replacing methoxy groups with more polar substituents can decrease hydrophobicity. Additionally, reducing the size of aromatic rings or introducing polar substituents can facilitate better interaction with water molecules.",
+            "Final Target Molecule": "COc1ccc(C2CC2COc2cc(NC(O)NCC3nnc(C)s3)C(O)N2)nc1O"
+        }
+    },
+    {
+        "src_smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1SC1CCCCC1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central acetyl group linked to a sulfonamide moiety and a trifluoromethyl-substituted aromatic ring. It contains multiple aromatic rings, a sulfonamide group, a trifluoromethyl group, and a cyclohexyl spacer. The molecule has both hydrophobic (aromatic rings, cyclohexyl) and hydrophilic (sulfonamide, amide) functional groups.",
+            "Property Analysis": "The compound exhibits moderate water solubility due to the presence of hydrophilic functional groups like the sulfonamide and amide. However, the multiple aromatic rings and the trifluoromethyl group contribute to its overall hydrophobic character, limiting its solubility in water.",
+            "Limitation in Source Molecule for Property": "The extensive hydrophobic regions from the multiple aromatic rings, the cyclohexyl spacer, and the trifluoromethyl groups reduce the compound's ability to interact with water molecules, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic groups such as hydroxyl or carboxyl groups, reduce the size of hydrophobic moieties, or replace some hydrophobic groups with more polar alternatives. Specifically, modifying the cyclohexyl spacer to include hydroxyl groups and reducing the number of trifluoromethyl groups can increase polarity and improve solubility.",
+            "Final Target Molecule": "CC(C(=O)NCc1ccc(C(F)F)nc1SC(CO)CCCCC)c1ccc(NS(C)(=O)=O)c(F)c1"
+        }
+    },
+    {
+        "src_smiles": "CNC(C)C(=O)NC(Cc1ccccc1)C(=O)N1CCCC1C(=O)NC(c1ccccc1)c1ccccc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of multiple amide linkages connected to aromatic phenyl rings and cyclic aliphatic structures. It has three aromatic phenyl groups, multiple carbonyl groups, and cyclic amide (lactam) functionalities, contributing to a relatively rigid and hydrophobic structure.",
+            "Property Analysis": "The compound exhibits low water solubility primarily due to its high hydrophobic character from multiple aromatic rings and limited hydrophilic groups. While amide groups can engage in hydrogen bonding, the overall balance favors hydrophobic interactions, reducing solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The abundance of hydrophobic aromatic phenyl rings and cyclic amide structures limits the molecule's ability to form sufficient hydrogen bonds with water, resulting in poor solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic functional groups such as hydroxyl (-OH) or amino (-NH\u2082) groups. Reduce the number of aromatic rings or incorporate more polar substituents. Alternatively, alter cyclic amide structures to include side chains that can engage in hydrogen bonding or increase the molecule's overall polarity.",
+            "Final Target Molecule": "CNC(C)C(=O)NC(CO)c1ccccc1C(=O)N1CCCC1C(=O)NC(c1ccccc1)c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "CN1C(C)(C)CN(c2cc(F)ccc2CNC(=O)c2nc(C3CCOC3)n(C)c(=O)c2O)S1(=O)=O",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a sulfonyl-containing piperazine ring, multiple fluorinated aromatic rings, a urea linkage, and an ether bridge. It possesses both hydrophobic (aromatic and fluorinated rings) and hydrophilic (sulfonyl, urea, and ether groups) regions, contributing to its overall physicochemical properties.",
+            "Property Analysis": "The molecule exhibits limited water solubility due to the presence of bulky hydrophobic moieties which hinder its ability to interact favorably with water molecules. The existing hydrophilic groups are insufficient to counterbalance the hydrophobic regions.",
+            "Limitation in Source Molecule for Property": "The extensive hydrophobic aromatic and fluorinated rings increase the molecule's lipophilicity, reducing its solubility in aqueous environments. Additionally, steric hindrance around polar groups may limit effective hydrogen bonding with water.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups such as hydroxyl or amino groups. Reduce the number of bulky aromatic rings or replace some with more hydrophilic linkers. Incorporate flexible linkers to facilitate better interaction with water molecules and decrease overall molecular rigidity.",
+            "Final Target Molecule": "CN1C(C)(C)CN(CO)c2cc(F)ccc2CNC(=O)c2nc(C3CCOC3)n(C)c(=O)c2O)S1(=O)=O"
+        }
+    },
+    {
+        "src_smiles": "CCOC(=O)C(C#N)=Cc1ccc(OCC(=O)Nc2ccc(C)cc2C)c(OC)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule comprises an ethoxy linker (CCO) attached to a carbonyl group (C=O). This is connected to a nitrile-substituted carbon (C#N) and further linked to a benzene ring. The benzene ring is substituted with methoxy groups (OC) and an ether-linked carbamate moiety containing another methyl-substituted benzene ring.",
+            "Property Analysis": "The molecule possesses both hydrophilic and hydrophobic regions. The presence of carbonyl, nitrile, and ether groups contribute to some degree of water solubility, while the multiple aromatic rings and methoxy groups introduce significant hydrophobicity, limiting overall solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The predominance of hydrophobic components, particularly the multiple aromatic rings and methoxy groups, outweighs the hydrophilic functional groups, resulting in poor solubility in water.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic groups such as hydroxyl (-OH) or amino (-NH\u2082) groups. Reduce the number of aromatic rings or replace some with more polar heterocycles. Additionally, increasing the density of polar functional groups can improve hydrogen bonding with water, thereby increasing solubility.",
+            "Final Target Molecule": "CCOC(=O)C(C#N)=Cc1ccc(OCC(=O)Nc2ccc(O)cc2)c(O)c1"
+        }
+    },
+    {
+        "src_smiles": "Cc1cnc(C(C)(CO)NC(=O)c2c(C)nc3c(OCc4c(F)cccc4F)cccn23)s1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a pyridine ring substituted with a methyl group and a complex side chain containing multiple nitrogen and oxygen atoms, including fluorinated aromatic rings. The presence of amide linkages and ether groups contributes to its structural complexity.",
+            "Property Analysis": "The compound has moderate aqueous solubility. The presence of polar functional groups may aid solubility, but extensive hydrophobic regions due to multiple aromatic and fluorinated rings limit its overall water solubility.",
+            "Limitation in Source Molecule for Property": "High hydrophobic character from multiple aromatic and fluorinated rings reduces the compound's affinity for water, limiting its solubility despite the presence of polar groups.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups such as hydroxyl groups or reduce the number of hydrophobic fluorinated aromatic rings. Alternatively, introducing charged groups or increasing hydrogen bonding capacity can improve solubility.",
+            "Final Target Molecule": "Cc1cnc(C(C)(CO)NC(=O)c2c(C)nc3c(OCc4c(O)cccc4F)cccn23)s1."
+        }
+    },
+    {
+        "src_smiles": "COc1ccccc1NC(=O)c1ccc(NC(=O)COC(=O)CCC2CCCC2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxyphenyl group connected to multiple amide linkages and a cyclohexyl moiety, forming a complex structure with both hydrophobic and polar functional groups.",
+            "Property Analysis": "The compound has moderate solubility in water due to the presence of polar amide groups, but the substantial hydrophobic regions limit its overall solubility.",
+            "Limitation in Source Molecule for Property": "The bulky cyclohexyl group and multiple aromatic rings reduce the compound's ability to interact favorably with water molecules, thereby decreasing solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups, such as hydroxyl or amino groups, and consider replacing or reducing hydrophobic moieties like the cyclohexyl group with more hydrophilic linkers.",
+            "Final Target Molecule": "COc1ccccc1NC(=O)c1ccc(NC(=O)COC(=O)COO)cc1"
+        }
+    },
+    {
+        "src_smiles": "O=C(NC(=Cc1ccc(Br)cc1)C(=O)N1CCOCC1)c1ccc([N+](=O)[O-])cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central benzene ring substituted with a bromine atom and a nitro group ([N+](=O)[O-]). It features two amide linkages connecting to a side chain that includes a propiophenone moiety (NC(=C)C) and a morpholine ring (N1CCOCC1). The molecule exhibits multiple aromatic rings, halogen substitution, and heterocyclic components.",
+            "Property Analysis": "The compound has moderate to low solubility in water. The presence of aromatic rings and halogen atoms contributes to hydrophobic character, while the nitro group and amide linkages introduce some polar functionalities.",
+            "Limitation in Source Molecule for Property": "The hydrophobic aromatic rings and bromine substituents decrease the overall water solubility. Additionally, bulky substituents and limited hydrogen-bonding capabilities restrict the molecule's ability to interact favorably with water molecules.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups such as hydroxyl or amino groups to increase hydrogen bonding capacity. Reduce the number of hydrophobic aromatic rings or replace them with more polar heterocycles. Consider removing or modifying halogen substituents like bromine to decrease hydrophobicity.",
+            "Final Target Molecule": "O=C(NC(=Cc1ccc([OH])cc1)C(=O)N1CCOCC1)c1ccc([N+](=O)[O-])cc1"
+        }
+    },
+    {
+        "src_smiles": "Cc1ccc(-c2nc(NC(=O)COc3cccc(F)c3)cc(-c3nccs3)n2)o1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a toluene ring substituted with a complex heterocyclic system. The main structure includes a benzene ring with a methyl group (toluene) and a substituent at the para position. The substituent is a fused heterocycle containing nitrogen and sulfur atoms, specifically a thiazole ring attached to an imidazole ring. Additionally, there is an amide linkage to a methoxy-substituted fluorobenzene moiety.",
+            "Property Analysis": "The molecule possesses several functional groups that contribute to its overall properties. The presence of aromatic rings can facilitate pi-pi stacking interactions, potentially influencing its binding affinity in biological systems. However, these aromatic systems, along with the methyl and methoxy groups, can limit the molecule's solubility in water due to increased hydrophobic character. The amide linkage may offer some hydrogen-bonding capability, slightly enhancing solubility.",
+            "Limitation in Source Molecule for Property": "The primary limitation for water solubility in the source molecule is the high degree of hydrophobic aromatic structures, including multiple benzene rings and a methyl group. These hydrophobic moieties reduce the molecule's ability to interact favorably with water molecules. Additionally, the presence of fluorine and sulfur atoms does not significantly contribute to increasing hydrophilicity.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce more hydrophilic functional groups to the molecule. This can be achieved by adding hydroxyl or amino groups to increase hydrogen bonding capacity. Reducing the number of aromatic rings or replacing some with more polar heterocycles can also help. Introducing sulfonamide groups or carboxylic acids may further improve solubility. Additionally, reducing the size of hydrophobic substituents like the methyl group can decrease overall hydrophobicity.",
+            "Final Target Molecule": "Cc1ccc(-c2nc(NC(=O)COc3c(O)ccc(F)c3)cc(-c3nccs3)n2)o1"
+        }
+    },
+    {
+        "src_smiles": "CC(CN(C)C)Oc1cc(Oc2ccc(S(C)(=O)=O)cc2)cc(C(=O)Nc2nccs2)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a propyl chain bonded to a tertiary amine, attached via an ether linkage to a substituted phenyl ring. This phenyl ring is further substituted with a sulfonyl group and an amide linked to a thiophene ring, incorporating both polar and aromatic functionalities.",
+            "Property Analysis": "The compound exhibits moderate water solubility due to the presence of polar groups such as the tertiary amine, ether, sulfonyl, and amide moieties. However, the aromatic rings and thiophene unit contribute to hydrophobic character, which can limit solubility.",
+            "Limitation in Source Molecule for Property": "The hydrophobic aromatic and thiophene rings decrease the overall polarity of the molecule, reducing its ability to interact favorably with water molecules and thus limiting its solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups such as hydroxyl or carboxyl groups, reduce the size or number of hydrophobic aromatic rings, and increase the number of ionizable sites. For example, adding hydroxyl groups to the aromatic rings or modifying the thiophene ring to include more polar substituents could improve solubility.",
+            "Final Target Molecule": "CC(CN(C)C)Oc1cc(Oc2ccc(S(C)(=O)=O)cc2O)cc(C(=O)Nc2nccs2)c1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(C(=O)NC(CC(=O)O)c2ccccc2Cl)nc1-c1ccc(Cl)cc1Cl",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of multiple aromatic rings substituted with chloro groups, a methoxy group, an amide linkage, and a carboxylic acid moiety. The presence of chloro substituents and aromatic rings contribute to its overall hydrophobic character.",
+            "Property Analysis": "The molecule exhibits limited water solubility due to its hydrophobic aromatic and chloro substituents. However, it contains polar functional groups such as the amide and carboxylic acid, which can interact with water molecules.",
+            "Limitation in Source Molecule for Property": "The high number of hydrophobic chlorine substituents and aromatic rings significantly restrict the compound\u2019s ability to dissolve in water, despite the presence of some polar groups.",
+            "Optimization for Source Molecule": "To improve water solubility, reduce the number of hydrophobic chloro substituents by replacing some with more polar functional groups like hydroxyl groups. Additionally, introducing ionizable groups or improving hydrogen bonding capacity can enhance solubility.",
+            "Final Target Molecule": "COc1ccc(C(=O)NC(C(C(=O)O)O)c2ccccc2Cl)nc1-c1ccc(OH)cc1Cl)"
+        }
+    },
+    {
+        "src_smiles": "CC(C)C(NC(=O)c1cc2ccccc2s1)C(=O)N1CCC(c2ccc(Cl)cc2)CC1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a central carbon backbone with isopropyl groups, connected to amide linkages. It includes a thiophene ring fused with a phenyl ring substituted by a chlorine atom, and a piperazine ring attached to another substituted phenyl group. The molecule contains multiple amide bonds, a sulfide-containing thiophene ring, and a chlorophenyl substituent.",
+            "Property Analysis": "The molecule exhibits limited water solubility due to its bulky hydrophobic aromatic rings, presence of electron-withdrawing chlorine, and multiple amide functionalities which contribute to high molecular weight and reduced polarity.",
+            "Limitation in Source Molecule for Property": "The extensive hydrophobic aromatic system, particularly the chlorophenyl and thiophene rings, significantly decrease water solubility. Additionally, the electron-withdrawing chlorine atom and the overall molecular size further hinder solubility by reducing the molecule's polarity.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce polar functional groups such as hydroxyl or amino groups to increase hydrogen bonding capability. Replace the chlorophenyl group with a hydroxyl-substituted phenyl group to reduce hydrophobicity. Additionally, consider modifying the thiophene ring to a more polar heterocycle or introducing salt-forming groups to improve solubility.",
+            "Final Target Molecule": "CC(C)C(NC(=O)c1cc(O)ccccc1s1)C(=O)N1CCC(c2ccc(O)cc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "N#Cc1cc(S(=O)(=O)Nc2nccs2)ccc1Oc1ccc(Cl)cc1-c1ccnn1CC(F)(F)F",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule comprises a nitrile group attached to a phenyl ring substituted with a sulfonamide linked to a thiophene ring. It also includes a methoxy-substituted phenyl ring with a chlorine substituent and a pyrazole ring attached to a trifluoromethyl group. The molecule features multiple aromatic systems, electron-withdrawing groups, and heterocycles, contributing to its structural complexity and chemical stability.",
+            "Property Analysis": "The compound exhibits moderate water solubility primarily due to the presence of polar functional groups such as the sulfonamide and nitrile. However, the extensive aromatic rings, chloro substituents, and trifluoromethyl groups impart significant hydrophobic character, limiting its overall solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of multiple hydrophobic moieties, including chlorine and trifluoromethyl groups, reduce the molecule's polarity. This hydrophobicity outweighs the polar contributions, resulting in decreased water solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar or ionizable groups to increase hydrogen bonding capability. Modifying or substituting existing hydrophobic groups with more hydrophilic moieties, such as hydroxyl or amino groups, can improve polarity. For instance, adding a hydroxyl group to the thiophene ring or replacing a trifluoromethyl group with a hydroxyl group can significantly increase solubility.",
+            "Final Target Molecule": "N#Cc1cc(S(=O)(=O)Nc2nccs2O)ccc1Oc1ccc(Cl)cc1-c1ccnn1CC(F)(F)OH"
+        }
+    },
+    {
+        "src_smiles": "O=S(=O)(Nc1nccs1)c1ccc2c(c1)OCCN2c1cccc(Cl)c1Cl",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a sulfonamide group attached to a thiazole ring, connected to a biphenyl ether linked to a morpholine ring, which is further substituted with two chlorine atoms on the phenyl rings. The molecule features multiple aromatic rings, heteroatoms (nitrogen and sulfur), and ether linkages.",
+            "Property Analysis": "The compound demonstrates moderate hydrophobic character due to the presence of multiple aromatic rings and chlorine substituents, which may limit its solubility in water.",
+            "Limitation in Source Molecule for Property": "The high degree of hydrophobicity from the aromatic systems and chlorine atoms reduces the compound's ability to form hydrogen bonds with water, thereby decreasing its solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic functional groups such as hydroxyl or amino groups by replacing the chlorine atoms on the phenyl rings. This increases the molecule's ability to engage in hydrogen bonding and ionic interactions with water molecules.",
+            "Final Target Molecule": "O=S(=O)(Nc1nccs1)c1ccc2c(c1)OCCN2c1cccc(O)c1O"
+        }
+    },
+    {
+        "src_smiles": "CC(C)(C)NC(=O)C(c1ccsc1)N(C(=O)Cn1nnc2ccccc21)c1ccc(C(C)(C)C)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central amide linkage connecting a t-butyl-substituted aromatic ring to a thiophene ring and a triazole-fused phenyl ring. It contains multiple aromatic systems (phenyl, thiophene, triazole) and bulky t-butyl groups, which contribute to its hydrophobic character.",
+            "Property Analysis": "The compound exhibits low water solubility primarily due to its extensive hydrophobic aromatic structures and bulky substituents. Enhancing solubility is crucial for improving its bioavailability and overall pharmacokinetic profile.",
+            "Limitation in Source Molecule for Property": "The presence of multiple aromatic rings and large t-butyl groups increase hydrophobicity, reducing the compound's ability to interact favorably with water molecules, thereby limiting its solubility.",
+            "Optimization for Source Molecule": "To improve water solubility, introduce polar functional groups such as hydroxyl or amino groups, and replace bulky t-butyl substituents with smaller or more hydrophilic moieties. Additionally, reducing the number of aromatic rings or incorporating heteroatoms can enhance polarity.",
+            "Final Target Molecule": "CC(C)NC(=O)C(c1ccsc1)N(C(=O)Cn1nnc2ccccc21)c1ccc(O)cc1"
+        }
+    },
+    {
+        "src_smiles": "CCC(NC(=O)c1cc(C(=O)N2CCCC2C)n2c1COCC2)c1ccc(C#N)cc1Cl",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a propyl chain linked to a secondary amide group. This amide is connected to an aromatic system containing chloro and nitrile substituents. Additionally, the structure includes a cyclic piperidine moiety and an ether linkage within the aromatic rings, contributing to its overall complexity.",
+            "Property Analysis": "The molecule exhibits moderate lipophilicity due to the presence of aromatic rings, chloro, and nitrile groups. It has hydrogen bond donors and acceptors, which can facilitate some interactions with water. However, the extensive non-polar regions limit its solubility in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The high hydrophobic character stemming from multiple aromatic rings, chloro substituents, nitrile groups, and the piperidine ring significantly reduces the compound's water solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional polar functional groups such as hydroxyl groups, reduce the number of non-polar aromatic structures, or incorporate ionizable groups. For instance, replacing the nitrile group with a hydroxyl group can increase hydrophilicity.",
+            "Final Target Molecule": "CCC(NC(=O)c1cc(C(=O)N2CCCC2C)n2c1COCC2)c1ccc(O)cc1Cl"
+        }
+    },
+    {
+        "src_smiles": "O=C(CC1(O)C(=O)Nc2c(Cl)ccc(Cl)c21)c1ccc(Oc2ccccc2)cc1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule comprises multiple functional groups including ketone, hydroxyl, amide, chlorinated aromatic rings, and ether linkages. These features contribute to its structural complexity and physicochemical properties.",
+            "Property Analysis": "The compound exhibits moderate lipophilicity due to the presence of chlorinated aromatic rings and multiple non-polar regions, which adversely affects its solubility in water.",
+            "Limitation in Source Molecule for Property": "The high lipophilicity and multiple chlorine substituents reduce the molecule's ability to engage in hydrogen bonding and increase hydrophobic interactions, resulting in low aqueous solubility.",
+            "Optimization for Source Molecule": "To enhance water solubility, introduce additional hydrophilic groups such as hydroxyls, decrease the number of chlorine atoms on the aromatic rings, and increase the overall polarity of the molecule.",
+            "Final Target Molecule": "O=C(CC1(O)C(=O)Nc2c(O)ccc(O)c21)c1ccc(Oc2ccccc2)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(OC)c(NC(=O)c2ccc(NC(=O)N3Cc4ccccc4C3)cc2)c1",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzene ring substituted with two methoxy groups and an amide-linked side chain containing multiple aromatic rings and amide linkages. The molecule has a complex, polyaromatic structure with multiple amide bonds, contributing to its high molecular weight and hydrophobic character.",
+            "Property Analysis": "The compound exhibits low solubility in water due to its extensive hydrophobic aromatic systems and limited polar functional groups. The presence of multiple methoxy groups provides some polarity, but overall the molecule remains largely hydrophobic, hindering its dissolution in aqueous environments.",
+            "Limitation in Source Molecule for Property": "The main limitation affecting solubility is the high degree of hydrophobicity from multiple aromatic rings and methoxy substituents, along with the lack of sufficient polar or ionizable groups to enhance water solubility.",
+            "Optimization for Source Molecule": "To improve solubility in water, replace methoxy groups with hydroxyl groups to increase hydrogen bonding capacity. Introducing additional hydroxyl groups or other polar functional groups can further enhance hydrophilicity. This modification reduces lipophilicity and enhances the molecule's ability to interact with water molecules.",
+            "Final Target Molecule": "HOc1ccc(OH)c(NC(=O)c2ccc(NC(=O)N3Cc4ccccc4C3)cc2)c1."
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(NC(=O)CSc2nc3ccccc3nc2N2CCCC2)cc1Cl",
+        "prop": "solubility",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a chlorinated aromatic ring with a methoxy substituent, connected to an amide linkage. This amide is bonded to a thioether linkage, which connects to a bicyclic heterocycle containing nitrogen atoms. The presence of multiple aromatic rings and a thioether may contribute to hydrophobic characteristics, while the methoxy and amide groups introduce some polarity.",
+            "Property Analysis": "The compound's solubility in water is likely limited due to the presence of multiple hydrophobic aromatic rings and thioether linkage, which decrease overall polarity. Enhancing solubility would require increasing the molecule's hydrophilic character to facilitate better interaction with water molecules.",
+            "Limitation in Source Molecule for Property": "The high degree of aromaticity and the presence of thioether and chloro substituents contribute to low water solubility. These hydrophobic moieties hinder the molecule's ability to form favorable interactions with water.",
+            "Optimization for Source Molecule": "Introduce additional polar functional groups such as hydroxyl or amino groups to increase hydrophilicity. Alternatively, modify the thioether linkage to include a sulfonamide group, which can enhance solubility through increased polarity and potential hydrogen bonding. Another approach is to add a charged functional group, such as a carboxylate, to facilitate water solubility through ionic interactions.",
+            "Final Target Molecule": "COc1ccc(NC(=O)CSc2nc3ccccc3nc2N2CCCC2)cc1ClO"
+        }
+    }
+]

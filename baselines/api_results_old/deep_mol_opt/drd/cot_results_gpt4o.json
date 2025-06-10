@@ -1,0 +1,1102 @@
+[
+    {
+        "src_smiles": "CCc1nc(CN(C)C2CCN(CCn3cc(C#N)cn3)C2)no1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a pyrazole ring with an ethyl substitution at the 4-position and an N-substituted piperazine moiety at the 3-position. The piperazine is further connected to an imidazole ring via a flexible ethyl linker.",
+            "Property Analysis": "The Dopamine D2 Receptor (DRD2) activity might be influenced by the presence of the piperazine moiety which is common in compounds that bind to the receptor. The cyano group on the imidazole may participate in additional interactions with the receptor binding site.",
+            "Limitation in Source Molecule for Property": "The steric hindrance caused by the bulky substituents in the piperazine moiety might reduce the overall binding affinity. Additionally, the flexibility in the ethyl linker could lead to a loss of optimal binding conformation.",
+            "Optimization for Source Molecule": "Introduce a more rigid linker (such as a phenyl group) between the piperazine and imidazole to better position the ligand for binding. Additionally, consider substituting one of the methyl groups on the pyrazole ring with a smaller electron-donating group to enhance interaction with the receptor.",
+            "Final Target Molecule": "CCc1nc(COCC2CCN(CCn3cc(C#N)cn3)C2)no1"
+        }
+    },
+    {
+        "src_smiles": "CC(Cc1c[nH]c2ccccc12)NCC(O)c1cccc(Cl)c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a chiral center at the carbon connecting the cyclohexanol moiety, an indole system, and a chlorobenzene ring. The presence of a secondary amine and a hydroxyl group indicates potential for hydrogen bonding.",
+            "Property Analysis": "The Dopamine D2 Receptor Activity is influenced by aromaticity and the presence of hydrophobic groups that interact with the receptor. The indole structure and the chlorobenzene ring provide aromatic features that can interact with the receptor. The amine group may contribute to binding affinity.",
+            "Limitation in Source Molecule for Property": "The molecule may have limited flexibility due to the rigid aromatic systems, and the stereochemistry may not be optimal for DRD2 binding. The hydroxyl and amine groups could be optimized for better receptor interactions.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, we could consider substituting the hydroxyl group with a methoxy group to enhance hydrophobicity and interaction with the receptor. Additionally, modifying the secondary amine to a tertiary amine could enhance receptor affinity by mimicking dopamine structure.",
+            "Final Target Molecule": "CC(Cc1c[nH]c2ccccc12)N(C)CC(OC)c1cccc(Cl)c1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCCN(CCn2ccc3ccc(C(N)=O)cc32)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted piperazine linked to a quinazolinone structure. The core piperazine (CN1CCCN(CC1)CC) is linked via a propyl chain to a quinazolinone moiety (CCn2ccc3ccc(C(N)=O)cc32).",
+            "Property Analysis": "DRD2 activity often correlates with specific structural features like a tertiary amine nitrogen that can form hydrogen bonds with the receptor, an aromatic system that can stack with the receptor's aromatic residues, and possibly a functional group capable of forming additional polar interactions.",
+            "Limitation in Source Molecule for Property": "The source molecule has a suitable tertiary amine structure but may lack additional polar interaction sites and may benefit from further aromatic ring substitution to enhance pi-stacking interactions.",
+            "Optimization for Source Molecule": "Introduce a methoxy group on the aromatic ring of the quinazolinone moiety to add additional polar interaction capabilities and increase lipophilicity for better receptor binding. Additionally, substitution of an electron-donating group like a hydroxyl could improve potency by increasing binding interaction.",
+            "Final Target Molecule": "CN1CCCN(CCn2ccc3cc(COC)ccc3c2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)(C)C(=O)N1c2ccccc2CCc2ccccc21",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a derivative of a bicyclic system with a lactam functional group. It contains a tert-butyl group and phenyl rings within its structure.",
+            "Property Analysis": "The molecule has potential binding affinity to the Dopamine D2 Receptor due to its bicyclic core and amide linkage, which are commonly found in ligands targeting D2 receptors.",
+            "Limitation in Source Molecule for Property": "The presence of bulky groups like tert-butyl may hinder optimal interaction with the receptor binding site, potentially affecting the binding affinity.",
+            "Optimization for Source Molecule": "Consider replacing the tert-butyl group with a smaller group or modifying the aromatic rings to enhance pi-pi interactions and improve binding affinity to the Dopamine D2 Receptor.",
+            "Final Target Molecule": "CC(C)C(=O)N1c2ccccc2CCc2ccccc21"
+        }
+    },
+    {
+        "src_smiles": "CCN(CC)CCNc1n[n+]([O-])c2cc3c(cc2[n+]1[O-])CCC3",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted piperazine derivative with nitroimidazole functionalities. It features a tertiary amine and imidazole rings, which can have an electrostatic impact on receptor binding.",
+            "Property Analysis": "The molecule has moderate potential for interaction with the DRD2 receptor due to its basic amine group, which can interact with the aspartate residue in the receptor binding pocket. However, the nitro groups might be detrimental due to their electron-withdrawing nature, potentially destabilizing interactions.",
+            "Limitation in Source Molecule for Property": "The presence of nitro groups can contribute to poor pharmacokinetic properties, such as low permeability, and possibly adverse metabolic profiles. Furthermore, the extended flexible chain could lead to non-specific interactions, reducing binding specificity and affinity.",
+            "Optimization for Source Molecule": "To improve DRD2 receptor affinity, consider introducing electron-donating groups to enhance electron density around key interaction sites. Additionally, rigidifying the molecule by forming additional rings could improve binding specificity. Removing or modifying the nitro groups to less polar functional groups could also enhance pharmacokinetic properties.",
+            "Final Target Molecule": "CCN(CC)CCNc1cc2c(cc1)CCC2"
+        }
+    },
+    {
+        "src_smiles": "CCC(=O)N(c1ccc(Cl)c(Cl)c1)C1CCCC1N",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an N-acylpiperidine derivative with a central piperidine ring, an acetamide linkage, and a dichlorophenyl group. The SMILES notation 'CCC(=O)N(c1ccc(Cl)c(Cl)c1)C1CCCC1N' describes a 1-(3,4-dichlorophenyl)piperidine-4-carboxamide with a secondary amine and carbonyl groups, potentially influencing bioactivity.",
+            "Property Analysis": "The molecule may exhibit moderate binding to DRD2 due to its piperidine moiety, which is a common scaffold in dopaminergic agents. However, the presence of electron-withdrawing chloro groups on the aromatic ring might interfere with optimal receptor interaction.",
+            "Limitation in Source Molecule for Property": "The dichlorophenyl group, while providing lipophilicity, may reduce its affinity due to steric hindrance and electron-withdrawing effects, which can limit favorable interactions with the DRD2 receptor. Additionally, the lack of a polar functional group to enhance receptor binding might be suboptimal.",
+            "Optimization for Source Molecule": "Introduce a polar or hydrogen-bonding group, such as a hydroxyl or methoxy group, to the aromatic ring or piperidine to enhance interaction with the receptor. Alternatively, replacing one of the chlorine atoms with a more polar group can potentially improve receptor binding.",
+            "Final Target Molecule": "CC(C(=O)N(c1ccc(OC)c(Cl)c1)C1CCCC1)N"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2c(cc1OC)CC(N1CCOCC1)C2",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a methoxy-substituted aromatic ring and a seven-membered nitrogen-containing ring with an ether linkage. The nitrogen is part of a morpholine structure.",
+            "Property Analysis": "The presence of methoxy groups on the phenyl ring could be influencing electronic properties and steric effects, important for interaction with the DRD2 receptor. The morpholine moiety may provide affinity and selectivity towards DRD2, but its overall activity is influenced by the molecular conformation and electronic distribution.",
+            "Limitation in Source Molecule for Property": "The methoxy groups may cause suboptimal binding due to steric hindrance or electronic effects that do not favor ideal receptor interaction. Additionally, the morpholine ring, while useful, may not present ideal binding conformation or interaction in its current form.",
+            "Optimization for Source Molecule": "Consider replacing one methoxy group with a hydroxy group to increase hydrogen bonding potential. Alternatively, modify the morpholine ring to a piperidine ring to reduce size and potentially improve binding affinity by providing a better fit into the receptor binding pocket.",
+            "Final Target Molecule": "COc1cc2c(cc1O)CC(N1CCCC1)C2"
+        }
+    },
+    {
+        "src_smiles": "CN1CC=C(c2c[nH]c3ccc(-c4ccccc4)cc23)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a compound containing an indole structure fused to a piperidine ring with a phenyl group substitution. The SMILES specification represents a complex bicyclic scaffold often found in bioactive molecules.",
+            "Property Analysis": "The source molecule's core structure is advantageous for interacting with the DRD2 receptor due to its rigidity and aromatic features, allowing effective pi-pi stacking interactions, potentially contributing positively to dopamine receptor binding.",
+            "Limitation in Source Molecule for Property": "The molecule's unsubstituted piperidine nitrogen might affect its aqueous solubility and potentially its binding affinity by not forming additional hydrogen bonds or electrostatic interactions with the receptor.",
+            "Optimization for Source Molecule": "To enhance DRD2 receptor activity, consider substituting the nitrogen in the piperidine ring with a small polar group that retains or improves receptor binding through added hydrogen bonding without significantly altering lipophilicity.",
+            "Final Target Molecule": "CN(C)1CC=C(c2c[nH]c3ccc(-c4ccccc4)cc23)CC1"
+        }
+    },
+    {
+        "src_smiles": "CON=C(CCN1CCN(c2ccccn2)CC1)c1ccccc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is N-(2-(4-(4-pyridin-2-ylpiperazin-1-yl)butylidene)aniline), identified by its SMILES as CON=C(CCN1CCN(c2ccccn2)CC1)c1ccccc1. It contains a piperazine ring attached to a pyridine moiety and an aniline group attached to a butylidene linker.",
+            "Property Analysis": "The molecule is likely designed to function as a dopaminergic compound targeting the DRD2 receptor, given the presence of the piperazine and pyridine rings, which are common in such ligands.",
+            "Limitation in Source Molecule for Property": "The current structure may have limitations in binding affinity or specificity towards DRD2 due to suboptimal orientation or interaction of the piperazine ring and the attached aryl groups.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, one could consider incorporating additional electron-donating groups to the phenyl rings to enhance binding affinity or introducing heteroatoms that could form hydrogen bonds with amino acid residues in the receptor.",
+            "Final Target Molecule": "COC(=O)C(CCN1CCN(c2ccccn2)CC1)c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "O=C1CC(CN2CCN(Cc3ccccc3)CC2)Oc2ccccc21",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a benzodioxolane derivative with a piperazine moiety attached to a phenethylamine framework. The structure contains a bicyclic system that includes an oxo group and a phenyl ring fused through an ether linkage.",
+            "Property Analysis": "The molecule potentially interacts with the Dopamine D2 receptor due to the presence of a phenethylamine core, a common feature in dopaminergic compounds. The presence of the piperazine moiety can facilitate receptor binding by mimicking the neurotransmitter's amine functionality.",
+            "Limitation in Source Molecule for Property": "The carbonyl group within the bicyclic system might interact unfavorably with the receptor, potentially reducing affinity. The overall bulk of the bicyclic moiety could also hinder optimal binding interactions with the receptor.",
+            "Optimization for Source Molecule": "Consider replacing the oxo-bicyclic system with a simpler aromatic or cycloalkyl structure to improve flexibility and binding affinity. Additionally, modifying the piperazine ring, such as introducing a small alkyl substituent, may enhance receptor interactions.",
+            "Final Target Molecule": "CN1CCN(CC2CCCc3ccccc3C2)CC1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccccc1NC(=O)CN1CCN(Cc2ccccc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a compound with a methoxyphenyl group, an amide linkage, and a piperazine ring connected to a phenyl group. The SMILES represents a molecule that consists of an aromatic methoxybenzene moiety (COc1ccccc1), an amide connection (NC(=O)CN), and a piperazine ring (N1CCN(Cc2ccccc2)CC1) attached to another phenyl group.",
+            "Property Analysis": "Dopamine D2 receptor activity is often influenced by the presence of aromatic groups and the structural conformation that allows for effective receptor binding. The methoxyphenyl and phenylpiperazine components suggest potential activity, but this might need tuning to optimize DRD2 binding.",
+            "Limitation in Source Molecule for Property": "The primary limitation might lie in the molecule's flexibility due to the single-bond rotations and the sterics of the phenyl groups, possibly reducing selectivity or affinity for the DRD2 receptor. The balance between hydrophobic and hydrophilic regions might also affect receptor interaction.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider introducing rigidifying elements such as a fused bicyclic ring structure that limits rotation and potentially increases affinity. Also, adjustments to electronic effects with electron-withdrawing or donating groups could be considered to modulate activity.",
+            "Final Target Molecule": "COc1ccc2c(c1)CCN(Cc3c[nH]c4ccccc34)CC2"
+        }
+    },
+    {
+        "src_smiles": "CCC(=O)NCCCCN1CCN(c2ccccc2OC)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a piperazine derivative with an amide linkage and a methoxy-substituted aromatic ring.",
+            "Property Analysis": "The Dopamine D2 Receptor (DRD2) activity is influenced by the interaction between piperazine-containing compounds and the receptor's active site. Affinity is often increased with electron-donating groups and specific hydrophobic interactions.",
+            "Limitation in Source Molecule for Property": "The methoxy group on the aromatic ring may not provide optimal electron-donating effects or hydrophobic interactions needed for high DRD2 activity. Additionally, the linear aliphatic chain may decrease binding specificity.",
+            "Optimization for Source Molecule": "Introduce more electron-donating groups, such as a hydroxyl group on the aromatic ring, and replace the linear aliphatic chain with a more rigid or cyclic structure to enhance hydrophobic interactions.",
+            "Final Target Molecule": "CCOC1=CC=C(CN2CCN(CC2)CCC(=O)N3CCCCC3)C(O)=C1"
+        }
+    },
+    {
+        "src_smiles": "N#CCCNCCCN1CCCCC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a linear chain with a nitrile group (N#C) at one end, a piperidine ring (N1CCCCC1), and an overall structure featuring multiple carbons and nitrogen atoms.",
+            "Property Analysis": "The presence of the piperidine ring may contribute to DRD2 receptor activity, given its prevalence in various bioactive molecules targeting neural receptors. However, linear and highly flexible structures might not optimally fit into the binding pocket of DRD2 receptors.",
+            "Limitation in Source Molecule for Property": "The overall linear structure may lack the rigidity and specific functional groups necessary for optimal interaction with DRD2 receptors. Additionally, the nitrile and linear alkyl chain may not significantly contribute to binding affinity or selectivity.",
+            "Optimization for Source Molecule": "Introduce rigid aromatic systems like phenyl groups or heterocycles to increase binding affinity. Consider adding polar functional groups that can participate in hydrogen bonding or ionic interactions.",
+            "Final Target Molecule": "N#Cc1ccc2[nH]ccn2c1"
+        }
+    },
+    {
+        "src_smiles": "CCN1CCN(c2cccc(Cl)c2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted piperazine with the SMILES notation 'CCN1CCN(c2cccc(Cl)c2)CC1'. It consists of a piperazine ring substituted with a chloro-phenyl group, and an ethyl group on one nitrogen.",
+            "Property Analysis": "The molecule is a dopamine D2 receptor ligand. The piperazine scaffold is a common moiety in many antipsychotic and dopaminergic agents. The chloro-phenyl substitution could contribute to significant lipophilicity and potential ability to cross the blood-brain barrier.",
+            "Limitation in Source Molecule for Property": "While the chloro group introduces lipophilicity favorable for blood-brain barrier penetration, it may affect selectivity and binding affinity for DRD2. Piperazine, though common, might require additional substitutions to improve specificity and activity at the D2 receptor. The ethyl group might also limit interactions by not providing strong hydrogen bonding or electronic interactions with the receptor.",
+            "Optimization for Source Molecule": "Introduce substitutions at the para position of the phenyl ring that can improve specificity for DRD2. Consider adding substituents that can form hydrogen bonds or interactions beneficial for receptor affinity and selectivity. Additionally, alter the ethyl chain length or introduce functional groups capable of forming hydrogen bonds to improve receptor interaction.",
+            "Final Target Molecule": "CCN1CCN(c2ccc(Cl)c(OC)c2)CC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(CCc1ccc2c(ccn2S(=O)(=O)c2ccccc2)c1)NO",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted benzamide with a sulfonamide group and a pyridine moiety. It includes an amide bond, an aromatic ring, and a sulfone functional group.",
+            "Property Analysis": "The DRD2 activity is likely influenced by the aromatic regions and potential hydrogen bonding interactions, particularly involving the amide and sulfone groups.",
+            "Limitation in Source Molecule for Property": "The bulky sulfonamide group might affect optimal receptor binding due to steric hindrance. Lack of electron-donating groups on the aromatic ring may also reduce binding efficiency.",
+            "Optimization for Source Molecule": "Introduce electron-donating groups like methoxy on the phenyl ring to enhance pi-stacking interactions and replace the sulfonamide with a smaller or more flexible group to reduce steric hindrance.",
+            "Final Target Molecule": "O=C(CCc1cc(OC)c2c(cc[nH]2)S(=O)(=O)c2ccccc2)c1"
+        }
+    },
+    {
+        "src_smiles": "Brc1ccc(OCC2CCN(CC3CC3)CC2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a bromobenzene ring with an alkoxy ethylamine chain. The nitrogen in the piperidine moiety is connected to a cyclopropyl group. The presence of the bromine atom on the aromatic ring suggests regions of electron withdrawing due to its electronegativity, and the cyclopropyl group contributes to steric hindrance.",
+            "Property Analysis": "The DRD2 receptor activity is influenced by the ligand's ability to interact optimally with the receptor binding site. Key features include aromatic interaction, amine nitrogen for hydrogen bonding, and an adequate balance between hydrophobic and polar functionalities.",
+            "Limitation in Source Molecule for Property": "The bromine atom attached to the aromatic ring may create steric hindrance and affect binding efficacy. The cyclopropyl group, while contributing to hydrophobic interactions, could increase steric bulk, potentially reducing receptor affinity.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider replacing the bromine with a functional group that facilitates better pi-pi stacking or hydrogen bonding, such as a methoxy or hydroxyl group. Additionally, examine modifying or removing the cyclopropyl group to reduce steric hindrance.",
+            "Final Target Molecule": "Oc1ccc(OCC2CCN(CC3CC3)CC2)cc1"
+        }
+    },
+    {
+        "src_smiles": "CCCc1c(C(=O)Nc2cc(O)ccc2C)cnn1-c1ccccc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a benzamide derivative with a phenolic group and an indazole moiety. It includes an amide linkage, a hydrophobic alkyl chain, and a phenyl ring connected to the indazole core.",
+            "Property Analysis": "The core structure includes pharmacophores known for interaction with the DRD2 receptor. The amide bond and phenolic hydroxyl group are promising for binding, but the bulky phenyl ring may hinder optimal receptor interaction.",
+            "Limitation in Source Molecule for Property": "The presence of the bulky phenyl group attached to the indazole can sterically hinder interaction with the receptor active site. Additionally, there may be an issue with solubility due to hydrophobic regions affecting bioavailability.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider reducing steric hindrance by replacing the phenyl ring with a smaller, more polar substituent that can improve hydrogen bonding with the receptor. Introduction of an additional polar group could also enhance solubility and receptor interaction.",
+            "Final Target Molecule": "CCCc1c(C(=O)Nc2cc(O)ccc2C)cnn1-c1ccc(C)cn1"
+        }
+    },
+    {
+        "src_smiles": "CN(C)CCc1c[nH]c2ccc(-n3cnnc3)cc12",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a small heterocyclic compound containing a pyrazole moiety and a secondary amine connected via an alkyl chain to a bicyclic aromatic heterocycle consisting of an indole core structure.",
+            "Property Analysis": "The molecule has potential interactions with the DRD2 receptor primarily through its indole moiety, which resembles the core structure present in many dopaminergic agents. The secondary amine group may contribute to receptor binding through hydrogen bonding or ionic interactions.",
+            "Limitation in Source Molecule for Property": "The presence of the nitrogen in the indole can influence the electronic distribution, potentially affecting receptor binding affinity. Additionally, the bulky dimethylaminoalkyl chain might impinge on the flexibility or steric accommodation required for optimal DRD2 binding.",
+            "Optimization for Source Molecule": "To enhance the DRD2 receptor activity, modifications could include the introduction of substituents that enhance pi-stacking interactions with the receptor. Modifying the alkyl chain to improve flexibility or introducing polar groups might increase binding affinity.",
+            "Final Target Molecule": "CN(C)CC(c1c[nH]c2ccc(-c3n[nH]c3)cc12)C=O"
+        }
+    },
+    {
+        "src_smiles": "O=C(O)C(O)Cc1c[nH]c2ccc(O)cc12",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a 2-(3-hydroxy-1H-indol-2-yl)-3-hydroxypropanoic acid, which contains an indole ring with a hydroxyl group and a side chain with carboxylic acid and hydroxyl functionalities.",
+            "Property Analysis": "The source molecule has potential binding properties due to the indole ring and hydroxyl groups, which can form hydrogen bonds. For DRD2 activity, these functionalities are important; however, overall binding affinity and activity will depend on the molecular conformation and presence of further pharmacophores.",
+            "Limitation in Source Molecule for Property": "The molecule lacks lipophilic moieties that could enhance membrane permeability and binding interactions with hydrophobic pockets in the DRD2 receptor. Additionally, the presence of free carboxylic acid may limit cell permeability and passive diffusion.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider converting the carboxylic acid to an ester or amide to enhance permeability. Additionally, introducing hydrophobic groups or alkyl chains can improve interactions with the receptor's hydrophobic regions.",
+            "Final Target Molecule": "O=C(NC)C(O)Cc1c[nH]c2ccc(O)c(C)cc12"
+        }
+    },
+    {
+        "src_smiles": "O=C(O)CCCC1C2CCCN3CCCC(CN1CCO)C23",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a large bicyclic compound with a lactam group. It has a piperidine ring and multiple chiral centers, indicating potential complexity in its stereochemistry.",
+            "Property Analysis": "The Dopamine D2 Receptor Activity is influenced by the ability of the molecule to interact with the receptor\u2019s binding site, which requires a specific size, shape, and electronic properties.",
+            "Limitation in Source Molecule for Property": "The carboxylic acid group may reduce binding affinity due to its ionization at physiological pH. Additionally, the molecule's flexibility could hinder effective binding, making it harder to interact with the receptor.",
+            "Optimization for Source Molecule": "Modifying the molecule by converting the carboxylic acid to a bioisostere like an amide or ester could enhance binding. Rigidifying the structure by forming additional rings or introducing unsaturation may also improve receptor interaction.",
+            "Final Target Molecule": "O=C1CCCN2C1CC3CCCN(C3)C2C4=CC=CC=C4"
+        }
+    },
+    {
+        "src_smiles": "CCOc1ccccc1-c1nc(CN2CCN(C)CC2)co1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The Source Molecule has an ether-linked benzene ring with a pyridine fused oxazole core, which is substituted with a piperazine moiety.",
+            "Property Analysis": "The molecule might interact with the DRD2 receptor through the aromatic system, basic nitrogen, and potentially the ether group.",
+            "Limitation in Source Molecule for Property": "The basicity of the piperazine nitrogen might be insufficient for optimal receptor binding, and possible steric hindrance from the methoxy group could interfere with receptor interaction.",
+            "Optimization for Source Molecule": "Enhance receptor binding by introducing a more basic group at the piperazine nitrogen and replacing the methoxy group with a smaller electron-withdrawing group to increase binding efficiency.",
+            "Final Target Molecule": "CCOc1cc(F)ccc1-c1nc(CN2CCN(C)CC2)co1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCc2cccc3c2C1Cc1cccc(O)c1-3",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is 8-Hydroxy-2-(di-n-propylamino)tetralin, commonly known as 8-OH-DPAT. It has a bicyclic aryl structure with an amine side chain.",
+            "Property Analysis": "The source molecule acts as an agonist at the serotonin 5-HT1A receptor, and its structure suggests some potential activity at dopamine receptors, including DRD2. However, the direct engagement with the DRD2 receptor and its efficacy can be limited by steric factors and electronic character.",
+            "Limitation in Source Molecule for Property": "The hydroxyl group and the bicyclic structure may impact the binding affinity towards the DRD2 receptor. There is potential steric hindrance or lack of optimal electronic interaction with key binding sites of the DRD2 receptor.",
+            "Optimization for Source Molecule": "To optimize for DRD2 activity, consider modifications like adding or altering substituents that can enhance binding affinity to the DRD2 active site, such as more electron-donating groups or reducing bulky groups that may cause steric hindrance. A bioisosteric replacement or modifying the side-chain may improve interactions with the receptor.",
+            "Final Target Molecule": "CN1CCc2c(C1)ccc1c2C=CC(O1)c3ccccc3"
+        }
+    },
+    {
+        "src_smiles": "CC(=O)N1N=C(c2cc(F)ccc2F)CC1c1ccccc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is composed of an acetamide group connected to a pyrazole ring, which is further connected to a fluorinated phenyl group and a benzyl group.",
+            "Property Analysis": "The DRD2 activity is influenced by the molecular interaction with the dopamine D2 receptor, including managing features like aromatic interactions, hydrogen bonding potential, and steric factors.",
+            "Limitation in Source Molecule for Property": "The presence of the fluorinated phenyl group may enhance binding affinity due to potential halogen bonding, but there might be limited hydrogen bonding acceptors/donors that are essential for optimal DRD2 interaction.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider introducing polar functional groups that can enhance hydrogen bonding or replacing the acetamide with a moiety known for better receptor affinity like a more potent pharmacophore.",
+            "Final Target Molecule": "CC(=O)N1N=C(c2ccc(O)cc2)CC1c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "NCCCCc1c[nH]c2ccc(F)cc12",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heterocyclic compound with a piperazine ring structure. It includes an indole core (c1c[nH]c2ccc(F)cc12) where a fluorine atom is attached to the benzene ring and a pentyl chain (NCCCC) is linked to the nitrogen atom of the indole.",
+            "Property Analysis": "The presence of the indole ring is critical for interaction with the DRD2 receptor, potentially mimicking dopamine structures. However, the activity might be influenced by the electron-withdrawing fluorine which affects the electron density of the aromatic system.",
+            "Limitation in Source Molecule for Property": "The limitation might include suboptimal binding affinity due to the polar nature of the fluorine atom, and insufficient hydrophobic interactions due to the length of the alkyl chain which might not reach deeper binding pockets of the DRD2 receptor.",
+            "Optimization for Source Molecule": "Consider replacing the fluorine atom with a less electronegative substituent to enhance lipophilicity. Additionally, extend or branch the alkyl chain to better fit and explore the receptor's hydrophobic pockets.",
+            "Final Target Molecule": "NCCCCCc1c[nH]c2cccc(c2)c1"
+        }
+    },
+    {
+        "src_smiles": "O=C(NC1CCNCC1)c1ccc2ccccc2c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a benzamide derivative containing a piperazine ring connected to a benzene ring fused with another benzene ring, and it has an amide group (O=C(N)) connecting the piperazine and the benzene ring.",
+            "Property Analysis": "The source molecule exhibits potential for binding to the DRD2 receptor due to its structural similarity to known dopaminergic ligands, but the affinity may not be optimal due to steric or electronic factors.",
+            "Limitation in Source Molecule for Property": "While the piperazine and benzamide linkage are favorable for DRD2 interaction, the molecule lacks certain hydrophobic or hydrogen bonding interactions needed for enhanced receptor binding.",
+            "Optimization for Source Molecule": "To improve DRD2 receptor activity, a possible optimization is to introduce electron-withdrawing groups ortho or para to the amide on the phenyl ring to enhance binding interactions, or modify the piperazine ring to increase receptor contact.",
+            "Final Target Molecule": "O=C(NC1CCN(CC1)C)c1ccc2ccccc2c1Cl"
+        }
+    },
+    {
+        "src_smiles": "CC1C2Cc3ccc(O)cc3C1(C)CCN2CC(=O)O",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a bicyclic compound with a phenolic group, an amine side chain, and a carboxylic acid functional group. The chemical structure includes a cyclopropane group and a piperidine ring connected to an aromatic phenol group.",
+            "Property Analysis": "The DRD2 activity suggests potential activity towards dopamine D2 receptor. The presence of the phenolic group may contribute to binding affinity through hydrogen bonding, while the amine group could interact via electrostatic interactions.",
+            "Limitation in Source Molecule for Property": "The carboxylic acid group may reduce lipophilicity and cell membrane permeability, limiting receptor binding. Additionally, steric hindrance from the cyclopropane group may restrict optimal binding conformation.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider replacing the carboxylic acid group with an ester to improve lipophilicity. Alternatively, substitute the cyclopropane group with a less sterically hindering group to enhance receptor fit.",
+            "Final Target Molecule": "CC1C2Cc3ccc(O)cc3C1(C)CCN2C(=O)OC"
+        }
+    },
+    {
+        "src_smiles": "c1cncc(NC2c3ccccc3OCc3ncccc32)c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a heterocyclic compound with a pyridine ring bonded to a bicyclic moiety consisting of a benzene and a pyrimidine ring. The structure also includes a methoxy and a piperazine linkage.",
+            "Property Analysis": "The current structure has a nitrogen atom in the pyridine ring which can participate in hydrogen bonding, and the bicyclic moiety may contribute to pi-pi interactions. These features are pertinent for DRD2 receptor activity but may not be optimal.",
+            "Limitation in Source Molecule for Property": "The methoxy group could be limiting the compound's hydrophilicity, reducing bioavailability. The aromatic system, while potentially involved in pi interactions, may not be optimally positioned for binding affinity with the DRD2 receptor.",
+            "Optimization for Source Molecule": "To improve DRD2 receptor affinity, consider replacing the methoxy group with a hydroxyl group to increase hydrophilicity and potential hydrogen bonding interactions. Additionally, explore the introduction of electron-donating groups on the aromatic rings to enhance binding interactions.",
+            "Final Target Molecule": "c1cncc(NC2c3ccccc3OCC3ncccc23)c1"
+        }
+    },
+    {
+        "src_smiles": "OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccccc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains two phenyl rings connected to a piperidine ring with a hydroxyl group and a secondary amine at the alpha position to one of the phenyl rings.",
+            "Property Analysis": "The DRD2 activity is influenced by the ability of the molecule to interact with the D2 receptor, which usually involves key interactions through hydrogen bonding, hydrophobic contacts, and pi-pi stacking.",
+            "Limitation in Source Molecule for Property": "The bulky phenyl groups may hinder optimal binding to the DRD2 receptor by limiting conformational flexibility. The presence of a tertiary carbon on the piperidine ring might also limit interaction potential due to steric hindrance.",
+            "Optimization for Source Molecule": "Consider replacing one of the phenyl groups with a smaller, electron-rich substituent to enhance receptor interaction. Introducing a functional group capable of forming hydrogen bonds, such as a methoxy or amide group, could enhance binding affinity to DRD2.",
+            "Final Target Molecule": "OC(CN1C2CCC1C(Cc1ccccc1)=O)C2c1cnc[nH]1"
+        }
+    },
+    {
+        "src_smiles": "CC1C2Cc3ccc(N)cc3C1(C)CCN2",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a polycyclic amine with a bridged structure featuring a substituted phenyl ring. It contains an amino group attached to the phenyl ring, which could potentially interact with the DRD2 receptor. The core structure consists of a bicyclic framework with an N-methylated piperidine bridge.",
+            "Property Analysis": "The presence of the amino group on the aromatic ring suggests potential activity at the dopamine D2 receptor due to the ability of aryl amines to form hydrogen bonds with the receptor. The bicyclic framework may offer a favorable conformation for receptor binding.",
+            "Limitation in Source Molecule for Property": "The source molecule's electron-donating nature of the methyl groups could reduce affinity for the receptor. Additionally, the rigid bicyclic structure may limit conformational flexibility, potentially affecting optimal positioning within the DRD2 binding site.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider the introduction of electron-withdrawing groups to enhance receptor binding through increased electrostatic interactions. Additionally, modifying or replacing certain methyl groups with polar functional groups or smaller alkyl chains could increase flexibility and create additional interaction sites.",
+            "Final Target Molecule": "CC1C2Cc3ccc(NC(C)=O)cc3C1(C)CCN2"
+        }
+    },
+    {
+        "src_smiles": "CC(O)CN1CCN(c2cccc(Cl)c2Cl)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a piperazine derivative with a 1,4-disubstituted piperazine ring and a chlorinated aromatic ring, featuring a secondary alcohol group at the alkyl chain terminus.",
+            "Property Analysis": "The source molecule is likely to have moderate affinity for DRD2 due to the presence of chlorine-substituted aromatic ring which is known to interact with dopamine receptors, particularly through hydrophobic interactions. The secondary alcohol might affect the molecule's ability to cross the blood-brain barrier.",
+            "Limitation in Source Molecule for Property": "The secondary alcohol group on the alkyl chain could reduce lipophilicity, potentially reducing its ability to penetrate the central nervous system efficiently. The piperazine ring is a common feature in ligands for DRD2, but additional optimization might be needed to enhance receptor binding affinity.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, enhance lipophilicity by replacing the secondary alcohol with a small lipophilic group or modifying the alkyl chain. Introduce more electron-withdrawing groups on the aromatic ring to enhance interactions with the receptor site.",
+            "Final Target Molecule": "CC(C)CN1CCN(c2cccc(Cl)c2F)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCN(CC)CCNC(=O)c1cc(Cl)c(N)cc1O",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an arylamide with a diethylaminoethyl side chain connected to an aromatic ring that contains a chloro and amino substituent, and a hydroxyl group.",
+            "Property Analysis": "The source molecule may exhibit moderate DRD2 activity due to the presence of the arylamide structure, which can engage with the D2 receptor. The hydroxyl group may contribute to hydrogen bonding, while the chloro group can improve lipophilicity and membrane permeability.",
+            "Limitation in Source Molecule for Property": "The source molecule may have limited DRD2 receptor affinity due to potential steric hindrance from substituents or suboptimal hydrophobic interactions due to the diethylaminoethyl side chain.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider increasing the hydrophobic character by replacing the diethylaminoethyl chain with a more rigid or bulkier hydrophobic group. Additionally, optimize positioning of electron-withdrawing or donating groups on the aromatic ring to enhance binding interactions.",
+            "Final Target Molecule": "CC(C)NCCNC(=O)c1c(Cl)cc(N)cc1O"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCNCC1OC",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted benzamide with a methoxy group, a chloro substituent, and a piperazine moiety. It features a secondary amide linking the aromatic ring to the piperazine.",
+            "Property Analysis": "The molecule is likely to have moderate affinity for the dopamine D2 receptor due to the presence of key structural elements common in dopaminergic agents, such as a benzamide moiety and a piperazine ring, which can influence receptor binding.",
+            "Limitation in Source Molecule for Property": "The chloro substituent may not be optimal for D2 affinity, and the methoxy group could influence hydrophilicity and molecular dynamics, potentially impacting receptor interactions. The molecule may also have suboptimal electronic distribution hampering receptor binding.",
+            "Optimization for Source Molecule": "Remove or replace the chloro group with a more electron-donating group to enhance receptor interaction. Modify the methoxy group position or change it to a hydroxyl to enhance hydrogen bonding. Consider altering the piperazine moiety to optimize binding orientation and reduce steric hindrance.",
+            "Final Target Molecule": "COc1cc(N)c(O)cc1C(=O)NC1CCNCC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(CCc1ccccc1)c1ccccc1O",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a \u03b2-keto-aryl compound featuring a \u03b2-dicarbonyl structure flanked by two phenyl rings. The structure consists of an acetophenone moiety potentially allowing \u03c0-\u03c0 interactions with aromatic residues of DRD2.",
+            "Property Analysis": "The DRD2 activity may be facilitated by hydrophobic interactions, hydrogen bonding capabilities, and \u03c0-\u03c0 stacking due to the presence of aromatic groups and carbonyl functionalities.",
+            "Limitation in Source Molecule for Property": "The source molecule lacks sufficient affinity and specificity for DRD2 possibly due to limited hydrogen bond donors and acceptors and absence of structural features that mimic dopamine-like interaction with the receptor.",
+            "Optimization for Source Molecule": "Introduce methoxy groups to increase electronic interactions and hydrogen bonding. Add amine functional groups to enhance binding affinity and specificity to DRD2, mimicking endogenous ligands.",
+            "Final Target Molecule": "COc1ccccc1C(=O)CCc2ccncc2O"
+        }
+    },
+    {
+        "src_smiles": "CN(CC=Cc1ccccc1)Cc1ccc(C2CCCN(C)C2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a tertiary amine linked to a phenethylamine moiety and a piperazine ring attached to a phenyl group.",
+            "Property Analysis": "The source molecule exhibits structural features that generally contribute to binding with the dopamine D2 receptor, including the amine group necessary for interaction with the receptor's binding site.",
+            "Limitation in Source Molecule for Property": "The size and flexibility of the molecule may limit its binding affinity and specificity for the DRD2 site. The piperazine ring may introduce unwanted metabolic liabilities or suboptimal pharmacokinetic properties.",
+            "Optimization for Source Molecule": "Introduce more rigid bicyclic structures or heterocyclic moieties to increase binding affinity and selectivity. Consider modifying or replacing the piperazine moiety with a more rigid group that can maintain interaction with the DRD2 receptor more effectively.",
+            "Final Target Molecule": "CN1CCC(CC1)c2cc3ccccc3cc2N"
+        }
+    },
+    {
+        "src_smiles": "Fc1ccccc1C1CCN(Cc2nc(CC3CC3)no2)C1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a fluorobenzene group, a piperidine ring, and a substituted oxadiazole connected to a cyclopropane. The piperidine is acting as a linker between the fluorobenzene and the oxadiazole group.",
+            "Property Analysis": "The presence of the oxadiazole ring can contribute to receptor activity due to its polar nature, and the piperidine is a common moiety in pharmacologically active compounds. However, the activity towards the DRD2 receptor may be limited by specific spatial and electronic requirements not fully met by this structure.",
+            "Limitation in Source Molecule for Property": "The oxadiazole group connected directly to the piperidine might not optimize binding specificity to the DRD2 receptor, and the overall molecule might lack additional electronic or steric features needed for enhanced activity.",
+            "Optimization for Source Molecule": "To optimize the molecule, consider introducing a methoxy or hydroxyl group to increase electronic interaction or binding affinity towards the DRD2 receptor. Additionally, modifying the ring size or incorporating nitrogen atoms in the aromatic system could enhance receptor affinity.",
+            "Final Target Molecule": "Fc1cc(O)ccc1C1CCN(Cc2nc(CC3CC3)no2)C1"
+        }
+    },
+    {
+        "src_smiles": "CCn1c(=O)cc(N2CCN(Cc3ccccc3)CC2)[nH]c1=O",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an amide with a benzylpiperazine moiety linked to a napthyridine core. This indicates central nervous system activity, potentially as a receptor modulator.",
+            "Property Analysis": "The molecule possesses features suitable for dopamine receptor activity, such as aromatic rings and nitrogen atoms that can interact with the receptor through hydrogen bonding or \u03c0-\u03c0 stacking.",
+            "Limitation in Source Molecule for Property": "The amide groups may limit the molecule's flexibility and ability to interact optimally with the dopamine D2 receptor active site.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider replacing one of the carbonyl groups with a more flexible linkage such as an ether or thioether, and potentially introducing a substituent on the aromatic ring to enhance binding affinity.",
+            "Final Target Molecule": "CCn1c(O)cc(N2CCN(Cc3ccccc3)CC2)[nH]c1O"
+        }
+    },
+    {
+        "src_smiles": "c1cc(OCCCN2CCCCC2)ccc1CN1CCCCC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a biphenyl structure with a piperidine group attached via a flexible alkyl chain. This provides a combination of aromatic and aliphatic structures suited for interacting with the dopamine D2 receptor.",
+            "Property Analysis": "The DRD2 activity is influenced by the ability of the molecule to bind to the D2 receptor, which requires fitting into the receptor pocket and forming necessary interactions.",
+            "Limitation in Source Molecule for Property": "The molecule may lack sufficient binding affinity due to potential conformational flexibility that can hinder optimal interaction with the receptor's active site. Additionally, the bulky nature of the cyclohexane rings might interfere with the proper alignment in the binding pocket.",
+            "Optimization for Source Molecule": "Incorporate polar functional groups or heteroatoms to increase interaction with DRD2 receptor active sites, potentially increase rigidity to reduce entropic penalties upon binding, and consider reducing steric hindrance by modifying the alkyl chain or piperidine size.",
+            "Final Target Molecule": "c1cc(OCCCN2CCC(=O)CC2)ccc1CN1CCNC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(Cc1ccccc1)NC1CCN(Cc2ccccc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a benzamide derivative with two phenyl rings and a piperazine ring. The SMILES representation is a typical structure seen in dopamine receptor ligands, with one amide linkage and a tertiary amine.",
+            "Property Analysis": "The molecule likely possesses some level of affinity for the DRD2 receptor due to its structural similarity to known DRD2 ligands. The piperazine moiety is a common scaffold in drugs targeting the central nervous system including DRD2.",
+            "Limitation in Source Molecule for Property": "The source molecule may have suboptimal activity due to lack of specific functional groups known to enhance DRD2 receptor binding, such as additional amine groups or modifications that improve receptor interaction. The bulky phenyl groups may also impact binding efficiency by steric hindrance.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider introducing a methoxy group on one of the phenyl rings to improve electron density and potential receptor interactions. Additionally, modifying the piperazine region to include an extra amine or adjusting the phenyl rings' positions might help in better alignment and interaction with the DRD2 receptor site.",
+            "Final Target Molecule": "O=C(Cc1ccc(OC)cc1)NC1CCN(CC2ccccc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)C(=O)NC1CCN(Cc2ccccc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an arylpiperazine compound with an isobutyryl group attached to the nitrogen of the piperazine. It contains a phenyl ring connected to the piperazine moiety and a tertiary butyl amide.",
+            "Property Analysis": "DRD2 activity is often enhanced by molecules that can effectively interact with the receptor's active site. Key features include the presence of hydrogen bond donors/acceptors, hydrophobic interaction sites, and a conformationally flexible structure.",
+            "Limitation in Source Molecule for Property": "The bulky isobutyryl group may hinder effective binding to the DRD2 receptor by introducing steric hindrance. Additionally, there may be a lack of sufficient hydrogen bond forming groups to match the DRD2 active site.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, reducing steric hindrance by replacing the isobutyryl group with a simpler acetyl group could be beneficial. Introducing polar substituents, such as a hydroxyl group on the phenyl ring, may improve binding interactions.",
+            "Final Target Molecule": "CC(=O)NC1CCN(Cc2ccc(O)cc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(c2cc(-c3cccnc3)nc(N)n2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted piperazine with a pyrimidine ring. It contains a basic piperazine core attached to a pyrimidine ring, which is further substituted with a pyridine moiety. The structure suggests potential receptor binding due to its aromaticity and basic nitrogen sites.",
+            "Property Analysis": "Dopamine D2 receptor activity is often enhanced by molecules that can effectively interact with the receptor's binding site, typically involving aromatic stacking and hydrogen bonding interactions. The current structure has potential due to its multiple aromatic systems and basic nitrogen atoms that might form such interactions.",
+            "Limitation in Source Molecule for Property": "The current limitations in the source molecule for improved DRD2 activity might include insufficient hydrophobic interactions or lack of specific functional groups that could enhance binding affinity through additional interactions. Additionally, flexibility of the piperazine moiety can lead to less favorable binding conformations.",
+            "Optimization for Source Molecule": "To optimize the molecule for better DRD2 binding, introducing additional hydrophobic groups or substituents that enhance pi-pi interactions with the receptor site could be beneficial. Consider replacing or modifying the pyridine substituent to increase rigidity and conformity to the receptor site.",
+            "Final Target Molecule": "CN1CCN(c2cc(-c3cccnc3F)nc(N)n2)CC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(CN1CCN(CCc2ccccc2)CC1)C(O)(c1ccccc1)C1CCC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a phenyl piperazine core, which is common in molecules with activity at the dopamine D2 receptor. It has a benzyl group connected to the piperazine, a ketone group, and a cyclohexane ring, which may offer hydrophobic interactions.",
+            "Property Analysis": "The molecule has a central piperazine ring which is known to interact with dopamine receptors. However, the presence of the ketone group and bulky cyclohexane may affect the binding specificity and activity at DRD2 receptors.",
+            "Limitation in Source Molecule for Property": "The bulky cyclohexane ring and the ketone group may hinder optimal binding orientation at the receptor site. Additionally, the hydroxyl group on the benzene ring may not favor interaction with the receptor's binding pocket.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider removing the cyclohexane ring to reduce steric hindrance, modify the ketone group for better electron distribution, and possibly add electron-donating groups to the phenyl ring to enhance interactions with receptor sites.",
+            "Final Target Molecule": "O=C(CN1CCN(CCc2ccccc2)CC1)Cc1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "OC(COc1ccc(-n2cncn2)cc1)CN1CCc2ccccc2C1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a methoxyethanol group attached to a phenyl ring, which is further connected to an imidazole ring and a piperazine ring. This structural motif includes an ether linkage, aromatic rings, and a piperazine moiety which are common in compounds targeting the DRD2 receptor.",
+            "Property Analysis": "The current structure has potential for interaction with the DRD2 receptor through its aromatic rings and nitrogen heterocycles, which can participate in pi-pi stacking and hydrogen bonding. However, the methoxyethanol group might reduce lipophilicity and hinder membrane permeability.",
+            "Limitation in Source Molecule for Property": "The ether linkage in the methoxyethanol group may act as a metabolic liability and reduce the compound's overall lipophilicity, potentially affecting its ability to cross the blood-brain barrier effectively.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, the methoxy group can be replaced with a more lipophilic alkyl group. Additionally, replacing the ether linkage with a direct carbon-carbon bond can increase metabolic stability. An alkyl substitution on the piperazine ring can also enhance brain penetration.",
+            "Final Target Molecule": "CC(Cc1ccc(-n2cncn2)cc1)CN1CCC(CC)CC1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(CN2CCC(C(=O)Nc3cc(Cl)c(N)cc3OC)CC2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a central piperazine ring connected to a methoxybenzyl group and an amide linkage to a chlorophenyl ring with an additional methoxy group.",
+            "Property Analysis": "The molecule exhibits potential activity at the dopamine D2 receptor due to its piperazine core which is a common feature in D2 receptor ligands. The methoxy group could enhance membrane permeability and bioavailability.",
+            "Limitation in Source Molecule for Property": "The presence of the chloride group on the phenyl ring may not optimally interact with the receptor. The piperazine ring is crucial for D2 binding, but its substitution pattern could be optimized further for better activity.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, modifying the para-chlorine on the phenyl ring to a more electron-withdrawing group like trifluoromethyl could enhance binding affinity. Additionally, alkylation of the piperazine nitrogen could enhance interaction with the receptor.",
+            "Final Target Molecule": "COc1ccc(CN2CCC(C(=O)Nc3cc(C(F)(F)F)c(N)cc3OC)CC2)cc1"
+        }
+    },
+    {
+        "src_smiles": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a tropane ring structure, which is common in compounds targeting the dopamine D2 receptor. The cyclohexane ring is fused with the pyrrolidine ring and has a benzhydryl group attached with a trifluoromethyl phenyl ether group.",
+            "Property Analysis": "The molecule is designed to target the DRD2 receptor, which is part of the dopamine receptor family involved in many neurological processes. Features like the trifluoromethyl group can enhance binding affinity and metabolic stability at the receptor site.",
+            "Limitation in Source Molecule for Property": "While the trifluoromethyl group might improve receptor affinity, the bulky nature of the benzhydryl moiety could hinder optimal binding efficiency by causing steric hindrance at the active site of DRD2.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider reducing steric bulk by replacing the benzhydryl group with a smaller phenyl ring or introducing electron-donating groups to enhance binding interactions. Additionally, optimizing the orientation of substituents to better fit the receptor binding pocket could be beneficial.",
+            "Final Target Molecule": "CN1C2CCC1CC(Oc1ccccc1)(c1ccccc1C)C2"
+        }
+    },
+    {
+        "src_smiles": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2F)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The molecule contains a benzamide moiety linked to a fluorinated diphenylethylamine structure, indicating a balanced hydrophobic and hydrophilic region, which is crucial for receptor activity.",
+            "Property Analysis": "The molecule shows potential DRD2 modulation due to the presence of its diphenylethylamine segment, which is known to engage in dopamine receptor binding. However, the fluorine atom's position might influence binding affinity.",
+            "Limitation in Source Molecule for Property": "The presence of a fluorine atom on the aromatic ring might reduce receptor binding due to steric hindrance or electronic effects that impede optimal interaction with the receptor.",
+            "Optimization for Source Molecule": "Replace the fluorine atom with a hydrogen or methyl group to reduce steric hindrance and potentially enhance receptor interaction.",
+            "Final Target Molecule": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)c1ccccc1OCCN1CCC(NS(=O)(=O)c2ccccc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule has a phenyl ring connected to a tertiary butyl group, a benzylic ether chain bound to a piperazine ring, and a sulfonamide group attached to another phenyl ring. This structure suggests potential interactions with the DRD2 receptor due to the presence of aromatic rings and nitrogen atoms, which are common features in DRD2 ligands.",
+            "Property Analysis": "The presence of aromatic rings and nitrogen atoms indicates that the molecule may have some binding affinity to the DRD2 receptor. The sulfonamide group can provide additional interactions through hydrogen bonding or dipole interactions, potentially enhancing activity.",
+            "Limitation in Source Molecule for Property": "The bulky tertiary butyl group attached to the phenyl ring may limit the molecule's ability to fit into the binding pocket of the DRD2 receptor. The overall rigidity of the piperazine ring might also limit conformational flexibility required for optimal binding.",
+            "Optimization for Source Molecule": "To optimize the DRD2 activity, consider replacing the tertiary butyl group with a smaller or more flexible substituent to enhance binding affinity. Additionally, modifying the piperazine ring to allow more flexibility or incorporation of heteroatoms that could enhance binding through hydrogen bonding could improve DRD2 receptor interaction.",
+            "Final Target Molecule": "CCOc1ccccc1N1CCN(CC1)C(=O)c2ccccc2"
+        }
+    },
+    {
+        "src_smiles": "CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a bicyclic chemical compound with a piperazine ring linked to a dense structure containing multiple ketone groups and aromatic hydrocarbon rings, specifically a phthalimide moiety.",
+            "Property Analysis": "The Dopamine D2 Receptor (DRD2) activity is influenced by structural features that enhance binding affinity and selectivity, such as electron-rich aromatic rings and the ability to form hydrogen bonds at specific receptor sites.",
+            "Limitation in Source Molecule for Property": "The rigid phthalimide group may hinder optimal interaction with the DRD2 receptor due to spatial constraints. The lack of polar functional groups may also reduce binding efficacy to the dopamine receptor, which often benefits from hydrogen bonding.",
+            "Optimization for Source Molecule": "Introduce a methoxy or hydroxyl group to one of the aromatic rings to enhance polar interactions. Consider replacing one of the ketone groups with an amine or ether to increase hydrogen bonding potential and flexibility.",
+            "Final Target Molecule": "CCN1CCN(C2=C(NC(=O)c3ccc(OC)cc3)C(=O)c3ccccc3C2=O)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCC(CNC(=O)c1ccccc1Br)N1CCc2ccccc2C1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is composed of a secondary amine, an amide linkage, a bromobenzene ring, and a bicyclic aromatic moiety containing a piperazine ring. The primary structure is a branched chain aliphatic connected to an aromatic amide.",
+            "Property Analysis": "The source molecule potentially interacts with the Dopamine D2 receptor due to the aromatic moiety and secondary amine configuration, which are common features in known DRD2 ligands.",
+            "Limitation in Source Molecule for Property": "The presence of the bromine atom on the benzene ring might limit the binding affinity due to steric hindrance or suboptimal interaction with the hydrophobic regions of the DRD2 receptor.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider substituting the bromine atom with a less bulky group or a group that could form hydrogen bonds. Additionally, increasing the electron-donating capacity of the aromatic ring could enhance binding interactions.",
+            "Final Target Molecule": "CCC(CNC(=O)c1ccccc1O)N1CCc2ccccc2C1"
+        }
+    },
+    {
+        "src_smiles": "CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains an ethoxy carbonyl group, a naphthalene-like core structure with a secondary amine in a piperidine ring, and a phenyl moiety attached to the piperidine core.",
+            "Property Analysis": "The presence of the aromatic naphthalene core and secondary amine could contribute to binding interactions at the DRD2 receptor. However, the ethoxy carbonyl group might impact the hydrophobicity and binding affinity negatively.",
+            "Limitation in Source Molecule for Property": "The ethoxy carbonyl group at the terminal end of the molecule might reduce receptor binding efficacy due to steric hindrance and polarity, which could limit its ability to optimally interact within the hydrophobic regions of the DRD2 binding site.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider replacing or modifying the ethoxy carbonyl group to increase hydrophobicity and reduce steric bulk. Additionally, enhancing the planarity and aromaticity of the molecular framework could improve stacking interactions with the receptor.",
+            "Final Target Molecule": "CCc1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(CC(=O)Nc2ccc(Sc3ccc(Cl)cc3)cc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a piperazine derivative with an amide linkage and a biphenyl sulfur linkage, with a terminal chlorine on the phenyl ring.",
+            "Property Analysis": "This molecule interacts with the DRD2 receptor, likely due to the piperazine ring, which is a common moiety in dopamine receptor ligands. The biphenyl structure and the amide linkage might influence receptor binding and activity.",
+            "Limitation in Source Molecule for Property": "The molecule may have suboptimal affinity and selectivity for DRD2 due to steric or electronic factors. The presence of the chlorine atom, the sulfur linkage, or the positioning of the amide may reduce interaction with the receptor.",
+            "Optimization for Source Molecule": "Consider introducing electron-donating substituents to enhance receptor binding or modifying the position of existing substituents. Replacing the sulfur linkage with an ether linkage or modifying the amide structure might improve activity.",
+            "Final Target Molecule": "CN1CCN(CC(=O)Nc2ccc(Oc3ccc(Cl)cc3)cc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a tropane derivative with a bridgehead nitrogen atom and a trifluoromethyl phenyl ether group. The molecule contains two aromatic rings, one being phenyl and another trifluoromethyl-substituted phenyl connected via an ether linkage to the tropane scaffold.",
+            "Property Analysis": "The DRD2 (Dopamine D2 Receptor) activity is largely influenced by the binding affinity of the molecule to the receptor. Key structural features impacting this include the presence of a basic nitrogen atom, lipophilicity, and \u03c0-\u03c0 interactions due to aromatic rings.",
+            "Limitation in Source Molecule for Property": "The presence of bulky trifluoromethyl groups can influence both the size and the electronic environment of the molecule, potentially affecting its ability to properly fit the binding site of the receptor. Additionally, the ether linkage can reduce flexibility, possibly hindering ideal binding conformations.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, reduce steric hindrance by replacing the trifluoromethyl group with a smaller electron-withdrawing group, such as a fluorine or a cyano group. Introduce a hydrogen bond acceptor or donor near the tropane nitrogen to enhance interactions with the receptor.",
+            "Final Target Molecule": "CN1C2CCC1CC(Oc1ccc(F)cc1)(c1ccccc1)C2"
+        }
+    },
+    {
+        "src_smiles": "Cc1nc(-c2ccccc2)c(C(=O)N2CCN(c3c(C)cccc3C)CC2)o1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex aromatic compound with a framework that includes a pyridine system, a benzamide group, and a tertiary amine embedded within a piperazine ring. It possesses two methyl groups on the aromatic rings, contributing to electronic effects.",
+            "Property Analysis": "The source molecule likely interacts with the DRD2 receptor due to its aromatic and amine groups, which are key binding features for dopamine receptor activity. However, there is potential for optimization to enhance receptor binding affinity and selectivity.",
+            "Limitation in Source Molecule for Property": "The bulky side chains may lead to steric hindrance reducing the optimal interaction with the dopamine receptor active site. Additionally, electronic distribution due to the methyl substituents might not be ideal for maximizing receptor affinity.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, reduce steric hindrance by replacing one of the methyl groups with a smaller group or hydrogen, and consider introducing an electron-donating group ortho to the amine group to enhance electronic interactions with the receptor.",
+            "Final Target Molecule": "Cc1nc(-c2ccccc2)c(C(=O)N2CCN(c3ccccc3)CC2)o1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a methoxyphenyl linked to a tetrahydronaphthyridine containing a thioether group.",
+            "Property Analysis": "The molecule possesses characteristics favorable for DRD2 activity, including aromaticity and nitrogen-containing heterocycles, common in ligands for dopamine receptors.",
+            "Limitation in Source Molecule for Property": "The presence of a methoxy group may limit receptor binding affinity. The thioether linkage might affect bioavailability or metabolic stability.",
+            "Optimization for Source Molecule": "Replace the methoxy groups with hydroxyl groups to increase hydrogen bonding potential with the receptor and consider altering the thioether to a more stable linkage such as an amide or sulfone.",
+            "Final Target Molecule": "COc1ccc(CC2NCCc3c2[nH]c2ccc(S=O)cc32)cc1O"
+        }
+    },
+    {
+        "src_smiles": "O=c1cc(-c2ccccc2)oc2cc(OCCN3CCOCC3)cc(O)c12",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a coumarin derivative with a diphenyl ether moiety and a morpholinoethanolamine substituent, with a common core of a benzopyrone ring system.",
+            "Property Analysis": "This molecular structure could potentially show weak DRD2 activity due to limitations in the binding affinity and lack of specific interactions typically required for optimal receptor binding.",
+            "Limitation in Source Molecule for Property": "Lack of specific interactions or conformational flexibility needed for optimal DRD2 binding; bulky groups may hinder penetration or binding within the receptor site.",
+            "Optimization for Source Molecule": "Introduce polar functional groups capable of hydrogen bonding or ionic interactions to enhance binding affinity to the DRD2 active site. Additionally, consider removing bulky groups that do not contribute to key interactions while maintaining critical pharmacophores for activity.",
+            "Final Target Molecule": "O=c1cc2cc(OCCN3CCOCC3)cc(O)c2o1"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an acetyloxy-bridged piperazine compound with a fluorophenyl group. The core consists of a piperazine ring connected to a cyclohexyl group and a fluoro-substituted phenyl moiety.",
+            "Property Analysis": "The source molecule likely shows moderate affinity towards the DRD2 receptor due to its aromatic moiety and the flexible linker providing adequate spacing for receptor binding.",
+            "Limitation in Source Molecule for Property": "The acetyl group may introduce steric hindrance or reduce binding efficiency. Additionally, the linear nature of the linker may not optimally position the active site for DRD2 activity.",
+            "Optimization for Source Molecule": "Enhancing receptor interaction through conformational restriction or increasing electron density at the aromatic site might improve activity. Replacing the acetyloxy group with a smaller electron-donating group and introducing a heteroaromatic or unsaturated ring structure in the linker could enhance binding.",
+            "Final Target Molecule": "COC1=CC=NC=C1C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCN(CC)CCCNC1c2cc(OC)ccc2OCc2ncccc21",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a phenethylamine backbone with methoxy groups on a benzene ring, linked to a nitrogen-containing heterocycle, quinoline.",
+            "Property Analysis": "The methoxy groups may increase solubility and membrane permeability, while the quinoline moiety is important for receptor binding. The alkyl chain provides flexibility for fitting within the receptor site.",
+            "Limitation in Source Molecule for Property": "The existing molecule may have limited binding affinity due to steric hindrance from methoxy groups, which could impact interactions with the DRD2 receptor's binding pocket. Additionally, the flexibility of the alkyl chain might reduce receptor specificity.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider replacing one of the methoxy groups with a smaller or polar functional group to enhance binding affinity. Introducing a conformational constraint within the alkyl chain might improve specificity and binding orientation.",
+            "Final Target Molecule": "CCN(CC)CCCNC1c2cc(O)ccc2Oc2ncccc21"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2c(cc1OC)C1CC(N)C(N3CCC(C)CC3=O)CN1CC2",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex heterocyclic compound featuring a methoxy-substituted benzene ring fused to a nitrogen-containing bicyclic system. It contains several functional groups, including methoxy groups, secondary amine, tertiary amine, and a ketone. The bicyclic portion is crucial for its biological activity as it structurally resembles known dopaminergic agents.",
+            "Property Analysis": "DRD2 activity is heavily influenced by the molecule's ability to interact with the receptor's binding pocket. Features like basic nitrogen atoms and hydrophobic aromatic systems are key for binding. The presence of polar groups like ketones can influence pharmacokinetics and receptor affinity. Methoxy groups can impact both binding and solubility.",
+            "Limitation in Source Molecule for Property": "The existing bulky methoxy groups might hinder optimal binding to the DRD2 binding pocket due to steric hindrance. Additionally, the tertiary amine might not sufficiently mimic the key interactions needed to optimize DRD2 activity. The hydrophobic balance could be improved to ensure better receptor interaction and bioavailability.",
+            "Optimization for Source Molecule": "To optimize DRD2 activity, modifications such as replacing the methoxy groups with smaller, less steric substituents like hydrogen or hydroxyl groups might be considered. Introducing more basic centers or electron-rich aromatic systems can improve receptor interactions. Ensuring a favorable balance between hydrophilic and hydrophobic properties can also enhance receptor affinity.",
+            "Final Target Molecule": "COc1ccc2c(c1)C1CC(N)C(N3CCN(CC3)C=O)CN1CC2"
+        }
+    },
+    {
+        "src_smiles": "C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex structure with a piperazine ring substituted at one nitrogen with an allyl group and at the other with a benzyl group. Additionally, there is a methoxy-substituted phenyl acetate group attached to the piperazine ring.",
+            "Property Analysis": "The presence of the piperazine ring is favorable for DRD2 activity, often seen in antipsychotic agents. The benzyl group can aid in receptor binding. Methoxy groups can improve membrane permeability but might not significantly enhance DRD2 binding affinity.",
+            "Limitation in Source Molecule for Property": "The allyl group on the piperazine might not contribute effectively to the DRD2 activity. The large ester group can increase the molecular weight and might affect bioavailability negatively.",
+            "Optimization for Source Molecule": "Replace the allyl group with a more polar group that can form hydrogen bonds, like a hydroxyl group, and consider converting the ester to an amide to enhance binding affinity and improve pharmacokinetic properties.",
+            "Final Target Molecule": "C(CN1CCN(Cc2ccccc2)C(C(=O)Nc2ccccc2)C1)O"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a core pyridine ring with a dichlorofluorobenzene substituent, an ether-linked methoxy group, and a N,N-diisopropylaminoethyl side chain. The molecule appears to have a small and relatively rigid core with a flexible aliphatic chain, which is often beneficial for receptor binding activities.",
+            "Property Analysis": "The molecule likely already exhibits some degree of activity at the Dopamine D2 receptor due to the presence of aromatic and halogenated groups, which are common pharmacophores in dopamine receptor ligands. The flexible N,N-diisopropylamine chain could aid in binding to the receptor's orthosteric or allosteric sites.",
+            "Limitation in Source Molecule for Property": "The compound may have limited efficacy or affinity due to potentially suboptimal interactions with the receptor ligand-binding site. The presence of a dimethoxyphenyl group might hinder optimal \u03c0\u2013\u03c0 stacking interactions with the lipophilic regions of the DRD2 binding pocket. Furthermore, steric hindrance by bulky groups could obstruct tight binding within the receptor active site.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, the molecule can be optimized by introducing smaller, electron-withdrawing groups such as fluorine to enhance binding affinity through polar interactions. Reducing steric hindrance by modifying the side chain to a smaller aliphatic chain or an aryl group could improve the fit within the binding pocket, enhancing receptor interaction.",
+            "Final Target Molecule": "COc1cc2ncnc(Nc3ccc(F)cc3)c2cc1OCCNCC(C)C"
+        }
+    },
+    {
+        "src_smiles": "Cc1onc(-c2ccccc2)c1C(=O)N1CCN(c2ccc([N+](=O)[O-])cc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an arylpiperazine derivative consisting of a 2-benzyl-5-methyl-4H-1,2,4-oxadiazole with a nitrophenylpiperazine moiety.",
+            "Property Analysis": "The nitro group can act as a bioisosteric replacement that might contribute to DRD2 receptor affinity, but its presence can also lead to reduced metabolic stability and increased toxicity.",
+            "Limitation in Source Molecule for Property": "The nitro group is often associated with poor pharmacokinetic properties and potential toxicity, potentially limiting high-affinity binding to DRD2.",
+            "Optimization for Source Molecule": "Replace the nitro group with a less electron-withdrawing group such as a cyano or a fluorine group, which can maintain receptor binding and potentially improve selectivity and safety.",
+            "Final Target Molecule": "Cc1onc(-c2ccccc2)c1C(=O)N1CCN(c2ccc(F)cc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex structure with a methoxy group, a chloro substituent on a benzene ring, a carboxylic ester linkage, a piperazine ring, and an amide functionality. The molecule includes functional groups such as an ether, an amine, and an amide.",
+            "Property Analysis": "The source molecule likely has moderate affinity towards the DRD2 receptor due to the presence of the N-substituted piperazine, which is a known scaffold for dopamine receptor ligands. The presence of the chloro and methoxy groups could potentially enhance receptor binding, but their precise positioning and electronic effects need to be considered.",
+            "Limitation in Source Molecule for Property": "The bulky ester linkage and the positioning of the chloro group may hinder optimal binding to the DRD2 receptor. The amide group may not significantly contribute to the interaction with the receptor, thus limiting its binding efficiency.",
+            "Optimization for Source Molecule": "To optimize the molecule for better DRD2 affinity, consider replacing the ester linkage with a simpler carbon chain or a bioisosteric replacement that maintains binding capability. The orientation of the chloro and methoxy substituents might be optimized for better interaction with the receptor. Additionally, modifying the amide to increase lipophilicity could enhance receptor binding.",
+            "Final Target Molecule": "COc1cc(N)c(Cl)cc1C(=O)NCCN1CCC(CC1)C"
+        }
+    },
+    {
+        "src_smiles": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)cc(O)c12",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a flavone core with a phenyl group substitution and an alkylamine side chain. Key functional groups include ketone, ether, and tertiary amine, which play roles in interaction with the DRD2 receptor.",
+            "Property Analysis": "The molecule is a potential ligand for DRD2 due to its ability to interact via hydrogen bonding and pi-stacking with the receptor. However, the bulky phenyl group may influence the binding pocket's accessibility.",
+            "Limitation in Source Molecule for Property": "The presence of a large phenyl group and the orientation of the alkylamine chain may interfere with optimal interaction in the DRD2 binding site, reducing binding affinity.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider shortening or modifying the alkylamine chain for better flexibility and accessibility to the binding site. Additionally, reduce steric hindrance by replacing the phenyl group with a smaller aromatic moiety.",
+            "Final Target Molecule": "O=c1cc(-c2ccc(F)cc2)oc2cc(OCCN(C)C)cc(O)c12"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(C(=O)NC(C)c2nccs2)cc1OC1CCN(C(C)C)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The molecule consists of a methoxy-substituted aromatic ring connected to an amide linkage with a 2-methylthiazole heterocycle. Additionally, it has a tertiary amine cyclized in a piperidine ring.",
+            "Property Analysis": "The source molecule interacts with the dopamine D2 receptor primarily through the aromatic and amide moieties, as well as the basic nitrogen of the piperidine ring. These interactions are crucial for binding affinity and receptor activity.",
+            "Limitation in Source Molecule for Property": "While the molecule has a reasonable scaffold for D2 receptor activity, the presence of the methoxy groups may limit binding efficiency due to steric hindrance or electronic effects. Additionally, a more optimal orientation or functional group might enhance receptor interaction.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider replacing one or both methyl groups on the methoxy substituents with smaller or less electron-donating groups, such as hydrogen, to reduce steric hindrance. A potential shift towards a more planar or rigid system could increase binding efficiency. Additionally, modifying the piperidine ring to incorporate hydrophobic interactions may further enhance receptor affinity.",
+            "Final Target Molecule": "COc1cc(CC(=O)NC(C)c2nccs2)ccc1N1CCN(C(C)C)CC1"
+        }
+    },
+    {
+        "src_smiles": "Cc1c(-c2ccc(O)cc2)n(Cc2ccc(O)cc2)c2ccc(O)cc12",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a tri-phenolic compound with methyl groups attached to an indole structure. The SMILES indicates the presence of three phenol groups which contribute to its hydrophilicity and potential activity at the Dopamine D2 Receptor via hydrogen bonding interactions.",
+            "Property Analysis": "The presence of multiple hydroxyl groups suggests potential for strong interactions with biological receptors like DRD2. However, high hydrophilicity may affect bioavailability. Dopamine D2 Receptor activity is influenced by the molecule's ability to balance hydrophobic interactions alongside hydrophilic interactions for optimal receptor binding.",
+            "Limitation in Source Molecule for Property": "The high number of hydroxyl groups may lead to poor blood-brain barrier penetration and decreased lipophilicity, reducing the molecule's bioavailability and efficacy as a drug targeting the central nervous system.",
+            "Optimization for Source Molecule": "Introduce lipophilic groups or esterify one or more hydroxyl groups to reduce hydrophilicity. Maintain key binding regions where interactions with the DRD2 receptor occur, potentially modifying the phenolic groups to ethers or methoxy groups to increase lipophilicity while retaining binding activities.",
+            "Final Target Molecule": "Cc1c(-c2ccc(OC)cc2)n(Cc2ccc(OC)cc2)c2ccc(OC)cc12"
+        }
+    },
+    {
+        "src_smiles": "CN(C)c1cccc2c(S(=O)(=O)Nc3ccc(C#N)nn3)cccc12",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a sulfonamide derivative with a bicyclic aromatic core. It contains a dimethylamino group, a cyanophenyl, and a sulfonamide-linked azole moiety.",
+            "Property Analysis": "The molecule's potential activity for the DRD2 receptor can be attributed to the presence of an aromatic core, which is important for receptor binding, and the basic dimethylamino group that can interact with the receptor's binding site.",
+            "Limitation in Source Molecule for Property": "The steric and electronic effects of the dimethylamino group and sulfonamide moiety may not optimally interact with the DRD2 receptor. The azole and nitrile may contribute to polarity, possibly affecting lipophilicity and binding efficiency.",
+            "Optimization for Source Molecule": "Introduce modifications that enhance the interaction with the DRD2 receptor. Consider replacing the dimethylamino group with a tertiary amine that can better interact with the receptor. Reduce polarity by altering or removing the nitrile group, or by modifying the sulfonamide or azole.",
+            "Final Target Molecule": "CN(C)Cc1ccc2c(S(=O)(=O)NCCn3nccc3)cccc2"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(CC(=O)N(C)c2ccc(Sc3ccccc3)cc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule features a piperazine ring attached to an amide linkage, which is further connected to a thioether-substituted phenyl ring.",
+            "Property Analysis": "The molecule is likely designed to interact with the Dopamine D2 receptor due to its piperazine core, a common feature in D2 receptor ligands. The amide and thioether substituents may influence binding affinity and selectivity.",
+            "Limitation in Source Molecule for Property": "While the piperazine core is effective for initial binding, the thioether moiety's electron-rich nature could reduce binding affinity due to potential steric hindrance or misalignment with the receptor's active site. Additionally, the amide bond's orientation may not be optimal for desired interactions.",
+            "Optimization for Source Molecule": "Consider replacing the thioether with an electron-deficient aromatic or heteroaromatic group to enhance binding interactions. Additionally, modifying the amide linkage to favor better orientation or introducing rigidity to the side chain connecting to the phenyl ring could be beneficial.",
+            "Final Target Molecule": "CN1CCN(CC(=O)N(C)c2ccn(Sc3ccncc3)cc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy carbonyl group, a central pyridine ring substituted with a benzamide moiety, and a biaryl system connected via a flexible methylene bridge. The fluorine-substituted phenyl group is connected to the quinoline ring through a carbon-carbon bond.",
+            "Property Analysis": "The activity at the dopamine D2 receptor (DRD2) is often influenced by the molecule's ability to fit in the receptor's binding site, having strong intermolecular interactions such as hydrogen bonding, and an optimal balance between hydrophobic and hydrophilic regions.",
+            "Limitation in Source Molecule for Property": "The source molecule might have suboptimal binding affinity due to the steric hindrance introduced by the methoxy carbonyl group and the potential lack of optimal hydrophobic contacts or hydrogen bonds with the DRD2 receptor.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, modifications may include reducing steric hindrance by removing or replacing the methoxy carbonyl group, incorporating groups that enhance hydrogen bonding interactions, and optimizing the electron distribution to improve pi-pi stacking or hydrophobic interactions.",
+            "Final Target Molecule": "COC1=CC2=C(C=C1)C(C3=CC=C(F)C=C3)=CC(NC4=NC=CN4C)=C2C(N)=O"
+        }
+    },
+    {
+        "src_smiles": "COc1cccc(CNC(=O)c2nc3cccc(-c4ccccc4)c3c(=O)[nH]2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex aromatic compound with a methoxy group, a sulfonylamide linkage, two carbonyl groups attached to nitrogen, and a biphenyl system.",
+            "Property Analysis": "For DRD2 receptor activity, molecules often require specific 3D conformations, electronic properties, and lipophilicity, often involving aromatic systems with optimal hydrophobic/lipophilic balance and potential hydrogen bonding groups.",
+            "Limitation in Source Molecule for Property": "The structure might have limited rotation or conformational flexibility due to the rigid aromatic systems. Also, the methoxy group might not optimally interact with DRD2, reducing binding affinity.",
+            "Optimization for Source Molecule": "Introduce flexible linkers between aromatic systems to improve conformational adaptability for better receptor interaction. Consider replacing the methoxy group with a hydroxyl group to enable hydrogen bonding. Additionally, introduce small electron-withdrawing or donating groups to optimize electron distribution and interactions with the receptor.",
+            "Final Target Molecule": "COc1ccccc1CNC(=O)c2nc3cccc(-c4ccccc4)cc3[nH]2"
+        }
+    },
+    {
+        "src_smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a benzamide core connected to a phenoxy group and a cyano group. It has a piperazine moiety, which is a common structural component for dopamine receptor ligands. The molecule also features an aliphatic linker and a tertiary amine.",
+            "Property Analysis": "The DRD2 activity is influenced by the ability of the molecule to mimic dopamine binding, which involves hydrophobic interactions, hydrogen bonding, and \u03c0-\u03c0 stacking interactions within the receptor's binding pocket.",
+            "Limitation in Source Molecule for Property": "The presence of the cyano group might reduce binding affinity as it may not favorably interact in the DRD2 binding site compared to other groups that can form better hydrophobic or aromatic interactions. Additionally, the bulky piperazine may hinder optimal binding orientation.",
+            "Optimization for Source Molecule": "Replace the cyano group with a methoxy group to enhance potential hydrogen bonding and hydrophobic interactions. Modify the piperazine to a smaller, less bulky ring to improve fit in the binding pocket, and potentially increase activity by introducing a para-fluoro group on the phenoxy ring.",
+            "Final Target Molecule": "CNCc1cc(C(=O)N2CCC(NC3CCC3)CC2)c(Oc2ccc(F)cc2)cc1OC"
+        }
+    },
+    {
+        "src_smiles": "CCS(=O)(=O)N(C)C(C)c1cncc(-c2cnc3c(c2)CCCN3C(N)=O)c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a sulfonamide group (CCS(=O)(=O)N(C)C(C)) attached to a pyridine ring, further connected to a bicyclic lactam structure containing a secondary amide.",
+            "Property Analysis": "The source molecule has moderate affinity towards the DRD2 receptor due to the presence of a secondary amide and bicyclic lactam which can facilitate binding through hydrogen bonding and \u03c0-stacking interactions.",
+            "Limitation in Source Molecule for Property": "The bulkiness of the sulfonamide group and the additional methyl group might hinder optimal receptor binding causing steric hindrance and reduced interaction with the binding pocket.",
+            "Optimization for Source Molecule": "To enhance DRD2 receptor activity, trim the sulfonamide group and replace the methyl group with a smaller electron-donating group to reduce sterics and improve binding affinity. Additionally, considering an electronegative substituent on the pyridine could enhance interactions with the receptor.",
+            "Final Target Molecule": "CN(C)C(C)c1cncc(-c2cnc3c(c2)CCCN3C(N)=O)c1"
+        }
+    },
+    {
+        "src_smiles": "COc1cccc(C(O)c2nc(-c3cccc(C(F)(F)F)c3)c[nH]2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule has a methoxy-substituted phenyl ring connected to a hydroxyl-pyridine group, and a trifluoromethyl-substituted phenyl ring attached to a pyridine ring via a nitrogen atom.",
+            "Property Analysis": "The presence of the trifluoromethyl group might contribute to lipophilicity, and the pyridine moiety could be involved in binding at the D2 receptor. However, additional groups that favor pi-pi stacking or hydrogen bonding might enhance DRD2 receptor activity.",
+            "Limitation in Source Molecule for Property": "The molecule's current structure might not provide optimal binding interactions with the D2 receptor due to limited ability for additional hydrogen bonding or pi-pi interactions.",
+            "Optimization for Source Molecule": "Introduction of a hydroxyl group or an amine group on the aromatic ring can increase hydrogen bonding potential. Additionally, modifying the pyridine ring to a more bulky aromatic system could improve interaction with the receptor site.",
+            "Final Target Molecule": "COc1cccc(C(O)c2nc(-c3cccc(C#N)c3)c[nH]2)c1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2c(cc1OC)C1CC(N)C(N3CC(C)CCC3=O)CN1CC2",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a dimethoxyphenyl group attached to a bicyclic ring system with an embedded piperazine moiety. The piperazine is further substituted with an N-substituted pyrrolidine group.",
+            "Property Analysis": "The molecule targets the Dopamine D2 receptor, likely due to its structural components akin to other known D2 receptor ligands, in particular, the aromatic system potentially interacting with the receptor's binding pockets.",
+            "Limitation in Source Molecule for Property": "The presence of bulkier groups on piperazines, like the pyrrolidine substituents, may hinder optimal binding affinity due to steric clashes or suboptimal fitting in the active site of the DRD2 receptor.",
+            "Optimization for Source Molecule": "Optimize by reducing or modifying bulky groups while maintaining lipophilicity. For instance, replacing N-substituted pyrrolidine with a simpler or more flexible moiety to enhance receptor interaction.",
+            "Final Target Molecule": "COc1cc2c(cc1OC)C1CC(N)CCN1CC2"
+        }
+    },
+    {
+        "src_smiles": "c1ccc(CNc2ccnc(NC3CCN(Cc4ccccc4)CC3)n2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted phenethylamine derivative with a N-linked pyridine moiety. The structure consists of a benzene ring connected to a propyl linker, which is further attached to a pyridine ring substituted with a secondary amine connected to a piperazine moiety bound to another phenyl group.",
+            "Property Analysis": "The molecule has potential DRD2 activity due to the presence of the aromatic moieties and the nitrogen atoms that might interact with the receptor's active site. The piperazine group is a common scaffold in dopamine receptor ligands, potentially contributing to receptor affinity.",
+            "Limitation in Source Molecule for Property": "One limitation is the lack of specific functional groups that enhance binding affinity to the DRD2 receptor. The current structure might suffer from suboptimal interactions with the active site due to steric hindrance or lack of electronic complementarity with DRD2.",
+            "Optimization for Source Molecule": "Introduce electron-donating groups on the aromatic rings to enhance \u03c0-\u03c0 interactions with DRD2. Modify the piperazine to a more rigid structure to increase binding affinity. Consider incorporating polar groups to improve receptor interaction, while maintaining adequate lipophilicity for cell permeability.",
+            "Final Target Molecule": "COc1cc(CNc2cc(C(=O)N3CCN(Cc4ccccc4)CC3)nc2)ccc1OC"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)C1C(c2ccc(C#CCCCCO)cc2)CC2CCC1N2C",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a bicyclic compound featuring a morphinan-like core structure with additional functional groups: an acetoxy group (COC(=O)) and a phenyl side chain with a terminal alkyl alcohol (C#CCCCCO).",
+            "Property Analysis": "The presence of the tertiary amine and the bicyclic core structure is favorable for DRD2 receptor affinity, but the extended alkyl chain with an alcohol may reduce receptor binding due to increased sterics and reduced lipophilicity.",
+            "Limitation in Source Molecule for Property": "The extended alkyl chain attached to the aromatic ring likely increases steric hindrance, possibly affecting the molecule's fit within the DRD2 binding pocket, and the hydroxyl group may introduce unnecessary polar interactions that hinder binding.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider shortening the alkyl chain and possibly removing or replacing the terminal alcohol group with a smaller, less polar group. Additionally, ensuring aromatic ring substitutions are optimized for pi-stacking interactions could be beneficial.",
+            "Final Target Molecule": "COC(=O)C1C(c2ccc(C#CC)cc2)CC2CCC1N2C"
+        }
+    },
+    {
+        "src_smiles": "OC(CN1C=COC=C1)c1cc(-c2ccc(F)cc2)nc2cc(F)ccc12",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex heterocyclic compound containing an oxazole ring, a secondary alcohol linked to the oxazole nitrogen, and two aromatic systems with fluorine substituents. It includes a methylene bridge connecting the oxazole to a phenyl group in para position relative to another phenyl bearing a pyridazine ring.",
+            "Property Analysis": "The presence of nitrogen and oxygen heteroatoms can facilitate interactions with the DRD2 receptor via hydrogen bonding and other polar interactions. The aromatic rings may also engage in pi-stacking interactions with the binding site. The fluorine atoms may slightly enhance receptor binding affinity due to increased lipophilicity and potential halogen bonding.",
+            "Limitation in Source Molecule for Property": "The presence of multiple polar groups and potential steric hindrance from the bridging methylene may limit optimal conformational flexibility and thus decrease binding efficiency with the DRD2 receptor.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, one may consider reducing steric bulkiness via modification of the methylene bridge. Additionally, optimizing the electron distribution by replacing one aromatic fluorine with a smaller group can improve interaction dynamics. Introducing an electron-donating methoxy group on one of the phenyl rings may enhance binding affinity.",
+            "Final Target Molecule": "OC(CN1C=COC=C1)c1cc(-c2ccc(OC)cc2)nc2cc(F)ccc12"
+        }
+    },
+    {
+        "src_smiles": "COc1ccccc1N1CCN(CCCCNC(=O)C2CC3CCCC3C2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxyphenyl group attached to a piperazine ring, which is further linked to a butyl chain terminating in an amide bond attached to a bicyclohexyl moiety.",
+            "Property Analysis": "The source molecule's structure suggests potential interaction with the Dopamine D2 receptor due to its piperazine core, a common feature in many psychoactive compounds targeting DRD2.",
+            "Limitation in Source Molecule for Property": "The presence of bulky bicyclohexyl groups may introduce steric hindrance, potentially reducing receptor binding affinity. The methoxy group might be suboptimal for receptor interaction due to lack of electronic contribution to binding.",
+            "Optimization for Source Molecule": "Consider replacing the bicyclohexyl moiety with a less bulky structure to reduce steric hindrance, and modify the methoxyphenyl group to a structure with increased electronic interactions, such as a catechol group, to enhance binding affinity to DRD2.",
+            "Final Target Molecule": "COc1cc(O)c(O)cc1N1CCN(CCCCNC(=O)C2CCCCC2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(CCOc2cc(O)c3c(=O)cc(-c4ccccc4)oc3c2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a typical aryl piperazine compound with an ether-linked pharmacophore, featuring a benzodioxole structure combined with a piperazine moiety. The molecule includes aromatic rings and a piperazine group indicating potential for receptor binding.",
+            "Property Analysis": "D2 receptor activity is influenced by the ability of the molecule to interact with the receptor's binding site. Factors such as ring structures for rigidity, electron-donating groups for interaction, and suitable linkers are critical for high affinity.",
+            "Limitation in Source Molecule for Property": "The current molecule might lack optimal rigidity or electronic donation for the targeted D2 receptor affinity. The presence of bulky groups could impede ideal binding conformations.",
+            "Optimization for Source Molecule": "Consider incorporating more planar and rigid structures to enhance fit into the receptor binding pocket. Introducing electron-withdrawing groups such as fluorine could enhance binding interactions via increased electron density.",
+            "Final Target Molecule": "CN1CCN(CCOc2cc(c3c(=O)cc(-c4ccccc4)oc3c2)F)CC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(Nc1nc2ccccc2n1Cc1ccc(Cl)cc1)c1ccco1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a benzamide derivative with a core benzoxazole structure. It includes a chlorobenzene moiety attached to a methylene bridge and heterocyclic components.",
+            "Property Analysis": "The DRD2 activity largely depends on the molecule's ability to bind to the receptor's active site, which is influenced by hydrophobic interactions, shape complementarity, and the presence of functional groups that can form hydrogen bonds.",
+            "Limitation in Source Molecule for Property": "The presence of a chlorine substituent offers hydrophobic interactions, but may cause steric hindrance. The heteroatom-rich benzoxazole may form hydrogen bonds, but the balance of electronic properties might not be optimal for DRD2 activity.",
+            "Optimization for Source Molecule": "Introduce a methoxy group to enhance electronic interactions, and replace the chlorobenzene with a more flexible benzyl moiety to improve conformational adaptability.",
+            "Final Target Molecule": "O=C(Nc1nc2ccccc2n1Cc1cc(OC)ccc1)c1ccco1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc2[nH]cc(CCNC(=O)CI)c2c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a methoxy-substituted indole ring with an attached chloroacetamide side chain. It features a benzene ring fused to a pyrrole, characteristic of an indole, with a pendant side chain containing a primary amine linked to an acyl chloride group.",
+            "Property Analysis": "This molecule may interact with the DRD2 receptor due to its indole core, which can mimic key neurotransmitter structures. The presence of the methoxy group can engage in additional interactions, potentially enhancing binding affinity. However, the acyl chloride is reactive and may interfere with selectivity or efficacy.",
+            "Limitation in Source Molecule for Property": "The acyl chloride group is highly reactive, which may lead to off-target interactions or instability under physiological conditions, potentially reducing the specificity and safety of the molecule as a drug candidate for DRD2 activity.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, replace the acyl chloride group with a more stable amide or other functional group that can improve binding interactions without compromising stability. Additionally, consider modifications on the indole ring to enhance interaction with the active site of the DRD2 receptor.",
+            "Final Target Molecule": "COc1ccc2[nH]cc(CCNC(=O)C)c2c1"
+        }
+    },
+    {
+        "src_smiles": "NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a sulfonamide derivative with a bicyclic structure containing a piperidine linked to a sulfonamide-containing phenyl ring. There is a para-fluorophenyl sulfone moiety attached to the bicyclic system.",
+            "Property Analysis": "The source molecule exhibits affinity for the dopamine D2 receptor due to the presence of sulfonamide and aromatic rings which are known pharmacophores in D2 ligands.",
+            "Limitation in Source Molecule for Property": "The bulky and polar sulfonamide groups might reduce binding affinity through steric hindrance and limited hydrogen bonding potential with D2 receptor residues.",
+            "Optimization for Source Molecule": "Reduce steric bulk and optimize electronic properties by modifying the sulfonamide to a less polar N-methylsulfonamide and introducing an electron-withdrawing group on the aromatic ring to enhance pi-pi interactions.",
+            "Final Target Molecule": "NS(C)(=O)NCC1CCCc2cc(S(=O)(=O)c3ccc(Cl)c(F)c3)ccc21"
+        }
+    },
+    {
+        "src_smiles": "O=C(CCN1CCN(CCOC(c2ccccc2)c2ccccc2)CC1)c1ccco1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is composed of a core piperazine ring, an amide linkage, a phenoxyethyl group, and an aromatic furan ring. It contains both polar and non-polar components, with potential hydrogen bond acceptors in the amide and ether groups.",
+            "Property Analysis": "The current structure has elements conducive to interaction with the dopamine D2 receptor, such as the basic nitrogen in the piperazine ring and the potential for \u03c0-stacking with phenyl groups. However, it may lack optimal alignment or binding affinity due to steric hindrances or insufficient polar interactions.",
+            "Limitation in Source Molecule for Property": "Steric hindrance from bulky phenyl groups may reduce receptor binding efficiency. Additionally, the electron-withdrawing nature of the carbonyl might reduce the basicity of the nearby amine, potentially affecting receptor interaction.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, reduce steric hindrance by replacing one phenyl group with a smaller aromatic or heteroaromatic ring that can maintain \u03c0-stacking. Introduce an electron-donating group near the nitrogen to enhance basicity.",
+            "Final Target Molecule": "O=C(CCN1CCN(CCOCc2ccc3ccncc3c2)CC1)c1ccco1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)C1CC(=O)N(c2ccccc2C(=O)OCC2CCCN(CCCc3ccccc3)C2)C1=O",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains several functional groups including two carbonyl groups, a carboxylate ester group, a tertiary amine, and multiple aromatic rings. The presence of an isopropyl group contributes to steric bulk around the structure.",
+            "Property Analysis": "The molecule features structural characteristics common in ligands with activity at the dopamine D2 receptor, such as aromaticity and tertiary amines, which can potentially interact with receptor binding sites.",
+            "Limitation in Source Molecule for Property": "The bulkiness of the isopropyl group and the carboxylate ester moiety may hinder optimal receptor interaction or binding affinity. Additionally, the rigidity introduced by multiple carbonyl groups might limit necessary conformational flexibility.",
+            "Optimization for Source Molecule": "Consider reducing steric bulk by modifying or removing bulky substituents like the isopropyl group and ester moiety. Introducing more flexible linkers or reducing rigidity might enhance receptor interaction. Exploring bioisosteres for ester and carbonyl groups could modulate bioactivity favorably.",
+            "Final Target Molecule": "CCOC1(CCN(C1)CCCc2ccccc2)C(=O)Nc3ccccc3"
+        }
+    },
+    {
+        "src_smiles": "CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a sulfonamide group connected to an aromatic ring. It also features an amide linkage adjacent to an indole-like moiety with a cyano group, and another aromatic ring with a cyclohexane substitution.",
+            "Property Analysis": "DRD2 receptor activity is typically influenced by the presence of electron-donating or withdrawing groups on the aromatic systems, three-dimensional conformation, and ability to form hydrogen bonds.",
+            "Limitation in Source Molecule for Property": "The presence of the bulky sulfonamide group may hinder optimal receptor binding and interaction within the receptor binding site. Additionally, the overall conformational flexibility and substituent positioning might not be ideal for DRD2 interaction.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider modifying the sulfonamide group or removing it to reduce steric hindrance and increase receptor interaction. Additionally, optimize the aromatic substituents to improve electronic interactions, possibly by introducing methoxy or hydroxy groups that could enhance binding affinity through additional hydrogen bonding or pi-stacking interactions.",
+            "Final Target Molecule": "CN(C)C(=O)C1=CC=CC=C1N=C(C2=CC=CC=C2)N"
+        }
+    },
+    {
+        "src_smiles": "CN(C)C1CCN(CCc2c(COc3ccccc3CO)sc3ccccc23)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a piperazine derivative with a methoxyphenyl linkage. The molecule consists of a piperazine core connected to a dihydrobenzothiophene moiety with an ether bridge linking aromatic rings.",
+            "Property Analysis": "The molecule is likely to have moderate affinity for the DRD2 receptor based on its structural features common in ligands interacting with dopamine receptors, such as the presence of aromatic rings and a basic nitrogen atom.",
+            "Limitation in Source Molecule for Property": "The molecule may have suboptimal DRD2 activity due to steric hindrance or suboptimal electronic properties from the methoxy groups and bulkiness of the dihydrobenzothiophene unit.",
+            "Optimization for Source Molecule": "To optimize for DRD2 activity, introduce electron-withdrawing groups on the aromatic rings to enhance binding affinity and reduce steric hindrance by replacing bulky methoxy groups.",
+            "Final Target Molecule": "CN(C)C1CCN(CCc2c(COc3cccc(F)c3)sc3ccccc23)CC1"
+        }
+    },
+    {
+        "src_smiles": "FC(F)(F)c1ccc(N2CCC(NC(c3ccc(Cl)cc3)c3cccnc3)CC2)nc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a trifluoromethylated benzene ring connected to a piperazine ring with a side chain that includes an aromatic amide linked to a chlorobenzene.",
+            "Property Analysis": "The molecule likely has activity at the DRD2 receptor due to the piperazine ring which is common in many DRD2 ligands. The electron-withdrawing trifluoromethyl group and the chlorine atom could also affect binding affinity.",
+            "Limitation in Source Molecule for Property": "The large trifluoromethyl group might increase lipophilicity excessively, potentially affecting bioavailability. The presence of a strong electron-withdrawing group near the amide linkage could also disrupt optimal binding to the DRD2 receptor.",
+            "Optimization for Source Molecule": "Consider replacing the trifluoromethyl group with a methyl or an ethyl group to reduce steric hindrance and possibly improve pharmacokinetic properties. Additionally, substituting the Cl atom with a smaller halogen or a non-polar group could balance the electronic effect on the receptor binding.",
+            "Final Target Molecule": "Cc1ccc(N2CCC(NC(c3ccc(C)cc3)c3cccnc3)CC2)nc1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(N(C)CCCN2CCc3cc(OC)c(OC)cc3CC2=O)cc1OC",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a substituted N-alkylated benzamide derivative featuring a methoxyphenyl group and a piperazine ring incorporated within a cyclic structure. It consists of methoxy groups attached to both phenyl rings.",
+            "Property Analysis": "The molecule has an affinity for the dopamine D2 receptor due to the presence of the piperazine ring and the methoxyphenyl group, which are known pharmacophores in DRD2 active compounds. The structure allows for possible \u03c0-\u03c0 interactions, hydrogen bonding, and fits within the receptor binding domain.",
+            "Limitation in Source Molecule for Property": "The presence of multiple methoxy groups and a bulky aromatic system may cause steric hindrance, affecting its binding efficiency. The piperazine-related moiety may contribute extensively to metabolism, potentially decreasing its bioavailability.",
+            "Optimization for Source Molecule": "To enhance DRD2 receptor affinity, reduce steric hindrance by substituting one methoxy group with a smaller electron-donating group like hydroxyl or even hydrogen. Additionally, explore flanking or replacing the methoxy groups with substituents that minimalize steric bulk yet improve binding interactions, such as aminomethyl or ethoxy groups, and consider optimizing the piperazine linker to enhance receptor interaction and metabolic stability.",
+            "Final Target Molecule": "COc1ccc(N(C)CCCN2CCc3cc(O)c(N)cc3CC2=O)cc1OC"
+        }
+    },
+    {
+        "src_smiles": "CC(=O)N1CCc2ccc(C(=O)CCCN3CCN(Cc4ccccc4)CC3)cc2CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex organic compound featuring an acetamide group connected to a piperidine ring, which is linked to a benzene ring. There is an additional amide group extended from this benzene ring that connects to an amine substituent, specifically a piperazine ring linked to a phenyl group.",
+            "Property Analysis": "The presence of aromatic systems, secondary and tertiary amines, and the overall size of the molecule suggests potential affinity for the DRD2 receptor. However, factors like molecular weight, lipophilicity, and the presence of specific functional groups need to be optimized for better activity.",
+            "Limitation in Source Molecule for Property": "The bulky nature of the molecule could limit its ability to effectively bind to the DRD2 receptor. Additionally, the carbons on the amide groups may introduce unwanted steric hindrance and affect the binding affinity negatively. The lipophilicity of the phenyl ring in the piperazine side chain may also affect the drug-like properties.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider reducing the overall lipophilicity by modifying or removing the phenyl group connected to the piperazine ring. Adding polar groups like hydroxyls could increase water solubility and improve receptor binding. Streamlining the structure by removing or modifying bulky amide linkages might also improve receptor interaction.",
+            "Final Target Molecule": "CC(=O)N1CCc2ccc(C(=O)CCCN3CCN(CO)CC3)cc2CC1"
+        }
+    },
+    {
+        "src_smiles": "Fc1cccc(CNc2cccc(-c3cc(NCCC4CCCNC4)ncc3Cl)n2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a fluorobenzene unit attached to a phenethylamine moiety, which is further connected to a bicyclic aniline substituent with a chlorine atom.",
+            "Property Analysis": "The molecule targets the Dopamine D2 Receptor, which is crucial for antipsychotic activity. Its activity can be influenced by electronic and steric effects within the binding pocket.",
+            "Limitation in Source Molecule for Property": "The presence of the chlorine atom, although beneficial for binding affinity through hydrophobic and halogen interactions, may lead to off-target effects or adverse pharmacokinetics. The bulky aromatic rings might also hinder optimal receptor binding due to steric clashes.",
+            "Optimization for Source Molecule": "Modification of the aniline ring substituent could enhance D2 receptor selectivity and reduce steric hindrance. Replacing the chlorine with a methoxy group could potentially increase binding affinity and selectivity by improving electronic properties and solubility.",
+            "Final Target Molecule": "Fc1cccc(CNc2cccc(-c3cc(NCCC4CCCNC4)ncc3OC)n2)c1"
+        }
+    },
+    {
+        "src_smiles": "CC(=O)c1ccc(N2CCN(CC(O)(Cn3cncn3)c3ccc(F)cc3F)CC2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains an acetophenone moiety, a fluorine-substituted phenyl group, a piperazine ring, and an attached guanine derivative. The Piperazine ring is connected to both the phenyl groups and the guanine derivative, providing flexibility and potential receptor binding interactions.",
+            "Property Analysis": "The molecule potentially exhibits DRD2 binding activity due to its piperazine core, which is a common motif in dopamine receptor ligands. The presence of electron-withdrawing groups, such as fluorine atoms, may influence the binding affinity and selectivity for the DRD2 receptor.",
+            "Limitation in Source Molecule for Property": "The bulky guanine group might lead to steric hindrance affecting optimal receptor binding. The electronic nature and steric bulkiness of substituents, particularly in the guanine derivative, could be optimized to improve binding affinity to the DRD2 receptor.",
+            "Optimization for Source Molecule": "To optimize for improved DRD2 activity, one could consider modifying the guanine derivative to a less bulky moiety while maintaining hydrogen bond acceptors/donors to facilitate interaction with the receptor. Additionally, further structural modifications such as changing the positions or types of substituents on the phenyl rings could enhance activity.",
+            "Final Target Molecule": "CC(=O)c1ccc(N2CCN(CC(O)C3N)CC2)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(NC(=O)CC2CCCCC2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex structure containing an aryl chloride moiety, a tertiary amine, and an amide bond. The core structure features a methoxy-substituted benzene ring, and a piperazine moiety connecting to an alkyl chain with a secondary amide.",
+            "Property Analysis": "DRD2 activity often requires affinity towards the D2 receptor, which can be influenced by the electronic properties of the aryl system and the conformational flexibility provided by linker regions like piperazine. Binding affinity might also be swayed by the presence of specific functional groups such as amines or amides.",
+            "Limitation in Source Molecule for Property": "The presence of bulky groups and specific electronic properties might limit the binding efficiency to the dopamine D2 receptor, potentially due to restricted flexibility or suboptimal interaction with essential binding sites.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, enhancing the flexibility and electronic interactions might be crucial. Consider replacing the chloro group with a more electron-withdrawing group like cyano or fluorine to improve potential pi-stacking interactions. Additionally, replacing the amide with a more flexible linker or introducing a smaller alkyl branching could enhance the molecule's ability to fit within the active site.",
+            "Final Target Molecule": "COc1cc(N)c(F)cc1C(=O)OCCN1CCCN(C(=O)C)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC1CCCCN1CCC(CCN(C(C)C)C(C)C)(C(N)=O)c1ccccc1F",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a tertiary amine with a pyrrolidine ring and a benzamide group. It has a fluorophenyl group and several alkyl substituents, making it relatively lipophilic.",
+            "Property Analysis": "The molecule shows potential for DRD2 activity due to the presence of the basic nitrogen atom, which can form interactions with the receptor. The lipophilic aromatic ring may enhance binding through hydrophobic interactions.",
+            "Limitation in Source Molecule for Property": "The molecule's bulkiness, particularly due to the dialkylamino substituents, might sterically hinder optimal binding to DRD2. Additionally, the fluorine on the phenyl ring may not significantly contribute to binding affinity.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider reducing steric bulk around the basic amine group. Replacing one of the isopropyl groups with a smaller hydrogen or methyl group could enhance binding affinity. Also, exploring modifications on the aromatic ring to enhance pi-stacking interactions could be beneficial.",
+            "Final Target Molecule": "CC1CCCCN1CCC(CCN(C)C)(C(N)=O)c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)c1cccc(-c2cccc(OCC(O)CN3CCc4ccccc4C3)c2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is an ester derivative of benzoic acid, with a methoxycarbonyl group, a central phenyl ring, and a dopamine-like moiety attached via an ether linkage.",
+            "Property Analysis": "The presence of the dopamine-like moiety suggests potential affinity for the dopamine D2 receptor, which is likely modulated by the pendant phenethylamine side chain.",
+            "Limitation in Source Molecule for Property": "The methoxycarbonyl group may reduce drug-likeness or receptor affinity due to steric hindrance or degradation, and the extended ether may decrease binding affinity at D2 receptor sites.",
+            "Optimization for Source Molecule": "Consider removing or replacing the methoxycarbonyl group with a smaller electron-withdrawing group that could enhance binding affinity. Additionally, reducing the ether linkage length might improve receptor interaction.",
+            "Final Target Molecule": "COc1cccc(C2CN(CC3=CC=CC=C3)CC(O)C2)c1"
+        }
+    },
+    {
+        "src_smiles": "CS(=O)(=O)c1cccc(C(=O)NCc2cccc(-c3cccc(CN4CCNCC4)c3)c2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a sulfonamide derivative with a benzamide core structure, featuring a secondary amine linkage to an aromatic ring and a piperazine moiety attached to another phenyl ring.",
+            "Property Analysis": "The molecule likely exhibits some affinity for the DRD2 receptor due to the presence of aromatic rings and a basic nitrogen atom which are common in ligands for this receptor.",
+            "Limitation in Source Molecule for Property": "The source molecule may have limited binding affinity or selectivity due to steric hindrance from the sulfonamide group, and the potential lack of optimal electronic distribution for interaction with the receptor.",
+            "Optimization for Source Molecule": "Introduce electron-donating groups on the aromatic rings to enhance \u03c0-\u03c0 interactions, and consider reducing steric bulk by modifying or replacing the sulfonamide group with a less bulky moiety. Additionally, optimize the piperazine ring to enhance basicity and interaction potential.",
+            "Final Target Molecule": "CS(=O)(=O)c1cccc(C(=O)NCC2=CC=CC=C2-c2ccc(CN3CC(=O)NCC3)cc2)c1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule is a complex heterocyclic structure with a methoxyphenyl, a chloro group, a carbonyl group linked to a piperazine moiety and a thiourea isopropyl moiety. The piperazine and morpholine rings are aliphatic and flexible.",
+            "Property Analysis": "The DRD2 activity of a ligand is influenced by factors like hydrophobicity, electronic distribution, and conformation. The methoxyphenyl core is a common motif in dopamine receptor ligands to ensure favorable interactions.",
+            "Limitation in Source Molecule for Property": "The chloro and methoxy substituents may introduce steric hindrance or reduce binding efficiency. The thiourea and aliphatic chain can affect lipophilicity and flexibility further influencing receptor binding.",
+            "Optimization for Source Molecule": "Introduce electron donating groups or increase rigidity to enhance receptor interactions. Replace the thiourea with an amide to increase metabolic stability. Incorporate aromaticity in the piperazine ring to improve orientation and binding capability.",
+            "Final Target Molecule": "COc1cc(N)c(CC(=O)NC1CC2CCCCN3CC[C@H](C)N(C)C2)cc3O"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2nc(N(C)CC3CCCCC3)nc(NC3CCN(C)CC3)c2cc1OC",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a methoxy-substituted heterocyclic structure with a secondary amine side chain attached to a piperidine ring. The core structure is a bicyclic system made up of fused aromatic rings with nitrogen atoms which may interact with the D2 receptor.",
+            "Property Analysis": "The molecule is likely to have dopaminergic activity due to its structural similarity to known D2 receptor ligands, such as presence of nitrogen-containing heterocycles and amine groups which can form key interactions with the receptor.",
+            "Limitation in Source Molecule for Property": "The bulky side chain attached to the nitrogen atoms may hinder optimal binding at the DRD2 site. Moreover, the methoxy groups, though potentially adding to solubility, might also interfere sterically.",
+            "Optimization for Source Molecule": "To improve DRD2 activity, consider reducing the steric hindrance by employing smaller substituents at the nitrogen atoms or modifying the piperidine ring to improve binding affinity. Adjusting the electronic properties by substituting electron-donating groups with electron-withdrawing groups might also enhance interaction with the receptor.",
+            "Final Target Molecule": "COc1cc2nc(NC3CC4CCCCC4C3)nc(NC3CCNCC3)c2cc1OC"
+        }
+    },
+    {
+        "src_smiles": "CCS(=O)(=O)NC1CCC(Nc2cc(-c3cccc(NCc4cccc(F)c4)n3)c(Cl)cn2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a sulfonamide group attached to a cyclic amine, with an aryl-piperazine moiety connected to a benzothiazole. It also features a fluorophenyl group and a chloro-substituted pyridine.",
+            "Property Analysis": "Dopamine D2 receptor activity is influenced by the molecule's ability to interact with the receptor's binding pocket, hydrophobic interactions, and potential for hydrogen bonding. The molecule's aryl rings and nitrogen atoms facilitate these interactions.",
+            "Limitation in Source Molecule for Property": "The sulfonamide group can be polar and might reduce hydrophobic interactions with the receptor. Additionally, the chloro-substituted pyridine may not optimally orient for interaction with the receptor, potentially reducing activity.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider replacing or modifying the sulfonamide group to reduce polarity and increase hydrophobic character. Adjusting the position or substituents on the pyridine ring could improve binding orientation.",
+            "Final Target Molecule": "CCS(=O)(=O)NC1CCC(Nc2cc(-c3cccc(NCc4cccc(F)c4)n3)c(Cl)ccn2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)c1ccccc1OCCN1CCC(N(CC2CC2)S(=O)(=O)c2cnn(C)c2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a phenyl ring with an isopropyl group and an alkyl ether chain connecting to a piperazine core, which further links to a sulfonamide-substituted pyrimidine ring.",
+            "Property Analysis": "The molecule has a potential for DRD2 activity due to its structural similarities to known agonists or antagonists, especially the piperazine core that is often found in compounds with activity at dopamine receptors.",
+            "Limitation in Source Molecule for Property": "While the presence of a piperazine ring and a lipophilic phenyl group is generally favorable, the bulky sulfonamide and the remote pyrimidine may hinder binding efficacy at DRD2.",
+            "Optimization for Source Molecule": "To optimize the molecule for DRD2 activity, consider modifying or removing the bulky sulfonamide group to reduce steric hindrance and enhance binding affinity. Additionally, introduce a more electron-rich group at the phenyl ring or within the piperazine moiety to facilitate better receptor interaction.",
+            "Final Target Molecule": "CC(C)c1ccccc1OCCN1CCC(N(CC2CC2)c2cccnc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCc1cc(OC)cc2nc(-c3cccnc3N3CCC(C(=O)O)CC3)oc(=O)c12",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule consists of a substituted benzofuranone core linked to a pyridine ring through a nitrogen-carrying linker. It contains a tertiary amine and a carboxylic acid that can impact receptor binding through ionic interactions.",
+            "Property Analysis": "The molecule's structure suggests potential activity at the DRD2 receptor due to the presence of aromatic systems for pi-stacking and amine groups for receptor interaction. The bulky side chain may influence receptor binding affinity and selectivity.",
+            "Limitation in Source Molecule for Property": "The presence of a carboxylic acid might reduce bioavailability and form an undesired ionic interaction at the active site. The aromatic furanone may not adequately stabilize necessary receptor interactions.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider modifying the carboxylic acid to an ester to improve bioavailability and changing the aromatic furanone to an indole, which may form more effective interactions with the receptor.",
+            "Final Target Molecule": "CCc1cc(OC)cc2nc(-c3cccnc3N3CCC(C(=O)OC)CC3)c2c2c[nH]c3ccccc23"
+        }
+    },
+    {
+        "src_smiles": "O=C(NCCCN1CCOCC1)c1ccc2c(=O)n(Cc3ccc(Cl)cc3)c(=O)[nH]c2c1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains an amide linkage, a piperazine ring, a chloro-substituted phenyl ring, and an isoquinolinone structure. The presence of electron-withdrawing groups such as chlorine and carbonyls may influence binding affinity and receptor activity.",
+            "Property Analysis": "The molecule is moderately complex with several heteroatoms, aromatic systems, and an amide bond that may contribute to DRD2 receptor binding. It has both hydrophobic and polar regions, which are important for receptor interaction.",
+            "Limitation in Source Molecule for Property": "The presence of bulky groups and the lack of specific functional groups that enhance DRD2 binding may limit its activity. The amide linkage and rigid ring structure could hinder optimal alignment in the receptor binding site.",
+            "Optimization for Source Molecule": "To enhance DRD2 activity, consider introducing a hydroxyl group at the ortho position on the chloro-substituted phenyl ring to improve hydrogen bonding potential. Replacing the amide with a sulfonamide could enhance binding affinity due to stronger hydrogen bond acceptor capacity.",
+            "Final Target Molecule": "O=S(NCCCN1CCOCC1)(c1ccc2c(=O)n(Cc3ccc(Cl)cc3O)c(=O)[nH]c2c1)=O"
+        }
+    },
+    {
+        "src_smiles": "CN(CC(F)(F)F)C(=O)c1ccc2cc(Oc3ccc(C(F)(F)F)cn3)ccc2n1",
+        "prop": "drd",
+        "json_results": {
+            "Structural Analysis of Source Molecule": "The source molecule contains a trifluoromethyl group attached to a nitrogen in a morpholine ring and an acetyl group linked to a benzyl moiety. It also includes a benzoxazole ring that is substituted with a trifluoromethyl group on a pyridinyl ring.",
+            "Property Analysis": "The molecule targets the dopamine D2 receptor (DRD2), important for neurological processes like behavior and mood. Its efficacy can be influenced by its binding affinity, overall hydrophobic interactions, and electronic distribution.",
+            "Limitation in Source Molecule for Property": "The trifluoromethyl group increases lipophilicity and may restrict interactions with the DRD2 receptor due to potential sterics or electronic effects. This may impact the molecule's affinity and selectivity towards the receptor.",
+            "Optimization for Source Molecule": "To optimize dopamine D2 receptor activity, consider replacing one trifluoromethyl group with a smaller, electron-donating group such as methoxy or methyl to potentially enhance receptor binding by improving electronic interaction and reducing steric hindrance.",
+            "Final Target Molecule": "CN(CC(F)(F)F)C(=O)c1ccc2cc(Oc3ccc(C)cn3)ccc2n1"
+        }
+    }
+]

@@ -1,0 +1,364 @@
+[
+    {
+        "smiles": "COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC",
+        "mutated": "N1C(Cc2ccc(O)c(c2)OC)c2c(CC1)c1c([nH]2)ccc(SC)c1",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1",
+        "mutated": "c1c(C2=CCCCC2)c(NCc2[nH]c(cn2)C#N)ccc1CCS(=O)(=O)N(C)C",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1cc(NC(=O)CN2C(=O)NC(C)(c3ccccc3)C2=O)no1",
+        "mutated": "O=C1NC(C)(C2=C=C=CC=C2)C(N1CC(Nc1noc(c1)C)=O)=O",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(Nc1ccccc1C(=O)N1CCOCC1)c1ccc(CSc2ccccc2)cc1",
+        "mutated": "c1cccc(SCc2ccc(C(=O)Nc3ccccc3CN3CCOCC3)cc2)c1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12",
+        "mutated": "C(C)(CC)Nc1c2c(cnc(c2)NCc2cnccc2)ncc1C#N",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(N3CCN(C(=O)NCc4ccc(Br)cc4)CC3)c2cc1OC",
+        "mutated": "N1(CCN(CC1)CNCc1ccc(Br)cc1)c1ncnc2cc(c(cc12)OC)OC",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cn1nc(C(N)=O)c2c1-c1nc(NCc3ccccc3)ncc1CC2",
+        "mutated": "Cn1nc(c2CCc3cnc(NCc4ccccc4)nc3-c12)CN",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CCC(C)Nc1ncnc2cc(OC)c(OC)cc12",
+        "mutated": "n1cnc(NC(C)CC)c2cc(c(cc12)OS)OC",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CCCCCSc1nc(O)c2cnn(-c3ccc(F)cc3)c2n1",
+        "mutated": "C(CSc1nc(c2c(n(-c3ccccc3)nc2)n1)O)CCC",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "c1ccc(COc2ccc(OCCn3cnc4ccccc43)cc2)cc1",
+        "mutated": "c1c(COc2ccc(OCCn3c4=C=C=CC=c4nc3)cc2)cccc1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "O=C(O)CCSc1ccc2ccccc2n1",
+        "mutated": "C(=O)CCSc1ccc2ccccc2n1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "COc1ccc(NC(=O)Nc2ccc(N(C)c3ncnc4cc(OC)c(OC)cc34)cc2)cc1",
+        "mutated": "c1c(ccc(c1)OC)NC(Nc1ccc(cc1)N(c1ncnc2cc(OC)c(ON)cc12)C)=O",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "NC(=O)c1c(NC(=O)Nc2ccc(Cl)cc2)sc2c1CCCC2",
+        "mutated": "c12c(sc(NCNc3ccc(cc3)Cl)c2C(=O)N)CCCC1",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(O)c1ccc(S(=O)(=O)N(Cc2ccccc2)Cc2ccc(O)cc2)cc1",
+        "mutated": "c1ccccc1CN(Cc1ccc(cc1)O)S(=O)c1ccc(C(O)=O)cc1",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "O=c1cc(-c2ccccc2Cl)oc2c1ccc1ccccc12",
+        "mutated": "c12c(ccc3c2oc(cc3=O)-c2c(cccc2)N)cccc1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CSc1ncc(C(=O)Nc2ccc(C)c(Cl)c2)c(-c2ccccc2)n1",
+        "mutated": "c1ccc(-c2nc(S)ncc2C(=O)Nc2ccc(C)c(c2)Cl)cc1",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CCC(c1ccc(O)cc1)C(CCI)c1ccc(O)cc1",
+        "mutated": "c1(ccc(O)cc1)C(C(c1ccc(cc1)O)CC)C=CI",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "COc1ccc(-n2c(=O)cnc3cnc(Oc4cccc(Cl)c4)nc32)cc1",
+        "mutated": "c1cccc(c1)Oc1ncc2ncc(=O)n(c2n1)-c1ccc(cc1)OC",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C)n1cnc2c(Nc3cccc(Cl)c3)ncnc21",
+        "mutated": "n1cnc(c2c1n(CC)cn2)Nc1cc(Cl)ccc1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCN(CC)CCCNC1c2cc(OC)ccc2OCc2ncccc21",
+        "mutated": "c12COc3c(C(NCCCN(C)CC)c2cccn1)cc(OC)cc3",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "NC(CCC(=O)O)C(=O)Nc1ccc(Cl)cc1C(=O)c1ccc[nH]1",
+        "mutated": "N(c1ccc(Cl)cc1C(=O)c1ccc[nH]1)CC(CCC(O)=O)N",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC",
+        "mutated": "C(NC1CCN(CC2CCN(CN2)C(=S)C(C)C)CC1OC)(=O)c1c(cc(c(c1)Cl)N)OC",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1",
+        "mutated": "Oc1c2n(C3CC3)cc(c(c2cc(c1N1CCN(CC)CC1)F)=O)C(O)=O",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1c(-c2ccc(Cl)cc2)nsc1NC(=O)C1CC1C",
+        "mutated": "c1cc(ccc1Cl)-c1c(C)c(NC(C2CC2)=O)sn1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCCC(O)C3)nc21",
+        "mutated": "c1nc(N2CC(CC=C2)O)nc2n(C)c(=O)c(Oc3ccc(cc3F)F)cc12",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "COc1ccc(-c2nnc(SCC#N)o2)cc1",
+        "mutated": "O(c1ccc(cc1)-c1oc(nn1)SCCN)C",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1",
+        "mutated": "O=C(c1cc(cc(C#N)c1)C)c1n(c([nH]c(=O)c1CC)=O)Cc1cc(N)nc(c1F)F",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCS(=O)(=O)NC1CCC(Nc2cc(-c3cccc(NCc4cccc(F)c4)n3)c(Cl)cn2)CC1",
+        "mutated": "C(c1cc(ccc1)F)Nc1nc(ccc1)-c1nc(ncc1Cl)NC1CCC(CC1)NS(=O)(=O)CC",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1nc(C#Cc2cnc(SC(C)(C)C)nc2)cs1",
+        "mutated": "s1cc(C#Cc2cnc(nc2)OC(C)(C)C)nc1C",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "COc1ccc(-c2nc(NCC(=O)N3CCCCC3)sc2-c2ccc(OC)cc2)cc1",
+        "mutated": "s1c(c(nc1NCC(N1CCCCC1)=O)-c1ccc(cc1)O)-c1ccc(OC)cc1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C1c2ccccc2C(=O)N1CCOC(=S)Nc1ccc(F)cc1F",
+        "mutated": "S=C(NC1C(F)=CS(=CC=1)F)OCCN1C(=O)c2c(cccc2)C1=O",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CS(=O)(=O)c1cccc(C(=O)NCc2cccc(-c3cccc(CN4CCNCC4)c3)c2)c1",
+        "mutated": "C1NCCN(Cc2cccc(-c3cc(CNC(c4cccc([SH](=O)=O)c4)=O)ccc3)c2)C1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1",
+        "mutated": "c1(ccc(CC)cc1C(c1ccc(cc1)C)=O)OC=O",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(O)CCCC1C2CCCN3CCCC(CN1CCO)C23",
+        "mutated": "C(CO)N1CC2C3C(CCCN3CCC2)C1NCCC(=O)O",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "NC(=O)c1cccc2c(NCc3cccc(Nc4ncccn4)c3)ncnc12",
+        "mutated": "n1c(nccc1)Nc1cccc(c1)CNC1=S2C=CC=C(C2=NC=N1)C(N)=O",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "COc1ccc(S(=O)(=O)Nc2ccc(-n3cccc3)cc2)cc1",
+        "mutated": "O(C)c1ccc(S(=O)Nc2ccc(-n3cccc3)cc2)cc1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "c1ccc(-c2cc(NCc3cccnc3)n3nccc3n2)cc1",
+        "mutated": "c1c(cccc1)-c1cc(n2c(ccn2)n1)NCC1C=C=C=NC=1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1ccc(-c2csc3ncnc(Nc4ccc(C(=O)O)cc4)c23)cc1",
+        "mutated": "c1(c2c(Nc3ccc(cc3)CO)ncnc2sc1)-c1ccc(cc1)C",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "C=CCn1c(=O)c2[nH]c(Cc3ccc(N)cc3)nc2n(CCCC)c1=O",
+        "mutated": "c1(n(c(c2c(n1CCCC)nc([nH]2)Cc1ccc(N)cc1)=O)CN=C)=O",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CON(C)C(NC(C)=O)C(=O)NCc1ccccc1",
+        "mutated": "N(C(C(NCc1ccccc1)=O)NC(=O)C)(NC)C",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(Nc1ccc(Cl)cc1)Nc1ccc(C(F)(F)F)cc1Cl",
+        "mutated": "c1c(ccc(NCNc2ccc(cc2)Cl)c1Cl)C(F)(F)F",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "Cn1c(=O)c(-c2ccccc2)nc2cncnc21",
+        "mutated": "n1(C)c(c(nc2c1nccc2)-c1ccccc1)=O",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CN=C(NC#N)NCCn1nc(-c2ccccc2)ccc1=O",
+        "mutated": "c1(ccccc1)-c1ccc(n(n1)CCNC(=N)NC#N)=O",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CCC(C)CNc1ncc(C#Cc2ccc(CC(C)NC(C)=O)cc2)cn1",
+        "mutated": "c1(cnc(nc1)NCC(C)CC)C#Cc1ccc(cc1)CC(C)NC(=O)F",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "COc1ccc(C=CC(=O)Nc2cc(-c3c(-c4ccc(F)cc4)nc(SC)n3C)ccn2)cc1",
+        "mutated": "c1(-c2c(-c3ccc(F)cc3)nc(SC)n2C)cc(NCC=Cc2ccc(cc2)OC)ncc1",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C)n1cnc2c(NCc3ccc(-c4ccccc4)cc3)nc(N(CCO)CCO)nc21",
+        "mutated": "C(N(c1nc(c2ncn(c2n1)CC)NCc1ccc(-c2ccccc2)cc1)CCO)CO",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCN(CC)CCNC(=O)c1cc(Cl)c(N)cc1O",
+        "mutated": "N(C(c1c(cc(c(c1)Cl)N)O)=O)CCN(C)CC",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(C)c1ccccc1OCCN1CCC(NS(=O)(=O)c2ccccc2)CC1",
+        "mutated": "c1cc(S(NC2CCN(CCOc3c(C(C)C)cccc3)CN2)(=O)=O)ccc1",
+        "task": "mutated_list",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CCc1cc(OC)cc2nc(-c3cccnc3N3CCC(C(=O)O)CC3)oc(=O)c12",
+        "mutated": "c1c(c2c(nc(-c3c(nccc3)N3CCC(CC3)C(O)=O)oc2=O)cc1O)CC",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CN1CCN(CC(=O)N(C)c2ccc(Sc3ccccc3)cc2)CC1",
+        "mutated": "C(N1CCNCC1)C(N(c1ccc(cc1)Sc1ccccc1)C)=O",
+        "task": "mutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    }
+]

@@ -1,0 +1,302 @@
+[
+    {
+        "smiles": "CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1",
+        "permutated": "c1c(ccc(c1)C(=O)c1cc(CC)ccc1OC(C)=O)C",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CCC(Oc1ccccc1)C(=O)Nc1nnc(S(=O)(=O)N2CCCC2)s1",
+        "permutated": "O=S(N1CCCC1)(c1sc(nn1)NC(=O)C(CC)Oc1ccccc1)=O",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "Nc1ccc(Nc2nc(-c3ccc(Cl)cc3)cs2)cc1",
+        "permutated": "c1(-c2ccc(cc2)Cl)csc(n1)Nc1ccc(cc1)N",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CC1C2Cc3ccc(N)cc3C1(C)CCN2",
+        "permutated": "C1NC2Cc3ccc(cc3C(C)(C2C)C1)N",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "Nc1ccc(-c2nnc(NC(=O)Nc3ccc(Cl)c(Cl)c3)s2)cc1",
+        "permutated": "c1(c(Cl)cc(NC(Nc2nnc(s2)-c2ccc(N)cc2)=O)cc1)Cl",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C",
+        "permutated": "c1cc(NS(c2ccc(C(=O)Nc3c(n(C)n(c3=O)-c3ccccc3)C)cc2)(=O)=O)c(F)cc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)CC(N1CCOCC1)C2",
+        "permutated": "COc1c(cc2c(CC(N3CCOCC3)C2)c1)OC",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1c(F)ccc(C(=O)Nc2cc(C(=O)O)ccc2N2CCN(C)CC2)c1Cl",
+        "permutated": "c1(cc(ccc1N1CCN(C)CC1)C(O)=O)NC(=O)c1ccc(c(c1Cl)C)F",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1",
+        "permutated": "c1c(cc2c(c1NCc1ccccc1)ncn2C(C)C)OC(CC)CO",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)CC(NC(=O)C1CCCN1)C1OC2OC(C)(C)OC2C1OC",
+        "permutated": "C1(C(NC(C2CCCN2)=O)CC(OCC)=O)OC2OC(OC2C1OC)(C)C",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2ncnc(N3CCN(C(=O)Nc4ccccn4)CC3)c2cc1OC",
+        "permutated": "c1(NC(=O)N2CCN(CC2)c2ncnc3c2cc(c(c3)OC)OC)ncccc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C(C)CN1",
+        "permutated": "CC1NCC(N(c2c(F)c(N)c3c(=O)c(cn(C4CC4)c3c2F)C(O)=O)C1)C",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "permutated": "c1c(c(NS(=O)(=O)C)ccc1C(C)C(NCc1ccc(C(F)(F)F)nc1OCc1ccc(cc1)F)=O)F",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccccc1",
+        "permutated": "c1(C(O)CN2C3CCC2CC(C3)c2ccccc2)ccccc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(Oc1ccccc1C(=O)Oc1ccccc1)c1cccnc1",
+        "permutated": "n1cc(C(=O)Oc2ccccc2C(=O)Oc2ccccc2)ccc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=S(=O)(NCCCCCO)c1ccc(-c2ccc(O)cc2)cc1",
+        "permutated": "O=S(NCCCCCO)(c1ccc(-c2ccc(cc2)O)cc1)=O",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=c1cc(-c2ccccc2Cl)oc2c1ccc1ccccc12",
+        "permutated": "c1(-c2c(Cl)cccc2)cc(=O)c2c(c3c(cc2)cccc3)o1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "NC(=O)OC(CCN1CCN(c2ccc([N+](=O)[O-])cc2)CC1)c1ccccc1",
+        "permutated": "c1ccccc1C(CCN1CCN(c2ccc(cc2)[N+]([O-])=O)CC1)OC(=O)N",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C1NC(=O)C(=Cc2ccc(-c3cccc([N+](=O)[O-])c3)o2)S1",
+        "permutated": "C1(SC(NC1=O)=O)=Cc1oc(-c2cccc([N+]([O-])=O)c2)cc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21",
+        "permutated": "c1cccc2c1nc(s2)-c1c(N)n(CCCN(C)C)c2c1nc(C#N)c(n2)C#N",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "permutated": "O=C(OCCN1CCC(C(=O)N)CC1)c1c(OC)cc(c(c1)Cl)N",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12",
+        "permutated": "c1(c(c2c(cccc2)n1Cc1ccccc1)SC)CC(Nc1ccc(F)cc1)=O",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cccc(C(=O)OCC(C)C2CCC3C(O)CCCC23C)c1",
+        "permutated": "C1(C(COC(c2cc(ccc2)OC)=O)C)C2(C)CCCC(O)C2CC1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OCc1ccc(C)cc1",
+        "permutated": "c1(c(cc(cc1OC)Cc1c(N)nc(nc1)N)OC)OCc1ccc(cc1)C",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "Nc1ccnc(Nc2ccc(Oc3ccc(Cl)cc3)cc2)c1",
+        "permutated": "c1nc(cc(c1)N)Nc1ccc(Oc2ccc(Cl)cc2)cc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CSc1nc2ccc3nc(NC(=O)c4ccco4)sc3c2s1",
+        "permutated": "n1c2c(sc1SC)c1c(cc2)nc(s1)NC(=O)c1ccco1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2ncnc(N(C)c3ccc(F)c(Cl)c3)c2cc1OC",
+        "permutated": "Clc1c(F)ccc(c1)N(c1ncnc2cc(OC)c(cc12)OC)C",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CC(Nc1cccc(CN2CCOC2=O)c1)C(=O)NC(N)=O",
+        "permutated": "O=C(N)NC(C(C)Nc1cc(ccc1)CN1CCOC1=O)=O",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(CSc1cccc[n+]1[O-])Nc1ccccc1Oc1ccccc1",
+        "permutated": "c1ccc[n+](c1SCC(Nc1c(cccc1)Oc1ccccc1)=O)[O-]",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(NCCCN1CCOCC1)c1ccc2c(=O)n(Cc3ccc(Cl)cc3)c(=O)[nH]c2c1",
+        "permutated": "c1c(C(=O)NCCCN2CCOCC2)ccc2c(=O)n(c(=O)[nH]c21)Cc1ccc(Cl)cc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "Fc1ccc(-c2nc3cc[nH]cc-3n2)cc1",
+        "permutated": "c1[nH]ccc2-c1nc(n2)-c1ccc(cc1)F",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COC(=O)CSc1nc(-c2ccc(F)cc2)c(-c2ccncc2)[nH]1",
+        "permutated": "c1(-c2ccncc2)c(nc([nH]1)SCC(OC)=O)-c1ccc(cc1)F",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1oc(=O)oc1COC(=O)C(C)(C)Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1",
+        "permutated": "c1c(ccc(c1)Cl)C(=O)c1ccc(OC(C(OCc2c(C)oc(o2)=O)=O)(C)C)cc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2ncnc(NC(C)C)c2cc1OC",
+        "permutated": "c12cc(OC)c(OC)cc2c(NC(C)C)ncn1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(C=Cc1ccco1)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O",
+        "permutated": "C(NC(Cc1ccccc1)C(=O)O)(=O)C(Cc1ccccc1)NC(=O)C=Cc1occc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CCCCCSc1nc(O)c2cnn(-c3ccc(F)cc3)c2n1",
+        "permutated": "Oc1nc(nc2n(ncc12)-c1ccc(cc1)F)SCCCCC",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC",
+        "permutated": "c1c(OC)c(OC)ccc1CC1NCCc2c3c([nH]c21)ccc(SC)c3",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)-c1cc(Nc3c(Cl)cccc3Cl)nc(=O)n1CC2",
+        "permutated": "c1(cccc(c1Nc1nc(n2c(-c3cc(OC)c(cc3CC2)OC)c1)=O)Cl)Cl",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CN(CCCNc1ccnc2cc(Cl)ccc12)C(=O)c1ccccc1",
+        "permutated": "C(N(C(c1ccccc1)=O)C)CCNc1ccnc2cc(ccc12)Cl",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)CN1C(=O)SC(=Cc2ccc(-c3ccc(Cl)cc3Cl)o2)C1=O",
+        "permutated": "Clc1cc(ccc1-c1oc(C=C2SC(N(C2=O)CC(OCC)=O)=O)cc1)Cl",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CC(NC(=O)C1CCN(Cc2cccc(NC(=O)c3ccc(Cl)cc3)c2)CC1)C1CCCCC1",
+        "permutated": "C1CCCC(C1)C(C)NC(C1CCN(Cc2cc(ccc2)NC(c2ccc(Cl)cc2)=O)CC1)=O",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1",
+        "permutated": "C(C(c1nc2c([nH]1)cccc2)NC(=O)c1cc(ccc1)[N+]([O-])=O)c1ccccc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OC(C)C)c2)[nH]1",
+        "permutated": "n1ccc(-c2[nH]c(SC)nc2-c2ccc(cc2)F)cc1OC(C)C",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CCn1ncc(C2=NOC(C(=O)Nc3cccc(C(C)=O)c3)C2)c1C",
+        "permutated": "O1C(C(=O)Nc2cc(C(=O)C)ccc2)CC(c2c(n(CC)nc2)C)=N1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "permutated": "N1(C(=O)c2cc(c(Oc3c(cccc3)C#N)cc2)CNC)CCCN(C2CC2)CC1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1ccc(S(=O)(=O)N2CCC3(CC2)CC(=O)c2ccccc2O3)cc1OC",
+        "permutated": "C1(c2ccccc2OC2(C1)CCN(S(=O)(c1ccc(OC)c(c1)OC)=O)CC2)=O",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1cc(C)cc(NC(=O)Nc2ccc(NS(N)(=O)=O)cc2)c1",
+        "permutated": "O=C(Nc1ccc(cc1)NS(N)(=O)=O)Nc1cc(C)cc(c1)C",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "Nc1cccc(-n2nncc2-c2ccccc2)c1",
+        "permutated": "c1ccccc1-c1cnnn1-c1cc(N)ccc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21",
+        "permutated": "c1(c(cccc1)-c1ccc(CC2NC(c3cc(Cl)ccc3N(C2=O)C)=O)cc1)[N+]([O-])=O",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc(C=C(C#N)c2ccccn2)ccc1OCc1ccccc1Cl",
+        "permutated": "c1ccc(Cl)c(COc2c(cc(cc2)C=C(c2ccccn2)C#N)OC)c1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"output\": \"yes\"\n}\n```"
+    }
+]

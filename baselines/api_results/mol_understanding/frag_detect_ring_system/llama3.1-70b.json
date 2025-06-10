@@ -1,0 +1,362 @@
+[
+    {
+        "smiles": "CC(C)n1cnc2c(NCc3ccc(-c4ccccc4)cc3)nc(N(CCO)CCO)nc21",
+        "ring_system_scaffold": "c1ccc(-c2ccccc2)cc1",
+        "id": "27c3789c-0f19-42b1-a1fe-c0d8dcc6e15e",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1ccc(C(=NO)NCCN2CCOCC2)c(Oc2cccc(F)c2)n1",
+        "ring_system_scaffold": "C1COCCN1",
+        "id": "19e14189-79ac-40b3-a949-1c400fd8a1fd",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3cc(Cl)ccc3Cl)c2cc1OCCCCCC(=O)NO",
+        "ring_system_scaffold": "c1ccc2ncncc2c1",
+        "id": "571312d2-d8ce-4289-ae26-61f3cdbfbd8c",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "NC(=O)OC(CCN1CCN(c2ccc([N+](=O)[O-])cc2)CC1)c1ccccc1",
+        "ring_system_scaffold": "c1ccc(N2CCNCC2)cc1",
+        "id": "79e247d2-b2be-443e-b805-25e071a39206",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CNC(=O)C(NC(=O)C(CC(C)C)C(C(=O)NO)C1CCCC1)C(C)(C)C",
+        "ring_system_scaffold": "C1CCCC1",
+        "id": "e788c8c7-9a60-4d97-8ad4-0bc4fb88c518",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "ring_system_scaffold": "c1ccccc1",
+        "id": "c31f3671-03aa-4a4b-87ed-32698f27730d",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCOC(=O)c1cnc2ccnn2c1SCC",
+        "ring_system_scaffold": "c1cnc2ccnn2c1",
+        "id": "61e4b48e-d7d7-4b5c-ad9c-c934f7827ca8",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCC(=O)NCCCCN1CCN(c2ccccc2OC)CC1",
+        "ring_system_scaffold": "c1ccc(N2CCNCC2)cc1",
+        "id": "f0993b06-d141-43a4-a949-77b3f7a8e96e",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21",
+        "ring_system_scaffold": "c1ccc(-c2ccccc2)cc1",
+        "id": "24bad943-e9bf-462e-ad0a-dd235a6869b3",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCC(O)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "ring_system_scaffold": "c1cc2[nH]ncc2cn1",
+        "id": "2e0741af-ef79-48e4-944e-fa263521c857",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1ccc(-c2csc3ncnc(NCCCC(=O)O)c23)cc1C",
+        "ring_system_scaffold": "c1ccc(-c2csc3ncncc23)cc1",
+        "id": "10f006ee-b471-4b05-9351-fedf93f06958",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C",
+        "ring_system_scaffold": "c1ccc(-n2cccn2)cc1",
+        "id": "e15278ed-d93a-48e8-90d4-78674b7ee1cd",
+        "raw_results": "{\n    \"output\": \"No\"\n}",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(OC(F)F)c2cn1)c1ccccc1",
+        "ring_system_scaffold": "c1cc2[nH]ncc2cn1",
+        "id": "6c580b60-2cfc-4550-bef1-97baa979932d",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CN(C)C1CCN(CCc2c(COc3ccccc3CO)sc3ccccc23)CC1",
+        "ring_system_scaffold": "c1ccc2sccc2c1",
+        "id": "ee83d3ee-0faf-4bde-8cdc-3e5439f8813e",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=c1cnc2cnc(OCc3ccccc3)nc2n1Cc1ccc(F)cc1",
+        "ring_system_scaffold": "c1cnc2ncncc2n1",
+        "id": "7b387873-5fba-4ffd-9436-aa914ce03d08",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "FC(F)(F)c1ccccc1-c1nccc(NCc2ccccc2)n1",
+        "ring_system_scaffold": "c1ccc(-c2ncccn2)cc1",
+        "id": "d8a0d562-8bea-470e-aa3c-e4aa62fcfa12",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(c1ccc(Br)o1)N1CCc2ccccc21",
+        "ring_system_scaffold": "c1ccc2c(c1)CCN2",
+        "id": "bd401eb5-bd66-48ac-870c-acb1bf085866",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "C=CCNC(=O)NC(=O)CN1C(=O)NC(c2ccccc2)(c2ccccc2)C1=O",
+        "ring_system_scaffold": "c1ccc(C2(c3ccccc3)CNCN2)cc1",
+        "id": "2e0b5f72-88c4-424e-9168-9d1ce0834010",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(O)CSc1nonc1-c1ccccc1",
+        "ring_system_scaffold": "c1ccc(-c2cnon2)cc1",
+        "id": "f938ffef-b456-4fdb-aa71-7cc1fde829a3",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC1CCCCN1CCC(CCN(C(C)C)C(C)C)(C(N)=O)c1ccccc1F",
+        "ring_system_scaffold": "C1CCNCC1",
+        "id": "5a0b3c5d-a9bd-4da6-ab57-d65beb1f16b6",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(C(=O)N1CCN(c2cccc(C(F)(F)F)c2)CC1)N1C(=O)CC(C)(C)C1=O",
+        "ring_system_scaffold": "c1ccc(N2CCNCC2)cc1",
+        "id": "372e8260-b449-4f9e-823d-7d0984b477c2",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1",
+        "ring_system_scaffold": "c1ccc(-c2cnco2)nc1",
+        "id": "c5fb2601-f59c-4e09-9bb7-3c5682c9c667",
+        "raw_results": "{\n    \"output\": \"No\"\n}",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CN1CCN(CC(=O)Nc2ccc(Sc3ccc(Cl)cc3)cc2)CC1",
+        "ring_system_scaffold": "C1CNCCN1",
+        "id": "b347ddf1-d8fa-4ab0-bd7e-0e31998142b0",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(c1nc(C2CC2)no1)N1CCN(Cc2cccc(F)c2F)CC1",
+        "ring_system_scaffold": "c1nc(C2CC2)no1",
+        "id": "d202cf4b-3c4b-48a4-a987-b5ccea4d465c",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC",
+        "ring_system_scaffold": "c1ccc2ncncc2c1",
+        "id": "592e17ea-5281-4163-b029-9e65971b9096",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "c1ccc(Nc2ccc(Oc3nccnc3C3CCOC3)cc2)nc1",
+        "ring_system_scaffold": "c1cnc(C2CCOC2)cn1",
+        "id": "c34c5c9e-fb7f-4e7c-acff-4c0613cf810c",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(OCc1ccccc1)C1COC(c2cccc(F)c2)=N1",
+        "ring_system_scaffold": "c1ccc(C2=NCCO2)cc1",
+        "id": "ac22736d-5569-41a7-8a74-832d8e4ccb64",
+        "raw_results": "{\n    \"output\": \"No\"\n}",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "Oc1ccc(Nc2ncnc3scc(-c4ccccc4)c23)cc1",
+        "ring_system_scaffold": "c1ccc(-c2csc3ncncc23)cc1",
+        "id": "0709e58c-26af-428f-a64d-7c4100fcb52d",
+        "raw_results": "{\n    \"output\": \"No\"\n}",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "O=S(=O)(NCCCCCO)c1ccc(-c2ccc(O)cc2)cc1",
+        "ring_system_scaffold": "c1ccc(-c2ccccc2)cc1",
+        "id": "536fa984-24ba-4e3c-9ce3-a950d6bf561f",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCC(C(=O)NC(C#N)CC(N)=O)N(Cc1ccc(-c2cccc(F)c2F)cc1)S(C)(=O)=O",
+        "ring_system_scaffold": "c1ccc(-c2ccccc2)cc1",
+        "id": "ed49b6d5-f264-469b-825e-7583654e69ab",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)F)c2cn1)c1ccccc1",
+        "ring_system_scaffold": "c1cc2[nH]ncc2cn1",
+        "id": "d65d0cae-3394-40ed-95c3-00597c7db761",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1",
+        "ring_system_scaffold": "c1ccccc1",
+        "id": "df3d2078-bf49-4474-8de9-196b750ec25d",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Fc1ccc(-c2nc[nH]c2-c2ccncc2)cc1",
+        "ring_system_scaffold": "c1ccc(-c2nc[nH]c2-c2ccncc2)cc1",
+        "id": "e685b166-2093-402c-a7fb-461ee8e271c4",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC1C2Cc3ccc(N)cc3C1(C)CCN2",
+        "ring_system_scaffold": "c1ccc2c(c1)CC1CC2CCN1",
+        "id": "159e6715-82b3-4ca5-abfc-66830ff4f118",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cccc(CN2CCC(NC(=O)CNC(=O)c3cccc(C(F)(F)F)c3)C2)c1",
+        "ring_system_scaffold": "c1ccccc1",
+        "id": "ef32623b-a0a1-49f3-b2bb-db7560c54838",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC1CC(C)CN(S(=O)(=O)c2ccc(C(=O)NCc3ccco3)cc2)C1",
+        "ring_system_scaffold": "C1CCNCC1",
+        "id": "6c6824be-2b87-491e-bdb8-b6af9022f42b",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "ring_system_scaffold": "c1ccc(-c2cnc3ncncc3c2)cc1",
+        "id": "b176337c-6463-4e92-a04e-49cafe6ef40c",
+        "raw_results": "{\n    \"output\": \"No\"\n}",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CON=C(CCN1CCN(c2ccccn2)CC1)c1ccccc1",
+        "ring_system_scaffold": "c1ccc(N2CCNCC2)nc1",
+        "id": "351b242a-ae43-4e57-b596-bada1de555b2",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(CCCC1CCN(S(=O)(=O)c2ccc3c(c2)CCO3)CC1)NO",
+        "ring_system_scaffold": "c1ccc2c(c1)CCO2",
+        "id": "fa3375cc-15d0-4635-a13b-e3c1b1ea44d9",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "c1cc(Nc2ccon2)nc(Nc2ccc(N3CCOCC3)cc2)n1",
+        "ring_system_scaffold": "c1ccc(N2CCOCC2)cc1",
+        "id": "ad2acad2-e2fa-418a-b9b2-399f8a39b646",
+        "raw_results": "{\n    \"output\": \"Yes\"\n}",
+        "json_results": {
+            "output": "Yes"
+        }
+    }
+]

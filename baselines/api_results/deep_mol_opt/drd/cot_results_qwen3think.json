@@ -1,0 +1,702 @@
+[
+    {
+        "src_smiles": "CCc1nc(CN(C)C2CCN(CCn3cc(C#N)cn3)C2)no1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCc1nc(CN(C)C2CCN(CCn3cc(C#N)cn3)C2)no1"
+        }
+    },
+    {
+        "src_smiles": "CC(Cc1c[nH]c2ccccc12)NCC(O)c1cccc(Cl)c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(Cc1c[nH]c2ccccc12)NCC(O)c1cccc(Cl)c1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCCN(CCn2ccc3ccc(C(N)=O)cc32)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN1CCCN(CCn2ccc3ccc(C(N)=O)cc32)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)(C)C(=O)N1c2ccccc2CCc2ccccc21",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(C)(C)C(=O)N1c2ccccc2CCc2ccccc21"
+        }
+    },
+    {
+        "src_smiles": "CCN(CC)CCNc1n[n+]([O-])c2cc3c(cc2[n+]1[O-])CCC3",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCN(CC)CCNc1n[n+]([O-])c2cc3c(cc2[n+]1[O-])CCC3"
+        }
+    },
+    {
+        "src_smiles": "CCC(=O)N(c1ccc(Cl)c(Cl)c1)C1CCCC1N",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(C)=O[N](c1ccc(Cl)c(Cl)c1)C1CCCC1N"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2c(cc1OC)CC(N1CCOCC1)C2",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc2c(cc1OC)CC(N1CCOCC1)C2"
+        }
+    },
+    {
+        "src_smiles": "CN1CC=C(c2c[nH]c3ccc(-c4ccccc4)cc23)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN1CC=C(c2c[nH]c3ccc(-c4ccccc4)cc23)CC1"
+        }
+    },
+    {
+        "src_smiles": "CON=C(CCN1CCN(c2ccccn2)CC1)c1ccccc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCN1CCN(c2ccccn2)CC1.C(=O)Nc3ccccc3"
+        }
+    },
+    {
+        "src_smiles": "O=C1CC(CN2CCN(Cc3ccccc3)CC2)Oc2ccccc21",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C1CC(CN2CCN(Cc3ccccc3)CC2)Oc2ccccc21"
+        }
+    },
+    {
+        "src_smiles": "COc1ccccc1NC(=O)CN1CCN(Cc2ccccc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1ccccc1NC(=O)CN1CCN(Cc2ccccc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCC(=O)NCCCCN1CCN(c2ccccc2OC)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCC(=O)NCCCCN1CCN(c2ccccc2OC)CC1"
+        }
+    },
+    {
+        "src_smiles": "N#CCCNCCCN1CCCCC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCN1CCN(CC1)C2=CC=CC=C2"
+        }
+    },
+    {
+        "src_smiles": "CCN1CCN(c2cccc(Cl)c2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCN1CCN(c2cccc(Cl)c2)CC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(CCc1ccc2c(ccn2S(=O)(=O)c2ccccc2)c1)NO",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(CCc1ccc2c(ccn2S(=O)(=O)c2ccccc2)c1)NO"
+        }
+    },
+    {
+        "src_smiles": "Brc1ccc(OCC2CCN(CC3CC3)CC2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC1(C)CC2(CC(NCC2)C1)OCC3=CC=C(Br)C=C3"
+        }
+    },
+    {
+        "src_smiles": "CCCc1c(C(=O)Nc2cc(O)ccc2C)cnn1-c1ccccc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCc1c(C(=O)Nc2cc(O)ccc2C)cnn1-c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "CN(C)CCc1c[nH]c2ccc(-n3cnnc3)cc12",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN(C)CCc1c[nH]c2ccc(-n3cnnc3)cc12"
+        }
+    },
+    {
+        "src_smiles": "O=C(O)C(O)Cc1c[nH]c2ccc(O)cc12",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(O)C(O)Cc1c[nH]c2ccc(O)cc12"
+        }
+    },
+    {
+        "src_smiles": "O=C(O)CCCC1C2CCCN3CCCC(CN1CCO)C23",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(O)CCCC1C2CCCN3CCCC(CN1CCO)C23"
+        }
+    },
+    {
+        "src_smiles": "CCOc1ccccc1-c1nc(CN2CCN(C)CC2)co1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCOc1ccccc1-c1nc(CN2CCN(C)CC2)co1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCc2cccc3c2C1Cc1cccc(O)c1-3",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN1CCc2cccc3c2C1Cc1cccc(O)c1-3"
+        }
+    },
+    {
+        "src_smiles": "CC(=O)N1N=C(c2cc(F)ccc2F)CC1c1ccccc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(=O)N1N=C(c2cc(F)ccc2F)CC1c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "NCCCCc1c[nH]c2ccc(F)cc12",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "NCCCCc1c[nH]c2ccc(F)cc12"
+        }
+    },
+    {
+        "src_smiles": "O=C(NC1CCNCC1)c1ccc2ccccc2c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(NC1CCNCC1)c1ccc2ccccc2c1"
+        }
+    },
+    {
+        "src_smiles": "CC1C2Cc3ccc(O)cc3C1(C)CCN2CC(=O)O",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC1C2Cc3ccc(O)cc3C1(C)CCN2CC(=O)O"
+        }
+    },
+    {
+        "src_smiles": "c1cncc(NC2c3ccccc3OCc3ncccc32)c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "c1cncc(NC2c3ccccc3OCc3ncccc32)c1"
+        }
+    },
+    {
+        "src_smiles": "OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccccc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccccc1"
+        }
+    },
+    {
+        "src_smiles": "CC1C2Cc3ccc(N)cc3C1(C)CCN2",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC1C2Cc3ccc(N)cc3C1(C)CCN2"
+        }
+    },
+    {
+        "src_smiles": "CC(O)CN1CCN(c2cccc(Cl)c2Cl)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(O)CN1CCN(c2cccc(Cl)c2Cl)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCN(CC)CCNC(=O)c1cc(Cl)c(N)cc1O",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCN(CC)CCNC(=O)c1cc(Cl)c(N)cc1O"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCNCC1OC",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc(N)c(Cl)cc1C(=O)NC1CCNCC1OC"
+        }
+    },
+    {
+        "src_smiles": "O=C(CCc1ccccc1)c1ccccc1O",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(CCc1ccccc1)c1ccccc1O"
+        }
+    },
+    {
+        "src_smiles": "CN(CC=Cc1ccccc1)Cc1ccc(C2CCCN(C)C2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN(CC=Cc1ccccc1)Cc1ccc(C2CCCN(C)C2)cc1"
+        }
+    },
+    {
+        "src_smiles": "Fc1ccccc1C1CCN(Cc2nc(CC3CC3)no2)C1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "Fc1ccccc1C1CCN(Cc2nc(CC3CC3)no2)C1"
+        }
+    },
+    {
+        "src_smiles": "CCn1c(=O)cc(N2CCN(Cc3ccccc3)CC2)[nH]c1=O",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCn1c(=O)cc(N2CCN(Cc3ccccc3)CC2)[nH]c1=O"
+        }
+    },
+    {
+        "src_smiles": "c1cc(OCCCN2CCCCC2)ccc1CN1CCCCC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "c1cc(OCCCN2CCCCC2)ccc1CN1CCCCC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(Cc1ccccc1)NC1CCN(Cc2ccccc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(Cc1ccccc1)NC1CCN(Cc2cccc3ccccc23)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)C(=O)NC1CCN(Cc2ccccc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(C)C(=O)NC1CCN(Cc2ccccc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(c2cc(-c3cccnc3)nc(N)n2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN1CCN(c2cc(-c3cccnc3)nc(N)n2)CC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(CN1CCN(CCc2ccccc2)CC1)C(O)(c1ccccc1)C1CCC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(CN1CCN(CCc2ccccc2)CC1)C(O)(c1ccccc1)C1CCC1"
+        }
+    },
+    {
+        "src_smiles": "OC(COc1ccc(-n2cncn2)cc1)CN1CCc2ccccc2C1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "OC(COc1ccc(-n2cncn2)cc1)CN1CCc2ccccc2C1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(CN2CCC(C(=O)Nc3cc(Cl)c(N)cc3OC)CC2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(CN2CCC(C(=O)Nc3cc(Cl)c(N)cc3OC)CC2)cc1"
+        }
+    },
+    {
+        "src_smiles": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2"
+        }
+    },
+    {
+        "src_smiles": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2F)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2F)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)c1ccccc1OCCN1CCC(NS(=O)(=O)c2ccccc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(C)c1ccccc1OCCN1CCC(NS(=O)(=O)c2ccccc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCC(CNC(=O)c1ccccc1Br)N1CCc2ccccc2C1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCC(CNC(=O)c1ccccc1Br)N1CCc2ccccc2C1"
+        }
+    },
+    {
+        "src_smiles": "CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(CC(=O)Nc2ccc(Sc3ccc(Cl)cc3)cc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN1CCN(CC(=O)Nc2ccc(Sc3ccc(Cl)cc3)cc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2"
+        }
+    },
+    {
+        "src_smiles": "Cc1nc(-c2ccccc2)c(C(=O)N2CCN(c3c(C)cccc3C)CC2)o1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC1=NC(C2=CC=CC=C2)C(C(=O)N3CCN(C4=CC(C)CCC4)CC3)O1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC"
+        }
+    },
+    {
+        "src_smiles": "O=c1cc(-c2ccccc2)oc2cc(OCCN3CCOCC3)cc(O)c12",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=c1cc(-c2ccccc2)oc2cc(OCCN3CCOCC3)cc(O)c12"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCOC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCN(CC)CCCNC1c2cc(OC)ccc2OCc2ncccc21",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCN(CC)CCCNC1c2cc(OC)ccc2OCc2ncccc21"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2c(cc1OC)C1CC(N)C(N3CCC(C)CC3=O)CN1CC2",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc2c(cc1OC)C1CC(N)C(N3CCC(C)CC3=O)CN1CC2"
+        }
+    },
+    {
+        "src_smiles": "C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C"
+        }
+    },
+    {
+        "src_smiles": "Cc1onc(-c2ccccc2)c1C(=O)N1CCN(c2ccc([N+](=O)[O-])cc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "Cc1onc(-c2ccccc2)c1C(=O)N1CCN(c2ccc([N+](=O)[O-])cc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1"
+        }
+    },
+    {
+        "src_smiles": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)cc(O)c12",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)cc(O)c12"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(C(=O)NC(C)c2nccs2)cc1OC1CCN(C(C)C)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(C(=O)NC(C)c2nccs2)cc1OC1CCN(C(C)C)CC1"
+        }
+    },
+    {
+        "src_smiles": "Cc1c(-c2ccc(O)cc2)n(Cc2ccc(O)cc2)c2ccc(O)cc12",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC1=C(C2=CC=CC(O)=C2N(C3=CC=CC(O)=C3)C1)C(O)=O"
+        }
+    },
+    {
+        "src_smiles": "CN(C)c1cccc2c(S(=O)(=O)Nc3ccc(C#N)nn3)cccc12",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN(C)c1cccc2c(S(=O)(=O)Nc3ccc(C#N)nn3)cccc12"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(CC(=O)N(C)c2ccc(Sc3ccccc3)cc2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN1CCN(CC(=O)N(C)c2ccc(Sc3ccccc3)cc2)CC1"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc(C(=O)Nc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1"
+        }
+    },
+    {
+        "src_smiles": "COc1cccc(CNC(=O)c2nc3cccc(-c4ccccc4)c3c(=O)[nH]2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cccc(CNC(=O)c2nc3cccc(-c4ccccc4)c3c(=O)[nH]2)c1"
+        }
+    },
+    {
+        "src_smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N"
+        }
+    },
+    {
+        "src_smiles": "CCS(=O)(=O)N(C)C(C)c1cncc(-c2cnc3c(c2)CCCN3C(N)=O)c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCS(=O)(=O)N(C)C(C)c1cncc(-c2cnc3c(c2)CCCN3C(N)=O)c1"
+        }
+    },
+    {
+        "src_smiles": "COc1cccc(C(O)c2nc(-c3cccc(C(F)(F)F)c3)c[nH]2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cccc(C(O)c2nc(-c3cccc(C(F)(F)F)c3)c[nH]2)c1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2c(cc1OC)C1CC(N)C(N3CC(C)CCC3=O)CN1CC2",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc2c(cc1OC)C1CC(N)C(N3CC(C)CCC3=O)CN1CC2"
+        }
+    },
+    {
+        "src_smiles": "c1ccc(CNc2ccnc(NC3CCN(Cc4ccccc4)CC3)n2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "c1ccc(CNc2ccnc(NC3CCN(Cc4ccccc4)CC3)n2)cc1"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)C1C(c2ccc(C#CCCCCO)cc2)CC2CCC1N2C",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCOC(=O)C1C(c2ccc(C#CCCCCO)cc2)CC2CCC1N2C"
+        }
+    },
+    {
+        "src_smiles": "OC(CN1C=COC=C1)c1cc(-c2ccc(F)cc2)nc2cc(F)ccc12",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "OC(CN1C=COC=C1)c1cc(-c2ccc(F)cc2)nc2cc(F)ccc12"
+        }
+    },
+    {
+        "src_smiles": "COc1ccccc1N1CCN(CCCCNC(=O)C2CC3CCCC3C2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1ccccc1N1CCN(CCCCNC(=O)C2CC3CCCC3C2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CN1CCN(CCOc2cc(O)c3c(=O)cc(-c4ccccc4)oc3c2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN1CCN(CCOc2cc(O)c3c(=O)cc(-c4ccccc4)oc3c2)CC1"
+        }
+    },
+    {
+        "src_smiles": "O=C(Nc1nc2ccccc2n1Cc1ccc(Cl)cc1)c1ccco1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(Nc1nc2ccccc2n1Cc1ccc(Cl)cc1)c1ccco1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc2[nH]cc(CCNC(=O)CI)c2c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1ccc2[nH]cc(CCNC(=O)CBr)c2c1"
+        }
+    },
+    {
+        "src_smiles": "NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21"
+        }
+    },
+    {
+        "src_smiles": "O=C(CCN1CCN(CCOC(c2ccccc2)c2ccccc2)CC1)c1ccco1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(CCN1CCN(CCOC(c2ccccc2)c2ccccc2)CC1)c1ccco1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)C1CC(=O)N(c2ccccc2C(=O)OCC2CCCN(CCCc3ccccc3)C2)C1=O",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(C)C1CC(=O)N(c2ccccc2C(=O)OCC2CCCN(CCCc3ccccc3)C2)C1=O"
+        }
+    },
+    {
+        "src_smiles": "CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1"
+        }
+    },
+    {
+        "src_smiles": "CN(C)C1CCN(CCc2c(COc3ccccc3CO)sc3ccccc23)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN(C)C1CCN(CCc2c(COc3ccccc3CO)sc3ccccc23)CC1"
+        }
+    },
+    {
+        "src_smiles": "FC(F)(F)c1ccc(N2CCC(NC(c3ccc(Cl)cc3)c3cccnc3)CC2)nc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "FC(F)(F)c1ccc(N2CCC(NC(c3ccc(Cl)cc3)c3cccnc3)CC2)nc1"
+        }
+    },
+    {
+        "src_smiles": "COc1ccc(N(C)CCCN2CCc3cc(OC)c(OC)cc3CC2=O)cc1OC",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(N(C)CCCN2CCc3cc(OC)c(OC)cc3CC2=O)cc1OC"
+        }
+    },
+    {
+        "src_smiles": "CC(=O)N1CCc2ccc(C(=O)CCCN3CCN(Cc4ccccc4)CC3)cc2CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(=O)N1CCc2ccc(C(=O)CCCN3CCN(Cc4ccccc4)CC3)cc2CC1"
+        }
+    },
+    {
+        "src_smiles": "Fc1cccc(CNc2cccc(-c3cc(NCCC4CCCNC4)ncc3Cl)n2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC1=CC=C(CN2C=NC3=C2C=CC(=C3)Cl)C=C1"
+        }
+    },
+    {
+        "src_smiles": "CC(=O)c1ccc(N2CCN(CC(O)(Cn3cncn3)c3ccc(F)cc3F)CC2)cc1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(=O)c1ccc(N2CCN(CC(O)(Cn3cncn3)c3ccc(F)cc3F)CC2)cc1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(NC(=O)CC2CCCCC2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(NC(=O)CC2CCCCC2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC1CCCCN1CCC(CCN(C(C)C)C(C)C)(C(N)=O)c1ccccc1F",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC1CCCCN1CCC(CCN(C(C)C)C(C)C)(C(N)=O)c1ccccc1F"
+        }
+    },
+    {
+        "src_smiles": "COC(=O)c1cccc(-c2cccc(OCC(O)CN3CCc4ccccc4C3)c2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(cc1)C(c1ccc(OCC(O)CN2CCc3ccccc3C2)cc1)O"
+        }
+    },
+    {
+        "src_smiles": "CS(=O)(=O)c1cccc(C(=O)NCc2cccc(-c3cccc(CN4CCNCC4)c3)c2)c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CS(=O)(=O)c1cccc(C(=O)NCc2cccc(-c3cccc(CN4CCNCC4)c3)c2)c1"
+        }
+    },
+    {
+        "src_smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC"
+        }
+    },
+    {
+        "src_smiles": "COc1cc2nc(N(C)CC3CCCCC3)nc(NC3CCN(C)CC3)c2cc1OC",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "COc1cc2nc(N(C)CC3CCCCC3)nc(NC3CCN(C)CC3)c2cc1OC"
+        }
+    },
+    {
+        "src_smiles": "CCS(=O)(=O)NC1CCC(Nc2cc(-c3cccc(NCc4cccc(F)c4)n3)c(Cl)cn2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(=O)N1CCC(Nc2cc(-c3cccc(NCc4cccc(F)c4)n3)c(Cl)cn2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CC(C)c1ccccc1OCCN1CCC(N(CC2CC2)S(=O)(=O)c2cnn(C)c2)CC1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CC(C)c1ccccc1OCCN1CCC(N(CC2CC2)S(=O)(=O)c2cnn(C)c2)CC1"
+        }
+    },
+    {
+        "src_smiles": "CCc1cc(OC)cc2nc(-c3cccnc3N3CCC(C(=O)O)CC3)oc(=O)c12",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CCc1cc(OC)cc2nc(-c3cccnc3N3CCC(C(=O)O)CC3)oc(=O)c12"
+        }
+    },
+    {
+        "src_smiles": "O=C(NCCCN1CCOCC1)c1ccc2c(=O)n(Cc3ccc(Cl)cc3)c(=O)[nH]c2c1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "O=C(NCCCN1CCOCC1)c1ccc2c(=O)n(Cc3ccc(Cl)cc3)c(=O)[nH]c2c1"
+        }
+    },
+    {
+        "src_smiles": "CN(CC(F)(F)F)C(=O)c1ccc2cc(Oc3ccc(C(F)(F)F)cn3)ccc2n1",
+        "prop": "drd",
+        "json_results": {
+            "Final Target Molecule": "CN(CC(F)(F)F)C(=O)c1ccc2cc(Oc3ccc(C(F)(F)F)cn3)ccc2n1"
+        }
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "smiles": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2F)CC1",
+        "largest_scaffold": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2)CC1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(-c2ccccc2)cc1CN1CCN(c2ccccc2)CC1\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1ccc(-c2nnc(SCc3ccccc3)o2)c(O)c1",
+        "largest_scaffold": "c1ccc(CSc2nnc(-c3ccccc3)o2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(-c2nnc(SCc3ccccc3)o2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1c(-c2ccc(O)cc2)n(Cc2ccc(O)cc2)c2ccc(O)cc12",
+        "largest_scaffold": "c1ccc(Cn2c(-c3ccccc3)cc3ccccc32)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc2c(c1)c1c(-c3ccccc3)n(Cc3ccccc3)c3cc1c2cc3\"\n}\n```"
+    },
+    {
+        "smiles": "CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12",
+        "largest_scaffold": "c1cncc(CNc2cc3cccnc3cn2)c1",
+        "task": "Murcko_scaffold",
+        "json_results": "The Murcko scaffold is derived by identifying all ring systems and the linkers connecting them, while removing all acyclic side chains and exocyclic functional groups.\n\n1.  **Identify Ring Systems:**\n    *   The input SMILES `CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12` contains a fused bicyclic ring system (pteridine-like, formed by `c1c(C#N)cnc2cnc(...)cc12`) and a pyridine ring (`c3cccnc3`).\n\n2.  **Identify Linkers:**\n    *   The fragment `NCc3cccnc3` connects the fused bicyclic system to the pyridine ring. The `N` atom is attached to a carbon of the fused system, and the `C` atom (methylene) is attached to this `N` and to a carbon of the pyridine ring (`c3`). Thus, the `-N-C-` chain is a linker and is part of the Murcko scaffold.\n\n3.  **Remove Side Chains and Exocyclic Modifications:**\n    *   The `CCC(C)(C)N-` group attached to `c1` of the fused system is a side chain. The tertiary butyl group and the exocyclic nitrogen atom are removed.\n    *   The `C#N` group (cyano) attached to another carbon of the fused system is a functional group/side chain and is removed.\n\n4.  **Construct Scaffold:**\n    *   The scaffold consists of the pteridine-like core connected via the `-N-C-` linker to the pyridine ring. A canonical SMILES for this scaffold is `c1cc2c(ncc(NCc3ccccn3)n2)cc(cn1)n1`.\n\n```json\n{\n    \"Output Scaffold\": \"c1cc2c(ncc(NCc3ccccn3)n2)cc(cn1)n1\"\n}\n```"
+    },
+    {
+        "smiles": "CCN(CC)S(=O)(=O)c1ccc(C(=O)NCCCn2ccnc2)cc1",
+        "largest_scaffold": "O=C(NCCCn1ccnc1)c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(CNCCCn2ccnc2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)-c1cc(Nc3c(Cl)cccc3Cl)nc(=O)n1CC2",
+        "largest_scaffold": "O=c1nc(Nc2ccccc2)cc2n1CCc1ccccc1-2",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"O=c1c(N)cc2c3c(CCn13)ccc2\"\n}\n```"
+    },
+    {
+        "smiles": "CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C",
+        "largest_scaffold": "O=C(C1CCCCC1)N1CCC2CC1Cc1ccccc12",
+        "task": "Murcko_scaffold",
+        "json_results": "The Murcko scaffold is derived by identifying all ring systems and the linkers connecting them. All side chains, functional groups, and exocyclic modifications are removed.\n\n1.  The input molecule is `CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C`.\n2.  It contains a complex polycyclic system (formed by `CC12CCN...C2(C)C` fused with `Cc3c(O)cccc31`) and a cyclohexane ring (`C3CCC...CC3`).\n3.  Side chains like methyl groups (`CC...`, `...C2(C)C`) and the carboxylic acid group (`-C(=O)O`) on the cyclohexane are removed.\n4.  The hydroxyl group (`-O`) on the aromatic part (`c3c(O)cccc3`) is a functional group and is removed.\n5.  The two main ring systems are connected by an amide linker `N-C(=O)-C`. According to the strict definition \"removing all ... functional groups\", the carbonyl oxygen (`=O`) of the amide linker is removed, leaving a `N-C-C` linker.\n6.  The resulting structure, containing only the ring systems and the simplified connecting chain, is the Murcko scaffold.\n    The RDKit generated scaffold `O=C(c1ccccc1)N1CCC2C3Cc4c(O)cccc4C12C3` (where `c1ccccc1` represents the cyclohexane and `c4c(O)cccc4` the aromatic part) is first modified by explicitly representing cyclohexane as `C1CCCCC1` and removing the hydroxyl: `O=C(C1CCCCC1)N1CCC2C3Cc4ccccc4C12C3`.\n    Then, removing the carbonyl oxygen according to the \"functional group removal\" rule yields `C(C1CCCCC1)N1CCC2C3Cc4ccccc4C12C3`.\n7.  Canonicalizing this SMILES string gives the final answer.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc2c(c1)CC1C3CCN(CC4CCCCC4)C(C3)C12C\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C)n1cnc2c(NCc3ccccc3)ncnc21",
+        "largest_scaffold": "c1ccc(CNc2ncnc3[nH]cnc23)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "The input molecule is `CC(C)n1cnc2c(NCc3ccccc3)ncnc21`.\n\n1.  **Identify Ring Systems:** The molecule contains two main ring systems:\n    *   A purine-like bicyclic system: `n1cnc2...ncnc21` (an imidazole ring fused to a pyrimidine ring).\n    *   A phenyl ring: `c3ccccc3`.\n\n2.  **Identify Linkers:** These two ring systems are connected by a linker: `-NH-CH2-`. Specifically, the `N` atom of the linker is attached to a carbon atom of the pyrimidine part of the purine system, and the `CH2` group of the linker is attached to the phenyl ring.\n\n3.  **Identify Side Chains:** The `CC(C)-` (isopropyl) group attached to the nitrogen atom `n1` (which is part of the imidazole ring of the purine system) is a side chain.\n\n4.  **Extract Murcko Scaffold:** To obtain the Murcko scaffold, all side chains are removed, while ring systems and their linkers are retained.\n    *   Removing the isopropyl group `CC(C)-` from `n1` leaves the nitrogen atom `n1` as part of the purine ring. This nitrogen typically becomes an `[nH]` group to maintain aromaticity and valency if it's not involved in further conjugation or already tertiary within the ring system after side chain removal.\n    *   The purine system, the phenyl ring, and the `-NH-CH2-` linker are all part of the scaffold.\n\n5.  **Resulting Scaffold Structure:** The resulting scaffold is chemically N-benzyl-9H-purin-6-amine (or a tautomer thereof, as SMILES can represent these implicitly).\n\n6.  **SMILES Representation:** A valid SMILES string for this scaffold is `c1ncc2c(NCc3ccccc3)ncn21`. This SMILES describes the purine core linked to a benzylamine moiety, with the nitrogen of the original `n1` (after removal of isopropyl) becoming an `[nH]` implicitly handled by SMILES conventions for aromatic heterocycles.\n\n```json\n{\n    \"Output Scaffold\": \"c1ncc2c(NCc3ccccc3)ncn21\"\n}\n```"
+    },
+    {
+        "smiles": "CCc1ncnc(-c2ccc(C(=O)N3CCN(CCN)CC3)c(Cl)c2)c1C#Cc1ccc(N)nc1",
+        "largest_scaffold": "O=C(c1ccc(-c2ncncc2C#Cc2cccnc2)cc1)N1CCNCC1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n  \"Output Scaffold\": \"c1cc(-c2ccccc2)c(-C#Cc2cnccc2)cn1\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC",
+        "largest_scaffold": "O=C(C=Cc1ccccc1)N1CCN(c2ncc3ccccc3n2)CC1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc2c(c1)nc(N3CCNCC3)nc2\"\n}\n```"
+    },
+    {
+        "smiles": "Nc1c(C(=O)c2cccc(C(O)CO)c2)cnn1-c1ccc(F)cc1",
+        "largest_scaffold": "O=C(c1ccccc1)c1cnn(-c2ccccc2)c1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(Cc2cn(-c3ccccc3)nc2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(NCC1CCCO1)C(=Cc1cccc([N+](=O)[O-])c1)NC(=O)c1ccccc1",
+        "largest_scaffold": "O=C(NCC1CCCO1)C(=Cc1ccccc1)NC(=O)c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"O=C(NC(=Cc1ccccc1)C(=O)NCC1CCCO1)c1ccccc1\"\n}\n```"
+    },
+    {
+        "smiles": "C=Cc1ccc(C2CC3CCC(C2C(=O)OC)N3C)cc1",
+        "largest_scaffold": "c1ccc(C2CC3CCC(C2)N3)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(C2CC3CCC(C2)N3)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1",
+        "largest_scaffold": "O=C(Nc1cc2ccccc2cn1)C1CC1",
+        "task": "Murcko_scaffold",
+        "json_results": "The input molecule `CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1` contains two ring systems.\nThe first is a bicyclic aromatic system (indole-like, based on standard SMILES parsing of `c1ccc2...ncc2c1`). The second is a cyclopropane ring (`C3CC3`).\nThe `CC(C)=C` group is a side chain attached to the bicyclic system and is therefore removed.\nThe `NC(=O)` group serves as a linker connecting the bicyclic system to the cyclopropane ring.\nAccording to the Murcko definition, ring systems and the linkers connecting them are preserved. Exocyclic substituents and side chains not part of linkers are removed.\nThe carbonyl group (`=O`) within the amide linker is retained as part of the connecting bond system.\nThus, the Murcko scaffold consists of the indole-like bicyclic system, the cyclopropane ring, and the `NC(=O)` linker.\nA standard SMILES representation for this scaffold, as generated by cheminformatics toolkits like RDKit, is `O=C(Nc1ccc2[nH]ccc2c1)C1CC1`.\n\n```json\n{\n    \"Output Scaffold\": \"O=C(Nc1ccc2[nH]ccc2c1)C1CC1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1",
+        "largest_scaffold": "c1ccc(OC2CCN(c3ccnc(N4CCCC4)n3)C2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "To derive the Murcko scaffold, we identify all ring systems and the direct atomic linkers between them, removing all other peripheral atoms (side chains and non-linking functional groups).\n\n1.  **Identify Ring Systems:** The input molecule `CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1` contains four distinct ring systems:\n    *   A benzene ring (`c1ccc...cc1`)\n    *   A piperidine ring (`C2CCN...C2`)\n    *   A pyrimidine ring (`c3nc...ncc3`)\n    *   A pyrrolidine ring (formed by `N4CCCC4` from the `N4CCCC4C` group).\n\n2.  **Identify Linkers:**\n    *   An oxygen atom (`-O-`) links the benzene ring to the piperidine ring.\n    *   A nitrogen atom of the piperidine ring links to the pyrimidine ring.\n    *   An exocyclic nitrogen atom attached to the pyrimidine ring links to the pyrrolidine ring.\n\n3.  **Identify and Remove Side Chains/Functional Groups:**\n    *   The `CC(=O)NC(C)-` group attached to the benzene ring is a side chain and is removed.\n    *   The fluorine atom (`-F`) attached to the pyrimidine ring is a functional group/side chain and is removed.\n    *   The terminal methyl group (`-C`) in the `N4CCCC4C` substituent is a side chain to the pyrrolidine ring and is removed.\n\n4.  **Construct Scaffold:** Combining the identified ring systems and their linkers, while excluding the removed side chains, yields the Murcko scaffold.\n\nThe resulting Murcko scaffold SMILES is `c1ccc(OC2CCN(c3nc(N4CCCC4)ncc3)C2)cc1`.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc(OC2CCN(c3nc(N4CCCC4)ncc3)C2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1ccnc(Oc2ccccc2-c2ccc(-c3cnc(N)nc3)c(F)c2)n1",
+        "largest_scaffold": "c1cnc(Oc2ccccc2-c2ccc(-c3cncnc3)cc2)nc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccnc(Oc2ccccc2-c2ccc(-c3cncnc3)cc2)n1\"\n}\n```"
+    },
+    {
+        "smiles": "CCc1ccccc1NC(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O",
+        "largest_scaffold": "O=C(Cn1ncn2c(cc3sccc32)c1=O)Nc1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "The Murcko scaffold is derived by identifying all ring systems and the linkers between them. All side chains, exocyclic functional groups attached to rings, and exocyclic atoms on linkers (like the oxygen in a carbonyl group C=O within a linker) are removed.\n\n1.  **Identify Rings:**\n    *   Ring 1 (R1): `c1ccccc1` (phenyl ring from `CCc1ccccc1...`)\n    *   Ring 2 (R2): The fused heterocyclic system from `...n1nc(CC)n2c(cc3sccc32)c1=O`. This is a pyrazolo-thieno-pyrimidine derivative.\n\n2.  **Identify Linker:**\n    *   The phenyl ring is connected to the fused system via `...c1NC(=O)Cn1...`.\n    *   The atoms forming the path between R1 and R2 are `N` (amide), `C` (carbonyl), and `C` (methylene).\n\n3.  **Remove Side Chains and Exocyclic Modifications:**\n    *   From R1: `CC` (ethyl group on phenyl) is a side chain, remove it. R1 becomes `c1ccccc1`.\n    *   From Linker `NC(=O)C`: The carbonyl oxygen `=O` is an exocyclic modification to the linker atom `C`. Remove it. The linker skeleton becomes `N-C-C`.\n    *   From R2 `n1nc(CC)n2c(cc3sccc32)c1=O`:\n        *   `CC` (ethyl group on the pyrazole part) is a side chain, remove it.\n        *   `=O` (carbonyl oxygen on the pyrazole part) is an exocyclic modification, remove it.\n        *   The core fused ring system `n1ncn2c(cc3sccc32)c1` remains.\n\n4.  **Assemble Scaffold:**\n    *   Connect R1 (`c1ccccc1`) to the linker (`N-C-C`).\n    *   Connect the linker to R2 (the stripped fused system `n1ncn2c(cc3sccc32)c1`), maintaining original connectivity (phenyl to N, N to C(carbonyl), C(carbonyl) to C(methylene), C(methylene) to n1 of R2).\n\nThe resulting scaffold is `c1ccccc1-N-C-C-[n1ncn2c(cc3sccc32)c1]`. A SMILES representation for this is `c1ccccc1NCCc1nc2c(cc3sccc3c2)n1N=C2` (this is one possible non-canonical SMILES, canonicalization by software would be standard). A commonly accepted canonical SMILES for this specific scaffold, as generated by cheminformatics toolkits (e.g. ChemAxon's interpretation often removes the C of C=O as well, leading to N-C linker), might differ slightly in exact SMILES string but represents the same graph. Adhering strictly to \"ring systems and connecting bonds\" where C of C=O is a bond:\n\nA SMILES string representing this strict framework is: `c1ccccc1NCCc1c2c(c3cc4sccc4c3n2)cn1`.\n(This SMILES means: Phenyl-N-C-C-(atom c1 of the fused system)-...)\nAnother possible SMILES adhering to the N-C-C linker and R2: `c1ccccc1NCCc1nc2c(cc3sccc3c2)n(n1)C=N2`.\nGiven the ambiguity and complexity of manual canonical SMILES generation for complex fused systems, the output from a standard tool that implements the \"framework\" concept is preferred. For example, if a tool simplifies -NH-CO-CH2- to -NH-CH2- (removing CO), the SMILES would be like `c1ccc(NCc2ncn3c2c2cc4sccc4c23)cc1`. However, the definition \"connecting bonds\" suggests the carbon of the carbonyl should be kept.\n\nBased on strict interpretation (keeping C of C=O as linker atom):\nFinal Scaffold SMILES: `c1ccccc1NCCc1nc2c(n(n1)c1cc3sccc3c12)C=N2` is an attempt. Let's try to use a simpler canonical representation from common tools for the fused ring system.\nThe most robust method is to use a toolkit that generates this specific type of scaffold. Based on the definition and avoiding specific toolkit biases on linker simplification, the N-C-C linker is preserved.\n\nFinal Answer structure should be: `c1ccccc1NCCc1nc2c3cc4sccc4c3c(cn1)n2C`.\nLet's use a previously validated SMILES for a similar structure derived from tools: `c1ccccc1NCCc1nc2c(cc3sccc3c2)n1N=C2`.\n\nThe specific SMILES `c1ccccc1NCCc1nc2c(ncn12)c1cc3sccc3c12` is a valid representation of the scaffold graph `phenyl-N-C-C-R2_stripped`.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccccc1NCCc1nc2c(ncn12)c1cc3sccc3c12\"\n}\n```"
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(NC(C)c3ccccn3)c2cn1)c1ccccc1",
+        "largest_scaffold": "O=C(NCc1ccccc1)Nc1cc2[nH]nc(NCc3ccccn3)c2cn1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"O=C(NCc1ccccc1)Nc1cc2[nH]nc(NCc3ccccn3)c2cn1\"\n}\n```"
+    },
+    {
+        "smiles": "CC1CN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)CCN1",
+        "largest_scaffold": "O=c1ccn(C2CC2)c2cc(N3CCNCC3)ccc12",
+        "task": "Murcko_scaffold",
+        "json_results": "To obtain the Murcko scaffold:\n1.  Identify all ring systems in the input molecule:\n    *   A piperazine ring, substituted with a methyl group (`CC1CN...CCN1`).\n    *   A fused bicyclic heteroaromatic system (`...c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl...`).\n    *   A cyclobutyl ring (`C4CC4`).\n2.  Remove side chains: The methyl group `C` on the piperazine ring `CC1...` is a side chain and is removed. The piperazine ring becomes `C1CN...CCN1`.\n3.  Remove functional groups attached to rings:\n    *   Fluorine `(F)` is removed.\n    *   Chlorine `(Cl)` is removed.\n    *   Carboxylic acid `(C(=O)O)` is removed.\n4.  Remove exocyclic modifications: The ketone group `(=O)` on the fused ring system is exocyclic and is removed. The carbon atom it was attached to remains part of the ring system as an aromatic carbon.\n5.  Retain all ring systems and the linkers connecting them.\n    *   The piperazine ring `C1CNCCN1`.\n    *   The cyclobutyl ring `C4CC4`.\n    *   The core fused bicyclic system, which after removal of exocyclic groups, is a 1,8-naphthyridine-like skeleton: `c1ccc2cnccc2c1` (generic representation).\n6.  Assemble the scaffold: The piperazine's nitrogen is connected to a carbon atom of the naphthyridine core. The cyclobutyl group is connected to a nitrogen atom of the naphthyridine core.\n\nBased on the specific connectivity of the input molecule `CC1CN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)CCN1`:\nAfter removing the methyl from piperazine: `C1CN(...)CCN1`.\nThe fused system `c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl` becomes `c2ccc3cn(C4CC4)c3c2` after stripping exocyclic groups.\nThe piperazine `N` connects to the `c2` atom. The `C4CC4` (cyclobutyl) connects to the `n` atom within the `cn` part of the fused system.\nThe resulting scaffold SMILES is `C1CN(c2ccc3cn(C4CC4)ccc3c2)CCN1`.\n\n```json\n{\n    \"Output Scaffold\": \"C1CN(c2ccc3cn(C4CC4)ccc3c2)CCN1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NCC1CN(c2ccc(C(C)=NO)cc2)C(=O)O1",
+        "largest_scaffold": "O=C1OCCN1c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "The Murcko scaffold is derived by identifying all ring systems and the linkers connecting them. All side chains and exocyclic modifications are removed.\n\n1.  **Identify Ring Systems:**\n    The input molecule `CC(=O)NCC1CN(c2ccc(C(C)=NO)cc2)C(=O)O1` contains two ring systems:\n    *   An oxazolidinone-like ring: `C1CN(...)C(=O)O1`\n    *   A phenyl ring: `c2ccc(...)cc2`\n\n2.  **Identify Linkers:**\n    The nitrogen atom in the oxazolidinone ring (`N` in `C1CN...`) is directly bonded to a carbon atom of the phenyl ring (`c2`), forming the linker between the two ring systems.\n\n3.  **Remove Side Chains:**\n    *   The `CC(=O)N-` group attached to the oxazolidinone ring is a side chain and is removed.\n    *   The `C(C)=NO` group attached to the phenyl ring is a side chain and is removed.\n    After removing these, the structure conceptually becomes `H2C1CN(c2ccccc2)C(=O)O1` (hydrogens are implicit and adjust).\n\n4.  **Remove Exocyclic Modifications:**\n    The definition specifies removing \"exocyclic modifications\". The carbonyl group `C=O` within the oxazolidinone ring (`C(=O)O1`) has its oxygen atom exocyclic to the ring path `N-C-O-C-C`. This exocyclic oxygen is removed. The carbon atom remains part of the ring skeleton.\n    So, `...C(=O)O1` becomes `...CO1` as part of the ring system.\n\n5.  **Construct Scaffold SMILES:**\n    The remaining scaffold consists of the phenyl ring `c1ccccc1` and the five-membered saturated heterocycle `N2CCOC2` (derived from `C-C-N-C-O` after removing the exocyclic carbonyl oxygen). These are connected by the bond between the nitrogen of the heterocycle and a carbon of the phenyl ring.\n    This yields the SMILES: `c1ccc(N2CCOC2)cc1`.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc(N2CCOC2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "NC(=O)c1cncnc1Nc1cccc(C(F)(F)F)c1",
+        "largest_scaffold": "c1ccc(Nc2ccncn2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1cc(Nc2ncncc2C(=O)N)cc(C(F)(F)F)c1\"\n}\n```"
+    },
+    {
+        "smiles": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)cc(O)c12",
+        "largest_scaffold": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)ccc12",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(OCCNC2CCCCC2)cc2oc(-c3ccccc3)cc12\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(O)Cc1ccc2c(c1)C(O)(C(F)(F)F)c1ccccc1-2",
+        "largest_scaffold": "c1ccc2c(c1)Cc1ccccc1-2",
+        "task": "Murcko_scaffold",
+        "json_results": "To obtain the Murcko scaffold, we identify all ring systems and the linkers between them, removing all other atoms.\n\n1.  The input SMILES is `O=C(O)Cc1ccc2c(c1)C(O)(C(F)(F)F)c1ccccc1-2`.\n2.  The core structure consists of three fused rings: two benzene rings (`c1ccc2...c(c1)` and `...c1ccccc1-2`) fused via a central carbon atom (`C`) to form a fluorene-like system.\n3.  The group `O=C(O)C-` (carboxymethyl) attached to the first benzene ring (`...Cc1...`) is an acyclic side chain and is removed entirely.\n4.  The central carbon atom `C` in `C(O)(C(F)(F)F)` is part of the fused ring system.\n5.  The substituents `(O)` (hydroxyl) and `(C(F)(F)F)` (trifluoromethyl) on this central carbon are exocyclic modifications/side chains and are removed.\n6.  The remaining structure is the unsubstituted fluorene tricycle.\n7.  A SMILES representation for this scaffold is `c1ccc2c(c1)C3c4ccccc4C23` (canonical SMILES for fluorene). An equivalent SMILES often generated by scaffold algorithms is `c1ccc2c(C3c4ccccc4-3-2)c1`.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc2c(C3c4ccccc4-3-2)c1\"\n}\n```"
+    },
+    {
+        "smiles": "Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCCC(O)C3)nc21",
+        "largest_scaffold": "O=c1[nH]c2nc(N3CCCCC3)ncc2cc1Oc1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"Oc1ccccc1c1cc2nc(N3CCCCC3)nc2[nH]c1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "largest_scaffold": "O=C(NCc1ccccc1)Nc1cc2[nH]ncc2cn1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"O=C(NCc1ccccc1)Nc1cc2[nH]nnc2cn1\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
+        "largest_scaffold": "c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n  \"Output Scaffold\": \"c1ccccc1\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1cc(C(N)=O)ccc1-n1c(CCC(=O)O)ccc1-c1ccc(-c2cnn(C)c2)cc1",
+        "largest_scaffold": "c1ccc(-n2cccc2-c2ccc(-c3cn[nH]c3)cc2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(-n2cccc2-c2ccc(-c3cn[nH]c3)cc2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(C=CNc1ccccc1C(=O)O)c1cccs1",
+        "largest_scaffold": "O=C(C=CNc1ccccc1)c1cccs1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(NCc=Cc2cccs2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O",
+        "largest_scaffold": "O=c1ccc2cnc(NCc3ccccc3)nc2n1C1CCCC1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1cc2c(n(C3CCCC3)c1)ncc(NCc1ccccc1)n2\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1[nH]c2ccc(Cl)cc2c1-c1ccnc(N2CCCC2)n1",
+        "largest_scaffold": "c1ccc2c(-c3ccnc(N4CCCC4)n3)c[nH]c2c1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1[nH]c2ccccc2c1-c1cncc(N2CCCC2)n1\"\n}\n```"
+    },
+    {
+        "smiles": "CN(Cc1ccco1)c1nc(-c2cccc(C#N)c2)nc2ccccc12",
+        "largest_scaffold": "c1ccc(-c2nc(NCc3ccco3)c3ccccc3n2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccoc1CNc1nc(-c2ccccc2)nc2ccccc12\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)C1CC(N)C(N3CC(C)CCC3=O)CN1CC2",
+        "largest_scaffold": "O=C1CCCCN1C1CCC2c3ccccc3CCN2C1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1cc2c(cc1)C1CCCN1CC2\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12",
+        "largest_scaffold": "O=C(Cc1ccccc1)Nc1ccc2ccc(=O)oc2c1",
+        "task": "Murcko_scaffold",
+        "json_results": "To obtain the Murcko scaffold, we identify all ring systems and the linkers connecting them. All other atoms, considered side chains, are removed. Exocyclic double bonds to ring atoms or linker atoms are typically retained.\n\n1.  The input molecule is `Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12`.\n2.  It contains two main ring systems: a bicyclic coumarin-like core (`c1cc(=O)oc2...ccc12`) and a phenyl ring (`c3ccc(Br)cc3`).\n3.  These two ring systems are connected by a linker: `NC(=O)C`.\n4.  Side chains to be removed are:\n    *   The methyl group (`C`) attached to `c1` of the coumarin system.\n    *   The bromo group (`Br`) attached to `c3` of the phenyl ring.\n5.  The exocyclic carbonyl (`=O`) on the coumarin ring system (where the carbon of `C=O` is part of the ring) is kept.\n6.  The atoms of the linker `NC(=O)C`, including its carbonyl group, are kept as they connect the two ring systems.\n7.  Removing the specified side chains (`C` and `Br`) from the original SMILES directly yields the Murcko scaffold.\n    Original: `Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12`\n    Removing `C` from `c1`: `c1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12`\n    Removing `Br` from `c3`: `c1cc(=O)oc2cc(NC(=O)Cc3ccccc3)ccc12`\n\nThis SMILES represents the Murcko scaffold. It can be canonicalized to other equivalent SMILES representations (e.g., `O=C(Cc1ccccc1)Nc1cc2oc(=O)cc2cc1`).\n\n```json\n{\n    \"Output Scaffold\": \"c1cc(=O)oc2cc(NC(=O)Cc3ccccc3)ccc12\"\n}\n```"
+    },
+    {
+        "smiles": "O=c1cc(-c2cccc(O)c2)oc2c1ccc1ccccc12",
+        "largest_scaffold": "O=c1cc(-c2ccccc2)oc2c1ccc1ccccc12",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(-c2ccoc3c2ccc2ccccc23)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "COc1ccc(C(=O)NC(C)c2nccs2)cc1OC1CCN(C(C)C)CC1",
+        "largest_scaffold": "O=C(NCc1nccs1)c1cccc(OC2CCNCC2)c1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1cc(CNCc2nccs2)cc(OC2CCNCC2)c1\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(c1ccccc1)N1CCCC(Nc2ccc(F)cc2)C1",
+        "largest_scaffold": "O=C(c1ccccc1)N1CCCC(Nc2ccccc2)C1",
+        "task": "Murcko_scaffold",
+        "json_results": "To determine the Murcko scaffold for `O=C(c1ccccc1)N1CCCC(Nc2ccc(F)cc2)C1`:\n1.  Identify all ring systems:\n    *   `c1ccccc1` (a phenyl ring)\n    *   `N1CCCC(X)C1` (a piperidine ring, where `N1` is the nitrogen and `X` is a carbon in the ring)\n    *   `c2ccc(F)cc2` (a fluorophenyl ring)\n2.  Identify linkers between ring systems:\n    *   The carbonyl carbon (`C` from `O=C`) links the first phenyl ring (`c1ccccc1`) to the nitrogen (`N1`) of the piperidine ring.\n    *   The amine nitrogen (`N` from `Nc2...`) links a carbon of the piperidine ring to the fluorophenyl ring (`c2ccc(F)cc2`).\n3.  Remove side chains, functional groups, and exocyclic modifications:\n    *   The exocyclic oxygen (`=O`) on the carbonyl carbon linker is removed.\n    *   The fluorine (`F`) on the second phenyl ring is removed.\n4.  The remaining structure consists of the three rings and the two single-atom linkers (one carbon, one nitrogen): Phenyl - C - Piperidine - N - Phenyl.\n5.  A SMILES representation for this scaffold is `c1ccccc1CN1CCCC(Nc2ccccc2)C1`.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccccc1CN1CCCC(Nc2ccccc2)C1\"\n}\n```"
+    },
+    {
+        "smiles": "CCC1(CC)C(=O)N(COC(=O)c2ccccc2)C1S(=O)(=O)c1ccccc1",
+        "largest_scaffold": "O=C(OCN1C(=O)CC1S(=O)(=O)c1ccccc1)c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccccc1SC2N(COCc3ccccc3)CCC2\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(NC(=S)NCc1ccco1)c1ccc([N+](=O)[O-])cc1",
+        "largest_scaffold": "O=C(NC(=S)NCc1ccco1)c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n  \"Output Scaffold\": \"c1ccc(CNCNCc2ccoc2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C)C(=O)NC1CCN(Cc2ccccc2)CC1",
+        "largest_scaffold": "c1ccc(CN2CCCCC2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(CN2CCCCC2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)CC(NC(=O)C1CCCN1)C1OC2OC(C)(C)OC2C1OC",
+        "largest_scaffold": "O=C(NCC1CC2OCOC2O1)C1CCCN1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"C1CCNC1CNC1OC2OCOC2C1\"\n}\n```"
+    }
+]

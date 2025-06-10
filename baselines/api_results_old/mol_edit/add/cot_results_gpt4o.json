@@ -1,0 +1,227 @@
+[
+    {
+        "Instruction": "Modify the molecule O=S(=O)(Cc1nc(-c2cccs2)no1)c1ccc2ccccc2n1 by adding a aldehyde.",
+        "molecule": "O=S(=O)(Cc1nc(-c2cccs2)no1)c1ccc2ccccc2n1",
+        "added_group": "aldehyde",
+        "reference": "O=S(=O)(C(C=O)c1nc(-c2cccs2)no1)c1ccc2ccccc2n1",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The input SMILES represents a molecule with a sulfonamide group (O=S(=O)), a pyrimidine ring substituted with a thiophene group, and another pyridine ring. It appears highly aromatic and functionalized.",
+            "function_group_introduce_strategy": "The introduction of an aldehyde group typically occurs at terminal positions or directly bonded to an aromatic ring. One strategy could be to introduce the aldehyde onto the thiophene ring, given its reactivity, while maintaining aromaticity and avoiding interference with existing functional groups.",
+            "feasibility_analysis": "Adding an aldehyde group to the thiophene ring is chemically feasible through electrophilic substitution mechanisms used in aromatic chemistry. The existing nitrogen atoms and rings create potential for competitive reactions, but they are less likely to interfere significantly with thiophene substitution due to their positions.",
+            "output": "O=S(=O)(Cc1nc(-c2cccs2C=O)no1)c1ccc2ccccc2n1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule COc1cccc(C(=O)N[C@@H](c2ccco2)c2c(O)ccc3ccccc23)c1 by adding a aldehyde.",
+        "molecule": "COc1cccc(C(=O)N[C@@H](c2ccco2)c2c(O)ccc3ccccc23)c1",
+        "added_group": "aldehyde",
+        "reference": "COc1cccc(C(=O)N[C@@H](c2ccco2)c2c(O)ccc3ccccc23)c1C=O",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The molecule is a methoxyanilide derivative with an intra-molecular bridge between two aryl groups, including a compound containing a methoxy group and other groups like ketoamide and secondary alcohol. The structure has aromatic rings which are potential sites for functionalization.",
+            "function_group_introduce_strategy": "The aldehyde group, usually denoted as -CHO, can be attached commonly to aromatic rings through electrophilic substitution reaction. In this case, the most straightforward position for adding such a functional group seems to be para or ortho to existing methoxy or hydroxyl groups to leverage the resonance effect for stabilization.",
+            "feasibility_analysis": "Adding an aldehyde group ortho to the methoxy group avoids steric hindrance and take advantage of the activating directing effect of the methoxy group. Thus, an aldehyde group can be introduced via electrophilic reaction, such as formylation reactions targeting the ortho position of the methoxy group.",
+            "output": "COc1cc(C=O)ccc(C(=O)N[C@@H](c2ccco2)c2c(O)ccc3ccccc23)c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC(C)(CNC(=O)N[C@H]1CCN(CC(F)(F)F)C1)NS(C)(=O)=O by adding a amide.",
+        "molecule": "CC(C)(CNC(=O)N[C@H]1CCN(CC(F)(F)F)C1)NS(C)(=O)=O",
+        "added_group": "amide",
+        "reference": "CC(C)(CNC(=O)N[C@H]1CCN(CC(F)(F)F)C1(C(=O)N))NS(C)(=O)=O",
+        "task": "add",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The given molecule is a complex amine derivative with a tertiary amine and sulfonamide. Key components include tertiary alkyl groups, a carbamate, and a trifluoromethyl-containing piperidine.\",\n    \"function_group_introduce_strategy\": \"An amide group can be strategically introduced at the primary amine precursor site since it is less hindered compared to other positions. The introduction could occur at the nitrogen atom bearing sulfonamide, converting the NH group.\",\n    \"feasibility_analysis\": \"Substituting the primary amine with an amide is chemically feasible because the current structure can accommodate an acylation without disrupting the bulky tertiary structure, hence enhancing stability.\",\n    \"output\": \"CC(C)(CNC(=O)N[C@H]1CCN(CC(F)(F)F)C1)NC(=O)S(C)(=O)=O\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule COc1cc([N+](=O)[O-])ccc1NC(=O)C1CCN(C(=O)Nc2cccs2)CC1 by adding a amide.",
+        "molecule": "COc1cc([N+](=O)[O-])ccc1NC(=O)C1CCN(C(=O)Nc2cccs2)CC1",
+        "added_group": "amide",
+        "reference": "COc1cc([N+](=O)[O-])ccc1NC(=O)C1C(C(=O)N)CN(C(=O)Nc2cccs2)CC1",
+        "task": "add",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The given molecule is methoxy nitro aniline with a pyrrolidine amide structure connected to a thiophene ring. The structure contains aromatic rings, a nitro group, two amide linkages, and a methoxy group.\",\n    \"function_group_introduce_strategy\": \"To introduce an additional amide group, a common strategy would be to first introduce an amine group on an aromatic carbon, typically making use of existing functional groups such as the amine group on the aromatic ring or within the pyrrolidine moiety, followed by an acylation reaction to convert the amine to an amide.\",\n    \"feasibility_analysis\": \"Introducing an amide functional group is chemically feasible through well-established reactions. The existing aromatic amine group ortho/para to the nitro group is a suitable position, as it can potentially undergo electrophilic substitution after further functionalization or through a coupling reaction to introduce an additional carbonyl functionality.\",\n    \"output\": \"COc1cc(NC(=O)C)ccc1NC(=O)C1CCN(C(=O)Nc2cccs2)CC1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C(c1cccc(-c2ccoc2)c1)N1CCCC[C@H]1C1OCCO1 by adding a amine.",
+        "molecule": "O=C(c1cccc(-c2ccoc2)c1)N1CCCC[C@H]1C1OCCO1",
+        "added_group": "amine",
+        "reference": "O=C(c1ccc(N)c(-c2ccoc2)c1)N1CCCC[C@H]1C1OCCO1",
+        "task": "add",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The given SMILES O=C(c1cccc(-c2ccoc2)c1)N1CCCC[C@H]1C1OCCO1 represents a molecule with a carbonyl group (=O) attached to a phenyl ring and a morpholine containing chiral bicyclic system. Specifically, the carbonyl is on a phenyl ring with a fused furan ring. This molecule has an amide linkage where the nitrogen is part of piperidine. It doesn't have a clear site for additional amine introduction without disrupting the bicyclic or furan structures.\",\n    \"function_group_introduce_strategy\": \"To introduce an amine group, one common strategy is to convert a carbonyl carbon such as a ketone or anester carbonyl to an amine, or to replace a halogen substituent with an amine via nucleophilic substitution. A possible site is the para position to the existing substituent in the phenyl ring, that's position 4 relative to carbonyl. However, as none of these are directly accessible, considering the least sterically hindered, flexible site might be the nitrogen in the piperidium ring for amination.\",\n    \"feasibility_analysis\": \"The para position on the phenyl ring is occupied, thus not applicable without retraction of structure. Adding an amine on an aliphatic carbon (for example within the piperidine group, though it\u2019s already bound tightly) could be sterically hindered and chemically challenging. A simple addition of a substituent like -NH2 is difficult without very controlled conditions. Instead, attaching an amine group through modification like a primary amine addition would be more consistent through a selective modification condition like N_alkylation however might require complex catalysts.\",\n    \"output\": \"O=C(c1cccc(-c2ccoc2)c1)N1CCC(CN)C[C@H]1C1OCCO1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule C[C@H](CNC(=O)NCc1ccncc1)[NH+](C)C1CC1 by adding a amine.",
+        "molecule": "C[C@H](CNC(=O)NCc1ccncc1)[NH+](C)C1CC1",
+        "added_group": "amine",
+        "reference": "C[C@H](CNC(=O)NCc1ccncc1)[NH+](C)C1CNC1",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The given SMILES represents an amine with a quaternary ammonium [NH+](C) group within a structure that includes a cyclopropane ring (indicated by C1CC1) and a pyridine ring (c1ccncc1). The molecule also has chiral centers and peptide-like structures (CNC(=O) and NC). The molecule primarily features amine and tertiary amine functionalities.",
+            "function_group_introduce_strategy": "To add an additional amine group, we can look for a carbon or nitrogen atom which has available bonding sites or can be reasonably deprotonated. Suitable sites include the existing amine bonded nitrogen or adjacent carbons to avoid steric clashes and maintain molecule integrity. A less sterically hindered site is near the pyridine ring where adding an amine group could lead to an extension of the nitrogen network.",
+            "feasibility_analysis": "Adding another amine to the pyridine ring could potentially alter aromaticity and introduce steric hindrance, which may affect the stability. Alternatively, introducing an amine to an existing carbon after conformational chemistry adjustment can maintain molecule stability. Given the existing layout and complexity, the decision should ensure that functional integrity is balanced without hindering existing structures.",
+            "output": "C[C@H](CNC(=O)NCc1cc[nH]cc1)[NH+](C)C1CC1N"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule COc1ccc(CNC(=O)[C@H](C)N2C(=O)c3ccccc3C2=O)cc1 by adding a benzene ring.",
+        "molecule": "COc1ccc(CNC(=O)[C@H](C)N2C(=O)c3ccccc3C2=O)cc1",
+        "added_group": "benzene_ring",
+        "reference": "COc1ccc(C(c2ccccc2)NC(=O)[C@H](C)N3C(=O)c4ccccc4C3=O)cc1",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The initial molecule is methoxy-aniline derivative, containing a methoxy group attached to a benzene ring, which is further linked to a complex amide structure involving a piperazine-2,5-dione core.",
+            "function_group_introduce_strategy": "One potential site for introducing a benzene ring is by substituting the hydrogen on the methoxy-containing benzene ring. This could be done via attaching the benzene ring at the para position of the existing methoxy group, increasing molecular complexity.",
+            "feasibility_analysis": "Introducing a benzene ring onto the para position of the existing methoxy group is chemically feasible via an electrophilic aromatic substitution, and would further extend the aromatic system without breaking existing conjugation.",
+            "output": "COc1ccc(C2=CC=CC=C2)cc1CNC(=O)[C@H](C)N3C(=O)c4ccccc4C3=O"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CN(CC(=O)N1CCC2(CC1)OCCO2)c1ccc2ccccc2c1 by adding a benzene ring.",
+        "molecule": "CN(CC(=O)N1CCC2(CC1)OCCO2)c1ccc2ccccc2c1",
+        "added_group": "benzene_ring",
+        "reference": "CN(CC(=O)N1CCC2(CC1)OCCO2)c1ccc2ccccc2c1c3ccccc3",
+        "task": "add",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The input SMILES string 'CN(CC(=O)N1CCC2(CC1)OCCO2)c1ccc2ccccc2c1' represents a complex organic compound containing an amide group (C(=O)N), a piperazine moiety, and a phenyl ring attached to a central nitrogen atom. The structure includes a saturated heterocyclic ether (morpholine) and a phenyl group substituted on a nitrogen atom.\",\n    \"function_group_introduce_strategy\": \"Introducing a benzene ring into an already aromatic compound requires identifying possible sites of substitution. One option is to extend the existing aromatic ring system by creating a biphenyl structure. Here, adding the benzene ring at a meta or para position in the existing phenyl ring on the nitrogen atom group seems reasonable, extending the aromaticity while minimalistically respecting steric considerations.\",\n    \"feasibility_analysis\": \"Adding a benzene ring to the phenyl part of the molecule is a feasible chemical modification, especially through established coupling reactions such as Ullmann or Suzuki couplings which often work well for biphenyl formations. The modified structure should retain stability due to delocalized electrons within the aromatic rings.\",\n    \"output\": \"CN(CC(=O)N1CCC2(CC1)OCCO2)c1ccc3c(ccc3)c2c1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule O=C(Cc1ccc(F)c(F)c1)N1CCS[C@@H](c2ccccc2)C1 by adding a carboxyl.",
+        "molecule": "O=C(Cc1ccc(F)c(F)c1)N1CCS[C@@H](c2ccccc2)C1",
+        "added_group": "carboxyl",
+        "reference": "O=C(Cc1ccc(F)c(F)c1)N1CCS[C@@H](c2ccc(cc2)C(=O)O)C1",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The input molecule is a complex structure containing an amide group (O=C-N), a phenyl ring with two fluorine atoms (c1ccc(F)c(F)c1), and a morpholine-like heterocyclic ring (N1CCS[C@@H](c2ccccc2)C1). These components indicate sites that are chemically feasible for substitution or addition.",
+            "function_group_introduce_strategy": "The carboxyl group can be added to an aromatic ring or on a pendant carbon chain. Given the structure, adding a carboxyl group to the phenyl ring is possible, as it already contains substituents (fluorines), which implies the ring's activity towards substitution. Alternatively, adding onto the cyclohexane-like ring might also increase complexity.",
+            "feasibility_analysis": "Adding a carboxyl group to the aromatic ring might be straightforward in terms of synthesis with electrophilic substitution reactions; however it must be carefully considered due to potential steric hindrance from existing fluorine atoms. Adding another group such as on the cyclic morpholine-like ring may demand different synthetic routes involving ring opening or rearrangements.",
+            "output": "O=C(Cc1ccc(F)c(F)c1C(=O)O)N1CCS[C@@H](c2ccccc2)C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1ccc(NC(=O)c2ccc(NC(=O)c3ccco3)cc2)cc1[N+](=O)[O-] by adding a carboxyl.",
+        "molecule": "Cc1ccc(NC(=O)c2ccc(NC(=O)c3ccco3)cc2)cc1[N+](=O)[O-]",
+        "added_group": "carboxyl",
+        "reference": "Cc1ccc(NC(=O)c2ccc(NC(=O)c3ccc(o3)C(=O)O)cc2)cc1[N+](=O)[O-]",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The given molecule is a nitrobenzene derivative with aniline and amide groups. It features two amide linkages and an aromatic ether, with a nitro group attached to the phenyl ring.",
+            "function_group_introduce_strategy": "The carboxyl group can be reasonably added to a position on the phenyl ring that is not sterically hindered or heavily substituted. Given the presence of the nitro and amide links, ortho and para positions relative to the nitro group are occupied, while a free meta position may serve as a good site.",
+            "feasibility_analysis": "Adding a carboxyl group to the meta position relative to the nitro group and avoiding conjugated amide linkages is feasible with standard aromatic electrophilic substitution reactions. This addition won't cause severe electronic or steric hindrance.",
+            "output": "Cc1ccc(C(=O)O)nc(NC(=O)c2ccc(NC(=O)c3ccco3)cc2)[N+](=O)1[O-]"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1c(C(=O)Nc2cccc(C(F)(F)F)c2)nnn1-c1ccc(C(C)C)cc1 by adding a halo.",
+        "molecule": "Cc1c(C(=O)Nc2cccc(C(F)(F)F)c2)nnn1-c1ccc(C(C)C)cc1",
+        "added_group": "halo",
+        "reference": "Cc1c(C(=O)Nc2cccc(C(F)(F)F)c2)nnn1-c1ccc(C(C)C)c(F)c1",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a substituted benzene ring (fluorobenzene) and a pyrazole ring with a central ketone and amide group. The benzene ring further has a trifluoromethyl substituent. The molecule has a substitution at a pyrazole nitrogen attached to a phenyl group with an isopropyl substituent.",
+            "function_group_introduce_strategy": "The addition of a halo group (typically a halogen atom such as F, Cl, Br, or I) can be accomplished by replacing a hydrogen on an aromatic or aliphatic position. In this case, adding a chloro group to the aromatic ring not already substituted or the isopropyl group could be viable due to existing ring activation by the trifluoromethyl group.",
+            "feasibility_analysis": "Adding a chloro group on the aromatic ring next to the trifluoromethyl group could be reasonable due to the activation provided by the electron-withdrawing trifluoromethyl group, allowing electrophilic aromatic substitution. The feasibility is high for adding a Cl group as halogenation is commonly utilized in synthesis.",
+            "output": "Cc1c(C(=O)Nc2cccc(C(F)(F)F)c2)nnn1-c1ccc(C(C)C)C(Cl)c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C[C@H]1C[C@H](C)CN(S(=O)(=O)c2cccc(C(=O)NCCOc3ccccc3)c2)C1 by adding a halo.",
+        "molecule": "C[C@H]1C[C@H](C)CN(S(=O)(=O)c2cccc(C(=O)NCCOc3ccccc3)c2)C1",
+        "added_group": "halo",
+        "reference": "C[C@H]1C[C@H](C)CN(S(=O)(=O)c2cccc(C(=O)NCCOc3ccc(Cl)cc3)c2)C1",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The input molecule is a chiral cyclic amine with a sulfonamide group attached to an aromatic ring that contains an amide linkage and an ether group. The molecule contains two chiral centers and several potential sites for substitution, including on the aromatic ring and the nitrogen atom within the cyclic amine. Halo groups generally refer to halogens such as fluorine, chlorine, bromine, or iodine.",
+            "function_group_introduce_strategy": "The typical strategy for introducing a halo group involves choosing a site that can accommodate electrophilic aromatic substitution or direct nucleophilic attack if heteroatoms are involved. Given the presence of the aromatic ring and the nitrogen atom in the cyclic amine, both are potential sites. However, adding a halo group to the aromatic ring is common, and in this structure, one of the free positions on the aromatic ring such as ortho or para to existing substituents can be considered.",
+            "feasibility_analysis": "Introducing a halo group onto the aromatic ring is feasible using standard halogenation techniques such as electrophilic aromatic substitution which are well accommodated in synthetic chemistry. This modification maintains the integrity of the existing functional groups and the overall stability of the compound.",
+            "output": "C[C@H]1C[C@H](C)CN(S(=O)(=O)c2c(cccc2Cl)C(=O)NCCOc3ccccc3)C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C(Nn1ccc2c(nnc3c(-c4ccc(F)cc4)cnn32)c1=O)c1ccc(Cl)cc1 by adding a hydroxyl.",
+        "molecule": "O=C(Nn1ccc2c(nnc3c(-c4ccc(F)cc4)cnn32)c1=O)c1ccc(Cl)cc1",
+        "added_group": "hydroxyl",
+        "reference": "O=C(Nn1ccc2c(nnc3c(-c4ccc(F)cc4)cnn32)c1=O)c1cc(O)cc(Cl)c1",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The given molecule includes a benzamide core with a pyrrolo[2,3-d]pyrimidin-4-one motif that is substituted with a difluorophenyl group and a chlorophenyl group. The molecule contains several aromatic rings, an amide bond, and a fused pyrazole-pyrimidine ring structure. Potential reactive sites for functional group addition include various carbon atoms on aromatic rings or the amine nitrogen if functionalization is considered on an already bounded nitrogen atom.",
+            "function_group_introduce_strategy": "A realistic introduction of a hydroxyl group often targets available aromatic rings or carbonyl alpha-carbons unless otherwise specified for a distinct site. Attaching a hydroxyl group to the para position of the chlorophenyl ring could be chemically plausible, resulting in a 4-chloro-3-hydroxyphenyl group which preserves aromaticity.",
+            "feasibility_analysis": "Attaching a hydroxyl group to the para position on the chlorophenyl ring in this heterocyclic, aromatic molecule is feasible through electrophilic aromatic substitution, especially under suitable conditions. No steric hindrance or major reactivity concerns for positioning have been identified at this particular site.",
+            "output": "O=C(Nn1ccc2c(nnc3c(-c4cc(O)c(Cl)cc4F)cnn32)c1=O)c1ccc(Cl)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CN1C(=O)NC(=O)[C@@]12CCC[NH2+]C2 by adding a hydroxyl.",
+        "molecule": "CN1C(=O)NC(=O)[C@@]12CCC[NH2+]C2",
+        "added_group": "hydroxyl",
+        "reference": "CN1C(=O)NC(=O)[C@@]12CC(O)C[NH2+]C2",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The input SMILES string represents a molecule known as dextromethorphan, which is a morphinan derivative with a tertiary amine group. The structure contains cyclic amide groups at the nitrogens, including an oxazolidinone configuration. Functional groups currently present include amide, quaternary carbon center, and a tertiary amine group.",
+            "function_group_introduce_strategy": "Hydroxyl groups are typically introduced into molecules by replacing or adding onto hydrogen atoms of existing alkyl groups or aromatic rings. In this structure, the introduction of a hydroxyl group can feasibly occur at a quaternary carbon center or a site such as the Methoxy group, potentially creating an alcohol next to the nitrogenous cyclic portion, altering its pharmacophoric effect.",
+            "feasibility_analysis": "Adding a hydroxyl group directly to a quaternary carbon would be less feasible due to steric hindrance and chemical stability considerations. Therefore, integrating the hydroxyl group at an alkyl portion that can engage in hydrogen bonding or increase solubility, such as extending the already existing methoxy group (i.e., part of the methyl group attached to the nitrogen), is more chemically pragmatic. We assume the intention is to generate an OH group addition without disrupting the cyclic stability.",
+            "output": "CN1C(=O)NC(=O)[C@@]12CCC[NH2+]C(CO)2"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1nn(C)c(Cl)c1S(=O)(=O)N1[C@H]2CC[C@@H]1c1cnc(N3CCOCC3)nc1C2 by adding a nitrile.",
+        "molecule": "Cc1nn(C)c(Cl)c1S(=O)(=O)N1[C@H]2CC[C@@H]1c1cnc(N3CCOCC3)nc1C2",
+        "added_group": "nitrile",
+        "reference": "Cc1nn(C)c(Cl)c1S(=O)(=O)N1[C@H]2CC[C@@H]1c1cnc(N3CCOCC3)nc1C2C#N",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The starting molecule is a complex heterocyclic compound with a sulfonamide functional group and a bridged bicyclic structure. It includes a tetrazole ring, a chloro group, and a morpholine ring. It is apparent from the SMILES that it is densely functionalized, providing multiple sites for modification.",
+            "function_group_introduce_strategy": "To introduce a nitrile group (C\u2261N), we should look for a suitable site that can accommodate this without causing steric hindrance or instability. Since the molecule already has a chloro substituent on the tetrazole ring, a feasible strategy could be to perform a nucleophilic substitution where the C-Cl bond could be replaced with a C-CN bond.",
+            "feasibility_analysis": "Introducing a nitrile group is chemically feasible by converting the chloro group on the tetrazole ring through nucleophilic substitution reactions (e.g., using sodium cyanide). This approach is viable and commonly used in synthesis, providing a direct insertion of C\u2261N group in place of the Cl atom.",
+            "output": "Cc1nn(C)c(C#N)c1S(=O)(=O)N1[C@H]2CC[C@@H]1c1cnc(N3CCOCC3)nc1C2"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCCOc1ccc(C(F)(F)F)cc1NC(=O)c1cccc(N2CCOC2=O)c1 by adding a nitrile.",
+        "molecule": "CCCOc1ccc(C(F)(F)F)cc1NC(=O)c1cccc(N2CCOC2=O)c1",
+        "added_group": "nitrile",
+        "reference": "CCCOc1ccc(C(F)(F)F)cc1NC(=O)c1ccc(C#N)c(N2CCOC2=O)c1",
+        "task": "add",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The input SMILES string represents a molecule with a trifluoromethylphenyl group, an ethoxy chain, and an amide linkage connected to a phenyl ring that is further bonded to a morpholine ring. There are multiple aromatic rings and heterocycles which could offer potential sites for introducing a nitrile group.\",\n    \"function_group_introduce_strategy\": \"The nitrile group, represented by the CN unit in SMILES, is usually added onto aromatic rings to enhance rigidity or electron-withdrawing capacity. Considering the existent aromatic structures in the SMILES, the phenyl ring without the trifluoromethyl group offers a convenient site due to its potential resonance stability, specifically at a position para- or ortho- to the existing amide group.\",\n    \"feasibility_analysis\": \"Introducing a nitrile group onto the aromatic ring is chemically feasible and commonly employed in synthetic chemistry. The addition could occur via electrophilic aromatic substitution or through cross-coupling methodologies. Placing the nitrile at the para position relative to the amide group avoids steric hindrance and maintains the electronic balance of the molecule.\",\n    \"output\": \"CCCOc1ccc(C(F)(F)F)cc1NC(=O)c1ccc(C#N)c(N2CCOC2=O)c1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule Cc1ccc([N+](=O)[O-])c(N2CC[C@H](C(N)=O)C2)c1 by adding a nitro.",
+        "molecule": "Cc1ccc([N+](=O)[O-])c(N2CC[C@H](C(N)=O)C2)c1",
+        "added_group": "nitro",
+        "reference": "Cc1ccc([N+](=O)[O-])c(N2CC[C@H](C(N)=O)C2)c1C(=O)[N+](=O)[O-]",
+        "task": "add",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The given molecule is Toluene with a nitro group and a morpholine ring substituted on the benzene ring. The SMILES 'Cc1ccc([N+](=O)[O-])c(N2CC[C@H](C(N)=O)C2)c1' contains aromatic benzene ring with methyl (C), nitro ([N+](=O)[O-]), and morpholine-like ring system with amide (C(N)=O) groups.\",\n    \"function_group_introduce_strategy\": \"The nitro group can usually be added to an aromatic system via electrophilic aromatic substitution. A reasonable position to add another nitro group is ortho or para to the existing nitro group. Given the constraints and existing substituents, para-substitution relative to the methyl group (alternative to existing nitro) might be most feasible.\",\n    \"feasibility_analysis\": \"The addition of a nitro group on an already nitrated toluene can feasibly occur under nitrating conditions (excess of HNO3 and H2SO4 could drive the reaction). The presence of an electron-withdrawing nitro group makes subsequent nitration possible, influencing the directing effects mostly towards the meta position relative to the existing substituents.\",\n    \"output\": \"Cc1cc([N+](=O)[O-])c([N+](=O)[O-])c(N2CC[C@H](C(N)=O)C2)c1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule Cc1ccc(-c2ccc(C(=O)NC(=S)Nc3ccc(S(N)(=O)=O)cc3)o2)cc1Cl by adding a nitro.",
+        "molecule": "Cc1ccc(-c2ccc(C(=O)NC(=S)Nc3ccc(S(N)(=O)=O)cc3)o2)cc1Cl",
+        "added_group": "nitro",
+        "reference": "Cc1ccc(-c2ccc(C(=O)NC(=S)Nc3ccc(S(N)(=O)=O)cc3[N+](=O)[O-])o2)cc1Cl",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The molecule provided is a substituted aromatic compound with a sulfonamide and an amide linkage. It contains a chloro-substituted phenyl group along with multiple other functional groups including thiocarbonyl, amide and sulfonamide. The phenyl ring is likely to take additional substitution due to its electron-rich nature.",
+            "function_group_introduce_strategy": "To introduce a nitro group, a common strategy is via electrophilic substitution which is feasible on an aromatic ring. The chloro-substituted phenyl ring and the phenyl ring attached to the amide linkage are potential sites. Introducing the nitro group para to the existing chlorine substituent on the chloro-phenyl ring could increase electron density symmetry within the aromatic ring.",
+            "feasibility_analysis": "Though the molecule is already overloaded with various functional groups, incorporating a nitro group is still plausible. Electrophilic substitution on the para or ortho positions relative to an existing substituent such as chlorine is a common chemical practice. However, ensure that steric hindrance or potential conflicting reactions with current functional groups are monitored during synthesis.",
+            "output": "Cc1ccc(-c2ccc(C(=O)NC(=S)Nc3ccc(S(N)(=O)=O)cc3)o2)cc1Cl[N+](=O)[O-]"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1cc(C)cc(C[S@@](=O)[C@@H](C)CC#N)c1 by adding a thiol.",
+        "molecule": "Cc1cc(C)cc(C[S@@](=O)[C@@H](C)CC#N)c1",
+        "added_group": "thiol",
+        "reference": "Cc1cc(C)cc(C[S@@](=O)[C@@H](C)CC#N)c1S",
+        "task": "add",
+        "json_results": "```json\n{\n    \"molecule_analysis\": \"The provided SMILES 'Cc1cc(C)cc(C[S@@](=O)[C@@H](C)CC#N)c1' represents a substituted benzene ring with three methyl groups and a sulfonamide side chain featuring a chiral center and a nitrile functional group. The molecule potentially has several sites for functional group modification, primarily where hydrogen substitutions could add a new group.\",\n    \"function_group_introduce_strategy\": \"To add a thiol group, which is denoted by -SH, we need to identify a hydrogen atom on a carbon that can be replaced. The benzene ring already has three methyl groups substituted and further substitution here could disrupt aromaticity without further activation. The best approach would be to extend from the existing sulfonamide structure, as sp3 hybridized carbons in the chain tend to allow for modification without significant structural strain.\",\n    \"feasibility_analysis\": \"The thiol group addition to an alkyl chain is typically performed by replacing a terminal -H atom on an sp3 carbon. Considering the given structure, we can modify one of the terminal hydrogen atoms on the chiral carbon (C*), forming 'C(CSH)' in place of 'CC' within 'CC#N'. This change preserves the backbone structure while introducing the new functional group.\",\n    \"output\": \"Cc1cc(C)cc(C[S@@](=O)[C@H](C)C(C#N)S)c1\"\n}\n```"
+    },
+    {
+        "Instruction": "Modify the molecule Cc1ccccc1OCC(=O)NCCC(=O)[O-] by adding a thiol.",
+        "molecule": "Cc1ccccc1OCC(=O)NCCC(=O)[O-]",
+        "added_group": "thiol",
+        "reference": "Cc1ccccc1OCC(=O)NCC(CS)C(=O)[O-]",
+        "task": "add",
+        "json_results": {
+            "molecule_analysis": "The given molecule SMILES 'Cc1ccccc1OCC(=O)NCCC(=O)[O-]' can be identified as an aromatic alcohol with an ester, an amide bond, and a carboxylate group. It primarily consists of a phenol group linked through an ester to an amide, which is bounded by a carboxylate group.",
+            "function_group_introduce_strategy": "To add a thiol (\u2013SH) group, we can target the alkyl chain in the molecule, such as attaching it to the carbon adjacent to the amide group, potentially replacing one of the hydrogen atoms. This location is feasible as it's accessible and allows for a new alkyl substituent.",
+            "feasibility_analysis": "Adding a thiol group to the alkyl chain in the amide or ester linkage is feasible and a common strategy. Thiols are nucleophilic and can undergo substitution reactions easily. There are no steric hindrance or electronic conflicts by providing space around this attachment point.",
+            "output": "Cc1ccccc1OCC(=O)NCCC(=O)S"
+        }
+    }
+]

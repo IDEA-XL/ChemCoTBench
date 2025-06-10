@@ -1,0 +1,894 @@
+[
+    {
+        "id": "391383ac-f895-4973-9502-3402b33dc8e5",
+        "src_smiles": "CC(C)(C)Nc1cc(-c2ccccc2)nc2ccccc12",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C)(C)Nc1cc(-c2ccccc2O)nc2ccccc12O"
+        }
+    },
+    {
+        "id": "b44bf69a-2721-464a-94d4-33df0574c53d",
+        "src_smiles": "Cc1sc(NC(=O)C=Cc2ccco2)c(C(=O)OC(C)C)c1C",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1sc(NC(=O)C=Cc2ccco2)c(C(=O)OCC(=O)O)c1C"
+        }
+    },
+    {
+        "id": "affe6fc0-a51f-4b3a-93c4-a03a2d62fbac",
+        "src_smiles": "CCN(C)c1ncnc2c1ncn2Cc1ccccc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCN(C)c1ncnc2c1ncn2Cc1ccccc1O"
+        }
+    },
+    {
+        "id": "5543a809-6456-48c3-b900-4a2378c879df",
+        "src_smiles": "O=C(NC(Cc1c[nH]c2ccccc12)C(=O)O)c1ccc(Cl)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(NC(Cc1c[nH]c2ccccc12)C(=O)N)c1ccc(O)cc1"
+        }
+    },
+    {
+        "id": "bd75a7e8-db66-4cba-91da-a579046461aa",
+        "src_smiles": "CC1(C)N=C(N)N=C(N)N1c1ccc(I)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC1(C)N=C(N)N=C(N)N1c1ccc(O)cc1"
+        }
+    },
+    {
+        "id": "ae7c4e80-fb42-48f3-9ec2-3daa3bdefcfd",
+        "src_smiles": "CCOc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCOc1n[nH]c2c(NC(=O)NCC(=O)N)ncc2[nH]1"
+        }
+    },
+    {
+        "id": "97cfb7dc-551b-46cc-aa5f-0a39df015aa1",
+        "src_smiles": "Cc1noc(C)c1C(=O)N1CCC2CC(c3ccncn3)OC2C1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1noc(C)c1C(=O)N1CCC2CC(c3ccncn3)OC2C1O"
+        }
+    },
+    {
+        "id": "c67531bc-3501-4d28-a607-d56034edcaeb",
+        "src_smiles": "CC(C)(C)n1ncc2c1NC(=O)CC2c1cccs1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C)(C)n1ncc2c1NC(=O)CC2c1cc(O)c(S(=O)(=O)N)s1"
+        }
+    },
+    {
+        "id": "d53e09b6-2b78-4a80-964e-152ab971056d",
+        "src_smiles": "CN1CC2C=C(c3cncc(Oc4ccccc4)c3)CC(C2)C1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CN1CC2C=C(c3cncc(Oc4ccccc4)c3)CC(C2)C1O"
+        }
+    },
+    {
+        "id": "cc947ac5-64eb-4d3f-88cf-80f77e56684b",
+        "src_smiles": "CCOC(=O)C(NC(=O)c1ccccc1)c1ccccc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(O)C(NC(=O)c1ccccc1)c1ccccc1"
+        }
+    },
+    {
+        "id": "794c5c2a-ff18-4964-a8bd-73fb1b3a544d",
+        "src_smiles": "CCC(C)C(=O)N1CCC(NC(=O)NC2CCCCCC2)CC1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCC(C)(=O)N1CCC(NC(=O)NC2CC(CN)CC2)CC1(=O)O"
+        }
+    },
+    {
+        "id": "431c2ec0-877e-4e28-9506-b22f6f64e9de",
+        "src_smiles": "CCCCCOC(=O)Cc1ccc2c(c1)C(=O)c1ccccc1CO2",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCCCOC(=O)Cc1ccc2c(c1)C(=O)c1ccccc1CO2.C(=O)Nc1ccc(cc1)S(=O)(=O)N"
+        }
+    },
+    {
+        "id": "1e63f126-e684-4a40-9d27-10b687e57e86",
+        "src_smiles": "CSC1OC(n2cnc3c(N)nc(F)nc32)C(O)C1O",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(O)C1OC(n2cnc3c(N)nc(O)nc32)C(O)C1O"
+        }
+    },
+    {
+        "id": "25ce98f5-b841-47d7-9b7d-79dfcaf11e30",
+        "src_smiles": "CCN(CC)c1n[n+]([O-])c2ccccc2[n+]1[O-]",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCN(CC)c1n[n+]([O-])c2cc(ccc2[n+]1[O-])S(=O)(=O)N"
+        }
+    },
+    {
+        "id": "99ee62b8-574e-46b4-90bc-5f2c38b56bce",
+        "src_smiles": "CCNc1ccc(S(=O)(=O)c2ccc(N)cc2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCNc1ccc(S(=O)(=O)N)c(c1)N"
+        }
+    },
+    {
+        "id": "b6a8df51-ba22-4c4f-b553-fc243451177e",
+        "src_smiles": "Brc1ccc(OCCCCN2CCCCC2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Oc1ccc(cc1)N2CCCCC2"
+        }
+    },
+    {
+        "id": "42e936e9-32cf-4a3f-a5da-a1446eb9b081",
+        "src_smiles": "FC(F)(F)c1ccccc1-c1nccc(NCc2ccccc2)n1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "FC(F)(F)c1ccccc1-c1nccc(NCC(O)C(O)c2ccccc2)n1"
+        }
+    },
+    {
+        "id": "c172d7a2-08e5-43b8-85ac-8372cb4830cf",
+        "src_smiles": "CC(=O)N(O)c1ccc(C=Cc2ccccc2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(=O)N(O)c1ccc(C=Cc2ccccc2O)cc1"
+        }
+    },
+    {
+        "id": "237b1493-0c24-4ad3-ad7b-cc9bb006f57d",
+        "src_smiles": "CCCCOc1ccc(C(=O)N2CCCC2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCOc1ccc(C(=O)N2CC(C(=O)O)CC2)cc1"
+        }
+    },
+    {
+        "id": "81896116-b24d-408b-b576-2693a83587e0",
+        "src_smiles": "CCCCOc1ccccc1NC(=O)NC1CC2CCC(C1)N2C",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCOc1ccccc1NC(=O)NCC(O)C1CC2CCC(C1)N2C(=O)O"
+        }
+    },
+    {
+        "id": "5b38358f-76d3-47b5-83eb-d5707bd4cc7d",
+        "src_smiles": "O=C(CN1CCCCC1)Nc1ccccc1Oc1ccccc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CN1CCCCC1)Nc1ccc(cc1)S(=O)(=O)N"
+        }
+    },
+    {
+        "id": "df1296b8-27a5-4cd7-8f52-3d147fb5f97f",
+        "src_smiles": "Clc1cccc(-c2ccc(N3CCOCC3)nc2)c1Cl",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Oc1cccc(-c2ccc(N3CCOCC3)nc2)c1O"
+        }
+    },
+    {
+        "id": "598aefa6-5cf2-4cc1-9afe-6c0dce277e00",
+        "src_smiles": "FC(F)(F)c1ccc2c(c1)nc1n2CCOc2ccccc2-1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "FC(F)(F)c1ccc2c(c1)n(CO)c1n2CCOc2ccccc2-1"
+        }
+    },
+    {
+        "id": "71bd6085-d5ad-40c7-9f25-29481d162044",
+        "src_smiles": "Cc1ccc(-c2nc3ccc(C)cn3c2Cc2ccsc2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1ccc(-c2nc3ccc(O)cn3c2Cc2cc(O)c2)cc1"
+        }
+    },
+    {
+        "id": "157db0ef-c393-4de0-ac68-33ed85200317",
+        "src_smiles": "COc1cccc(C(C)Nc2cc(-c3ccccc3F)nc(C)n2)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cccc(C(O)Nc2cc(-c3ccccc3F)nc(C)n2)c1"
+        }
+    },
+    {
+        "id": "1dbeb18e-58c1-4582-8a17-fb7d4bc04a1b",
+        "src_smiles": "CCCN1CCC(COc2nc3ccsc3n3cccc23)CC1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "OCCN1CCC(COc2nc3cc(O)sc3n3cccc23)CC1"
+        }
+    },
+    {
+        "id": "5e82daff-b15c-425e-acc3-f6375a687642",
+        "src_smiles": "O=C(Nc1ccccc1)Nc1ccc(C(=O)N2CCCC2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(Nc1ccccc1)Nc1cc(ccc1O)N2CCOCC2"
+        }
+    },
+    {
+        "id": "9a5d419b-121b-48b4-bdb0-645c30214c99",
+        "src_smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1-n1cccc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1N1CCCC1O"
+        }
+    },
+    {
+        "id": "faea2a0d-5f30-41b5-b98a-bb2572ff5d48",
+        "src_smiles": "CCC(O)c1ccc(OC)c(OC)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(O)C(=O)Nc1ccc(OC)c(OC)c1"
+        }
+    },
+    {
+        "id": "e137d1f8-dad4-4f6f-9c25-21f16e932c15",
+        "src_smiles": "COC(=O)CCC(=O)Nc1cccc(C(F)(F)F)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(Nc1ccc(cc1)S(=O)(=O)N)CCC(=O)Nc1ccc(cc1)O"
+        }
+    },
+    {
+        "id": "537c00b1-7649-4780-9d9e-6f41c2e0c73a",
+        "src_smiles": "C(=Cc1ccccc1)CSc1nnc(-c2cccnc2)o1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "C(=Cc1ccccc1)C(O)C(=O)Nc1nnc(-c2cccnc2)o1"
+        }
+    },
+    {
+        "id": "17e025c0-a02d-41d4-96be-12e4ffcb5b86",
+        "src_smiles": "c1ccc(Nc2ncnc3ccc(-c4cncs4)cc23)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "c1ccc(Nc2ncnc3ccc(-c4cncs4)cc23)cc1O"
+        }
+    },
+    {
+        "id": "cafa4573-7480-4f03-87fb-913654501e00",
+        "src_smiles": "Cc1c(Sc2cccc(Cl)c2)n(COCCO)c(=O)[nH]c1=O",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1c(Oc2cccc(O)c2)n(COCCO)c(=O)[nH]c1=O"
+        }
+    },
+    {
+        "id": "3a3f2869-1adb-4081-914e-a138b90b3821",
+        "src_smiles": "CC1(C)CCN(c2ccc(C#Cc3cc(F)ccc3F)cn2)C(=O)O1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC1(C)CCN(c2ccc(C#Cc3cc(N)ccc3N)cn2)C(=O)O1"
+        }
+    },
+    {
+        "id": "f5b41f89-1611-4592-a5b5-07395fe19af5",
+        "src_smiles": "Cn1c(=O)n(CCOc2ccc(Cl)cc2Cl)c2ccccc21",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cn1c(=O)n(CCOc2ccc(O)cc2O)c2ccccc21"
+        }
+    },
+    {
+        "id": "9ad323da-77b0-4d23-8f63-f9e36e029d5e",
+        "src_smiles": "COc1ccc(NC(=O)Nc2nnc(N3CCCC3)s2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(NC(=O)Nc2nnc(N3CC(O)CC3)s2)cc1O"
+        }
+    },
+    {
+        "id": "f21140fe-1b38-4a9c-8173-10004d4154d7",
+        "src_smiles": "COc1ccc(C(=O)NO)cc1NC(=O)c1ccccc1Cl",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(C(=O)N)cc1NC(=O)c1ccccc1O"
+        }
+    },
+    {
+        "id": "32ffdd42-bfe5-4179-9b90-f7b699cdee71",
+        "src_smiles": "COc1cc2c(cc1OC)C(c1ccc([N+](=O)[O-])cc1)=NNC(=O)C2",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cc2c(cc1OC)C(c1ccc([N+](=O)[O-])cc1)=NNC(=O)N2CC(=O)N"
+        }
+    },
+    {
+        "id": "7f111f1e-e3d6-4aec-a35a-0a92655c780c",
+        "src_smiles": "COc1cc2nc(C(C)(C)C)oc(=O)c2cc1OC",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cc2nc(C(C(=O)N)C(=O)N)oc(=O)c2cc1OC"
+        }
+    },
+    {
+        "id": "5f977d1a-1dfc-4451-9d7f-43424b75fe1c",
+        "src_smiles": "Nc1nc(-c2ccccc2)nc2c1nc(O)n2Cc1ccccc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Nc1nc(-c2ccccc2)nc2c1nc(O)n2Cc1ccccc1O"
+        }
+    },
+    {
+        "id": "bf93dec4-4b81-454d-89cf-61a6fb3a6d04",
+        "src_smiles": "COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(C)n3)C2)CC1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": "{\n  \"Final Target Molecule\": \"COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(C)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n3)C2)CC1>>COc1ccccc1N1CCN(C2CCCN(C(=O)c3csc(N)n"
+    },
+    {
+        "id": "f9f93f34-6956-4266-baaa-5743171064df",
+        "src_smiles": "CCOC(=O)C1=C(C)NC(C)=C(C(=O)OCC)C1c1c(F)cccc1Cl",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCOC(=O)C1=C(C)NC(C)=C(C(=O)OCC)C1c1c(F)c(O)c(CN)c(C)c1Cl"
+        }
+    },
+    {
+        "id": "aa56a0f3-4160-4752-bff1-c704a22471c4",
+        "src_smiles": "CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": "{\n  \"Final Target Molecule\": \"CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C(C(=O)NC2CCCCC2)c2ccnc3ccccc23)C1(O)C(=O)N>>CC1CC(C)CN(C"
+    },
+    {
+        "id": "1ef75c81-be1c-4d77-bfcd-793737f622a5",
+        "src_smiles": "CCNc1ccc(NC(=O)c2c(-c3c(Cl)cccc3Cl)noc2C)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCNc1ccc(NC(=O)c2c(-c3c(O)cccc3O)noc2C)cc1"
+        }
+    },
+    {
+        "id": "2331f0b6-a550-4bb7-816e-daeb02d01ef5",
+        "src_smiles": "COc1cnc(Oc2ccccc2-c2ccc(-c3cnc(N)cn3)c(F)c2)nc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cnc(Oc2ccccc2-c2ccc(-c3cnc(N)cn3)c(O)c2)nc1O"
+        }
+    },
+    {
+        "id": "bd05cdd9-0454-462b-a4fd-f8db159a0a3f",
+        "src_smiles": "COc1ccc(OC)c2oc(-c3cn4nc(SC)sc4n3)cc12",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(OC)c2oc(-c3cn4nc(N)sc4n3)cc12"
+        }
+    },
+    {
+        "id": "78b7f89f-24d1-41dc-a418-39d67159a8b4",
+        "src_smiles": "CCCCC(CC)CNC(=O)CCCn1c(=O)[nH]c2ccsc2c1=O",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCCC(CC)CNC(=O)CCCn1c(=O)[nH]c2cc(O)c(O)c2c1=O"
+        }
+    },
+    {
+        "id": "a58f0b5b-9582-4e04-bd73-d06cbb351469",
+        "src_smiles": "CC(CCc1ccc(-c2ccc(C#N)cc2)cc1)(C(=O)NO)S(C)(=O)=O",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(CCc1ccc(-c2ccc(C#N)cc2)cc1)(C(=O)N(O)O)S(C(=O)N)O"
+        }
+    },
+    {
+        "id": "c4b89b9a-b16c-477c-9725-969c38bb5023",
+        "src_smiles": "COc1ccc(Oc2c(Cl)cnn(-c3cccc(Cl)c3)c2=O)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(Oc2c(N)n(-c3ccc(O)cc3)n(-c3ccc(O)cc3)c2=O)cc1"
+        }
+    },
+    {
+        "id": "5e277aba-abc9-490c-b683-bf648bcb8def",
+        "src_smiles": "CN(C)CCNC(=O)c1cc(F)cc(-c2ccc3ncnc(N)c3n2)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Nc1ccc(cc1)C(=O)NCCN(C)CCN(C)C(=O)c1ccc(cc1)O"
+        }
+    },
+    {
+        "id": "01166dc4-0d0c-4360-999d-8b8183a1cee5",
+        "src_smiles": "Cc1cc(N)ncc1-c1nc(N2CCOCC2)nc(N2CCOCC2)n1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1cc(N)ncc1-c1nc(N2CCOCC2)nc(N2CCOCC2)n1O"
+        }
+    },
+    {
+        "id": "0f68fa88-5d7e-4523-9c88-0fee3006c74c",
+        "src_smiles": "CCCNC(=O)c1ccc(NC(=O)N2Cc3ccc(-c4ccncc4)cc3C2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCNc1ccc(cc1)C(=O)Nc2ccc(cc2)C(=O)NCCN"
+        }
+    },
+    {
+        "id": "6db24efb-50ab-4f49-b3a1-50e8849b2e8c",
+        "src_smiles": "Cc1cc(C(=O)N2CCC3CN(c4ncccn4)CCOC3C2)c(C)o1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1cc(C(=O)N2CCC3CN(c4ccc(O)cn4)CCOC3C2)c(C)(O)o1"
+        }
+    },
+    {
+        "id": "478bfb40-d972-4971-af85-78a47b31a723",
+        "src_smiles": "N#Cc1cc(S(=O)(=O)Nc2ccc(F)cn2)ccc1Oc1ccccc1F",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "N#Cc1cc(S(=O)(=O)Nc2ccc(O)cn2)ccc1Oc1ccccc1O"
+        }
+    },
+    {
+        "id": "2475a4e7-534b-4d89-bb01-800d1421c4ce",
+        "src_smiles": "CSc1ccc(Oc2ncccc2C(=NO)NCc2ccncc2)cc1C",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CSc1ccc(Oc2ncccc2C(=NO)NCC(O)C(=O)Nc2ccncc2)cc1C"
+        }
+    },
+    {
+        "id": "b85c6b45-7f21-4b67-955c-17f81379161c",
+        "src_smiles": "COc1cccc(-c2nnc(SCc3ccc(C#N)cc3)n2Cc2ccco2)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cccc(-c2nnc(SCc3ccc(C#N)cc3)n2Cc2cc(CO)c(O)c2)c1O"
+        }
+    },
+    {
+        "id": "14c7bfc7-f066-42a2-8e5d-bb66f6062320",
+        "src_smiles": "Cc1cccc(CCNC(=O)c2nn(C)c3c2CSc2ccccc2-3)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1cccc(CCNC(=O)c2nn(C)c3c2C(O)c2ccccc2-3)c1"
+        }
+    },
+    {
+        "id": "900d6b86-3950-4090-a9cf-95fd6639b9a5",
+        "src_smiles": "O=C1NC(=O)C(=Cc2ccc(OCc3ccccc3)c(Br)c2)S1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C1NC(=O)C(=Cc2ccc(OCCN)c(Br)c2)S1"
+        }
+    },
+    {
+        "id": "078a494a-5fd7-49e1-8a9a-b06aa514cf0c",
+        "src_smiles": "CCCC1(C(=O)Nc2ccc(C#N)c(C(F)(F)F)c2)CC(C(F)(F)F)=NN1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCC1(C(=O)Nc2ccc(C#N)c(C(=O)N)c2)CC(=O)NN1"
+        }
+    },
+    {
+        "id": "5cde01fb-b95a-40ff-9442-42cdc1769dfb",
+        "src_smiles": "O=[N+]([O-])c1ccc(CN2CCN(c3cccc(C(F)(F)F)c3)CC2)o1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=[N+]([O-])c1ccc(CN2CCN(c3cccc(C(=O)N)C(=O)N)c3)CC2)o1"
+        }
+    },
+    {
+        "id": "d9c1325c-7900-43ab-9a88-25561319489b",
+        "src_smiles": "COc1cccc(C(=O)OCC(C)C2CCC3C(O)CCCC23C)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cccc(C(=O)OCC(C(=O)O)C2CCC3C(O)CCCC23C)c1"
+        }
+    },
+    {
+        "id": "2588d08a-602c-4045-a6d3-359850872370",
+        "src_smiles": "COc1cc(-c2nnc(SCc3ccccc3Cl)o2)cc(OC)c1OC",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cc(-c2nnc(SCc3ccccc3Cl)o2)cc(OC)c1OCC(O)C"
+        }
+    },
+    {
+        "id": "0956d45b-9f68-4390-a2dc-17d28b0f1085",
+        "src_smiles": "CC(C)(C)Cc1nc2cc(S(=O)(=O)CC3CCNCC3)ccc2n1CC1CC1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C)(C)Cc1nc2cc(S(=O)(=O)N)ccc2n1CC(C)(C)O"
+        }
+    },
+    {
+        "id": "5b3f6746-9e3c-4e6b-a188-c89282588fd1",
+        "src_smiles": "O=C(O)c1c[nH]c2cc(Cl)c(-c3ccc(OCCCC4COC4)cc3)cc12",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(O)c1c[nH]c2cc(O)c(-c3ccc(OCCCC4COC4)cc3)cc12"
+        }
+    },
+    {
+        "id": "bd910d58-f13b-4c04-acac-898a1528c1bd",
+        "src_smiles": "CSc1ccc(NC(=O)NC2CCN(Cc3ccccc3)CC2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CSc1ccc(NC(=O)NCC(=O)Nc2ccc(cc2)O)cc1"
+        }
+    },
+    {
+        "id": "dbc2dcfe-9f6e-498b-a40f-cc4de7f4663e",
+        "src_smiles": "CCCNC(=O)Cn1c(=O)oc2cc(S(=O)(=O)N3CCCC3)ccc21",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCN(C)C(=O)Cn1c(=O)oc2cc(S(=O)(=O)N3CCN(C)CC3)ccc21"
+        }
+    },
+    {
+        "id": "65b87704-ce4b-43ca-9d93-36a0f4f711de",
+        "src_smiles": "CCNC(=O)Nc1nc2cc(-c3cccnc3)cc(-c3cccnc3)n2n1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCNC(=O)Nc1nc2cc(-c3ccc(O)nc3)cc(-c3ccc(O)nc3)n2n1"
+        }
+    },
+    {
+        "id": "ea054f87-be77-4f9b-a57b-2870eedc07cd",
+        "src_smiles": "CCCNc1nc(-c2ccccc2)nc2c1nnn2Cc1ccccc1F",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCNc1nc(-c2ccccc2)nc2c1nnn2Cc1ccccc1O"
+        }
+    },
+    {
+        "id": "eb1b66e5-ec0c-4155-bc61-3acf03ff14cd",
+        "src_smiles": "O=C(O)c1cc2ccc(N(Cc3ccccc3)Cc3ccccc3)cc2oc1=O",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(O)c1cc2ccc(N(Cc3ccccc3)Cc3ccccc3O)cc2oc1=O"
+        }
+    },
+    {
+        "id": "cfe44e05-32ec-44fa-af4c-22eacf1fb0bf",
+        "src_smiles": "O=c1cc(N2CCOCC2)oc2cc(OCc3ccc(Cl)cc3)ccc12",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=c1cc(N2CCOCC2)oc2cc(OCc3ccc(O)cc3)ccc12"
+        }
+    },
+    {
+        "id": "0aab40de-c199-40df-9407-736c4531cbd7",
+        "src_smiles": "O=C(Nc1ccccc1)N1CCN(Cc2cccc(OCc3ccccc3)c2)CC1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(Nc1ccccc1)N1CCN(Cc2cccc(OCc3ccccc3)c2)CC1O"
+        }
+    },
+    {
+        "id": "67526ac2-d9b3-4afa-b9ab-4c3d518331d0",
+        "src_smiles": "Cc1cc(CCCOc2c(C)cc(-c3cccc(C#N)c3)cc2C)on1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1cc(CCCOc2c(C)cc(-c3cccc(C(=O)N)c3)cc2C)on1"
+        }
+    },
+    {
+        "id": "3c94fe5c-4582-4e2b-aee5-4ab6e986563f",
+        "src_smiles": "CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCO3)C1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": "{\n  \"Final Target Molecule\": \"CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)OCCO3)C1>>CSc1ccccc1NC(=O)N1CCCC(C(=O)c2ccc3c(c2)O"
+    },
+    {
+        "id": "ca78b030-2ed6-4646-9c02-2a12ccd6515f",
+        "src_smiles": "N#Cc1ncc(F)c(N(Cc2ccc(Cl)cc2)Cc2ccc3c(c2)OCO3)n1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "N#Cc1ncc(F)c(N(Cc2ccc(O)cc2)Cc2ccc3c(c2)OCO3)n1"
+        }
+    },
+    {
+        "id": "717d2e51-63e9-48cb-a2e2-7a2cfb114499",
+        "src_smiles": "NC1=NC2(c3ccc(F)cc3F)COC(c3ccc(Cl)cc3)CC2CS1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "NC1=NC2(c3ccc(O)cc3O)COC(c3ccc(N)cc3N)CC2CS1"
+        }
+    },
+    {
+        "id": "9df76c2a-30ee-47a9-b421-212061659dbe",
+        "src_smiles": "CCSc1nnc(NC(=O)C(NC(=O)c2ccccc2F)C(C)C)s1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(O)CNc1nnc(NC(=O)CN(C(=O)c2ccc(cc2)O)C(C)C)s1"
+        }
+    },
+    {
+        "id": "7c56919c-1548-4a4b-b4e9-d194f8468c44",
+        "src_smiles": "COc1cc2c3c(n(C)c2cc1OC)C(=O)NCC=C3c1ccc(O)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cc2c3c(n(C)c2cc1OC)C(=O)NCC=C3c1ccc(O)c(O)c1"
+        }
+    },
+    {
+        "id": "57ae3ecb-7590-4253-92e2-6e5c8b9b4e07",
+        "src_smiles": "CC(C)(C)OC(=O)NC1CCC(n2cnc3cnc4[nH]ccc4c32)CC1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C)(C)OC(=O)NC1CCC(n2cnc3cnc4[nH]ccc4c32)CC1O"
+        }
+    },
+    {
+        "id": "cc01ff53-95f7-4e47-81f0-6c7d5229c94d",
+        "src_smiles": "C=CCN(c1ccc(C(=O)NCCCn2ccnc2)cc1)S(C)(=O)=O",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "C=CCN(c1ccc(C(=O)NCCCN)cc1)S(C)(=O)=O"
+        }
+    },
+    {
+        "id": "4e582fe1-9a44-4106-b45b-07fd1d0d1f56",
+        "src_smiles": "COc1cscc1C(=O)N1CCC(F)(CNCc2ccc(C)cn2)CC1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cscc1C(=O)N1CCC(F)(CNCc2ccc(C)(O)cn2)CC1"
+        }
+    },
+    {
+        "id": "4fcb4793-d577-40c9-858d-9e675115e27d",
+        "src_smiles": "CCOC(=O)N1CCN(S(=O)(=O)c2ccc(C(=O)Nc3nc4c(s3)CC(C)CC4)cc2)CC1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCOC(=O)N1CCN(S(=O)(=O)c2ccc(C(=O)Nc3nc4c(s3)CC(C)(O)CC4)cc2)CC1"
+        }
+    },
+    {
+        "id": "f31cfa27-c3f9-445f-b14e-7337ee4fe418",
+        "src_smiles": "COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": "{\n  \"Final Target Molecule\": \"COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O)n(C)n2)nc1>>COc1ccc(C2CC2COc2cc(NCc3nnc(C)s3)c(=O"
+    },
+    {
+        "id": "c58fb4f8-5515-4513-ae19-17cfd1915826",
+        "src_smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1SC1CCCCC1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C(=O)NCc1ccc(C(=O)N)c(C)n1SC1CCCCC1)c1ccc(NS(C)(=O)=O)c(O)c1"
+        }
+    },
+    {
+        "id": "ecc23bbc-bc15-4910-8441-a6999c3528a9",
+        "src_smiles": "CNC(C)C(=O)NC(Cc1ccccc1)C(=O)N1CCCC1C(=O)NC(c1ccccc1)c1ccccc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CNC(C)C(=O)NCC(Cc1ccc(cc1)O)C(=O)N1CCCC1C(=O)NCC(c1ccc(cc1)O)c1ccc(cc1)O"
+        }
+    },
+    {
+        "id": "2c8a52de-7ffb-4a33-8667-7ad5d2fd0f6f",
+        "src_smiles": "CN1C(C)(C)CN(c2cc(F)ccc2CNC(=O)c2nc(C3CCOC3)n(C)c(=O)c2O)S1(=O)=O",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CN1C(C)(C)CN(c2cc(O)ccc2CNC(=O)c2nc(C3CCOC3)n(C)c(=O)c2O)S1(=O)=O"
+        }
+    },
+    {
+        "id": "ab4d9006-8a90-4416-9005-75e0d3a32d9e",
+        "src_smiles": "CCOC(=O)C(C#N)=Cc1ccc(OCC(=O)Nc2ccc(C)cc2C)c(OC)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCOC(=O)C(C#N)=Cc1ccc(OCC(=O)Nc2ccc(C(O))cc2C(O))c(OC)c1"
+        }
+    },
+    {
+        "id": "0c38b36e-8508-4b2c-aec6-d1ae24b20442",
+        "src_smiles": "Cc1cnc(C(C)(CO)NC(=O)c2c(C)nc3c(OCc4c(F)cccc4F)cccn23)s1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1cnc(C(CO)NC(=O)c2c(C)nc3c(OCc4c(F)cccc4F)cccn23)s1"
+        }
+    },
+    {
+        "id": "ecdae6b0-f181-48cb-8801-ba3b684a5099",
+        "src_smiles": "COc1ccccc1NC(=O)c1ccc(NC(=O)COC(=O)CCC2CCCC2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccccc1NC(=O)c1ccc(NC(=O)C(O)C(=O)CCC2CCCC2)cc1"
+        }
+    },
+    {
+        "id": "5f4f0d71-ed74-4e81-bd4d-3f862d80a8b6",
+        "src_smiles": "O=C(NC(=Cc1ccc(Br)cc1)C(=O)N1CCOCC1)c1ccc([N+](=O)[O-])cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(NC(=Cc1ccc(O)cc1)C(=O)N1CCOCC1)c1ccc([N+](=O)[O-])cc1"
+        }
+    },
+    {
+        "id": "b8644df1-a81b-4fbe-9c41-283c9a0b99f3",
+        "src_smiles": "Cc1ccc(-c2nc(NC(=O)COc3cccc(F)c3)cc(-c3nccs3)n2)o1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1ccc(-c2nc(NC(=O)COc3cccc(O)c3)cc(-c3nccs3)n2)o1"
+        }
+    },
+    {
+        "id": "7cf6a50b-28e6-42db-9d7f-1fabefdf49a9",
+        "src_smiles": "CC(CN(C)C)Oc1cc(Oc2ccc(S(C)(=O)=O)cc2)cc(C(=O)Nc2nccs2)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(CN(C)C)Oc1cc(Oc2ccc(O)cc2)cc(C(=O)Nc2nccs2)c1"
+        }
+    },
+    {
+        "id": "306d6028-12a0-448a-a75e-1e9802bd7fca",
+        "src_smiles": "COc1ccc(C(=O)NC(CC(=O)O)c2ccccc2Cl)nc1-c1ccc(Cl)cc1Cl",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(C(=O)NCC(=O)O)c(C(=O)N)c1-c1ccc(O)cc1O"
+        }
+    },
+    {
+        "id": "8defec32-84ba-48dd-b926-cf2beaf585f2",
+        "src_smiles": "CC(C)C(NC(=O)c1cc2ccccc2s1)C(=O)N1CCC(c2ccc(Cl)cc2)CC1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C)(Nc1ccc(cc1)S(=O)(=O)N)C(=O)Nc1ccc(cc1)N(C)C(=O)N1CCC(c2ccc(cc2)O)CC1"
+        }
+    },
+    {
+        "id": "c884cc1f-a4dd-49ac-ba88-9a134ce5300e",
+        "src_smiles": "N#Cc1cc(S(=O)(=O)Nc2nccs2)ccc1Oc1ccc(Cl)cc1-c1ccnn1CC(F)(F)F",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "N#Cc1cc(S(=O)(=O)Nc2nccs2)ccc1Oc1ccc(O)cc1-c1ccnn1CC(=O)N"
+        }
+    },
+    {
+        "id": "72c8660c-440b-44e9-87e2-db5e825432ec",
+        "src_smiles": "O=S(=O)(Nc1nccs1)c1ccc2c(c1)OCCN2c1cccc(Cl)c1Cl",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=S(=O)(Nc1nccs1)c1ccc2c(c1)OCCN2c1cccc(O)c1O"
+        }
+    },
+    {
+        "id": "84800f8a-a307-4945-bebe-fc3dc2c8d61f",
+        "src_smiles": "CC(C)(C)NC(=O)C(c1ccsc1)N(C(=O)Cn1nnc2ccccc21)c1ccc(C(C)(C)C)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C)(C)NC(=O)C(c1cc(O)sc1)N(C(=O)Cn1nnc2cc(O)ccc21)c1ccc(C(C)(C)C)cc1O"
+        }
+    },
+    {
+        "id": "25fd5d6e-d2a8-4588-a79f-fc86c7021b33",
+        "src_smiles": "CCC(NC(=O)c1cc(C(=O)N2CCCC2C)n2c1COCC2)c1ccc(C#N)cc1Cl",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCC(NC(=O)c1cc(C(=O)N2CCCC2C)n2c1COCC2)c1ccc(C(=O)N)cc1Cl"
+        }
+    },
+    {
+        "id": "55d7574d-39f4-423b-8b71-78d01812c2c2",
+        "src_smiles": "O=C(CC1(O)C(=O)Nc2c(Cl)ccc(Cl)c21)c1ccc(Oc2ccccc2)cc1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CC1(O)C(=O)Nc2c(O)ccc(O)c21)c1ccc(Oc2ccccc2)cc1"
+        }
+    },
+    {
+        "id": "19971752-5128-4044-9363-fe6d1b5bb517",
+        "src_smiles": "COc1ccc(OC)c(NC(=O)c2ccc(NC(=O)N3Cc4ccccc4C3)cc2)c1",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(OC)c(NC(=O)c2ccc(NC(=O)N3Cc4ccc(O)cc4C3)cc2)c1"
+        }
+    },
+    {
+        "id": "1b8a406d-1379-4ea6-96cc-10885c3b0525",
+        "src_smiles": "COc1ccc(NC(=O)CSc2nc3ccccc3nc2N2CCCC2)cc1Cl",
+        "prop": "solubility",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(NC(=O)C(O)C(=O)Nc2ccc(cc2)N2CCCC2)cc1O"
+        }
+    }
+]

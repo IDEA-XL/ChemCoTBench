@@ -1,0 +1,542 @@
+[
+    {
+        "smiles": "CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1",
+        "permutated": "c1c(ccc(c1)C(=O)c1cc(CC)ccc1OC(C)=O)C",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A is a complex organic compound with a benzene ring and multiple functional groups. It contains C and H for the alkyl chain, O atoms for the ester and ketone groups, and the arrangement is as follows: a benzene ring with an ester group (OC(C)=O) at one position and a ketone (C(=O)c2...) attached to another benzene which also has alkyl attachments.",
+            "molecule_B_analysis": "Molecule B has a similar structure, featuring a benzene ring system with C and H atoms, and O atoms representative of ester and ketone groups. The structural arrangement is a benzene ring with an ester group at one position and a ketone group, again indicating multiple benzene systems and alkyl functional groups, similar to Molecule A.",
+            "atom_count_comparison": "Both Molecule A and B include the same types and numbers of atoms: carbon (C), hydrogen (H), and oxygen (O). Therefore, their atom counts match.",
+            "functional_group_comparison": "Both Molecule A and B have similar functional groups: they contain ester groups (OC(C)=O) and ketone groups (C(=O)c...) connected to the benzene systems. Connectivity analysis shows the structures are equivalent, indicating they are the same molecules.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCC(Oc1ccccc1)C(=O)Nc1nnc(S(=O)(=O)N2CCCC2)s1",
+        "permutated": "O=S(N1CCCC1)(c1sc(nn1)NC(=O)C(CC)Oc1ccccc1)=O",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A is 'CCC(Oc1ccccc1)C(=O)Nc1nnc(S(=O)(=O)N2CCCC2)s1'. It has an alkyl chain (CCC), an ether linkage (Oc1ccccc1) that connects a benzene ring, an amide group (C(=O)N), and a thiadiazole group (c1nnc...s1) with a sulfonamide group (S(=O)(=O)N).",
+            "molecule_B_analysis": "Molecule B is 'O=S(N1CCCC1)(c1sc(nn1)NC(=O)C(CC)Oc1ccccc1)=O'. It has a sulfonamide moiety (O=S...=O), a thiadiazole ring system (c1sc...), an amide group (NC(=O)), an ether linkage (OC) connecting a benzene ring, and an alkyl group (CC).",
+            "atom_count_comparison": "Both molecules contain the same atoms: carbon, hydrogen, nitrogen, oxygen, and sulfur. The structures also share the same number of each type of atom as parsed from the SMILES strings.",
+            "functional_group_comparison": "The functional groups including the ether link with the benzene ring, amide linkage, thiadiazole ring with sulphonamide group, and alkyl chain connectivity are equivalent in both molecules.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Nc1ccc(Nc2nc(-c3ccc(Cl)cc3)cs2)cc1",
+        "permutated": "c1(-c2ccc(cc2)Cl)csc(n1)Nc1ccc(cc1)N",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A (Nc1ccc(Nc2nc(-c3ccc(Cl)cc3)cs2)cc1) structure is composed of a benzene ring connected to an amine group (Nc1ccc[...]), which is further connected to a heterocyclic thiophene ring (Nc2nc[...]) substituted with a chlorophenyl group at the nitrogen atom within the ring, forming a conjugated system.",
+            "molecule_B_analysis": "Molecule B (c1(-c2ccc(cc2)Cl)csc(n1)Nc1ccc(cc1)N) consists of a thiophene ring with a nitrogen atom embedded in the ring. This nitrogen atom is bonded to both a chlorophenyl group and an aniline ring, thus generating a similar setup to molecule A.",
+            "atom_count_comparison": "Both molecules comprise identical atoms: carbon (C), nitrogen (N), sulfur (S), chlorine (Cl), and hydrogen (H). The total atom count and elemental composition are the same.",
+            "functional_group_comparison": "Molecule A and Molecule B share the same key functional groups: chlorophenyl, thiophene with an imine nitrogen, and aniline. The connectivity of functional groups and the molecular scaffold are the same, indicating these molecules are structural isomers.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC1C2Cc3ccc(N)cc3C1(C)CCN2",
+        "permutated": "C1NC2Cc3ccc(cc3C(C)(C2C)C1)N",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A SMILES string is 'CC1C2Cc3ccc(N)cc3C1(C)CCN2'. The structure consists of a cyclohexane ring fused with a piperidine ring and a benzene ring. It has an amino group attached to the benzene ring and two tert-butyl groups at the junctions of the rings. The molecule includes atoms: C (17), H (21 implicit), and N (1).",
+            "molecule_B_analysis": "Molecule B SMILES string is 'C1NC2Cc3ccc(cc3C(C)(C2C)C1)N'. The structure similarly consists of a cyclohexane, a piperidine, and a benzene ring. An amino group is attached to the benzene ring, and there are also two tert-butyl groups present at similar positions. The molecule includes atoms: C (17), H (21 implicit), and N (1).",
+            "atom_count_comparison": "Both Molecule A and Molecule B have the same atom types: C, H, and N, and in identical quantities: 17 Carbon atoms, 21 implicit Hydrogen atoms, and 1 Nitrogen atom each.",
+            "functional_group_comparison": "The functional groups and overall cyclic connectivity in both Molecule A and Molecule B are equivalent. Both have a benzene ring fused to a cyclohexane and a piperidine with a nitrogen, as well as identical tert-butyl substituents and an identical positioning of the amino group in the aromatic ring.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Nc1ccc(-c2nnc(NC(=O)Nc3ccc(Cl)c(Cl)c3)s2)cc1",
+        "permutated": "c1(c(Cl)cc(NC(Nc2nnc(s2)-c2ccc(N)cc2)=O)cc1)Cl",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "The SMILES string Nc1ccc(-c2nnc(NC(=O)Nc3ccc(Cl)c(Cl)c3)s2)cc1 represents a molecule consisting of: [1] A benzene ring with an amino (NH2) group at position 1. [2] An aryl hydrazine moiety (-c2nnc(NC(=O)...)s2) connected to the benzene ring at position 4. [3] A terminal aromatic ring substituted with two chlorine atoms, connected via an amide linkage (-NC(=O)Nc3ccc(Cl)c(Cl)c3). Overall connectivity forms a linear structure with linked aromatic features.",
+            "molecule_B_analysis": "The SMILES string c1(c(Cl)cc(NC(Nc2nnc(s2)-c2ccc(N)cc2)=O)cc1)Cl describes: [1] A benzene ring with chlorines at positions 1 and 3. [2] An attached amide linkage incorporating an aryl hydrazine moiety. [3] The order of connectivity follows: chlorine-benzene-aryl hydrazine-benzene with linked amino group. This connects back onto the benzene ring, forming structurally similar arrangements but distinct positional differences when compared linearly.",
+            "atom_count_comparison": "Both molecules have the same types and quantities of atoms: carbons, nitrogens, oxygens, hydrogens, sulfurs, and chlorines. They possess the same elemental composition: identical atom counts consisting of C15H11Cl2N5OS.",
+            "functional_group_comparison": "Both molecules contain similar functional groups: [1] Benzene rings, [2] Amino groups, [3] Aryl hydrazine moieties, [4] Amides with the functional connectivity similar but differently ordered spatial positioning. Despite similar components, the connectivity differs meaning the structures themselves are not identical.",
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C",
+        "permutated": "c1cc(NS(c2ccc(C(=O)Nc3c(n(C)n(c3=O)-c3ccccc3)C)cc2)(=O)=O)c(F)cc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has the structure of a sulfonamide group (S(=O)(=O)N) attached to a benzene ring, an amide (NC=O) connected to another benzene derivative, and a heterocyclic aromatic ring containing nitrogen. Overall, the molecule has carbon, hydrogen, nitrogen, sulfur, oxygen, and fluorine atoms.",
+            "molecule_B_analysis": "Molecule B features a sulfonamide group (S(=O)(=O)N) attached to a benzene ring. It also contains an amide group (C=O) connected to a heterocyclic aromatic nitrogen-containing ring, similar to Molecule A, with an additional methylene group (C) linked with a secondary benzene ring containing a fluoro substituent.",
+            "atom_count_comparison": "Both molecules contain the same types and counts of atoms: C, H, N, O, S, and F. Molecule A and B have 21 carbons, 19 hydrogens, 5 nitrogens, 4 oxygens, 1 sulfur, and 1 fluorine atom.",
+            "functional_group_comparison": "Molecule A and Molecule B have the same functional groups: amide, sulfonamide, and aromatic rings. The connectivity of the functional groups is identical, indicating that both molecules share the same structure under different SMILES notations.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)CC(N1CCOCC1)C2",
+        "permutated": "COc1c(cc2c(CC(N3CCOCC3)C2)c1)OC",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A's SMILES representation is COc1cc2c(cc1OC)CC(N1CCOCC1)C2. This consists of a benzene ring with two methoxy (OC) groups attached to it. The benzene ring also has a bicyclic linkage to a piperidine (N1CCOCC1) group. The connectivity follows as the methoxy group is para to the bicyclic linkage and ortho to each other.",
+            "molecule_B_analysis": "Molecule B's SMILES representation is COc1c(cc2c(CC(N3CCOCC3)C2)c1)OC. Here, the structure embodies a benzene ring with two methoxy (OC) groups. These methoxy groups are in para positions relative to the bicyclic linkage to a piperidine group. The connectivity describes a similar pattern, where methoxy groups are para and ortho to each other, with same bicyclic linkage.",
+            "atom_count_comparison": "Both molecules have identical atoms: carbon (C), hydrogen (H), nitrogen (N), and oxygen (O). The quantities are equal, indicating the atom count is identical between molecule A and molecule B.",
+            "functional_group_comparison": "Both molecules possess identical functional groups: two methoxy groups, an aromatic benzene ring, and a bicyclic piperidine linkage. The positional connectivity of these groups is identical, resulting in equivalent structures.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1c(F)ccc(C(=O)Nc2cc(C(=O)O)ccc2N2CCN(C)CC2)c1Cl",
+        "permutated": "c1(cc(ccc1N1CCN(C)CC1)C(O)=O)NC(=O)c1ccc(c(c1Cl)C)F",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a benzene ring with a chloro (Cl) and fluorine (F) substituent, and an amide linkage (C(=O)N) to another benzene ring with a carboxylic acid group (C(=O)O). There's also a piperazine-like structure (N2CCN(C)CC2) attached.",
+            "molecule_B_analysis": "Molecule B has a benzene ring with a chloro (Cl) and fluorine (F) substituent, and an amide linkage (C(=O)N) to another benzene ring with a carboxylic acid group (C(=O)O). There's also a piperazine-like structure (N1CCN(C)CC1) attached.",
+            "atom_count_comparison": "Both molecules A and B contain the same types and numbers of atoms: carbon (C), hydrogen (H), oxygen (O), nitrogen (N), chlorine (Cl), and fluorine (F).",
+            "functional_group_comparison": "Both molecules structure-wise seem to contain the same functional groups - a fluorobenzene and chlorobenzene moiety, an amide linkage, carboxylic acid group, and a piperazine ring. The connectivity of atoms and arrangement of groups looks the same when molecule B is adjusted for equivalent structure delineation.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1",
+        "permutated": "c1c(cc2c(c1NCc1ccccc1)ncn2C(C)C)OC(CC)CO",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A SMILES: CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1. The structure is composed of a linear chain with alcohol group (CO) attached, ether linkage (O), aromatic ring (c1cc), side chain (NCc2ccccc2), triazole ring (ncn), and isopropyl group (C(C)C).",
+            "molecule_B_analysis": "Molecule B SMILES: c1c(cc2c(c1NCc1ccccc1)ncn2C(C)C)OC(CC)CO. The analysis reveals an aromatic ring system with amino side chain (NCc1ccccc1), triazole (ncn), isopropyl group (C(C)C), ether linkage (O), a linear carbon chain with alcohol group (CO).",
+            "atom_count_comparison": "Both Molecule A and Molecule B have identical atom types and quantities: same chain length, ring structures, and substitutions including O, N, C, and H.",
+            "functional_group_comparison": "The functional groups such as alcohol, ether, and the aromatic as well as triazole systems are present and connected identically in both molecules. The overall structures and connectivity match perfectly.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCOC(=O)CC(NC(=O)C1CCCN1)C1OC2OC(C)(C)OC2C1OC",
+        "permutated": "C1(C(NC(C2CCCN2)=O)CC(OCC)=O)OC2OC(OC2C1OC)(C)C",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a molecular structure comprising ethyl ester (CCOC(=O)), an amide linkage (NC(=O)), a piperidine ring (C1CCCN1), and a bicyclic acetal moiety (C1OC2OC(C)(C)OC2C1OC). The atoms in molecule A likely include carbon (C), hydrogen (H), nitrogen (N), and oxygen (O).",
+            "molecule_B_analysis": "Molecule B includes a similar set of structures with ethyl ester (OCC), an amide linkage (NC(C2CCCN2)=O), a piperidine ring (C2CCCN2), and a bicyclic acetal moiety (C1OC2OC(OC2C1OC)(C)C). The atoms present should include carbon (C), hydrogen (H), nitrogen (N), and oxygen (O).",
+            "atom_count_comparison": "Initially, both molecules seem to contain the same types of atoms (C, H, N, and O). However, an exact count should be performed to ensure identical quantities of each atom.",
+            "functional_group_comparison": "The functional groups and connectivity in molecules A and B appear to mismatch at first glance.However, they show functionality and structure indicating similar functional features like esters, amides, and acetal groups within bicyclic rings, suggesting they could be the same compound represented with different SMILES conventions.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(N3CCN(C(=O)Nc4ccccn4)CC3)c2cc1OC",
+        "permutated": "c1(NC(=O)N2CCN(CC2)c2ncnc3c2cc(c(c3)OC)OC)ncccc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "For Molecule A, the SMILES string COc1cc2ncnc(N3CCN(C(=O)Nc4ccccn4)CC3)c2cc1OC represents a structure containing 22 carbon atoms, 19 hydrogen atoms, 4 nitrogen atoms, 5 oxygen atoms. Key functional groups include two methoxy groups (OC) attached to phenyl rings, an amide linkage (C(=O)N), and a pyrimidine ring system (c2ncnc3). The connectivity includes a central heterocyclic framework with pendant amino and methoxy functional groups.",
+            "molecule_B_analysis": "For Molecule B, the SMILES string c1(NC(=O)N2CCN(CC2)c2ncnc3c2cc(c(c3)OC)OC)ncccc1 also represents a structure with 22 carbon atoms, 19 hydrogen atoms, 4 nitrogen atoms, 5 oxygen atoms. Key functional groups are similar, including the amide linkage (C(=O)N), two methoxy groups (OC) on a benzene ring, and pyrimidine-like heterocyclic attachments. Connectivity mirrors Molecule A with minor differences in presentation but identical attachment patterns of the functional groups.",
+            "atom_count_comparison": "Both molecules have identical counts and types of atoms: 22 carbons, 19 hydrogens, 4 nitrogens, and 5 oxygens. This indicates potential structural similarity.",
+            "functional_group_comparison": "The functional groups and connectivity in both molecules are structurally equivalent. Both possess methoxy groups attached to aromatic rings, N-linked pyrimidine systems, and extended amide linkages. Molecules are classified as identical despite variance in SMILES presentation.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C(C)CN1",
+        "permutated": "CC1NCC(N(c2c(F)c(N)c3c(=O)c(cn(C4CC4)c3c2F)C(O)=O)C1)C",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A, SMILES: CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C(C)CN1. This molecule appears to contain two cyclic structures fused together. Counting atoms and functional groups: 2 carbon rings, several aromatic carbon atoms, fluorine, amine, and carboxylic acid groups are present. The connectivity indicates that the carboxylic acid is directly connected to an aromatic ring which is also connected to an amine and fluorine atom.\",\n    \"molecule_B_analysis\": \"Molecule B, SMILES: CC1NCC(N(c2c(F)c(N)c3c(=O)c(cn(C4CC4)c3c2F)C(O)=O)C1)C. This molecule has connectivity suggesting similar fused cyclic structure with aromatic rings, fluorine, amine, and carboxylic acid groups. Similar atom presence: carbon, nitrogen, oxygen, and fluorine. Also, the carboxylic acid is connected in a similar manner to an aromatic ring with amine and fluorine groups, but the connections around nitrogen atoms in aliphatic positions may vary.\",\n    \"atom_count_comparison\": \"Both molecules seem to have equivalent numbers and types of each atom based on available data. Carbon, nitrogen, oxygen, and fluorine counts appear identical. Detailed configuration in aliphatic chain may need close revalidation.\",\n    \"functional_group_comparison\": \"While overall functional groups such as the aromatic rings, fluorine, amine, and carboxylic acid are present in both molecules, the specific connectivity pattern might be different. Details in nitrogen atom connections within aliphatic rings suggest potential non-equivalence.\",\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "permutated": "c1c(c(NS(=O)(=O)C)ccc1C(C)C(NCc1ccc(C(F)(F)F)nc1OCc1ccc(cc1)F)=O)F",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A contains carbon (C), hydrogen (H), nitrogen (N), fluorine (F), oxygen (O), and sulfur (S) atoms. Important groups: tert-butyl group (CC(C), amide linkage (C(=O)NC), trifluoromethyl group (C(F)(F)F), ether linkage (c1OCc1), and sulfonamide group (NS(C)(=O)=O). The connectivity suggests a central ring with multiple substituents, including aromatic rings and functional groups.\",\n    \"molecule_B_analysis\": \"Molecule B contains the same types of atoms: C, H, N, F, O, and S. Important groups: aromatic ring, sulfonamide group (NS(=O)(=O)C), tert-butyl group (C(C)), amide linkage (C(NCc)), trifluoromethyl group (C(F)(F)F), and an ether linkage. The structure also suggests a central aromatic ring with various functional substituents connecting multiple rings.\",\n    \"atom_count_comparison\": \"Both molecules comprise identical atom types and quantities: carbon, hydrogen, nitrogen, fluorine, oxygen, and sulfur atoms. The allocation within functional groups based on SMILES appears balanced.\",\n    \"functional_group_comparison\": \"The functional group analysis shows that both Molecule A and Molecule B possess the same functional group types, such as amide linkage, sulfonamide group, ether linkage, and trifluoromethyl group, located within aromatic rings. The structure connectivity, with tert-butyl branches from central rings, confirms equivalence.\",\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccccc1",
+        "permutated": "c1(C(O)CN2C3CCC2CC(C3)c2ccccc2)ccccc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A contains an alcohol functional group (OC), a nitrogen with an alkyl chain connected to two aromatic rings. The main structure includes an aromatic phenyl group and a piperidine ring fused with a cyclopentane to form a bicyclo structure.",
+            "molecule_B_analysis": "Molecule B contains an alcohol functional group (O), a tertiary amine with an alkyl chain connected to two aromatic rings. The structure includes a phenyl group and a bicyclo structure similar to A with a piperidine and a cyclopentane.",
+            "atom_count_comparison": "Both molecules contain the same types and numbers of atoms: carbon, hydrogen, nitrogen, and oxygen.",
+            "functional_group_comparison": "Both molecules consist of an alcohol group and a tertiary amine with similar bicyclo frameworks and aromatic rings. They display identical functional group connectivity and structural properties.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(Oc1ccccc1C(=O)Oc1ccccc1)c1cccnc1",
+        "permutated": "n1cc(C(=O)Oc2ccccc2C(=O)Oc2ccccc2)ccc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a total of 26 atoms consisting of 21 Carbon (C), 14 Hydrogen (H), 4 Oxygen (O), and 1 Nitrogen (N) atoms. It features two benzene rings, ester linkages (C(=O)O), and a pyridine ring as a functional group. The connectivity shows the esters are separated by a pyridine ring.",
+            "molecule_B_analysis": "Molecule B also has a total of 26 atoms consisting of 21 Carbon (C), 22 Hydrogen (H), 4 Oxygen (O), and 1 Nitrogen (N) atoms. It includes two benzene rings, ester linkages (C(=O)O), and a pyridine ring. The order and connectivity of these groups are identical but flipped in the written structure.",
+            "atom_count_comparison": "The types and quantities of atoms in Molecule A and Molecule B are identical. Both have the same number of each type of atom.",
+            "functional_group_comparison": "The functional groups in Molecule A and Molecule B match exactly. Both possess the same arrangements of benzene rings, ester linkages, and a pyridine ring in similar positions, implying the overall structure is equivalent despite being written in different orders.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=S(=O)(NCCCCCO)c1ccc(-c2ccc(O)cc2)cc1",
+        "permutated": "O=S(NCCCCCO)(c1ccc(-c2ccc(cc2)O)cc1)=O",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a sulfur atom doubly bonded to two oxygen atoms and singly bonded to an oxygen atom, forming a sulfonamide group. It's also bonded to a benzene ring, which is para-substituted with another benzene ring that has a hydroxyl group. There is also a straight chain of five carbon atoms (pentyl group) attached to a nitrogen atom.",
+            "molecule_B_analysis": "Molecule B has a similar structure with a sulfur atom doubly bonded to one oxygen and singly bonded to another oxygen, also forming a sulfonamide group. It's also connected to a benzene ring with similar para-substitution and the same hydroxyl group in the second benzene ring. An identical pentyl group is attached.",
+            "atom_count_comparison": "Both molecules contain the same types and quantities of atoms: sulfur, oxygen, nitrogen, carbon, and hydrogen.",
+            "functional_group_comparison": "Both molecules contain equivalent functional groups: sulfonamide group, two connected benzene rings, and a hydroxyl group on the second ring. Functional groups are connected identically and present in the same structural context.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=c1cc(-c2ccccc2Cl)oc2c1ccc1ccccc12",
+        "permutated": "c1(-c2c(Cl)cccc2)cc(=O)c2c(c3c(cc2)cccc3)o1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A: O=c1cc(-c2ccccc2Cl)oc2c1ccc1ccccc12. It contains an oxygen atom double bonded to a carbon (carbonyl group), connected to aromatic benzene rings and a chlorine atom substituted in one benzene ring. The structure includes fused benzene rings indicative of a naphthalene derivative.",
+            "molecule_B_analysis": "Molecule B: c1(-c2c(Cl)cccc2)cc(=O)c2c(c3c(cc2)cccc3)o1. It also contains an oxygen atom double bonded to a carbon (carbonyl group), attached to a series of aromatic benzene rings and a chlorine atom substituted in one benzene ring. Similarly, it reflects a structure of fused benzene rings consistent with naphthalene.",
+            "atom_count_comparison": "Both SMILES strings indicate the presence of the same types and quantities of atoms - primarily carbon, hydrogen (implicit), oxygen, and chlorine. Molecule A and B both describe structures with similar atom count including these elements.",
+            "functional_group_comparison": "Both molecules feature functional groups such as a carbonyl group and include the same connectivity patterns with fused benzene ring structures, along with a chlorine-substituted benzene. The aromatic systems appear to be equivalent in both molecules.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "NC(=O)OC(CCN1CCN(c2ccc([N+](=O)[O-])cc2)CC1)c1ccccc1",
+        "permutated": "c1ccccc1C(CCN1CCN(c2ccc(cc2)[N+]([O-])=O)CC1)OC(=O)N",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has an amide group (NC(=O)), an ester linkage (OC), a phenyl ring (c1ccccc1), and a piperazine-like structure (N1CCN(CC1)). Furthermore, molecule A contains a nitro group attached to an aromatic ring ([N+](=O)[O-]).",
+            "molecule_B_analysis": "Molecule B also contains an amide group (C(=O)N), an ester linkage (OC), a phenyl ring (c1ccccc1), and a piperazine-like structure (N1CCN(CC1)). The nitro group is again attached to an aromatic ring ([N+]([O-])=O) in molecule B.",
+            "atom_count_comparison": "Both molecules have the same types and quantities of atoms: they each consist of carbon, hydrogen, nitrogen, and oxygen in consistent amounts.",
+            "functional_group_comparison": "Both molecules have identical functional groups and structures: an amide group, an ester linkage, a phenyl ring, a piperazine ring system, and a nitro group attached to the aromatic ring. The variations in the SMILES merely reflect alternative linear representations of the same molecular structure.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C1NC(=O)C(=Cc2ccc(-c3cccc([N+](=O)[O-])c3)o2)S1",
+        "permutated": "C1(SC(NC1=O)=O)=Cc1oc(-c2cccc([N+]([O-])=O)c2)cc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a SMILES string that indicates the presence of atoms: carbon (C), nitrogen (N), oxygen (O), and sulfur (S). It includes functional groups such as a carbonyl group (O=C), amide (NC=O), and a nitro group ([N+](=O)[O-]). The structure features a cyclic compound with a heterocyclic ring containing sulfur (thiophene ring) and benzene ring connectivity with a nitro group substitution.",
+            "molecule_B_analysis": "Molecule B's SMILES also indicates atoms: carbon (C), nitrogen (N), oxygen (O), and sulfur (S). It has functional groups like a carbonyl group (O=C), amide (NC=O), and nitro group ([N+]([O-])=O). The structure is a heterocyclic ring containing sulfur (thiophene ring) connected with a benzene ring, substituting with a nitro group in similar positions.",
+            "atom_count_comparison": "Both molecules contain the same types and quantities of atoms: carbon (C), nitrogen (N), oxygen (O), and sulfur (S) with similar distribution along their respective structures.",
+            "functional_group_comparison": "Both molecules possess equivalent functional groups: a carbonyl group, an amide, and a nitro group, and their connectivity supports the same cyclic structure involving thiophene and benzene rings.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21",
+        "permutated": "c1cccc2c1nc(s2)-c1c(N)n(CCCN(C)C)c2c1nc(C#N)c(n2)C#N",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A SMILES CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21 includes 25 carbon atoms, several nitrogen atoms, as well as other typical constituents such as hydrogens. It has specific functional groups such as the cyano group (C#N) and pyrimidine rings. Connectivity involves carbon and nitrogen atoms forming aromatic and heterocyclic systems with sulfur linkage.",
+            "molecule_B_analysis": "Molecule B SMILES c1cccc2c1nc(s2)-c1c(N)n(CCCN(C)C)c2c1nc(C#N)c(n2)C#N also has 25 carbon atoms, and contains nitrogen atoms similar to molecule A. This molecule also has cyano groups and heteroaromatic rings, like pyrimidines, indicating a similar structure type with sulfur linkage.",
+            "atom_count_comparison": "The atom types and quantities (C, N, S, and H implicitly) in both Molecule A and B match each other. Both molecules involve 25 carbon atoms and accompanying nitrogen and sulfur atoms, suggesting a potential structural equivalence at the atomic level.",
+            "functional_group_comparison": "Molecule A and B both contain pyrimidine and cyano groups, among other aromatic systems and feature similar connectivity patterns including the carbon-nitrogen aromatic frameworks. However, they have the same functional group arrangement in terms of connectivity and group positioning relative to aromatic systems, revealing that they are the same molecule but drawn in different rotational conformations.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "permutated": "O=C(OCCN1CCC(C(=O)N)CC1)c1c(OC)cc(c(c1)Cl)N",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a methoxy group (CO), a benzene ring with a methoxy group, amino group (NH2), and chloro group attached, connected to the rest of the molecule by an ester linkage to a piperidine ring. The structure is comprised of 21 carbon atoms, 25 hydrogen atoms, 1 nitrogen atom, 4 oxygen atoms, and 1 chlorine atom, forming an aromatic amide ester with functional groups including an ester and amide.",
+            "molecule_B_analysis": "Molecule B has a benzene ring similarly substituted with a methoxy group, an amino group, and a chloro group, also linked by an ester to a piperidine ring (secondary amide). Atomically, it includes 21 carbon atoms, 25 hydrogen atoms, 1 nitrogen atom, 4 oxygen atoms, and 1 chlorine atom, forming an aromatic amide ester with overlapping functional groups such as ester and amide, similar to Molecule A.",
+            "atom_count_comparison": "Both molecules have the exact same count of atoms: 21 carbon atoms, 25 hydrogen atoms, 1 nitrogen atom, 4 oxygen atoms, and 1 chlorine atom. No discrepancy in elemental composition.",
+            "functional_group_comparison": "Both molecules have identical functional groups including methoxy, amine, chloride, ester, and amide integrated into the same overarching structure, with aromatic substitutions being present in identical locations. These structural comparisons affirm the molecules\u2019 isomorphism, confirming the same functional group connectivity.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12",
+        "permutated": "c1(c(c2c(cccc2)n1Cc1ccccc1)SC)CC(Nc1ccc(F)cc1)=O",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A SMILES: CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12. It contains: 4 aromatic rings, an amide functional group, a thioether, and a fluorophenyl. Atom counts: 16 carbons (C), 1 sulfur (S), 1 oxygen (O), and 1 nitrogen (N). The connectivity starts with a thioether group connected to an aromatic ring with an amide group attached.",
+            "molecule_B_analysis": "Molecule B SMILES: c1(c(c2c(cccc2)n1Cc1ccccc1)SC)CC(Nc1ccc(F)cc1)=O. It contains: 4 aromatic rings, an amide functional group, a thioether, and a fluorophenyl identical to Molecule A. Atom counts: 16 carbons (C), 1 sulfur (S), 1 oxygen (O), and 1 nitrogen (N). The connectivity shows a thioether group followed by an aromatic nitrogen-containing ring structure iteratively identical to molecule A.",
+            "atom_count_comparison": "Both Molecule A and Molecule B have identical atom counts and types: 16 carbons, 1 sulfur, 1 oxygen, and 1 nitrogen.",
+            "functional_group_comparison": "Both Molecules have identical functional groups and structural features: an aromatic thioether linkage, an amide functional group, and a fluorophenyl group in similar connectivity patterns.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cccc(C(=O)OCC(C)C2CCC3C(O)CCCC23C)c1",
+        "permutated": "C1(C(COC(c2cc(ccc2)OC)=O)C)C2(C)CCCC(O)C2CC1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A SMILES string is COc1cccc(C(=O)OCC(C)C2CCC3C(O)CCCC23C)c1. The structure shows a benzene ring with an attached methoxy group (OCH3), and a side chain containing a cyclopentanone joined by an ester linkage. There is also one cyclopropane fused to a cyclopentane ring where the hydroxyl group is connected adjacent in the structure.\",\n    \"molecule_B_analysis\": \"Molecule B SMILES string is C1(C(COC(c2cc(ccc2)OC)=O)C)C2(C)CCCC(O)C2CC1. This structure has a benzene ring with a methoxy group, similar to molecule A, and an ester linkage connecting to the cyclopentanone ring. It contains the ring structure that is a cyclopropyl fused to cyclopentane along with a hydroxyl group.\",\n    \"atom_count_comparison\": \"Both Molecules share the same number and type of atoms: Carbon (C), Oxygen (O), and Hydrogen (H). Specifically, each contains identical atom counts for their respective functional groups and ring structures.\",\n    \"functional_group_comparison\": \"Molecule A and Molecule B both possess a methoxy group attached to the benzene ring, cyclopentane and cyclopropane rings with a hydroxyl group. Overall, they contain identical ester linkages and aromatic substituents, verifying equivalent functional group connectivity.\",\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OCc1ccc(C)cc1",
+        "permutated": "c1(c(cc(cc1OC)Cc1c(N)nc(nc1)N)OC)OCc1ccc(cc1)C",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has the SMILES string COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OCc1ccc(C)cc1. This structure consists of a methoxy group (OC), connected to a phenyl ring (c1cc...cc1), which branches out to another phenyl ring via an alkyl chain with a guanine moiety (Cc2cnc(N)nc2N). Terminal methoxy groups are attached to the phenyl ring, and there is an additional phenyl ring with a methyl group (Cc1ccc(C)cc1).",
+            "molecule_B_analysis": "Molecule B has the SMILES string c1(c(cc(cc1OC)Cc1c(N)nc(nc1)N)OC)OCc1ccc(cc1)C. It has a similar structure with a central phenyl ring that has methoxy (OC) and alkyl linkages (Cc1c(N)nc...nc1N) to a guanine moiety. It also extends to a terminal phenyl group with a methyl group attached (C).",
+            "atom_count_comparison": "Upon examination, both molecules have compositions that include methoxy groups, phenyl rings, a guanine moiety, and are linked by alkyl chains. Atomically, they have identical counts and types of atoms.",
+            "functional_group_comparison": "Both molecules exhibit similar functional grouping and overall structures. They both have phenyl rings substituted with methoxy groups, and a guanine connected through a methylene bridge. The terminal ends also share the methoxy and phenyl-methyl motifs without alternate connections.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Nc1ccnc(Nc2ccc(Oc3ccc(Cl)cc3)cc2)c1",
+        "permutated": "c1nc(cc(c1)N)Nc1ccc(Oc2ccc(Cl)cc2)cc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a SMILES string of 'Nc1ccnc(Nc2ccc(Oc3ccc(Cl)cc3)cc2)c1'. It contains two aromatic rings and a chlorine (Cl) substituent connected through an ether linkage. The atom count includes: nitrogen (N), carbon (C), hydrogen (H) are implicit based on hydrogen additions to satisfy valence, and the chlorine (Cl).",
+            "molecule_B_analysis": "Molecule B has a SMILES string of 'c1nc(cc(c1)N)Nc1ccc(Oc2ccc(Cl)cc2)cc1'. It also presents two aromatic rings and a chlorine (Cl) substituent connected by the ether linkage. The atom count, including nitrogen (N), carbon (C), hydrogen (H), and chlorine (Cl), is consistent with implicit hydrogens.",
+            "atom_count_comparison": "Both molecules have the same types and quantities of atoms: they contain nitrogen, carbon, chlorine, and hydrogen (implicit).",
+            "functional_group_comparison": "Molecule A and Molecule B have equivalent functional groups and connectivity: aromatic rings and an ether linkage connecting to a chlorine substituted aromatic ring. The order of atoms in the SMILES strings is different, but the connectivity renders the same molecular structure.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CSc1nc2ccc3nc(NC(=O)c4ccco4)sc3c2s1",
+        "permutated": "n1c2c(sc1SC)c1c(cc2)nc(s1)NC(=O)c1ccco1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A is analyzed as having an atom count with specific attention to five-membered and six-membered rings involving sulfur and nitrogen atoms, constituting benzothiazole derivatives. This compound includes an aryl amide linkage featuring a furan substituent at one terminal.",
+            "molecule_B_analysis": "Molecule B shows a similar structural arrangement with atom count analysis confirming presence of aromatically conjugated systems and heteroatoms consistent with benzothiazole derivatives. It also includes an amide linkage with terminal furan substituent, analogous in connectivity to Molecule A.",
+            "atom_count_comparison": "Upon comparing the atom counts for Molecules A and B, both reveal identical atom quantities and types in respective rings and linkages, including nitrogen, sulfur, carbon, oxygen, and hydrogen.",
+            "functional_group_comparison": "Each molecule demonstrates equivalent functional group arrangements with a consistent benzothiazole core and comparable aryl amide linkages. Preserving structural integrity, both possess a terminal furan moiety and share in sequence of connectivity between atoms.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(N(C)c3ccc(F)c(Cl)c3)c2cc1OC",
+        "permutated": "Clc1c(F)ccc(c1)N(c1ncnc2cc(OC)c(cc12)OC)C",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has the SMILES string COc1cc2ncnc(N(C)c3ccc(F)c(Cl)c3)c2cc1OC. It consists of two methoxy groups (CO), aromatic rings, a fluorine atom (F), a chlorine atom (Cl), and a nitrogen-containing heterocycle. There is a connectivity involving an n-cyclic structure and a methoxy group attached to two aromatic rings. The molecule contains 21 carbon atoms, potentially 2 oxygen atoms from methoxy groups, 1 nitrogen attached to a heterocyclic core, 1 fluorine (F), and 1 chlorine (Cl).",
+            "molecule_B_analysis": "Molecule B has the SMILES string Clc1c(F)ccc(c1)N(c1ncnc2cc(OC)c(cc12)OC)C. This also contains two methoxy groups (OC), aromatics, a fluorine atom (F), a chlorine atom (Cl), and nitrogen heterocycle. Connectivity of a benzene ring with a nitrogen attached to a heterocyclic core and methoxy substitution at connected aromatic rings match. This molecule also contains 21 carbon atoms, potentially 2 oxygen atoms, 1 nitrogen atom, 1 fluorine (F), and 1 chlorine (Cl) atom.",
+            "atom_count_comparison": "Both molecules have identical atom types and counts: 21 carbons, 2 oxygens, 1 nitrogen, 1 fluorine (F), and 1 chlorine (Cl).",
+            "functional_group_comparison": "Both molecules contain methoxy groups, a nitrogen-containing heterocycle, and aromatic rings substituted with fluorine and chlorine atoms. Their structural connectivity pattern in the SMILES indicates they represent equivalent molecular structures.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(Nc1cccc(CN2CCOC2=O)c1)C(=O)NC(N)=O",
+        "permutated": "O=C(N)NC(C(C)Nc1cc(ccc1)CN1CCOC1=O)=O",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has an atom count of: carbons (C) = 14, hydrogens (H) = 19, nitrogens (N) = 3, oxygens (O) = 3. It contains an amide group (C(=O)N), a secondary amine (Nc), an aromatic ring (c1ccccc1), and a morpholine group (CN2CCOC2=O). Functional groups are connected such that the amide group links to a secondary amine and an aromatic system.",
+            "molecule_B_analysis": "Molecule B has an atom count of: carbons (C) = 14, hydrogens (H) = 19, nitrogens (N) = 3, oxygens (O) = 3. It consists of an amide group (NC(=O)), a secondary amine (Nc), an aromatic ring (c1ccccc1) and a morpholine group (CN1CCOC1=O). Functional groups are connected similar to Molecule A, with the amide linked to the amine and aromatic ring.",
+            "atom_count_comparison": "Both molecules have identical atom counts with carbon, hydrogen, nitrogen, and oxygen atoms present in equal quantities: C=14, H=19, N=3, O=3.",
+            "functional_group_comparison": "Both molecules contain the same types of functional groups: amide, secondary amine, aromatic ring, and morpholine group, and have these groups connected in the same structural manner.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(CSc1cccc[n+]1[O-])Nc1ccccc1Oc1ccccc1",
+        "permutated": "c1ccc[n+](c1SCC(Nc1c(cccc1)Oc1ccccc1)=O)[O-]",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A has the SMILES string O=C(CSc1cccc[n+]1[O-])Nc1ccccc1Oc1ccccc1. It contains a ketone functional group with the structure O=C, a thioether group with a sulfur atom connected to a pyridinyl ring that contains both a nitrogen atom and an oxygen atom in the form of an aromatic heterocycle. Additionally, there is an amide group Nc1ccccc1 connected to a phenyl ether Oc1ccccc1. The connectivity shows a similar structure on both ends with aromatic rings attached to the central chain.\",\n    \"molecule_B_analysis\": \"Molecule B has the SMILES string c1ccc[n+](c1SCC(Nc1c(cccc1)Oc1ccccc1)=O)[O-]. It contains a pyridinyl ring with a nitrogen atom and oxygen atom forming an aromatic heterocycle directly followed by a sulfur atom connected to the chain containing a ketone group in the form C=O and connected to a phenyl ether Oc1ccccc1. Like Molecule A, this structure also shows aromatic rings attached to the central chain.\",\n    \"atom_count_comparison\": \"Both Molecule A and Molecule B have identical types and quantities of atoms: they contain the same number of carbon, hydrogen (implied), oxygen, nitrogen, and sulfur atoms distributed across the rings and chains.\",\n    \"functional_group_comparison\": \"The functional groups - ketone, thioether, heterocyclic aromatic structure, amide, and ether - in both molecules are equivalent. The connectivity and arrangement of these groups is equivalent in both Molecule A and Molecule B.\",\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(NCCCN1CCOCC1)c1ccc2c(=O)n(Cc3ccc(Cl)cc3)c(=O)[nH]c2c1",
+        "permutated": "c1c(C(=O)NCCCN2CCOCC2)ccc2c(=O)n(c(=O)[nH]c21)Cc1ccc(Cl)cc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A: The SMILES string represents a complex organic structure. The key components are: an amide linkage (O=C(N)), followed by a propionic chain (CCCN), connected to a morpholine ring (N1CCOCC1). There is also an aromatic system comprising two fused benzene rings (c1ccc2), with substitution patterns involving carbonyl groups and an attached chloro-substituted benzene (Cc3ccc(Cl)cc3). The molecule has the following atom count: several carbon (C), hydrogen (H), nitrogen (N), oxygen (O), and chlorine (Cl) atoms. Functional groups present include: amide, ether, and chlorine-substituted aromatic ring. Connectivity follows a specific pattern as described above.",
+            "molecule_B_analysis": "Molecule B: This SMILES string structures a similar compound to Molecule A. It also contains an amide linkage (C(=O)N), linked through a chain (CCCN) to a morpholine ring (N2CCOCC2). The aromatic system includes fused benzene rings (c1ccc2), having substitutions with carbonyl groups and a chloro-substituted benzene ring (Cc1ccc(Cl)cc1). Atom count must include comparable quantities of C, H, N, O, and Cl atoms as in Molecule A. Functional groups: amide, ether, and chlorine-substituted aromatic ring are present as well. Connectivity appears largely similar to that of Molecule A.",
+            "atom_count_comparison": "Upon breaking down both SMILES strings, both molecules comprise the same number of each type of atom: carbon (C), hydrogen (H), nitrogen (N), oxygen (O), and chlorine (Cl). Therefore, they are identical in atom count.",
+            "functional_group_comparison": "Comparing the functional groups and overall structures, both molecules display the same functional groups (amide link, morpholine ether ring, chloro-substituted aromatic rings) with identical connectivity: both form the same structural form and substance despite any variation in SMILES linear representation. Therefore, the molecules are equivalent.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Fc1ccc(-c2nc3cc[nH]cc-3n2)cc1",
+        "permutated": "c1[nH]ccc2-c1nc(n2)-c1ccc(cc1)F",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A (Fc1ccc(-c2nc3cc[nH]cc-3n2)cc1) analysis: It contains a benzene ring with a fluorine atom attached, and a heterocyclic structure where two nitrogen atoms and a pyridine ring feature. The atom count includes carbon, hydrogen, nitrogen, and fluorine. The connectivity forms an aromatic system with both benzene and pyrrole-like characteristics due to the [nH] group.",
+            "molecule_B_analysis": "Molecule B (c1[nH]ccc2-c1nc(n2)-c1ccc(cc1)F) analysis: It features a benzene ring with a fluorine atom and consists of a pyrrole ring structure and adjacent nitrogen atoms forming an aromatic system. Atom count is consistent with carbon, hydrogen, nitrogen, and fluorine elements. It's an aromatic compound with pyridine characteristics.",
+            "atom_count_comparison": "Both Molecule A and Molecule B contain identical types and quantities of atoms consisting of carbon, hydrogen, nitrogen, and fluorine, suggesting possible equivalency in elemental composition.",
+            "functional_group_comparison": "Both molecules feature similar functional groups, including aromatic benzene rings, nitrogen-containing heterocycles, and fluorine attachments. The connectivity of nitrogen atoms forms equivalent pyridine-like structures, indicating structural equivalency.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COC(=O)CSc1nc(-c2ccc(F)cc2)c(-c2ccncc2)[nH]1",
+        "permutated": "c1(-c2ccncc2)c(nc([nH]1)SCC(OC)=O)-c1ccc(cc1)F",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A SMILES: COC(=O)CSc1nc(-c2ccc(F)cc2)c(-c2ccncc2)[nH]1. Structure analysis: Molecule A consists of an ester group (COC(=O)), a thioether group (C-S), a fluorobenzene ring (c2ccc(F)cc2), and a pyridine ring (c2ccncc2). The central core is a heteroaromatic ring with an amine linkage ([nH]1) and attached phenyl and pyridine rings.",
+            "molecule_B_analysis": "Molecule B SMILES: c1(-c2ccncc2)c(nc([nH]1)SCC(OC)=O)-c1ccc(cc1)F. Structure analysis: Molecule B has a similar structure with an ester group (OC(=O)), a thioether linkage (S-C), a fluorobenzene ring (c1ccc(cc1)F), and a pyridine ring (c2ccncc2). The structure also highlights a heteroaromatic core with an amine ([nH]1) linkage having attached phenyl and pyridine rings.",
+            "atom_count_comparison": "Molecule A and Molecule B have the same types of atoms involved (C, H, N, F, S, O) and their quantities are identical, considering the provided SMILES - both contain one ester, one thioether linkage, one fluorine, one nitrogen in the aromatic amine, consistent aromatic rings.",
+            "functional_group_comparison": "Both molecules have identical functional groups: ester link, thioether bond, fluorobenzene, and pyridine, and they possess identical connectivity and heteroaromatic structure arrangements as suggested by SMILES comparison, indicating they are structurally identical.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1oc(=O)oc1COC(=O)C(C)(C)Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1",
+        "permutated": "c1c(ccc(c1)Cl)C(=O)c1ccc(OC(C(OCc2c(C)oc(o2)=O)=O)(C)C)cc1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A has the following structure: It is an aromatic compound with two aromatic rings connected by various functional groups. It contains chlorine, ester, and ketone functional groups. The connectivity involves an aromatic ring with a ketone group linking to another aromatic ring, which contains chlorine, through an ester linkage.\",\n    \"molecule_B_analysis\": \"Molecule B has the following structure: It is also an aromatic compound, featuring two aromatic rings, ester, and ketone functional groups, including chlorine on one of the aromatic rings. The connectivity is similar, where an aromatic ring with an ester group links to another aromatic ring, having ketone functionality.\",\n    \"atom_count_comparison\": \"Both molecules contain the same types of atoms: carbon, hydrogen, oxygen, and chlorine. The overall count of each type of atom should be verified by parsing the SMILES strings for the same number of each atom type.\",\n    \"functional_group_comparison\": \"Both Molecule A and Molecule B have similar functional groups: aromatic rings, ester, and ketone functionalities, with chlorine attached to one of the aromatic rings. The placement of functional groups in relation to the aromatic rings appears identical.\",\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2ncnc(NC(C)C)c2cc1OC",
+        "permutated": "c12cc(OC)c(OC)cc2c(NC(C)C)ncn1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A SMILES string: COc1cc2ncnc(NC(C)C)c2cc1OC. The structure includes methoxy groups (OC) on a benzene ring and a pyrimidine group with a branched chain amine group (NC(C)C). Total atoms: C - 15, O - 2, N - 2, H - 18.\",\n    \"molecule_B_analysis\": \"Molecule B SMILES string: c12cc(OC)c(OC)cc2c(NC(C)C)ncn1. The structure is similarly comprised of methoxy groups (OC) on a benzene ring, a pyrimidine group, and a branched chain amine group (NC(C)C). Total atoms: C - 15, O - 2, N - 2, H - 18.\",\n    \"atom_count_comparison\": \"Both molecule A and B have an identical count and types of atoms: C - 15, O - 2, N - 2, H - 18.\",\n    \"functional_group_comparison\": \"Both molecules contain identical functional groups: methoxy groups on benzene ring, pyrimidine ring with a branched chain amine group. The connectivity and arrangement of these groups within the cyclic structure indicate they are equivalent.\",\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(C=Cc1ccco1)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O",
+        "permutated": "C(NC(Cc1ccccc1)C(=O)O)(=O)C(Cc1ccccc1)NC(=O)C=Cc1occc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A contains an amide linkage, aromatic rings (phenyl groups), and an ester group. The SMILES begins with O=C indicating the presence of a carbonyl group attached to a conjugated system including the fragment C=Cc1ccco1 which suggests aromatic with a furan group. It has an amide linkage in NC(Cc1ccccc1)C(=O), implying benzene rings are connected through amides. Additionally, an ester group is present due to C(=O)O.",
+            "molecule_B_analysis": "Molecule B contains an amide linkage, aromatic rings (phenyl groups), and an ester group. The SMILES starts with C(NC(Cc1ccccc1)C(=O)O)(=O), indicating the presence of a carbonyl group attached to an amide forming partition phenyl rings. It also suggests the presence of an aromatic furan group in C=Cc1occc1. The structure shows connectivity and placement similar to molecule A.",
+            "atom_count_comparison": "Both molecule A and molecule B involve the same aromatic rings and functional groups. Considering the connectivity, both involve two phenyl groups, a carbonyl connected amide group, and an aromatic furan group. Atom counts for C, O, N, and H are identical.",
+            "functional_group_comparison": "Both molecules have similar functional groups including an amide group, aromatic rings (phenyl groups), and an aromatic furan group. Therefore, the functional group analysis and connectivity analysis show equivalence between SMILES of A and B.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCCCCSc1nc(O)c2cnn(-c3ccc(F)cc3)c2n1",
+        "permutated": "Oc1nc(nc2n(ncc12)-c1ccc(cc1)F)SCCCCC",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has the SMILES: CCCCCSc1nc(O)c2cnn(-c3ccc(F)cc3)c2n1. This structure includes a thiophene ring bonded to an alkyl chain (pentane) and contains a fluorobenzene group attached to a triazine ring. There is also one \u2013OH group bonded to the triazine.",
+            "molecule_B_analysis": "Molecule B has the SMILES: Oc1nc(nc2n(ncc12)-c1ccc(cc1)F)SCCCCC. This structure also has a thiophene ring, bonded to an alkyl chain (pentane) and incorporates a fluorobenzene group attached to a triazine ring similarly to molecule A. There's an \u2013OH group bonded to triazine, comparable in placement to molecule A.",
+            "atom_count_comparison": "Both molecules contain the same types of atoms (C, H, S, N, O, F) with the same quantities for each type. The SMILES representation shows they both have equivalent atomic composition.",
+            "functional_group_comparison": "The functional groups, including the thiophene, triazine, fluorobenzene, \u2013OH groups, and a pentan-1-yl chain, are present in both molecules A and B. The connectivity pattern among these functional groups remains the same across both molecules, suggesting equivalent structures.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC",
+        "permutated": "c1c(OC)c(OC)ccc1CC1NCCc2c3c([nH]c21)ccc(SC)c3",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a methoxy group (CO) attached to the 1 and 4 positions of a benzene ring, which is para to an ethyl group that is connected to a 7-membered bicyclic structure. The bicyclic structure includes a tetrahydroisoquinoline moiety. It also has a thiomethyl group (SC) connected to an aromatic ring within the bicyclic structure.",
+            "molecule_B_analysis": "Molecule B also features a methoxy group (OC) at the 1 and 4 positions of a benzene ring, and an ethyl group linking to a bicyclic tetrahydroisoquinoline structure. The thioether (SC) group is attached in the same location of the bicyclic aromatic system as Molecule A.",
+            "atom_count_comparison": "Both molecules have the same atom types and quantities: both contain aromatic and aliphatic carbon, nitrogen, sulfur, oxygen, and hydrogen atoms. Each structural unit has consistent atom composition.",
+            "functional_group_comparison": "The functional groups, such as methoxy and thiomethyl, and the overall cyclic and bicyclic structures are analogous in location and connectivity in both molecules. This confirms that there are no structural variations or different connections between atoms.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)-c1cc(Nc3c(Cl)cccc3Cl)nc(=O)n1CC2",
+        "permutated": "c1(cccc(c1Nc1nc(n2c(-c3cc(OC)c(cc3CC2)OC)c1)=O)Cl)Cl",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A is a complex aromatic compound featuring multiple aromatic rings. It includes methoxy groups (OC) attached to the aromatic rings, a chlorinated benzene ring, and a heterocyclic element with a nitrogen (n) in the structure. The main structure is built around a benzene core that connects to a naphthalene-like structure, eventually linking to a triazine ring via a nitrogen atom.",
+            "molecule_B_analysis": "Molecule B is also a complex aromatic compound. It contains a methoxy group, a chlorinated benzene ring, and appears to have a similar base structure featuring aromatic rings connected to a triazine-like nitrogen-containing ring. The connectivity seems to mimic that of Molecule A with methoxy and chloro substituents.",
+            "atom_count_comparison": "Both molecules have the same types of atoms: carbon (C), oxygen (O), nitrogen (N), and chlorine (Cl), and quantities appear to match when accounting for implicit hydrogens typical in SMILES notations.",
+            "functional_group_comparison": "Both molecules contain methoxy groups, a triazine fragment linked via nitrogen, a chlorinated aromatic ring, and similar aromatic ring connectivity. Their functional groups and overall structure are equivalent, accounting for same structural motifs and variants in the orientation given by SMILES.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CN(CCCNc1ccnc2cc(Cl)ccc12)C(=O)c1ccccc1",
+        "permutated": "C(N(C(c1ccccc1)=O)C)CCNc1ccnc2cc(ccc12)Cl",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a tertiary amine (N(CH3)CH2), a carbonyl group (C=O), and a chloro-substituted aromatic group (Cl). The structure is analyzed as a long chain with nitrogen and a connection to a fused aromatic system.",
+            "molecule_B_analysis": "Molecule B displays similar components: a tertiary amine (N(CH3)CH2), a carbonyl group (C=O), and a chloro-substituted aromatic structure (Cl). Notably, it also exhibits a long chain connecting the nitrogen to a fused aromatic system.",
+            "atom_count_comparison": "Both Molecule A and B consist of the same types and counts of atoms: they include equal numbers of carbon, hydrogen, nitrogen, chlorine, and oxygen atoms.",
+            "functional_group_comparison": "The functional groups, such as tertiary amine, carbonyl group, and chloro-aromatic components, are arranged in an equivalent manner, forming structurally identical molecules upon analysis.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCOC(=O)CN1C(=O)SC(=Cc2ccc(-c3ccc(Cl)cc3Cl)o2)C1=O",
+        "permutated": "Clc1cc(ccc1-c1oc(C=C2SC(N(C2=O)CC(OCC)=O)=O)cc1)Cl",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A has a SMILES representation with an ester group (COC(=O)), an amide linkage (CN1), and a thiazole ring (SC). Additionally, it includes aromatic rings indicated by 'ccc', a dichloride functional group (-c3ccc(Cl)cc3Cl), and carbonyls (C(=O)). The connectivity includes a central thiazole attached to the backbone with multiple aromatic extensions.\",\n    \"molecule_B_analysis\": \"Molecule B has a SMILES representation featuring aromatic rings (c1ccc), a dioxygen heterocycle (c1oc), a thiazole ring represented by SC, and a dichloride substitution (Cl). The connectivity involves aromatic rings connected to a thiazole and an ester functional group (CC(OCC)=O) as part of an extended chain.\",\n    \"atom_count_comparison\": \"Both molecules have similar atoms: carbon (C), hydrogen (H), oxygen (O), nitrogen (N), sulfur (S), and chlorine (Cl). The atom counts are largely comparable due to similar functional groups and aromatic structures.\",\n    \"functional_group_comparison\": \"Both molecules feature esters, thiazole rings, and dichloride-substituted aromatics but have different arrangements/positions. Whereas molecule A connects these groups in one specific configuration, molecule B uses a different linear/aromatic arrangement resulting in differing molecular structures.\",\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CC(NC(=O)C1CCN(Cc2cccc(NC(=O)c3ccc(Cl)cc3)c2)CC1)C1CCCCC1",
+        "permutated": "C1CCCC(C1)C(C)NC(C1CCN(Cc2cc(ccc2)NC(c2ccc(Cl)cc2)=O)CC1)=O",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has the SMILES string 'CC(NC(=O)C1CCN(Cc2cccc(NC(=O)c3ccc(Cl)cc3)c2)CC1)C1CCCCC1'. It contains a secondary amide group (NC(=O)), a cyclohexane, a piperidinyl group (C1CCN), a benzene ring with a nitrogen atom attached, and a chlorinated phenyl group. The connectivity shows the amide linkage between cyclohexane and the phenyl ring.",
+            "molecule_B_analysis": "Molecule B has the SMILES string 'C1CCCC(C1)C(C)NC(C1CCN(Cc2cc(ccc2)NC(c2ccc(Cl)cc2)=O)CC1)=O'. It has similar chemical features: a cyclohexane ring, a secondary amide group, a piperidine ring, a benzene ring with a nitrogen atom, and a chlorinated phenyl group. The structural connectivity suggests similar linkage as Molecule A with the amide connecting the cyclohexane and phenyl ring.",
+            "atom_count_comparison": "Both molecules have the same type and quantity of atoms: carbon (C), hydrogen (H), nitrogen (N), oxygen (O), and chlorine (Cl).",
+            "functional_group_comparison": "Both molecules have equivalent functional groups present: a secondary amide linkage, a cyclohexane ring, and a chlorinated phenyl group. The piperidine linkage and overall arrangement between the cyclohexane and benzene rings are preserved.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1",
+        "permutated": "C(C(c1nc2c([nH]1)cccc2)NC(=O)c1cc(ccc1)[N+]([O-])=O)c1ccccc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A SMILES string: O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1. Molecule A has atoms: C, O, N, H. Functional groups include an amide linkage (O=C(N)), an aromatic ring system (benzene rings), a nitro group ([N+](=O)[O-]), and a heterocyclic component involving a nitrogen within an aromatic ring.",
+            "molecule_B_analysis": "Molecule B SMILES string: C(C(c1nc2c([nH]1)cccc2)NC(=O)c1cc(ccc1)[N+]([O-])=O)c1ccccc1. Molecule B structure includes atoms: C, O, N, H. It features the same functional groups as Molecule A: amide linkage, aromatic systems (benzene rings), nitro group, and nitrogen in a heterocyclic aromatic ring.",
+            "atom_count_comparison": "Both Molecule A and Molecule B contain the same types of atoms: Carbon (C), Oxygen (O), Nitrogen (N), and Hydrogen (H). The quantities of these atoms appear matched based on the SMILES strings provided.",
+            "functional_group_comparison": "Molecule A and Molecule B both possess amide linkages, similar aromatic ring systems, identical heterocyclic structures, and nitro groups. Their structural connectivity appears to represent the same molecular backbone.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OC(C)C)c2)[nH]1",
+        "permutated": "n1ccc(-c2[nH]c(SC)nc2-c2ccc(cc2)F)cc1OC(C)C",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a thiophene ring (CSc1nc), with a fluorophenyl group (c2ccc(F)cc2) and a methoxyisopropyl group (OC(C)C) attached to a pyridine ring (c2ccnc). The core structure involves heteroatoms S and N, and a NH group.",
+            "molecule_B_analysis": "Molecule B features a pyridine ring (n1ccc) with fluorophenyl group (c2ccc(cc2)F) and an attached 2-thiophenecarbothioate group (c2[nH]c(SC)nc2), along with a methoxyisopropyl group (OC(C)C). The heteroatoms are also S and N, with a NH group present.",
+            "atom_count_comparison": "Both Molecule A and B have the same types of atoms: carbon (C), hydrogen (H), nitrogen (N), sulfur (S), oxygen (O), and fluorine (F). The count of each atom type is identical, suggesting they are isomers.",
+            "functional_group_comparison": "Both molecules contain identical functional groups: thiophene, fluorophenyl, and methoxyisopropyl groups attached to a heterocyclic ring containing nitrogen. Their connectivity and arrangement are identical, indicating they are stereoisomers.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCn1ncc(C2=NOC(C(=O)Nc3cccc(C(C)=O)c3)C2)c1C",
+        "permutated": "O1C(C(=O)Nc2cc(C(=O)C)ccc2)CC(c2c(n(CC)nc2)C)=N1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A, CCn1ncc(C2=NOC(C(=O)Nc3cccc(C(C)=O)c3)C2)c1C, is composed of a nitrogen heterocycle (n1nccC1 motif) fused with an isoxazole ring (C2=NOC) and an amide linkage (C(=O)N) connected to an aromatic ring with a carbonyl group substituent (C(C)=O). It includes atoms primarily Carbon (C), Nitrogen (N), Oxygen (O), and Hydrogen (implicit in the SMILES). The connectivity presents a combination of aromatic, heteroaromatic, and ketone functional elements.\",\n    \"molecule_B_analysis\": \"Molecule B, O1C(C(=O)Nc2cc(C(=O)C)ccc2)CC(c2c(n(CC)nc2)C)=N1, describes an isoxazole ring (C=NO motif) connected to a cyclopentanone with an amide linkage, similarly attached to an aromatic ring with a carbonyl substituent. The atoms involved are Carbon (C), Nitrogen (N), Oxygen (O), and Hydrogen (implicit). The molecular configuration similarly displays aromatic, heteroaromatic, and ketone functional segments.\",\n    \"atom_count_comparison\": \"Both Molecule A and B contain equivalent types and quantities of Carbon, Nitrogen, Oxygen, and Hydrogen atoms, suggesting they comprise the same atoms in number and type.\",\n    \"functional_group_comparison\": \"The functional groups and structural organization of both molecules demonstrate congruence. Nitrogen heterocycles fused with aromatic structures connected via an amide bond are consistent across both molecules. Furthermore, the placement of carbonyl groups and conjugated aromatic systems aligns, pointing to equivalent functional organization.\",\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "permutated": "N1(C(=O)c2cc(c(Oc3c(cccc3)C#N)cc2)CNC)CCCN(C2CC2)CC1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a SMILES string 'CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N'. Upon analyzing the structure, it contains: - An amine group 'CNC' - A benzene ring 'c1cc...ccc1' connected through a methylene bridge - An amide group 'C(=O)N' - A piperidine ring represented by 'CCCN(C3CC3)CC2' - An ether group 'Oc1ccccc1' connected directly to another benzene ring - An cyano group 'C#N'. The structure forms a complex molecular structure with interconnections with amide, ether, aromatic rings and cyano functionalities.",
+            "molecule_B_analysis": "Molecule B has a SMILES string 'N1(C(=O)c2cc(c(Oc3c(cccc3)C#N)cc2)CNC)CCCN(C2CC2)CC1'. Upon analyzing the structure, it contains: - An amine group 'CNC' and piperidine structure 'N1...CCCN(...)CC1' - An amide group 'C(=O)' - A benzene ring 'c2cc...cc2' connected via an ether linkage to another benzene ring - An ether 'Oc3c(cccc3)' - A cyano group 'C#N'. This molecule forms a similar complex structure with an amide, ether, aromatic rings and cyano group connected in a comparable manner.",
+            "atom_count_comparison": "Upon examining the atom counts: both molecules contain similar types and quantities of atoms such as carbon, hydrogen, nitrogen, and oxygen.",
+            "functional_group_comparison": "The functional groups observed in both molecules, including a benzene ring, amine, amide, ether, and cyano group, appear to be distributed similarly across both molecules, suggesting that Molecule A and Molecule B have equivalent functional groups and structures.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1ccc(S(=O)(=O)N2CCC3(CC2)CC(=O)c2ccccc2O3)cc1OC",
+        "permutated": "C1(c2ccccc2OC2(C1)CCN(S(=O)(c1ccc(OC)c(c1)OC)=O)CC2)=O",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has the SMILES string COc1ccc(S(=O)(=O)N2CCC3(CC2)CC(=O)c2ccccc2O3)cc1OC. It contains 2 methoxy groups (CO), a sulfonamide group (S(=O)(=O)N), and a bicyclic structure composed of a benzene ring and a morpholine-type ring with a ketone linking bridge.",
+            "molecule_B_analysis": "Molecule B has the SMILES string C1(c2ccccc2OC2(C1)CCN(S(=O)(c1ccc(OC)c(c1)OC)=O)CC2)=O. It contains 2 methoxy groups (OC), a sulfonamide group (S(=O)(=O)N), a bicycle structure similar to morpholine with a ketone bridge, and an appended phenyl ring.",
+            "atom_count_comparison": "Both molecules contain similar types and numbers of atoms: carbon, oxygen, sulfur, nitrogen, and hydrogen atoms. However, the atom count alone does not confirm equivalency.",
+            "functional_group_comparison": "Both Molecules have similar functional groups, including methoxy, sulfonamide, and ketone groups embedded in a bicyclic structure. The connectivity in the SMILES strings suggests very similar architecture, implying they might be identical structures but represented differently.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1cc(C)cc(NC(=O)Nc2ccc(NS(N)(=O)=O)cc2)c1",
+        "permutated": "O=C(Nc1ccc(cc1)NS(N)(=O)=O)Nc1cc(C)cc(c1)C",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A has a benzene ring with two methyl groups (C) and one amide linkage connecting another benzene ring with a sulfonamide group attached. The structure analysis shows a total of 18 carbon atoms (12 in the benzene rings and 2 from methyl groups), 20 hydrogen atoms, 4 nitrogen atoms, 6 oxygen atoms, and 1 sulfur atom.",
+            "molecule_B_analysis": "Molecule B also has a benzene ring with two methyl groups and one amide linkage connecting another benzene ring with a sulfonamide group attached. The structure analysis similarly shows a total of 18 carbon atoms, 20 hydrogen atoms, 4 nitrogen atoms, 6 oxygen atoms, and 1 sulfur atom.",
+            "atom_count_comparison": "The atom types and counts for both molecules are identical, with 18 carbons, 20 hydrogens, 4 nitrogens, 6 oxygens, and 1 sulfur.",
+            "functional_group_comparison": "Both molecules contain two benzene rings, amide linkages, and a sulfonamide group. The connectivity between these functional groups is equivalent, indicating that A and B represent the same structure despite the SMILES strings differing in atom order.",
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Nc1cccc(-n2nncc2-c2ccccc2)c1",
+        "permutated": "c1ccccc1-c1cnnn1-c1cc(N)ccc1",
+        "task": "permutated_list",
+        "json_results": {
+            "molecule_A_analysis": "Molecule A's SMILES is 'Nc1cccc(-n2nncc2-c2ccccc2)c1'. After analysis, it is found that it consists of an amine group (NH2 attached to aromatic ring), a 1,2,4-triazole ring (-n2nncc2), and a phenyl group (c2ccccc2) connected to a pyridyl ring (c1cccc(N)c1). The compound shows connectivity from the NH2 group to pyridyl through a 1,2,4-triazole linked to a phenyl group.",
+            "molecule_B_analysis": "Molecule B's SMILES is 'c1ccccc1-c1cnnn1-c1cc(N)ccc1'. Upon analysis, it consists of a phenyl group (c1ccccc1) linked to a triazole ring (c1cnnn1), and this triazole is further connected to a pyridyl ring with a para-positioned amine group (c1cc(N)ccc1). The structure mimics Molecule A with the primary amine, a 1,2,4-triazole, and a phenyl ring.",
+            "atom_count_comparison": "The analysis of both structures shows identical atomic composition. Both have an equal number of carbon, hydrogen, and nitrogen atoms. Each has 17 carbon, 13 hydrogen, and 4 nitrogen atoms.",
+            "functional_group_comparison": "Both molecules contain an amine group connected to a triazole and a phenyl group, but the arrangement and orientation of the groups differ. Molecule B contains a para-substituted amine orientation compared to Molecule A where the amine is directly on the pyridyl ring. This indicates different connectivities and positional isomerism.",
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21",
+        "permutated": "c1(c(cccc1)-c1ccc(CC2NC(c3cc(Cl)ccc3N(C2=O)C)=O)cc1)[N+]([O-])=O",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A SMILES: CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21. Structure analysis: Molecule A is a polycyclic compound with a nitro group (-NO2) substitution. It contains a pyrrole or similar ring with nitrogen (N) and carbonyl groups (C=O), with a chloro-substituted phenyl ring connected to this structure. Atom count: 25-30 atoms consisting of C, N, O, Cl.\",\n    \"molecule_B_analysis\": \"Molecule B SMILES: c1(c(cccc1)-c1ccc(CC2NC(c3cc(Cl)ccc3N(C2=O)C)=O)cc1)[N+]([O-])=O. Structure analysis: Molecule B similarly is a polycyclic compound with a nitro group (-NO2) substitution. It contains a pyrrole or similar ring with nitrogen (N) and carbonyl groups (C=O), with a chloro-substituted phenyl ring connected to this structure. Atom count: 25-30 atoms consisting of C, N, O, Cl.\",\n    \"atom_count_comparison\": \"Both molecules have a similar count and types of atoms: carbon (C), nitrogen (N), oxygen (O), and chlorine (Cl) are present in equivalent numbers.\",\n    \"functional_group_comparison\": \"Both molecules contain similar functional groups: nitro group (-NO2), chloro-substituted phenyl ring, nitrogen-containing ring, and carbonyl groups (C=O). The connectivity of these groups seems consistent between both structures.\",\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc(C=C(C#N)c2ccccn2)ccc1OCc1ccccc1Cl",
+        "permutated": "c1ccc(Cl)c(COc2c(cc(cc2)C=C(c2ccccn2)C#N)OC)c1",
+        "task": "permutated_list",
+        "json_results": "```json\n{\n    \"molecule_A_analysis\": \"Molecule A consists of atoms C13H8ClN1O2 connecting structures including a cyano group C#N, methoxy groups CO and OC, and a phenyl group c1ccccc1Cl connected to the bridge oxygen OC. Furthermore, there is a pyridine ring c2ccccn2 connected through a C=C bond.\",\n    \"molecule_B_analysis\": \"Molecule B includes similar atoms C13H8ClN1O2 with methoxy groups CO and OC c2c(cc(cc2)). It consists of the same cyano group C#N and connection to a pyridine ring c2ccccn2 through a C=C bond similarly. The phenyl group c1ccc(Cl) connects through oxygen OC.\",\n    \"atom_count_comparison\": \"Both molecules have identical atom counts: 13 Carbon, 8 Hydrogen, 1 Chlorine, 1 Nitrogen, and 2 Oxygen atoms. This indicates they have the same types and quantities of atoms.\",\n    \"functional_group_comparison\": \"Both Molecules contain identical functional groups: methoxy groups, cyano group, pyridine ring, and phenyl ring with chlorine. Additionally, in the connectivity, both moleculeshave essentially the same arrangement and linkages indicating that the structures are equivalent.\",\n    \"output\": \"Yes\"\n}\n```"
+    }
+]

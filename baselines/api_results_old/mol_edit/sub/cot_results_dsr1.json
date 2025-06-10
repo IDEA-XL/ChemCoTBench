@@ -1,0 +1,962 @@
+[
+    {
+        "Instruction": "Modify the molecule O=Cc1cn2c(nc3ccccc32)s1 by removing a aldehyde and adding a carboxyl.",
+        "molecule": "O=Cc1cn2c(nc3ccccc32)s1",
+        "removed_group": "aldehyde",
+        "added_group": "carboxyl",
+        "reference": "O=C(O)c1cn2c(nc3ccccc32)s1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule (O=Cc1cn2c(nc3ccccc32)s1) contains a bicyclic structure with a thiophene ring (sulfur-containing) fused to a benzene ring. The aldehyde group (-CHO) is identified at the terminal position (O=Cc1...), attached to the bicyclic system. The remaining structure includes aromatic carbons, nitrogen atoms in the fused rings, and a sulfur atom.",
+            "functional_group_identification": "The aldehyde group is located at the start of the SMILES (O=Cc1...), where the carbonyl carbon (C=O) is bonded to an aromatic carbon in the bicyclic system. This is the target for deletion.",
+            "delete_strategy": "To delete the aldehyde, the O=C group is removed, leaving the adjacent aromatic carbon (originally bonded to the carbonyl) as a CH group. The resulting structure retains the bicyclic system (Cc1cn2c(nc3ccccc32)s1).",
+            "add_strategy": "A carboxyl group (-COOH) is added by replacing the hydrogen on the same aromatic carbon previously bonded to the aldehyde. This position is chemically feasible for substitution, as aromatic systems allow electrophilic substitution at activated positions.",
+            "feasibility_analysis": "Deleting the aldehyde and adding a carboxyl group is chemically viable. Aldehydes can be oxidized to carboxylic acids under appropriate conditions. While the original aldehyde is part of an aromatic system, assuming ideal reactivity, the modification is plausible.",
+            "output": "OC(=O)c1cn2c(nc3ccccc32)s1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=Cc1ccc(OCC(=O)N2N=C(c3ccccc3Cl)C[C@@H]2c2cccs2)cc1 by removing a aldehyde and adding a carboxyl.",
+        "molecule": "O=Cc1ccc(OCC(=O)N2N=C(c3ccccc3Cl)C[C@@H]2c2cccs2)cc1",
+        "removed_group": "aldehyde",
+        "added_group": "carboxyl",
+        "reference": "O=C(O)c1ccc(OCC(=O)N2N=C(c3ccccc3Cl)C[C@@H]2c2cccs2)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains: (1) an aldehyde group (O=C-) at the benzene ring's position 1, (2) an ester group (OCC(=O)-) at position 4 of the benzene ring, (3) a diazenyl group (N=N) connected to a chlorine-substituted benzene and a thiophene ring. The aldehyde is the primary target for deletion, and the carboxyl group (-COOH) must be added.",
+            "functional_group_identification": "The aldehyde is located at the benzene's first carbon (O=Cc1...). The ester group and diazenyl-thiophene complex are stable and not involved in the modifications.",
+            "add_strategy": "The carboxyl group (-COOH) is added at the benzene's position 1 (previously occupied by the aldehyde), replacing the vacant site left after aldehyde deletion. This mimics a feasible oxidation reaction (aldehyde \u2192 carboxylic acid).",
+            "delete_strategy": "The aldehyde group (O=C-) is removed by detaching the carbonyl from the benzene's first carbon, leaving a hydrogen atom at that position.",
+            "feasibility_analysis": "Replacing an aldehyde with a carboxyl group via oxidation is chemically viable. The steric and electronic environment of the benzene ring supports this substitution without disrupting other functional groups.",
+            "output": "OC(=O)c1ccc(OCC(=O)N2N=C(c3ccccc3Cl)C[C@@H]2c2cccs2)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1ccn2c(C=O)c(-c3ccc(Cl)cc3)nc2c1 by removing a aldehyde and adding a halo.",
+        "molecule": "Cc1ccn2c(C=O)c(-c3ccc(Cl)cc3)nc2c1",
+        "removed_group": "aldehyde",
+        "added_group": "halo",
+        "reference": "Cc1ccn2c(Cl)c(-c3ccc(Cl)cc3)nc2c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a bicyclic aromatic system with a fused benzene and nitrogen-containing heterocycle. Key components include a methyl group (Cc1...), a chlorophenyl substituent (-c3ccc(Cl)cc3), and an aldehyde group (C=O) attached to the heterocyclic ring. The nitrogen atoms and aromatic systems dominate reactivity.",
+            "functional_group_identification": "The aldehyde group (C=O) is located on the heterocyclic ring at position c(C=O). The chlorophenyl group is attached to the adjacent carbon via a single bond. The methyl group is on the benzene ring.",
+            "delete_strategy": "The aldehyde group is removed by converting the C=O to CH\u2082. The carbonyl carbon is reduced to a methylene group, maintaining ring connectivity. The modified heterocyclic ring becomes c(C) instead of c(C=O).",
+            "add_strategy": "A bromine atom (halo group) is added to the benzene ring at the ortho position relative to the methyl group (position 2 of the benzene ring). This site is accessible for electrophilic substitution due to the methyl group's activating effect.",
+            "feasibility_analysis": "Aldehyde deletion is chemically viable via reduction (e.g., using NaBH\u2084 followed by protonation). Bromine addition is feasible via electrophilic aromatic substitution (e.g., Br\u2082/FeBr\u2083). The methyl group directs bromination to the ortho/para positions, and steric hindrance is minimal at the chosen site.",
+            "output": "Cc1c(Br)ccn2c(C)c(-c3ccc(Cl)cc3)nc2c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C=CCn1c(Oc2ccc(C=O)cc2OCC)nc2c1c(=O)n(C)c(=O)n2C by removing a aldehyde and adding a halo.",
+        "molecule": "C=CCn1c(Oc2ccc(C=O)cc2OCC)nc2c1c(=O)n(C)c(=O)n2C",
+        "removed_group": "aldehyde",
+        "added_group": "halo",
+        "reference": "C=CCn1c(Oc2ccc(Br)cc2OCC)nc2c1c(=O)n(C)c(=O)n2C",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a bicyclic core with a purine-like structure (two fused rings: one 6-membered aromatic ring with two carbonyl groups and one 5-membered ring with a double bond). Substituents include an allyl group (C=CC), a methoxy group (OCC), and an aldehyde group (C=O) attached to a benzene ring. The aldehyde is part of the benzaldehyde moiety (Oc2ccc(C=O)cc2OCC).",
+            "functional_group_identification": "The aldehyde group (C=O) is located on the benzene ring at the position marked by 'C=O' in the SMILES substring 'Oc2ccc(C=O)cc2OCC'. This benzaldehyde group is attached via an ether oxygen to the nitrogen in the bicyclic core.",
+            "delete_strategy": "The aldehyde group (C=O) is directly removed from the benzene ring, leaving a hydrogen atom in its place. The benzene ring retains its aromaticity, and the remaining substituents (ethoxy group and ether linkage) remain unchanged. The modified benzene ring becomes 'Oc2ccc(cc2OCC)'.",
+            "add_strategy": "A halogen (e.g., Cl) is added to the benzene ring at the para position relative to the existing ether oxygen (Oc2ccc...), as this position is electronically favored for electrophilic substitution due to the activating effect of the oxygen. The modified benzene ring becomes 'Oc2ccc(Cl)cc2OCC'.",
+            "feasibility_analysis": "Deleting the aldehyde is chemically straightforward (e.g., via reduction or nucleophilic substitution). Adding a halogen (Cl) via electrophilic aromatic substitution is feasible due to the activating ether group. The para position is sterically and electronically favored, ensuring regioselectivity.",
+            "output": "C=CCn1c(Oc2ccc(Cl)cc2OCC)nc2c1c(=O)n(C)c(=O)n2C"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1cc(C=O)c(C)n1-c1ccc(OCc2ccccc2)cc1 by removing a aldehyde and adding a hydroxyl.",
+        "molecule": "Cc1cc(C=O)c(C)n1-c1ccc(OCc2ccccc2)cc1",
+        "removed_group": "aldehyde",
+        "added_group": "hydroxyl",
+        "reference": "Cc1cc(O)c(C)n1-c1ccc(OCc2ccccc2)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The molecule contains a pyridine ring with substituents: methyl groups, an aldehyde (C=O), and a benzene ring connected via a single bond. The benzene ring has an ethoxy group (OCc2ccccc2).",
+            "functional_group_identification": "The aldehyde group (C=O) is attached to the pyridine ring at position 3. The ethoxy group is on the benzene ring at position 4.",
+            "add_strategy": "The hydroxyl group (-OH) is added para to the ethoxy group on the benzene ring (c2ccc(O)cc2), as the ethoxy group activates the ring for electrophilic substitution at ortho/para positions.",
+            "delete_strategy": "The aldehyde group (C=O) on the pyridine ring is removed by replacing it with a hydrogen atom, restoring aromaticity.",
+            "feasibility_analysis": "Deleting the aldehyde is chemically viable via reduction or hydrolysis. Adding -OH para to the ethoxy group is feasible due to directing effects of the ether.",
+            "output": "Cc1ccc(C)n1-c1ccc(OCc2ccc(O)cc2)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=Cc1ccc(OCc2ccn(-c3ccccc3)n2)cc1 by removing a aldehyde and adding a hydroxyl.",
+        "molecule": "O=Cc1ccc(OCc2ccn(-c3ccccc3)n2)cc1",
+        "removed_group": "aldehyde",
+        "added_group": "hydroxyl",
+        "reference": "Oc1ccc(OCc2ccn(-c3ccccc3)n2)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule is a benzaldehyde derivative with a benzene ring substituted by an aldehyde group (-CHO) at position 1 and an ether-linked pyrimidine-phenoxy group at position 4. The pyrimidine ring contains a nitrogen-bound phenyl substituent.",
+            "functional_group_identification": "The aldehyde group is located at the first carbon of the benzene ring (O=C...). The target hydroxyl group (-OH) must be added to the benzene ring after aldehyde deletion.",
+            "add_strategy": "After removing the aldehyde, the benzene ring retains a CH2 group at position 1. The hydroxyl group is added at position 2 (ortho to CH2) to leverage aromatic substitution patterns, avoiding steric clashes with the bulky pyrimidine-phenoxy group at position 4.",
+            "delete_strategy": "The aldehyde group (O=C-) is replaced with a methylene group (CH2) to retain structural integrity while removing the functional group.",
+            "feasibility_analysis": "Deletion of the aldehyde to CH2 is chemically plausible (e.g., via reduction or substitution). Adding -OH ortho to CH2 is feasible via electrophilic aromatic substitution, guided by the activating effects of the ether and alkyl groups.",
+            "output": "Cc1c(O)ccc(OCc2ccn(-c3ccccc3)n2)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=Cc1ccc(OCCOc2ccccc2)cn1 by removing a aldehyde and adding a nitrile.",
+        "molecule": "O=Cc1ccc(OCCOc2ccccc2)cn1",
+        "removed_group": "aldehyde",
+        "added_group": "nitrile",
+        "reference": "N#Cc1ccc(OCCOc2ccccc2)cn1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a pyridine ring (due to the aromatic 'n' atom) with an aldehyde group (-CHO) attached to the first carbon. A substituted ethylene glycol ether (OCCO) linked to a benzene ring is present at the fourth carbon of the pyridine ring.",
+            "functional_group_identification": "The aldehyde group is located at the first carbon of the pyridine ring (O=Cc1...). The ethylene glycol ether-benzene substituent is at the fourth carbon (OCCOc2ccccc2).",
+            "add_strategy": "The nitrile group (-C\u2261N) will replace the aldehyde group at the first carbon of the pyridine ring. This substitution maintains the aromaticity and structural stability of the molecule.",
+            "delete_strategy": "The aldehyde group (O=C-) is removed from the first carbon of the pyridine ring, leaving a hydrogen atom (implicit in SMILES) at that position.",
+            "feasibility_analysis": "Replacing an aldehyde with a nitrile is chemically viable via reactions like nucleophilic substitution or oxidation-reduction pathways. The pyridine ring and other substituents remain unaffected, preserving the molecule's integrity.",
+            "output": "C#Nc1ccc(OCCOc2ccccc2)cn1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1cc(C=O)c(C)n1-c1cc(C(=O)[O-])cc(C(=O)[O-])c1 by removing a aldehyde and adding a nitrile.",
+        "molecule": "Cc1cc(C=O)c(C)n1-c1cc(C(=O)[O-])cc(C(=O)[O-])c1",
+        "removed_group": "aldehyde",
+        "added_group": "nitrile",
+        "reference": "Cc1cc(C#N)c(C)n1-c1cc(C(=O)[O-])cc(C(=O)[O-])c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a pyrimidine ring (with two nitrogens) fused to a benzene ring. The pyrimidine ring has a methyl group, an aldehyde (C=O), and another methyl group as substituents. The benzene ring is substituted with two carboxylate groups (C(=O)[O-]).",
+            "functional_group_identification": "The aldehyde group (C=O) is located on the pyrimidine ring. The carboxylate groups are on the benzene ring and are not targeted for modification.",
+            "delete_strategy": "The aldehyde group (C=O) on the pyrimidine ring is replaced with a hydrogen atom, simplifying the pyrimidine substituent from -C=O to -CH.",
+            "add_strategy": "A nitrile group (-C#N) is added to the pyrimidine ring at the position previously occupied by the aldehyde. This position is chemically suitable for substitution due to the ring's aromatic electron-deficient nature, which allows electrophilic addition.",
+            "feasibility_analysis": "Replacing an aldehyde with a nitrile is chemically plausible via reduction of the aldehyde to -CH2OH followed by oxidation to -CN, or via direct substitution under nitrile-forming conditions (e.g., using a cyanide source). The aromatic ring's electron deficiency (due to adjacent nitrogens) facilitates electrophilic substitution at the vacated position.",
+            "output": "Cc1cc(C#N)c(C)n1-c1cc(C(=O)[O-])cc(C(=O)[O-])c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC(=O)Nc1ccc(NC(=O)c2oc(COc3ccc(C=O)cc3)cc2C)cc1 by removing a aldehyde and adding a nitro.",
+        "molecule": "CC(=O)Nc1ccc(NC(=O)c2oc(COc3ccc(C=O)cc3)cc2C)cc1",
+        "removed_group": "aldehyde",
+        "added_group": "nitro",
+        "reference": "CC(=O)Nc1ccc(NC(=O)c2oc(COc3ccc([N+](=O)[O-])cc3)cc2C)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains two aromatic rings (benzene and furan), acetamide groups (CC(=O)N and NC(=O)), a methoxy group (COc3ccc...), and an aldehyde group (C=O in COc3ccc(C=O)cc3). The aldehyde is attached to the benzene ring substituted with the methoxy group.",
+            "functional_group_identification": "The aldehyde group is located on the benzene ring at position 4 relative to the methoxy group (COc3ccc(C=O)cc3). The nitro group needs to be added to an aromatic ring.",
+            "delete_strategy": "The aldehyde (C=O) is removed by replacing it with a hydrogen, converting the C=O group to CH. This modifies the benzene ring substituent from C=O to CH, simplifying the structure to COc3cccccc3 (methoxybenzene).",
+            "add_strategy": "The nitro group ([N+](=O)[O-]) is added para to the methoxy group on the benzene ring (COc3ccc([N+](=O)[O-])cc3), as methoxy is an ortho/para-directing group, and para substitution is chemically favorable.",
+            "feasibility_analysis": "Deleting the aldehyde is straightforward via reduction or substitution. Adding a nitro group para to methoxy is feasible via electrophilic nitration under acidic conditions, as methoxy activates the ring for substitution.",
+            "output": "CC(=O)Nc1ccc(NC(=O)c2oc(COc3ccc([N+](=O)[O-])cc3)cc2C)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule COc1ccc(N2CCN(S(=O)(=O)c3ccccc3C=O)CC2)cc1 by removing a aldehyde and adding a nitro.",
+        "molecule": "COc1ccc(N2CCN(S(=O)(=O)c3ccccc3C=O)CC2)cc1",
+        "removed_group": "aldehyde",
+        "added_group": "nitro",
+        "reference": "COc1ccc(N2CCN(S(=O)(=O)c3ccccc3[N+](=O)[O-])CC2)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a methoxy-substituted benzene ring connected to a piperazine moiety. The piperazine is further attached to a sulfonyl group (S=O) linked to a benzaldehyde group (C=O). Key functional groups include methoxy (-OCH3), sulfonyl (S(=O)2), and aldehyde (C=O).",
+            "functional_group_identification": "The aldehyde group is located on the benzene ring attached to the sulfonyl group (SMILES substring: c3ccccc3C=O). The sulfonyl group is directly bonded to the nitrogen of the piperazine ring.",
+            "add_strategy": "The nitro group (-NO2) should be added to the benzene ring that previously hosted the aldehyde (now vacant after deletion). Electrophilic aromatic substitution is feasible here, with the sulfonyl group acting as a meta-directing group, favoring nitro addition at the meta position relative to the sulfonyl substituent.",
+            "delete_strategy": "The aldehyde group (C=O) is removed by cleaving the bond between the benzene ring and the carbonyl carbon, leaving the benzene ring directly attached to the sulfonyl group. This simplifies the structure to S(=O)(=O)c3ccccc3.",
+            "feasibility_analysis": "Deleting the aldehyde is chemically valid (e.g., via reduction or oxidation followed by cleavage). Adding a nitro group to the sulfonyl-substituted benzene is feasible via nitration (HNO3/H2SO4), with the sulfonyl group directing meta-substitution. The proposed modifications retain structural stability.",
+            "output": "COc1ccc(N2CCN(S(=O)(=O)c3cc([N+](=O)[O-])ccc3)CC2)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=Cc1cc(Cl)c2ccccc2c1OCc1nnsc1Cl by removing a aldehyde and adding a thiol.",
+        "molecule": "O=Cc1cc(Cl)c2ccccc2c1OCc1nnsc1Cl",
+        "removed_group": "aldehyde",
+        "added_group": "thiol",
+        "reference": "Sc1cc(Cl)c2ccccc2c1OCc1nnsc1Cl",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a bicyclic aromatic system with an aldehyde group (O=C-), a chlorine atom, an ether linkage (O-C), a thiazole-like ring (nnsc1), and another chlorine. The aldehyde is directly attached to the benzene ring.",
+            "functional_group_identification": "The aldehyde group is located at the start of the SMILES string (O=Cc1...). The benzene ring (c1cc(Cl)c2ccccc2c1) and thiazole-like ring (nnsc1) are core structural components.",
+            "add_strategy": "The thiol (-SH) group can be added to the benzene ring at the position vacated by the aldehyde (originally O=C-). This maintains aromaticity and avoids steric clashes with existing substituents (Cl, ether).",
+            "delete_strategy": "The aldehyde group (O=C-) is removed by deleting the 'O=C' prefix. The remaining aromatic carbon (originally bonded to the aldehyde) retains a hydrogen to satisfy valence.",
+            "feasibility_analysis": "Deleting the aldehyde is straightforward. Adding a thiol to the aromatic ring is chemically viable (e.g., via nucleophilic substitution or direct synthesis). The resulting thiophenol derivative is stable under standard conditions.",
+            "output": "Sc1cc(Cl)c2ccccc2c1OCc1nnsc1Cl"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule COC(=O)c1ccc(NC(=O)C2CCN(C(=O)O)CC2)cc1 by removing a carboxyl and adding a nitrile.",
+        "molecule": "COC(=O)c1ccc(NC(=O)C2CCN(C(=O)O)CC2)cc1",
+        "removed_group": "carboxyl",
+        "added_group": "nitrile",
+        "reference": "COC(=O)c1ccc(NC(=O)C2CCN(C#N)CC2)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a methyl ester (COC=O), a benzene ring, and a piperazine-like ring substituted with a carboxylic acid group (C(=O)O) and an amide (NC=O). The benzene ring has an ester (position 1) and an amide substituent (position 4).",
+            "functional_group_identification": "Carboxyl groups (-COOH) are identified in the piperazine ring (N(C(=O)O)) and the ester (COC=O, not a carboxyl). The target carboxyl for deletion is the -COOH attached to the piperazine nitrogen. The nitrile (-C#N) will be added to the benzene ring.",
+            "add_strategy": "The benzene ring has available positions (2, 3, 5, or 6) for substitution. Position 2 (ortho to the ester) is chosen to add the nitrile group, avoiding steric clashes with existing substituents.",
+            "delete_strategy": "The carboxylic acid group (-COOH) on the piperazine nitrogen (N(C(=O)O)) is removed, leaving a secondary amine (NH) in the ring.",
+            "feasibility_analysis": "Deleting the -COOH is chemically viable, forming a stable secondary amine. Adding a nitrile to the benzene is feasible via substitution, though ortho-directing effects of the ester may influence synthetic pathways. The modifications retain overall molecular stability.",
+            "output": "COC(=O)c1c(C#N)ccc(NC(=O)C2CCNCC2)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C#CCn1/c(=N/C(=O)c2ccc(Br)o2)sc2cc(S(N)(=O)=O)ccc21 by removing a halo and adding a aldehyde.",
+        "molecule": "C#CCn1/c(=N/C(=O)c2ccc(Br)o2)sc2cc(S(N)(=O)=O)ccc21",
+        "removed_group": "halo",
+        "added_group": "aldehyde",
+        "reference": "C#CCn1/c(=N/C(=O)c2ccc(C=O)o2)sc2cc(S(N)(=O)=O)ccc21",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains an alkyne (C#C), a 1,3-thiazine ring fused with a benzene ring, a bromine-substituted benzene ring (halo group), a ketone (C=O), and a sulfonamide group (S(N)(=O)=O).",
+            "functional_group_identification": "The halo group (Br) is located on the benzene ring at position c2ccc(Br)o2. The alkyne is terminal (C#CC...).",
+            "delete_strategy": "The Br atom is removed from the benzene ring (c2ccc(Br)o2 \u2192 c2ccco2), retaining aromaticity and replacing Br with an implicit hydrogen.",
+            "add_strategy": "The aldehyde (-CHO) is added to the terminal alkyne carbon. The triple bond (C#C) is modified to include a carbonyl group, forming propiolaldehyde (C#CC=O), despite potential instability.",
+            "feasibility_analysis": "Deleting Br is chemically valid. Adding CHO to the alkyne forms propiolaldehyde, which is synthetically challenging but structurally plausible in SMILES notation. A more viable site (e.g., aromatic ring substitution) would yield a ketone, not an aldehyde.",
+            "output": "C#CC(=O)n1c(=N/C(=O)c2ccco2)sc2cc(S(N)(=O)=O)ccc21"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1cc(C[NH2+]Cc2ccc3c(c2)CCC3)cc(C)c1F by removing a halo and adding a carboxyl.",
+        "molecule": "Cc1cc(C[NH2+]Cc2ccc3c(c2)CCC3)cc(C)c1F",
+        "removed_group": "halo",
+        "added_group": "carboxyl",
+        "reference": "Cc1cc(C[NH2+]Cc2ccc3c(c2)CCC3)cc(C(=O)O)c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule is a substituted benzene ring with methyl groups, a fluorine atom (halo group), and a side chain containing a charged amino group ([NH2+]) connected to a bicyclic structure (benzene fused with cyclohexane).",
+            "functional_group_identification": "The fluorine atom (halo group) is located at position 6 of the main benzene ring. The charged amino group is part of the aliphatic side chain.",
+            "delete_strategy": "Remove the fluorine atom (halo group) at position 6 of the main benzene ring, leaving a hydrogen atom in its place.",
+            "add_strategy": "Add a carboxyl (-COOH) group at position 6 of the main benzene ring (replacing the deleted fluorine atom) to maintain structural simplicity and minimize steric clashes.",
+            "feasibility_analysis": "Aromatic substitution of fluorine with carboxyl is chemically challenging under standard conditions. However, this modification assumes idealized structural replacement for the purpose of the task, prioritizing positional clarity over reaction mechanism.",
+            "output": "Cc1cc(C[NH2+]Cc2ccc3c(c2)CCC3)cc(C)c1C(=O)O"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule OCc1cc(F)c(OC2CCCC2)c(F)c1 by removing a halo and adding a hydroxyl.",
+        "molecule": "OCc1cc(F)c(OC2CCCC2)c(F)c1",
+        "removed_group": "halo",
+        "added_group": "hydroxyl",
+        "reference": "OCc1cc(O)c(OC2CCCC2)c(F)c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule is a benzene ring with a hydroxymethyl group (-CH2OH) at position 1, two fluorine atoms (halo groups) at positions 3 and 5, and a methoxy-cyclopentyl group (-O-cyclopentyl) at position 4. The remaining positions (2 and 6) are unsubstituted aromatic carbons.",
+            "functional_group_identification": "The two fluorine atoms (halo groups) are located at positions 3 and 5 of the benzene ring. The hydroxymethyl group is at position 1, and the methoxy-cyclopentyl group is at position 4.",
+            "delete_strategy": "Both fluorine atoms (positions 3 and 5) are removed, leaving hydrogen atoms at these positions. This simplifies the benzene ring to retain only the hydroxymethyl and methoxy-cyclopentyl substituents.",
+            "add_strategy": "A hydroxyl group (-OH) is added at position 2 (ortho to the hydroxymethyl group at position 1) to leverage the electron-donating effect of the existing -CH2OH group, which activates the ring for electrophilic substitution.",
+            "feasibility_analysis": "Deleting fluorine atoms is chemically straightforward (e.g., via dehalogenation). Adding a hydroxyl group at position 2 is viable due to the activating nature of the hydroxymethyl group, favoring ortho/para substitution. The resulting structure maintains aromatic stability and avoids steric clashes.",
+            "output": "OCc1c(O)ccc(OC2CCCC2)c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCS(=O)(=O)CCN(C)C(=O)CCc1cccc(F)c1 by removing a halo and adding a hydroxyl.",
+        "molecule": "CCS(=O)(=O)CCN(C)C(=O)CCc1cccc(F)c1",
+        "removed_group": "halo",
+        "added_group": "hydroxyl",
+        "reference": "CCS(=O)(=O)CCN(C)C(=O)CCc1ccc(O)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a sulfonyl group (S(=O)(=O)), a tertiary amine (N(C)), an amide (C(=O)), and a fluorobenzene ring (c1cccc(F)c1). The alkyl chain (CC) connects these groups.",
+            "functional_group_identification": "The halo group (F) is located at the para position of the benzene ring. The hydroxyl group must be added to the benzene ring, ideally at a position activated for electrophilic substitution.",
+            "delete_strategy": "The fluorine atom on the benzene ring (c1cccc(F)c1) is removed via dehalogenation, leaving an unsubstituted benzene ring (c1ccccc1).",
+            "add_strategy": "The propyl chain (CCc1...) attached to the benzene ring is an ortho/para-directing group. Hydroxyl (-OH) is added para to the propyl substituent (position 4 of the benzene ring) to maximize stability and chemical feasibility.",
+            "feasibility_analysis": "Dehalogenation of aromatic fluorine is chemically viable under reductive or nucleophilic conditions. Adding hydroxyl para to an alkyl-substituted benzene is feasible via electrophilic aromatic substitution (e.g., using directed C\u2013H activation or oxidation).",
+            "output": "CCS(=O)(=O)CCN(C)C(=O)CCc1ccc(O)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule COc1cc(F)ccc1S(=O)(=O)NCCC1=c2cccc(Cl)c2=[NH+][C@H]1C by removing a halo and adding a nitrile.",
+        "molecule": "COc1cc(F)ccc1S(=O)(=O)NCCC1=c2cccc(Cl)c2=[NH+][C@H]1C",
+        "removed_group": "halo",
+        "added_group": "nitrile",
+        "reference": "COc1cc(C#N)ccc1S(=O)(=O)NCCC1=c2cccc(Cl)c2=[NH+][C@H]1C",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a methoxy group (COc), a fluorine atom (F) on the first aromatic ring, a sulfonyl group (S(=O)(=O)), an aliphatic chain (NCCC), a fused bicyclic system with a chlorine atom (Cl) on the second aromatic ring, and a chiral ammonium group ([NH+][C@H]).",
+            "functional_group_identification": "Halo groups are identified as F (on the first aromatic ring) and Cl (on the second aromatic ring). These are the targets for deletion. The nitrile (-C#N) group must be added at a chemically viable position.",
+            "add_strategy": "The nitrile is added para to the methoxy group on the first aromatic ring. This position is activated by the electron-donating methoxy group, making it favorable for electrophilic substitution. The sulfonyl group (electron-withdrawing) has a weaker deactivating influence at this site due to the meta relationship.",
+            "delete_strategy": "Both F and Cl are removed by replacing them with hydrogen atoms on their respective aromatic rings. This eliminates halogen substituents while preserving aromaticity.",
+            "feasibility_analysis": "Deletion of halogens is straightforward. Adding a nitrile para to the methoxy group is chemically viable, as methoxy activates the ring for electrophilic substitution. The sulfonyl group\u2019s deactivating effect is mitigated by its meta position relative to the nitrile addition site. The resulting structure adheres to standard aromatic substitution rules.",
+            "output": "COc1ccc(C#N)cc1S(=O)(=O)NCCC1=c2cccccc2=[NH+][C@H]1C"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=C(COc1ccc2nc3n(c(=O)c2c1)CCCCC3)NCCc1ccc(F)cc1 by removing a halo and adding a nitrile.",
+        "molecule": "O=C(COc1ccc2nc3n(c(=O)c2c1)CCCCC3)NCCc1ccc(F)cc1",
+        "removed_group": "halo",
+        "added_group": "nitrile",
+        "reference": "O=C(COc1ccc2nc3n(c(=O)c2c1)CCCCC3)NCCc1ccc(C#N)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a carbamate group (O=C(N...)), an ether (COc...), a fused bicyclic heterocycle (quinazolinone-like structure with a carbonyl), an alkyl chain (CCCCC3), and a benzene ring substituted with fluorine via an ethylamine linker (NCCc1ccc(F)cc1). Key functional groups include carbamate, ether, aromatic fluorine (halo group), and amine.",
+            "functional_group_identification": "The fluorine atom (halo group) is located para to the ethylamine linker on the benzene ring (position 4 of NCCc1ccc(F)cc1). The nitrile group (-C#N) must replace this fluorine atom to satisfy the modification request.",
+            "add_strategy": "Replace the fluorine atom on the benzene ring with a nitrile group (-C#N). This substitution retains the aromatic ring's structural integrity while fulfilling the addition requirement. The para position is chemically reasonable for substitution.",
+            "delete_strategy": "Remove the fluorine atom (halo group) from the benzene ring, leaving a hydrogen atom at that position, which is then replaced by the nitrile group.",
+            "feasibility_analysis": "Direct substitution of aromatic fluorine with nitrile is synthetically challenging under standard conditions (fluorine is a poor leaving group). However, advanced methods like transition-metal-catalyzed cyanation or directed C-H activation could theoretically achieve this modification. Structurally, the change is valid.",
+            "output": "O=C(COc1ccc2nc3n(c(=O)c2c1)CCCCC3)NCCc1ccc(C#N)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC(C)n1cnnc1[S@@](=O)Cc1ccc(Cl)cc1Cl by removing a halo and adding a nitro.",
+        "molecule": "CC(C)n1cnnc1[S@@](=O)Cc1ccc(Cl)cc1Cl",
+        "removed_group": "halo",
+        "added_group": "nitro",
+        "reference": "CC(C)n1cnnc1[S@@](=O)Cc1ccc([N+](=O)[O-])cc1Cl",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a tetrazole ring (n1cnnc1), a sulfoxide group ([S@@]=O), and a benzene ring substituted with two Cl atoms (halo groups). The benzene is connected to the sulfoxide via a methylene bridge (CH2).",
+            "functional_group_identification": "The two Cl atoms are located at positions 4 and 6 on the benzene ring (ortho to each other). The sulfoxide and tetrazole are structurally distinct and not directly involved in modification.",
+            "add_strategy": "A nitro group (-NO2) is best added to the benzene ring at a position ortho/para to the remaining Cl after deletion. The para position (relative to the CH2 group) is chemically favorable due to electronic and steric considerations.",
+            "delete_strategy": "One Cl atom (halo group) is removed from the benzene ring. The Cl at position 4 is deleted to retain symmetry and simplify regioselectivity for nitro addition.",
+            "feasibility_analysis": "Deleting a Cl and adding a nitro group is chemically viable. Nitro groups are compatible with aromatic systems, and the remaining Cl will direct nitration to the ortho/para positions. The stereochemistry of the sulfoxide is unaffected.",
+            "output": "CC(C)n1cnnc1[S@@](=O)Cc1cc([N+](=O)[O-])cc(Cl)c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1ccc([N+](=O)[O-])cc1NC(=O)[C@H](C)[NH+](C)Cc1ccc(F)c(F)c1 by removing a halo and adding a thiol.",
+        "molecule": "Cc1ccc([N+](=O)[O-])cc1NC(=O)[C@H](C)[NH+](C)Cc1ccc(F)c(F)c1",
+        "removed_group": "halo",
+        "added_group": "thiol",
+        "reference": "Cc1ccc([N+](=O)[O-])cc1NC(=O)[C@H](C)[NH+](C)Cc1ccc(F)c(S)c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The molecule contains a methyl-substituted benzene ring with a nitro group ([N+](=O)[O-]), an amide group (NC(=O)), a chiral center ([C@H](C)), a dimethylammonium group ([NH+](C)), and a fluorinated benzene ring (Cc1ccc(F)c(F)c1). Key functional groups: nitro, amide, tertiary ammonium, and halo (F).",
+            "functional_group_identification": "Two fluorine atoms are located on the benzene ring (Cc1ccc(F)c(F)c1). The halo groups are at positions 3 and 4 of this ring (adjacent to the methyl group at position 1).",
+            "add_strategy": "A thiol (-SH) group can be added para to the methyl group on the dehalogenated benzene ring (now Cc1ccccc1). The methyl group is ortho/para-directing, favoring substitution at the para position.",
+            "delete_strategy": "The two fluorine atoms on the benzene ring (Cc1ccc(F)c(F)c1) are replaced with hydrogen atoms, converting the ring to Cc1ccccc1 (toluene derivative).",
+            "feasibility_analysis": "Removing fluorine atoms is chemically straightforward. Adding a thiol para to the methyl group is viable due to the activating nature of the methyl group, enabling electrophilic aromatic substitution. The resulting structure is chemically stable.",
+            "output": "Cc1ccc([N+](=O)[O-])cc1NC(=O)[C@H](C)[NH+](C)Cc2ccc(S)cc2"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC[C@@H](C)[C@@]1(O)CSCC(C)(C)C1 by removing a hydroxyl and adding a aldehyde.",
+        "molecule": "CC[C@@H](C)[C@@]1(O)CSCC(C)(C)C1",
+        "removed_group": "hydroxyl",
+        "added_group": "aldehyde",
+        "reference": "CC[C@@H](C)[C@H]1CSCC(C)(C)C1C=O",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a bicyclic structure with a five-membered ring (including sulfur) and a hydroxyl group attached to the ring. The main chain includes an ethyl group connected to a chiral center, which is also bonded to a methyl group and the ring.",
+            "functional_group_identification": "The hydroxyl group (-OH) is located on the ring carbon (position 1) adjacent to the sulfur atom. This carbon is part of the bicyclic system and has stereochemical configuration ([C@@]).",
+            "delete_strategy": "Remove the hydroxyl group (-OH) from the ring carbon (position 1). The stereochemical descriptor ([C@@]) is retained, but the oxygen atom and its bond are eliminated, leaving a hydrogen in place.",
+            "add_strategy": "Add an aldehyde (-CHO) to the terminal carbon of the ethyl group (CH3-CH2- \u2192 CH3-CHO). This positions the aldehyde at a primary carbon, ensuring chemical viability and minimal steric hindrance.",
+            "feasibility_analysis": "Deleting the hydroxyl is straightforward as it involves bond cleavage without ring disruption. Adding the aldehyde to the ethyl terminus is chemically reasonable, as primary aldehydes are stable and synthetically accessible. Stereochemistry at the chiral center and ring remains unaffected.",
+            "output": "CC(=O)[C@@H](C)[C@]1CSCC(C)(C)C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC[NH+]1CCc2c(sc3c2C(O)=N[C@H](c2cccc(Cl)c2)N3)C1 by removing a hydroxyl and adding a aldehyde.",
+        "molecule": "CC[NH+]1CCc2c(sc3c2C(O)=N[C@H](c2cccc(Cl)c2)N3)C1",
+        "removed_group": "hydroxyl",
+        "added_group": "aldehyde",
+        "reference": "CC[NH+]1CCc2c(sc3c2C(C=O)=N[C@H](c2cccc(Cl)c2)N3)C1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a bicyclic structure with an ammonium ring ([NH+]1), a fused thiophene-like ring (c2c(sc3...)), and a substituted benzene ring (c2cccc(Cl)c2). The hydroxyl group is part of an oxime-like moiety (C(O)=N) attached to the fused ring system.",
+            "functional_group_identification": "The hydroxyl group (-OH) is located on the carbon forming the oxime (C(O)=N). The aldehyde group (-CHO) must be added to a chemically feasible position, such as the benzene ring or a terminal carbon chain.",
+            "add_strategy": "The benzene ring with a chlorine substituent (c2cccc(Cl)c2) is activated for electrophilic substitution. Adding an aldehyde group meta to the chlorine atom (para to the existing C-Cl bond) maintains aromatic directing effects.",
+            "delete_strategy": "The hydroxyl group is removed by deleting the oxygen atom from the C(O)=N group, converting it to a standard imine (C=N).",
+            "feasibility_analysis": "Deleting the hydroxyl from the oxime is chemically viable (e.g., via reduction or substitution). Adding an aldehyde to the benzene ring is feasible through directed formylation (e.g., Gattermann\u2013Koch reaction), though steric and electronic effects from the fused rings may require optimization.",
+            "output": "CC[NH+]1CCc2c(sc3c2C=N[C@H](c2c(C=O)ccc(Cl)c2)N3)C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC(C)CNC(=O)[C@@H](C)Oc1ccc(F)cc1[C@@H](C)O by removing a hydroxyl and adding a carboxyl.",
+        "molecule": "CC(C)CNC(=O)[C@@H](C)Oc1ccc(F)cc1[C@@H](C)O",
+        "removed_group": "hydroxyl",
+        "added_group": "carboxyl",
+        "reference": "CC(C)CNC(=O)[C@@H](C)Oc1ccc(F)cc1[C@@H](C)C(=O)O",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains an amide group (NC(=O)), two chiral hydroxyl-bearing carbons ([C@@H](C)O), an ether-linked benzene ring (Oc1ccc(F)cc1), and a fluorine substituent on the benzene. The hydroxyl groups are located on the two chiral carbons adjacent to the amide and benzene regions.",
+            "functional_group_identification": "The hydroxyl group to delete is on the terminal chiral carbon ([C@@H](C)O) attached to the benzene ring. The carboxyl group (-COOH) must be added to a chemically feasible position, such as an available site on the benzene ring.",
+            "add_strategy": "The benzene ring has available positions (e.g., position 2 or 6) for carboxyl addition. Adding -COOH at position 2 maintains aromatic substitution patterns and avoids steric clashes.",
+            "delete_strategy": "The hydroxyl group on the terminal chiral carbon ([C@@H](C)O) is replaced with a hydrogen atom, converting it to [C@@H](C).",
+            "feasibility_analysis": "Deleting the hydroxyl is chemically viable via deoxygenation. Adding -COOH to the benzene is feasible through electrophilic substitution or synthetic modification, though regioselectivity depends on reaction conditions. The stereochemistry of the chiral carbons is preserved.",
+            "output": "CC(C)CNC(=O)[C@@H](C)Oc1c(COOH)cc(F)cc1[C@@H](C)"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1cc(O)c(-c2cc(C(=O)Nc3cccnc3)n[nH]2)cc1C by removing a hydroxyl and adding a carboxyl.",
+        "molecule": "Cc1cc(O)c(-c2cc(C(=O)Nc3cccnc3)n[nH]2)cc1C",
+        "removed_group": "hydroxyl",
+        "added_group": "carboxyl",
+        "reference": "Cc1cc(C(=O)O)c(-c2cc(C(=O)Nc3cccnc3)n[nH]2)cc1C",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a central benzene ring substituted with two methyl groups, a hydroxyl group (-OH), and a complex substituent (-c2cc(C(=O)Nc3cccnc3)n[nH]2). The hydroxyl group is directly attached to the benzene ring. The complex substituent includes a hydrazine (-n[nH]2), a ketone (C=O), and an aromatic amine (Nc3cccnc3).",
+            "functional_group_identification": "The hydroxyl group (-OH) is located at the third position of the benzene ring (SMILES: ...c(O)c...). The ketone and amine groups are part of the substituent attached to the benzene ring.",
+            "delete_strategy": "The hydroxyl group (-OH) at the third position of the benzene ring is replaced with a hydrogen atom, simplifying the benzene ring structure to Cc1ccc(-substituent)cc1C.",
+            "add_strategy": "A carboxyl group (-COOH) is introduced by oxidizing one of the methyl groups (CH3) on the benzene ring to a carboxylic acid. The methyl group at the first position (SMILES: Cc1...) is chemically suitable for oxidation to -COOH, as this is a common reaction pathway (e.g., via strong oxidizing agents like KMnO4).",
+            "feasibility_analysis": "Deleting the hydroxyl group is chemically straightforward. Oxidizing a methyl group to a carboxyl group is feasible under standard oxidation conditions. The resulting molecule maintains aromaticity and avoids steric clashes, ensuring chemical viability.",
+            "output": "C(=O)Oc1ccc(-c2cc(C(=O)Nc3cccnc3)n[nH]2)cc1C"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC[NH2+][C@]1(CO)CC[C@H](N2CC[C@H]([NH+](C)C)C2)C1 by removing a hydroxyl and adding a halo.",
+        "molecule": "CC[NH2+][C@]1(CO)CC[C@H](N2CC[C@H]([NH+](C)C)C2)C1",
+        "removed_group": "hydroxyl",
+        "added_group": "halo",
+        "reference": "CC[NH2+][C@]1(CCl)CC[C@H](N2CC[C@H]([NH+](C)C)C2)C1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a cyclohexane ring with a hydroxymethyl (-CH2OH) group, a protonated amine ([NH2+]), a bicyclic piperazine-like structure with a dimethylammonium group ([NH+](C)C), and an ethyl group (CC). The hydroxyl group is part of the hydroxymethyl substituent on the cyclohexane ring.",
+            "functional_group_identification": "The hydroxyl group is located on the hydroxymethyl (-CH2OH) substituent attached to the cyclohexane ring (position 1). The ethyl group (CC) is connected to the protonated amine ([NH2+]).",
+            "add_strategy": "The halo group (Cl) is added to the terminal carbon of the ethyl group (CC), replacing a hydrogen to form a chloroethyl group (CCl). This position is chemically accessible for substitution.",
+            "delete_strategy": "The hydroxyl group (-OH) is removed from the hydroxymethyl (-CH2OH) substituent on the cyclohexane ring, converting it to a methyl group (-CH3).",
+            "feasibility_analysis": "Deleting the hydroxyl is straightforward by removing the oxygen atom. Adding Cl to the ethyl group is feasible via substitution or radical halogenation. Both modifications are chemically viable under standard conditions.",
+            "output": "CC(Cl)[NH2+][C@]1(C)CC[C@H](N2CC[C@H]([NH+](C)C)C2)C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C[C@@](O)(Cc1cccc(O)c1)C1CC1 by removing a hydroxyl and adding a nitrile.",
+        "molecule": "C[C@@](O)(Cc1cccc(O)c1)C1CC1",
+        "removed_group": "hydroxyl",
+        "added_group": "nitrile",
+        "reference": "C[C@@](C#N)(Cc1cccc(O)c1)C1CC1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a central chiral carbon bonded to a hydroxyl group, a methyl group, a benzyl-type group (CH2 attached to a benzene ring with a hydroxyl substituent), and a cyclopropane ring. The benzene ring has one hydroxyl group, and the central carbon has another hydroxyl group.",
+            "functional_group_identification": "Two hydroxyl groups are present: one on the central chiral carbon and another on the benzene ring. The hydroxyl to delete is the one on the central carbon, as it is part of the core structure. The nitrile group (-C#N) must be added to a site with reasonable reactivity, such as the position vacated by the deleted hydroxyl.",
+            "add_strategy": "The nitrile group is added to the central carbon where the hydroxyl group was removed. This substitution replaces the hydrogen (from the deleted hydroxyl) with a -C#N group, maintaining the tetrahedral geometry of the chiral center.",
+            "delete_strategy": "The hydroxyl group on the central carbon is replaced with a hydrogen atom, effectively converting the alcohol (-OH) to a hydrocarbon (-H) at that position.",
+            "feasibility_analysis": "The substitution of a hydroxyl group with a nitrile via a two-step process (e.g., converting -OH to a leaving group followed by nucleophilic cyanide attack) is chemically viable. The stereochemistry of the chiral center is retained if the reaction proceeds with inversion or retention, depending on the mechanism.",
+            "output": "C[C@@](CN)(Cc1cccc(O)c1)C1CC1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O[C@H](CN1CCN(c2ccccc2F)CC1)Cn1nnnc1-c1ccccc1 by removing a hydroxyl and adding a nitro.",
+        "molecule": "O[C@H](CN1CCN(c2ccccc2F)CC1)Cn1nnnc1-c1ccccc1",
+        "removed_group": "hydroxyl",
+        "added_group": "nitro",
+        "reference": "[O-][N+](=O)[C@H](CN1CCN(c2ccccc2F)CC1)Cn1nnnc1-c1ccccc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a hydroxyl (-OH) group attached to a chiral carbon, a piperazine ring (N1CCN) substituted with a fluorophenyl group (c2ccccc2F), a cyanoguanidine group (Cn1nnnc1), and a terminal benzene ring. The hydroxyl is the primary alcohol group to delete.",
+            "functional_group_identification": "The hydroxyl group is located on the chiral carbon (stereochemistry: [C@H]). The terminal benzene ring (c1ccccc1) is a suitable site for adding a nitro group (-NO2).",
+            "add_strategy": "The nitro group is added to the terminal benzene ring in the meta position relative to the cyanoguanidine attachment. This position is chemically reasonable due to the electron-withdrawing nature of the cyanoguanidine, favoring meta substitution.",
+            "delete_strategy": "The hydroxyl group is removed by replacing the -OH on the chiral carbon with a hydrogen, converting it to a CH2 group and eliminating stereochemistry.",
+            "feasibility_analysis": "Dehydroxylation is feasible under acidic/basic conditions. Nitration of the benzene ring is viable via electrophilic substitution (e.g., HNO3/H2SO4), though the cyanoguanidine may slightly deactivate the ring. The proposed modifications are chemically plausible.",
+            "output": "C(CN1CCN(c2ccccc2F)CC1)Cn1nnnc1-c1cc([N+](=O)[O-])ccc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1cccc(NC2CCN(C(=O)CC3(O)CCCC3)CC2)c1 by removing a hydroxyl and adding a nitro.",
+        "molecule": "Cc1cccc(NC2CCN(C(=O)CC3(O)CCCC3)CC2)c1",
+        "removed_group": "hydroxyl",
+        "added_group": "nitro",
+        "reference": "Cc1cccc(NC2CCN(C(=O)CC3([N+](=O)[O-])CCCC3)CC2)c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a benzene ring with a methyl group and a piperazine substituent. The piperazine is connected to a carbonyl group (C=O) attached to a cyclopentanol moiety (cyclopentane with a hydroxyl group). Key functional groups: hydroxyl (-OH) on the cyclopentane, secondary amine (-NH-) in the piperazine, and carbonyl (C=O).",
+            "functional_group_identification": "The hydroxyl group is located on the cyclopentane ring (CC3(O)CCCC3). The benzene ring has available positions for substitution (ortho/para to existing groups).",
+            "delete_strategy": "Remove the hydroxyl (-OH) from the cyclopentane by replacing the oxygen atom in CC3(O)CCCC3 with a single bond, converting it to CC3CCCC3.",
+            "add_strategy": "Add a nitro (-NO2) group to the benzene ring. The nitro group is best added para to the methyl group (position 4 of the benzene) or para to the piperazine substituent (position 3), considering directing effects. Position 4 is chosen for minimal steric hindrance.",
+            "feasibility_analysis": "Hydroxyl removal is chemically straightforward (elimination of -OH). Nitration of the benzene ring is feasible via electrophilic aromatic substitution, with the methyl group acting as an ortho/para-director. The proposed positions are chemically viable.",
+            "output": "Cc1cccc(NC2CCN(C(=O)CC3CCCC3)CC2)c1([N+](=O)[O-])"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule COCC(=O)N1CC[C@]2(O)CCN(C(=O)c3ccc(OC)o3)C[C@@H]2C1 by removing a hydroxyl and adding a thiol.",
+        "molecule": "COCC(=O)N1CC[C@]2(O)CCN(C(=O)c3ccc(OC)o3)C[C@@H]2C1",
+        "removed_group": "hydroxyl",
+        "added_group": "thiol",
+        "reference": "COCC(=O)N1CC[C@]2(S)CCN(C(=O)c3ccc(OC)o3)C[C@@H]2C1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains an acetyloxy group (COCC=O), a bicyclic amine system with a hydroxyl group at the [C@]2(O) position, and a methoxy-substituted aromatic ring (c3ccc(OC)o3) connected via a carbonyl group. The hydroxyl group is part of the bicyclic amine structure.",
+            "functional_group_identification": "The hydroxyl group (-OH) is located at the stereospecific carbon [C@]2(O) in the bicyclic amine ring. The aromatic ring (c3ccc(OC)o3) is a methoxy-substituted five-membered ring (likely a furan derivative).",
+            "add_strategy": "The thiol (-SH) group is added to the aromatic ring (c3ccc(OC)o3) at a position ortho to the methoxy (-OCH3) substituent, leveraging the activating nature of the methoxy group for electrophilic aromatic substitution.",
+            "delete_strategy": "The hydroxyl group at [C@]2(O) is removed by replacing the -OH with a hydrogen atom, converting the carbon to a CH2 group while preserving the bicyclic ring structure.",
+            "feasibility_analysis": "Deleting the hydroxyl is chemically viable as it does not disrupt ring connectivity. Adding a thiol to the aromatic ring is feasible due to the methoxy group's activation effect, though regioselectivity may require controlled conditions. The stereochemistry of the bicyclic system is retained post-modification.",
+            "output": "COCC(=O)N1CC[C@]2CCN(C(=O)c3c(S)cc(OC)o3)C[C@@H]2C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCN(CCC#N)C(=O)c1occc1Br by removing a nitrile and adding a aldehyde.",
+        "molecule": "CCN(CCC#N)C(=O)c1occc1Br",
+        "removed_group": "nitrile",
+        "added_group": "aldehyde",
+        "reference": "CCN(CCC=O)C(=O)c1occc1Br",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a tertiary amine (CCN), a propionitrile group (CCC#N), an amide (C=O), and a brominated furan ring (c1occc1Br). The nitrile group is part of the propionitrile substituent on the nitrogen.",
+            "functional_group_identification": "The nitrile group (-C\u2261N) is located on the propionitrile chain (CCC#N) attached to the nitrogen. The bromine is on the furan ring.",
+            "delete_strategy": "The nitrile group is deleted by removing the terminal -C\u2261N from the propionitrile chain, converting CCC#N to a propyl group (CCC). This maintains nitrogen's valency as it retains three substituents (ethyl, propyl, and amide).",
+            "add_strategy": "The aldehyde (-CHO) is added to the terminal carbon of the propyl group (now CCC after nitrile deletion) by replacing the terminal CH3 with CHO, forming propanal (CCC=O). This positions the aldehyde at a chemically feasible site.",
+            "feasibility_analysis": "Deleting the nitrile is chemically valid as it simplifies the substituent. Adding the aldehyde to the propyl chain is plausible via oxidation or functionalization, though synthesis conditions may vary. The furan ring's bromine and electronic environment make direct aldehyde addition less favorable compared to side-chain modification.",
+            "output": "CCN(CCC=O)C(=O)c1occc1Br"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule N#Cc1c(NC(=O)C2(c3ccccc3)CCCC2)sc2c1CCCC2 by removing a nitrile and adding a carboxyl.",
+        "molecule": "N#Cc1c(NC(=O)C2(c3ccccc3)CCCC2)sc2c1CCCC2",
+        "removed_group": "nitrile",
+        "added_group": "carboxyl",
+        "reference": "O=C(O)c1c(NC(=O)C2(c3ccccc3)CCCC2)sc2c1CCCC2",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a nitrile group (N#C), an amide group (NC(=O)), a bicyclic system with a sulfur-containing ring, a cyclohexane ring fused to a benzene ring, and alkyl chains. The nitrile is directly attached to the sulfur-containing ring system.",
+            "functional_group_identification": "The nitrile group is located at the first carbon (N#Cc1...). The amide group is attached to the cyclohexane ring (NC(=O)C2...). The sulfur-containing ring is fused to another ring system (sc2c1CCCC2).",
+            "add_strategy": "The carboxyl group (-COOH) can be added at the position previously occupied by the nitrile group (now a CH group after nitrile deletion). This site is chemically reactive and avoids steric hindrance from other substituents.",
+            "delete_strategy": "The nitrile group (N#C) is removed by deleting the terminal carbon and nitrogen atoms (N#C-), leaving a hydrogen atom on the adjacent carbon (now CH).",
+            "feasibility_analysis": "Replacing a nitrile with a carboxyl group is chemically feasible via hydrolysis (e.g., using acidic or basic aqueous conditions). The proposed site for carboxyl addition is sterically accessible and preserves the molecule's structural integrity.",
+            "output": "O=C(O)c1c(NC(=O)C2(c3ccccc3)CCCC2)sc2c1CCCC2"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C[C@H](CC#N)N(C)C(=O)Nc1ccc(C(=O)NC2CCOCC2)cc1 by removing a nitrile and adding a halo.",
+        "molecule": "C[C@H](CC#N)N(C)C(=O)Nc1ccc(C(=O)NC2CCOCC2)cc1",
+        "removed_group": "nitrile",
+        "added_group": "halo",
+        "reference": "C[C@H](CCBr)N(C)C(=O)Nc1ccc(C(=O)NC2CCOCC2)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a central chiral carbon connected to: (1) a methyl group, (2) a nitrile group (CC#N), (3) a tertiary amide (N(C)C(=O)), and (4) a hydrogen. The aromatic benzene ring has an amide-substituted morpholine group (C(=O)NC2CCOCC2) at the para position relative to the NH linker.",
+            "functional_group_identification": "The nitrile group (-C#N) is located on the ethyl chain (CC#N) attached to the chiral carbon. The benzene ring has no halogens but contains an amide group and an NH linker.",
+            "add_strategy": "A halogen (Cl) is added to the benzene ring at the meta position relative to the existing amide group (C(=O)NC2CCOCC2). This position is chemically reasonable for electrophilic substitution, as the amide acts as a meta-directing group.",
+            "delete_strategy": "The nitrile group (-CC#N) is removed by truncating the ethyl chain attached to the chiral carbon. The chiral carbon retains its stereochemistry but loses the CC#N substituent, leaving three substituents (methyl, tertiary amide, hydrogen) and an implicit hydrogen to maintain valency.",
+            "feasibility_analysis": "Nitrile removal is straightforward via hydrolysis or reduction, though the exact mechanism is unspecified here. Adding Cl to the benzene ring is chemically viable via electrophilic substitution, assuming activation (e.g., using a Lewis acid catalyst). The stereochemistry at the chiral center remains unaffected.",
+            "output": "C[C@H](N(C)C(=O)Nc1cc(Cl)c(C(=O)NC2CCOCC2)cc1)C"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1c(Cl)cccc1N1C(N)=C(C#N)[C@@H](c2ccccc2)C2=C1CCCC2=O by removing a nitrile and adding a hydroxyl.",
+        "molecule": "Cc1c(Cl)cccc1N1C(N)=C(C#N)[C@@H](c2ccccc2)C2=C1CCCC2=O",
+        "removed_group": "nitrile",
+        "added_group": "hydroxyl",
+        "reference": "Cc1c(Cl)cccc1N1C(N)=C(O)[C@@H](c2ccccc2)C2=C1CCCC2=O",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a chlorinated benzene ring, an indole-like bicyclic system with a nitrile (C#N) group, a ketone (C=O), and an amine (NH) group. The stereochemistry at the [C@@H] center is noted.",
+            "functional_group_identification": "The nitrile group (C#N) is located on the carbon adjacent to the double bond in the bicyclic system: C(N)=C(C#N). The hydroxyl (-OH) addition target should avoid disrupting aromaticity or stereochemistry.",
+            "add_strategy": "The hydroxyl group is added to the benzene ring attached to the chiral center ([C@@H](c2ccccc2)) at the para position (relative to the chiral center) to maintain symmetry and minimize steric clashes. This replaces one hydrogen on the benzene ring.",
+            "delete_strategy": "The nitrile group (C#N) is removed from the carbon in the bicyclic system (C(C#N)), leaving a hydrogen atom in its place. The double bond (C=C) and ring structure remain intact.",
+            "feasibility_analysis": "Deleting the nitrile is straightforward as it is a terminal group. Adding -OH to the benzene ring is chemically viable (e.g., via electrophilic aromatic substitution or directed C-H activation). The modified structure retains valency and avoids steric/electronic conflicts.",
+            "output": "Cc1c(Cl)cccc1N1C(N)=C[C@@H](c2ccc(O)cc2)C2=C1CCCC2=O"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCOC(=O)c1ccc(CNC(=O)Nc2ccc(CC#N)cc2)o1 by removing a nitrile and adding a hydroxyl.",
+        "molecule": "CCOC(=O)c1ccc(CNC(=O)Nc2ccc(CC#N)cc2)o1",
+        "removed_group": "nitrile",
+        "added_group": "hydroxyl",
+        "reference": "CCOC(=O)c1ccc(CNC(=O)Nc2ccc(CCO)cc2)o1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains an ethyl ester (CCOC(=O)), a five-membered aromatic heterocycle (with one oxygen), and a urea-linked aromatic system (NC(=O)N) connecting to a substituted benzene ring with a nitrile group (CC#N). The nitrile is located on the benzene ring attached to the urea group.",
+            "functional_group_identification": "The nitrile group (CC#N) is attached to the benzene ring (c2ccc(CC#N)cc2) via a methylene (-CH2-) bridge. The hydroxyl group (-OH) needs to be added to an aromatic ring, preferably at a position activated by directing groups.",
+            "delete_strategy": "The nitrile group (CC#N) is removed by replacing the -CH2-C#N substituent on the benzene ring with a hydrogen, simplifying the benzene ring to an unsubstituted aromatic system (c2ccccc2).",
+            "add_strategy": "A hydroxyl group is added para to the urea-attached nitrogen on the second benzene ring (now unsubstituted after nitrile deletion). The urea group (-NC(=O)N-) activates the ring, directing electrophilic substitution to the para position.",
+            "feasibility_analysis": "Deleting the nitrile is chemically viable via hydrolysis or substitution. Adding -OH para to the urea-linked nitrogen is feasible, as the amide group activates the ring for electrophilic aromatic substitution. The final structure maintains aromaticity and avoids steric clashes.",
+            "output": "CCOC(=O)c1ccc(CNC(=O)Nc2ccc(O)cc2)o1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1nc(C)c(C(=O)N2CCc3c(sc(N)c3C#N)C2)o1 by removing a nitrile and adding a nitro.",
+        "molecule": "Cc1nc(C)c(C(=O)N2CCc3c(sc(N)c3C#N)C2)o1",
+        "removed_group": "nitrile",
+        "added_group": "nitro",
+        "reference": "Cc1nc(C)c(C(=O)N2CCc3c(sc(N)c3[N+](=O)[O-])C2)o1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains an oxazole ring (five-membered aromatic heterocycle with O and N), methyl groups, a carbonyl group (C=O), and a nitrile group (C#N). The nitrile is part of a bicyclic structure involving a sulfur-containing ring (thiophene-like) fused to a pyrrolidine ring.",
+            "functional_group_identification": "The nitrile group (C#N) is located on the sulfur-containing ring at the position marked by 'c3C#N' in the SMILES. The sulfur-containing ring is a five-membered aromatic system with sulfur and NH substituents.",
+            "delete_strategy": "The nitrile group (C#N) is directly removed from the carbon atom in the sulfur-containing ring. This leaves a vacant hydrogen on the aromatic carbon (c3), which is implicitly filled in aromatic systems.",
+            "add_strategy": "A nitro group (-NO2) is added to the same carbon (c3) where the nitrile was removed. This position is chemically plausible for electrophilic aromatic substitution due to the electron-donating sulfur atom activating the ring.",
+            "feasibility_analysis": "Replacing nitrile with nitro is not a standard reaction, but nitration of aromatic rings (especially sulfur-containing ones like thiophene) is feasible. The sulfur atom directs nitration to the alpha/para positions. Since the nitrile was already at an activated position, adding nitro there is reasonable for SMILES modification purposes.",
+            "output": "Cc1nc(C)c(C(=O)N2CCc3c(sc(N)c3[N+](=O)[O-])C2)o1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC(C)S(=O)(=O)c1ccccc1C(=O)NC[C@H](C)C#N by removing a nitrile and adding a nitro.",
+        "molecule": "CC(C)S(=O)(=O)c1ccccc1C(=O)NC[C@H](C)C#N",
+        "removed_group": "nitrile",
+        "added_group": "nitro",
+        "reference": "CC(C)S(=O)(=O)c1ccccc1C(=O)NC[C@H](C)[N+](=O)[O-]",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a tert-butyl group (CC(C)), sulfonyl group (S(=O)(=O)), benzene ring (c1ccccc1), amide group (C(=O)N), and a chiral chain ending in a nitrile (C#N). The sulfonyl and amide groups are attached to the benzene ring.",
+            "functional_group_identification": "The nitrile group (-C#N) is located at the terminal end of the chiral chain: [...]NC[C@H](C)C#N. The benzene ring has two substituents (sulfonyl and amide) at positions 1 and 6 (para to each other).",
+            "add_strategy": "The nitro group (-NO2) is added to the benzene ring at position 4 (meta to sulfonyl and para to amide). This position is chemically reasonable due to electron-withdrawing directing effects of existing groups.",
+            "delete_strategy": "The nitrile group (-C#N) is removed by truncating the terminal carbon and nitrile from the chiral chain. The remaining chiral carbon retains its stereochemistry and valence via implicit hydrogens.",
+            "feasibility_analysis": "Nitrile deletion leaves a valid tertiary carbon at the chain terminus. Nitro group addition to the benzene ring is feasible under nitration conditions, though steric/electronic factors may slightly disfavor it due to existing substituents.",
+            "output": "CC(C)S(=O)(=O)c1ccc([N+](=O)[O-])cc1C(=O)NC[C@H](C)C"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCOc1ccc([C@H]2C(C#N)=C(N)OC(C)=C2C(=O)OCc2ccccc2)cc1 by removing a nitrile and adding a thiol.",
+        "molecule": "CCOc1ccc([C@H]2C(C#N)=C(N)OC(C)=C2C(=O)OCc2ccccc2)cc1",
+        "removed_group": "nitrile",
+        "added_group": "thiol",
+        "reference": "CCOc1ccc([C@H]2C(CS)=C(N)OC(C)=C2C(=O)OCc2ccccc2)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains an ethoxy-substituted benzene ring with a bicyclic substituent. The bicyclic structure includes a nitrile group (C#N), an amine (NH), an ester (C(=O)O), and a stereocenter. The benzene ring has no other substituents besides the ethoxy and the bicyclic group.",
+            "functional_group_identification": "The nitrile group is located on the carbon adjacent to the stereocenter in the bicyclic system (C(C#N)=C...). The bicyclic structure forms a fused ring system with conjugated double bonds.",
+            "delete_strategy": "The nitrile group is deleted by removing the C#N substituent from the carbon adjacent to the stereocenter. This leaves a hydrogen atom on the carbon, preserving the double bond and ring structure. The modified bicyclic fragment becomes [C@H]2C=C(N)OC(C)=C2C(=O)...",
+            "add_strategy": "A thiol (-SH) is added to the ortho position of the benzene ring (relative to the ethoxy group). This position is chemically accessible and avoids steric clashes with existing substituents.",
+            "feasibility_analysis": "Nitrile removal is straightforward via substitution or elimination. Thiol addition to the aromatic ring is viable via electrophilic aromatic substitution or directed C\u2013H functionalization. The modified structure retains stereochemical integrity and avoids destabilizing the bicyclic system.",
+            "output": "CCOc1c(SH)ccc([C@H]2C=C(N)OC(C)=C2C(=O)OCc2ccccc2)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C[NH+]1CCC(Nc2ccc3cc(C#N)ccc3n2)CC1 by removing a nitrile and adding a thiol.",
+        "molecule": "C[NH+]1CCC(Nc2ccc3cc(C#N)ccc3n2)CC1",
+        "removed_group": "nitrile",
+        "added_group": "thiol",
+        "reference": "C[NH+]1CCC(Nc2ccc3cc(CS)ccc3n2)CC1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a piperazine ring (six-membered amine ring) with a protonated tertiary amine ([NH+]). Attached to this ring is an aniline group (Nc2ccc...), which is fused to a bicyclic aromatic system (c2ccc3cc(C#N)ccc3n2). The nitrile (C#N) is located on the fused aromatic ring system.",
+            "functional_group_identification": "The nitrile group (C#N) is attached to the fused aromatic ring at the position marked by 'cc(C#N)' in the SMILES. The aromatic system includes a benzene ring fused to a pyridine-like ring (n2).",
+            "delete_strategy": "The nitrile group is removed by deleting the 'C#N' branch from the fused aromatic ring. This converts the carbon atom previously bonded to the nitrile into a standard aromatic carbon (implicitly bonded to hydrogen). The modified fused ring becomes 'ccccc3n2'.",
+            "add_strategy": "A thiol (-SH) is added to the ortho position of the aniline group (relative to the amine on the benzene ring). This position is activated for electrophilic substitution due to the electron-donating amine group. The thiol is introduced as a substituent on the benzene ring at the second carbon (ortho to the amine).",
+            "feasibility_analysis": "Deleting the nitrile is chemically straightforward. Adding a thiol to the ortho position of an aniline derivative is feasible due to the activating effect of the amine group, which directs electrophilic substitution to ortho/para positions. The resulting molecule retains aromaticity and avoids steric clashes.",
+            "output": "C[NH+]1CCC(Nc2(S)ccc3ccccc3n2)CC1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C[NH2+][C@@H]1CCC[C@@H]1CCS(=O)(=O)c1ccc([N+](=O)[O-])cc1 by removing a nitro and adding a aldehyde.",
+        "molecule": "C[NH2+][C@@H]1CCC[C@@H]1CCS(=O)(=O)c1ccc([N+](=O)[O-])cc1",
+        "removed_group": "nitro",
+        "added_group": "aldehyde",
+        "reference": "C[NH2+][C@@H]1CCC[C@@H]1CCS(=O)(=O)c1ccc(C=O)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The molecule contains a cyclohexane ring with a methylammonium group, a sulfonyl group attached to a benzene ring, and a nitro group on the benzene. Key functional groups: sulfonyl (-SO2-), nitro (-NO2), and ammonium (-NH2+).",
+            "functional_group_identification": "The nitro group is located para to the sulfonyl group on the benzene ring (position 4). The sulfonyl group is directly attached to the benzene and connected to an ethyl chain leading to the cyclohexane-ammonium core.",
+            "add_strategy": "The aldehyde (-CHO) is added meta to the sulfonyl group on the benzene ring (position 3), replacing the original hydrogen. This aligns with the sulfonyl group's meta-directing effect for electrophilic substitution.",
+            "delete_strategy": "The nitro group is removed from the benzene ring (position 4), leaving a hydrogen atom in its place. This simplifies to replacing [N+](=O)[O-] with a single hydrogen (implicit in SMILES).",
+            "feasibility_analysis": "Adding an aldehyde meta to the sulfonyl group is chemically viable due to directing effects. Deleting the nitro group is straightforward via substitution. The proposed modifications maintain structural integrity and adhere to typical reactivity patterns.",
+            "output": "C[NH2+][C@@H]1CCC[C@@H]1CCS(=O)(=O)c1cc(C=O)ccc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1ccsc1[C@H]1C[C@H]1C(=O)NCCc1cccc([N+](=O)[O-])c1 by removing a nitro and adding a aldehyde.",
+        "molecule": "Cc1ccsc1[C@H]1C[C@H]1C(=O)NCCc1cccc([N+](=O)[O-])c1",
+        "removed_group": "nitro",
+        "added_group": "aldehyde",
+        "reference": "Cc1ccsc1[C@H]1C[C@H]1C(=O)NCCc1cccc(C=O)c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a thiophene ring (Cc1ccsc1), a cyclopropane ring ([C@H]1C[C@H]1), an amide group (C(=O)N), a nitro group ([N+](=O)[O-]) on a benzene ring, and a methyl group on the thiophene. The stereochemistry of the cyclopropane is specified.",
+            "functional_group_identification": "The nitro group is located on the benzene ring at the position marked by [N+](=O)[O-] in the SMILES string. The methyl group is attached to the thiophene ring (Cc1ccsc1).",
+            "delete_strategy": "The nitro group is removed by deleting the [N+](=O)[O-] substituent from the benzene ring, leaving a hydrogen atom in its place (implicit in aromatic SMILES notation).",
+            "add_strategy": "The aldehyde group (-CHO) is added by replacing the methyl group (C) on the thiophene ring with a carbonyl group (C=O), converting the methyl-substituted thiophene (Cc1ccsc1) into a thiophene-2-carbaldehyde (O=Cc1ccsc1).",
+            "feasibility_analysis": "Removing the nitro group is chemically straightforward. Adding the aldehyde via methyl oxidation is plausible under controlled conditions (e.g., selective oxidation reagents), though aromatic methyl-to-aldehyde conversions may require specific catalysts. The stereochemistry and core structure remain intact.",
+            "output": "O=Cc1ccsc1[C@H]2C[C@H]2C(=O)NCCc3cccccc3"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CSCc1ccc(N[C@H]2CC(=O)N(c3cccc([N+](=O)[O-])c3)C2=O)cc1 by removing a nitro and adding a carboxyl.",
+        "molecule": "CSCc1ccc(N[C@H]2CC(=O)N(c3cccc([N+](=O)[O-])c3)C2=O)cc1",
+        "removed_group": "nitro",
+        "added_group": "carboxyl",
+        "reference": "CSCc1ccc(N[C@H]2CC(=O)N(c3cccc(C(=O)O)c3)C2=O)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a methylthio group (S-CH2-), a central benzene ring (A) with an attached secondary amine leading to a bicyclic amide structure, and a second benzene ring (B) substituted with a nitro group. The bicyclic amide includes a stereocenter and a ketone.",
+            "functional_group_identification": "The nitro group ([N+](=O)[O-]) is located on benzene B at position 4 (relative to the amide nitrogen attachment point). The carboxyl group (-COOH) needs to replace this nitro group while maintaining aromaticity.",
+            "add_strategy": "The carboxyl group is added at position 4 of benzene B (formerly occupied by the nitro group) to leverage the existing substitution pattern. This avoids disrupting aromaticity and maintains structural compatibility.",
+            "delete_strategy": "The nitro group on benzene B is removed by replacing it with a hydrogen (implicit in SMILES), restoring the aromatic carbon framework.",
+            "feasibility_analysis": "Nitro-to-carboxyl substitution is chemically viable via reduction of nitro to amine followed by oxidation to carboxyl. Direct replacement is unlikely but synthetically plausible via multi-step pathways. The stereochemistry of the bicyclic amide remains unaffected.",
+            "output": "CSCc1ccc(N[C@H]2CC(=O)N(c3cccc(C(=O)O)c3)C2=O)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule O=[N+]([O-])c1cccc(C=C(Cl)Cl)c1 by removing a nitro and adding a carboxyl.",
+        "molecule": "O=[N+]([O-])c1cccc(C=C(Cl)Cl)c1",
+        "removed_group": "nitro",
+        "added_group": "carboxyl",
+        "reference": "O=C(O)c1cccc(C=C(Cl)Cl)c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule is a nitro-substituted benzene ring with a dichlorovinyl group (C=C(Cl)Cl) attached. The nitro group ([N+](=O)[O-]) is directly bonded to the benzene ring, and the dichlorovinyl group is located at the para position relative to the nitro group.",
+            "functional_group_identification": "The nitro group is identified as O=[N+]([O-]) attached to the benzene ring. The dichlorovinyl group (C=C(Cl)Cl) is identified as an alkene with two chlorine substituents.",
+            "add_strategy": "The carboxyl group (-COOH) is best added to the benzene ring at the position vacated by the nitro group (position 1) to maintain aromaticity and minimize steric hindrance. The para position to the dichlorovinyl group is chemically favorable for substitution.",
+            "delete_strategy": "The nitro group is removed by cleaving the bond between the nitrogen atom and the benzene ring, leaving a hydrogen atom at the vacant position. This retains the aromatic structure of the benzene ring.",
+            "feasibility_analysis": "The deletion of the nitro group is chemically straightforward via reduction or displacement. Adding a carboxyl group to the benzene ring is feasible through oxidation of a methyl group or direct electrophilic substitution, though the latter may require directing effects from existing substituents. The proposed structure maintains aromaticity and avoids steric clashes.",
+            "output": "O=C(O)c1cccc(C=C(Cl)Cl)c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C[C@@H]1CCC[NH+](CCNC(=O)N2CCN(c3ccccc3[N+](=O)[O-])CC2)C1 by removing a nitro and adding a halo.",
+        "molecule": "C[C@@H]1CCC[NH+](CCNC(=O)N2CCN(c3ccccc3[N+](=O)[O-])CC2)C1",
+        "removed_group": "nitro",
+        "added_group": "halo",
+        "reference": "C[C@@H]1CCC[NH+](CCNC(=O)N2CCN(c3ccccc3Br)CC2)C1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a cyclohexane ring with a substituted ammonium group. The side chain includes a urea moiety (NC(=O)N) and a piperazine ring substituted with a nitrobenzene group. The nitro group ([N+](=O)[O-]) is attached to the benzene ring.",
+            "functional_group_identification": "The nitro group is located on the benzene ring at the position specified in the SMILES as c3ccccc3[N+](=O)[O-]. The benzene is connected to the piperazine nitrogen.",
+            "delete_strategy": "Remove the nitro group ([N+](=O)[O-]) from the benzene ring, leaving an unsubstituted benzene (c3ccccc3). This eliminates the ortho-substituted nitro group.",
+            "add_strategy": "Add a halogen (e.g., Cl) to the same position where the nitro group was removed. This maintains the substitution pattern on the benzene ring, replacing the nitro group with a halogen atom.",
+            "feasibility_analysis": "Replacing a nitro group with a halogen is chemically plausible in synthetic steps involving reduction followed by diazotization and halogenation. While direct substitution is not typical, structural modification here is valid for SMILES generation.",
+            "output": "C[C@@H]1CCC[NH+](CCNC(=O)N2CCN(c3ccccc3Cl)CC2)C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cn1ccnc1[C@@H](NC(=O)CNC(=O)c1cccc([N+](=O)[O-])c1)c1ccc(Cl)cc1 by removing a nitro and adding a hydroxyl.",
+        "molecule": "Cn1ccnc1[C@@H](NC(=O)CNC(=O)c1cccc([N+](=O)[O-])c1)c1ccc(Cl)cc1",
+        "removed_group": "nitro",
+        "added_group": "hydroxyl",
+        "reference": "Cn1ccnc1[C@@H](NC(=O)CNC(=O)c1cccc(O)c1)c1ccc(Cl)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a pyridine ring (Cn1ccnc1), a stereocenter with an amide group (NC(=O)), a methylene-linked amide (CNC(=O)), a nitro-substituted benzene ring (c1cccc([N+](=O)[O-])c1), and a chlorobenzene ring (c1ccc(Cl)cc1). Key functional groups: nitro ([N+](=O)[O-]), amides, and chloro.",
+            "functional_group_identification": "The nitro group is located on the benzene ring at the position c1cccc([N+](=O)[O-])c1. The chlorine is on the separate benzene ring c1ccc(Cl)cc1.",
+            "add_strategy": "The hydroxyl (-OH) is added para to the amide attachment on the benzene ring previously bearing the nitro group, as this position is chemically accessible and maintains aromaticity.",
+            "delete_strategy": "The nitro group ([N+](=O)[O-]) on the benzene ring c1cccc([N+](=O)[O-])c1 is removed, leaving a hydrogen atom (implicit in SMILES) at that position.",
+            "feasibility_analysis": "Nitro-to-hydroxyl substitution on aromatic rings is chemically plausible under specific conditions (e.g., reduction followed by oxidation). The steric and electronic environment of the target benzene ring supports this modification.",
+            "output": "Cn1ccnc1[C@@H](NC(=O)CNC(=O)c1cccc(O)c1)c1ccc(Cl)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CS(=O)(=O)N1CCC(CNS(=O)(=O)c2ccccc2[N+](=O)[O-])CC1 by removing a nitro and adding a hydroxyl.",
+        "molecule": "CS(=O)(=O)N1CCC(CNS(=O)(=O)c2ccccc2[N+](=O)[O-])CC1",
+        "removed_group": "nitro",
+        "added_group": "hydroxyl",
+        "reference": "CS(=O)(=O)N1CCC(CNS(=O)(=O)c2ccccc2O)CC1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a sulfonamide group (S(=O)(=O)N) attached to a cyclohexane ring. A second sulfonamide group is connected to a benzene ring substituted with a nitro group ([N+](=O)[O-]). The nitro group is located on the benzene ring (c2ccccc2[N+](=O)[O-]).",
+            "functional_group_identification": "The nitro group is directly attached to the benzene ring at the position indicated by [N+](=O)[O-]. The benzene ring is part of the sulfonamide-substituted aromatic system (CNS(=O)(=O)c2ccccc2[N+](=O)[O-]).",
+            "delete_strategy": "Remove the nitro group ([N+](=O)[O-]) from the benzene ring, leaving a hydrogen atom in its place. The benzene ring becomes c2ccccc2 after deletion.",
+            "add_strategy": "Add a hydroxyl group (-OH) at the position vacated by the nitro group on the benzene ring. This replaces the nitro group with a hydroxyl substituent, forming a phenol group (Oc2ccccc2).",
+            "feasibility_analysis": "The deletion of nitro and addition of hydroxyl is chemically viable. Nitro groups are strong electron-withdrawing groups, and their replacement with hydroxyl (an electron-donating group) is synthetically achievable via reduction or substitution reactions. The resulting structure retains aromaticity and avoids steric/electronic conflicts.",
+            "output": "CS(=O)(=O)N1CCC(CNS(=O)(=O)Oc2ccccc2)CC1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CN(/N=C/c1ccc([N+](=O)[O-])o1)c1ccccc1 by removing a nitro and adding a nitrile.",
+        "molecule": "CN(/N=C/c1ccc([N+](=O)[O-])o1)c1ccccc1",
+        "removed_group": "nitro",
+        "added_group": "nitrile",
+        "reference": "CN(/N=C/c1ccc(C#N)o1)c1ccccc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a central tertiary nitrogen atom connected to a methyl group, an imine group (/N=C/), a nitro-substituted furan ring (c1ccc([N+](=O)[O-])o1), and a benzene ring (c1ccccc1). Key functional groups include the nitro group (-NO\u2082) on the furan ring and the imine group.",
+            "functional_group_identification": "The nitro group is located on the fourth carbon of the furan ring (SMILES: c1ccc([N+](=O)[O-])o1). The imine group is part of the /N=C/ structure connecting the central nitrogen to the furan ring.",
+            "delete_strategy": "Remove the nitro group ([N+](=O)[O-]) from the furan ring, restoring the furan to its unsubstituted form (c1ccco1).",
+            "add_strategy": "Add a nitrile group (-C#N) at the para position of the benzene ring (relative to the central nitrogen attachment) to maintain aromaticity and minimize steric clashes.",
+            "feasibility_analysis": "Nitro group removal is chemically straightforward (e.g., via reduction or displacement). Adding a nitrile to the benzene ring is feasible through electrophilic substitution (directed by the electron-donating tertiary nitrogen) or cyanation reactions.",
+            "output": "CN(/N=C/c1ccco1)c1ccc(C#N)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCOc1cc(/C=N/NC(=O)OC)cc([N+](=O)[O-])c1[O-] by removing a nitro and adding a nitrile.",
+        "molecule": "CCOc1cc(/C=N/NC(=O)OC)cc([N+](=O)[O-])c1[O-]",
+        "removed_group": "nitro",
+        "added_group": "nitrile",
+        "reference": "CCOc1cc(/C=N/NC(=O)OC)cc(C#N)c1[O-]",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains an ethoxy group (CCO-), a benzene ring with substituents including a hydrazone-linked carbonate ester (/C=N/NC(=O)OC), a nitro group ([N+](=O)[O-]), and a deprotonated phenolic oxygen ([O-]). The nitro group is a strong electron-withdrawing meta-director, while the [O-] is electron-donating.",
+            "functional_group_identification": "The nitro group is located at the para position relative to the [O-] group on the benzene ring (position 5 in the SMILES numbering). The hydrazone-carbonate group is at position 3, and the ethoxy is at position 1.",
+            "add_strategy": "The nitrile (-C#N) can be added at the position vacated by the nitro group (position 5), replacing the nitro group. This maintains aromaticity and leverages the existing substitution pattern.",
+            "delete_strategy": "The nitro group ([N+](=O)[O-]) at position 5 is removed, leaving a hydrogen atom at that position, which is replaced by the nitrile group.",
+            "feasibility_analysis": "While direct substitution of nitro with nitrile is not a standard reaction, structurally replacing the nitro group with a nitrile is chemically plausible for modeling purposes. The aromatic ring remains intact, and the nitrile\u2019s electron-withdrawing nature aligns with the original nitro group\u2019s electronic effects.",
+            "output": "CCOc1cc(/C=N/NC(=O)OC)cc(C#N)c1[O-]"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CS(=O)(=O)c1ccc(N[C@@H]2c3ccccc3C[C@H]2O)c([N+](=O)[O-])c1 by removing a nitro and adding a thiol.",
+        "molecule": "CS(=O)(=O)c1ccc(N[C@@H]2c3ccccc3C[C@H]2O)c([N+](=O)[O-])c1",
+        "removed_group": "nitro",
+        "added_group": "thiol",
+        "reference": "CS(=O)(=O)c1ccc(N[C@@H]2c3ccccc3C[C@H]2O)c([SH])c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a methyl sulfonyl group (CS(=O)(=O)), a benzene ring with substituents (N[C@@H]2c3ccccc3C[C@H]2O and [N+](=O)[O-]), and a bicyclic structure with stereochemistry. The nitro group ([N+](=O)[O-]) is directly attached to the benzene ring.",
+            "functional_group_identification": "The nitro group is located at the meta position (5th carbon) of the benzene ring relative to the sulfonyl group. The benzene ring has three substituents: sulfonyl (position 1), amine-linked bicyclic group (position 4), and nitro (position 5).",
+            "delete_strategy": "Remove the nitro group ([N+](=O)[O-]) from position 5 of the benzene ring, leaving a hydrogen atom at that position. The aromaticity of the ring is preserved.",
+            "add_strategy": "Replace the hydrogen atom at position 5 (formerly occupied by the nitro group) with a thiol (-SH) group. This maintains minimal steric/electronic disruption and leverages the vacated position for substitution.",
+            "feasibility_analysis": "Replacing nitro with thiol is chemically plausible via reduction (nitro to amine) followed by thiolation, or direct nucleophilic aromatic substitution under controlled conditions. Stereochemistry in the bicyclic system remains unaffected.",
+            "output": "CS(=O)(=O)c1ccc(N[C@@H]2c3ccccc3C[C@H]2O)c(S)c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C[C@H]1CN(c2cc(SCC(=O)Nc3ccc([N+](=O)[O-])cc3)ncn2)C[C@@H](C)O1 by removing a nitro and adding a thiol.",
+        "molecule": "C[C@H]1CN(c2cc(SCC(=O)Nc3ccc([N+](=O)[O-])cc3)ncn2)C[C@@H](C)O1",
+        "removed_group": "nitro",
+        "added_group": "thiol",
+        "reference": "C[C@H]1CN(c2cc(SCC(=O)Nc3ccc(S)cc3)ncn2)C[C@@H](C)O1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a morpholine ring (O1), a bicyclic structure with a pyrimidine-like ring (c2cc...ncn2), and a substituted benzene ring (c3ccc([N+](=O)[O-])cc3) attached via a thioether (SCC(=O)N...). The nitro group ([N+](=O)[O-]) is located on the para position of the benzene ring (c3).",
+            "functional_group_identification": "The nitro group is identified at the para position of the benzene ring (c3ccc([N+](=O)[O-])cc3). The thiol (-SH) group is to replace the nitro group at this position.",
+            "add_strategy": "The nitro group is removed from the benzene ring, leaving a hydrogen atom at the para position. The thiol group (-SH) is added at this vacated position, as aromatic substitution at the para site is chemically reasonable and maintains structural stability.",
+            "delete_strategy": "The nitro group ([N+](=O)[O-]) is deleted from the benzene ring (c3ccc([N+](=O)[O-])cc3), resulting in a hydrogen atom at the para position (c3cccccc3, implicit hydrogens).",
+            "feasibility_analysis": "Replacing a nitro group with a thiol is chemically plausible in structural terms (though synthesis may require specific conditions). The thiol group is stable in this position, and steric/electronic effects are manageable due to the aromatic ring's conjugation.",
+            "output": "C[C@H]1CN(c2cc(SCC(=O)Nc3ccc(S)cc3)ncn2)C[C@@H](C)O1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCCc1cc(=O)[nH]c(SC[C@H](CS)C(C)(C)C)n1 by removing a thiol and adding a aldehyde.",
+        "molecule": "CCCc1cc(=O)[nH]c(SC[C@H](CS)C(C)(C)C)n1",
+        "removed_group": "thiol",
+        "added_group": "aldehyde",
+        "reference": "CCCc1cc(=O)[nH]c(OC[C@H](C=O)C(C)(C)C)n1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a pyrimidine-like aromatic ring with substituents: a butyl chain (CCCC), a ketone (=O), an amino group ([nH]), and a sulfur-containing substituent (SC[C@H](CS)C(C)(C)C). The sulfur substituent includes a thiol (-SH) group in the CS moiety of the chiral center.",
+            "functional_group_identification": "The thiol group is located at the CS moiety in the substituent SC[C@H](CS)C(C)(C)C. The aldehyde group (-CHO) will be added to the terminal end of the butyl chain (CCCC).",
+            "add_strategy": "The aldehyde is added to the terminal carbon of the butyl chain (CCCC) by replacing the terminal -CH3 with -CHO, forming a propanal-like structure (CCC=O).",
+            "delete_strategy": "The thiol group (-SH) in the CS moiety is removed by replacing the sulfur atom with a hydrogen, converting the chiral center from [C@H](CS) to [C@H](C).",
+            "feasibility_analysis": "Deleting the thiol is chemically viable as it avoids unstable valency. Adding an aldehyde to the terminal alkyl chain is feasible through oxidation or direct substitution. The modified structure retains proper valency and stereochemistry.",
+            "output": "CCC(=O)c1cc(=O)[nH]c(SC[C@H](C)C(C)(C)C)n1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule Cc1cnc(=O)n(C[C@H](CS)C(C)(C)C)c1 by removing a thiol and adding a aldehyde.",
+        "molecule": "Cc1cnc(=O)n(C[C@H](CS)C(C)(C)C)c1",
+        "removed_group": "thiol",
+        "added_group": "aldehyde",
+        "reference": "Cc1cnc(=O)n(C[C@H](C=O)C(C)(C)C)c1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule is a pyrimidine derivative with a methyl group, a carbonyl group, and a branched substituent containing a thiol (-SH) group. The substituent on the nitrogen includes a chiral center connected to a tert-butyl group, a thiol (via -CH2-SH), and a methylene group.",
+            "functional_group_identification": "The thiol group (-SH) is located on the chiral carbon in the substituent chain (C[C@H](CS)...). The aldehyde group (-CHO) must replace a hydrogen or modify a terminal carbon.",
+            "delete_strategy": "The thiol group (-SH) is removed by replacing the sulfur atom (S) in the -CH2-SH branch with a hydrogen, converting it to -CH3. The chiral center is adjusted to retain the tert-butyl and methylene groups.",
+            "add_strategy": "The aldehyde (-CHO) is introduced by replacing the methyl group (Cc1...) attached to the pyrimidine ring with a formyl group (O=C...). This positions the aldehyde directly on the aromatic ring.",
+            "feasibility_analysis": "Deleting the thiol is chemically viable via reduction or substitution. Adding the aldehyde via oxidation of the methyl group (e.g., using mild oxidizing agents) is feasible, though regioselectivity must be considered. The resulting structure retains aromaticity and stereochemical integrity.",
+            "output": "O=Cc1cnc(=O)n(C[C@H](C)C(C)(C)C)c1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC[C@@H]1CCC[NH+](CC2(CS)CCC2)CC1 by removing a thiol and adding a carboxyl.",
+        "molecule": "CC[C@@H]1CCC[NH+](CC2(CS)CCC2)CC1",
+        "removed_group": "thiol",
+        "added_group": "carboxyl",
+        "reference": "CC[C@@H]1CCC[NH+](CC2(CC(=O)O)CCC2)CC1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a cyclohexane ring with an ammonium group ([NH+]) and a cyclopropane ring substituted with a thiol (-SH) group. The thiol is part of the cyclopropane substituent (CS in SMILES). The main structure also includes a stereocenter ([C@@H]).",
+            "functional_group_identification": "The thiol group is located on the cyclopropane ring at the sulfur atom in the substituent CC2(CS)CCC2. The ammonium group is part of the cyclohexane ring system.",
+            "delete_strategy": "The sulfur atom (S) in the cyclopropane substituent CC2(CS)CCC2 is removed to delete the thiol group. This converts the substituent from -CH2S to -CH2, preserving the cyclopropane structure.",
+            "add_strategy": "The carboxyl (-COOH) group is added to the terminal carbon of the propyl chain (the first carbon in CC[C@@H]1) to minimize steric hindrance and maintain chemical stability. This replaces a hydrogen on the primary carbon with the carboxyl group.",
+            "feasibility_analysis": "Removing sulfur from the cyclopropane substituent is straightforward, leaving a stable -CH2 group. Adding a carboxyl to the primary carbon of the propyl chain is chemically viable, as primary carbons are common sites for oxidation or substitution reactions to form carboxylic acids.",
+            "output": "C(C(=O)O)C[C@@H]1CCC[NH+](CC2(C)CCC2)CC1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCC(CC)(CS)C[NH+]1CCCCC1 by removing a thiol and adding a carboxyl.",
+        "molecule": "CCC(CC)(CS)C[NH+]1CCCCC1",
+        "removed_group": "thiol",
+        "added_group": "carboxyl",
+        "reference": "CCC(CC)(CC(=O)O)C[NH+]1CCCCC1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule is CCC(CC)(CS)C[NH+]1CCCCC1, containing a central carbon with two ethyl branches (CC), a thiol group (CS), and a piperidinium ring (C[NH+]1CCCCC1). The thiol (-SH) is directly attached to the central carbon. The piperidinium ring is a six-membered saturated ring with a positively charged nitrogen atom.",
+            "functional_group_identification": "The thiol group (CS) is located on the central carbon. The piperidinium ring and ethyl groups are non-functional group components. The carboxyl group (-COOH) must be added to a chemically viable position.",
+            "add_strategy": "The carboxyl group is added to the carbon adjacent to the piperidinium ring (position 4). This carbon is part of the main chain and currently has two hydrogens, allowing substitution with a carboxyl group (-COOH) to form a secondary carboxylic acid.",
+            "delete_strategy": "The thiol group (-SH) is removed by deleting the sulfur atom (S) from the central carbon. The central carbon retains its valence by retaining an implicit hydrogen after deletion.",
+            "feasibility_analysis": "Deleting the thiol is straightforward. Adding a carboxyl group to the secondary carbon adjacent to the piperidinium ring is chemically viable, as carboxylic acids can form on secondary carbons through synthetic methods (e.g., hydrolysis of nitriles or carboxylation reactions). The resulting structure maintains proper valency and stability.",
+            "output": "CCC(CC)(C)C(C(=O)O)[NH+]1CCCCC1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC[NH+](Cc1ccccc1)C[C@@H](C)CS by removing a thiol and adding a halo.",
+        "molecule": "CC[NH+](Cc1ccccc1)C[C@@H](C)CS",
+        "removed_group": "thiol",
+        "added_group": "halo",
+        "reference": "CC[NH+](Cc1ccccc1)C[C@@H](C)CBr",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains an ammonium group (NH+), a benzyl group (Cc1ccccc1), a chiral carbon center ([C@@H]), and a terminal thiol (-SH) group. The thiol is attached to the chiral carbon.",
+            "functional_group_identification": "The thiol group (-SH) is located at the chiral carbon in the structure C[C@@H](C)CS. The sulfur atom (S) is directly bonded to the chiral carbon.",
+            "delete_strategy": "To delete the thiol group, remove the sulfur atom (S) and its associated hydrogen from the chiral carbon. This converts the chiral carbon into a non-chiral tertiary carbon with three substituents (two methyl groups and one hydrogen).",
+            "add_strategy": "To add a halo group (e.g., Cl), replace the deleted sulfur atom with a chlorine atom at the same position. This maintains structural simplicity and avoids disrupting other functional groups.",
+            "feasibility_analysis": "Replacing a thiol with a halogen is chemically viable under nucleophilic substitution or oxidation conditions. The chiral center is lost during deletion, but the substitution retains molecular stability.",
+            "output": "CC[NH+](Cc1ccccc1)C[C@H](C)CCl"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CCC[C@H](CS)CSCc1ccco1 by removing a thiol and adding a halo.",
+        "molecule": "CCC[C@H](CS)CSCc1ccco1",
+        "removed_group": "thiol",
+        "added_group": "halo",
+        "reference": "CCC[C@H](CCl)CSCc1ccco1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule (CCC[C@H](CS)CSCc1ccco1) contains a chiral carbon with substituents: a butyl chain (CCC), a thiol group (-SH, from CS), a thioether (-S-C-), and a hydrogen. The aromatic ring (c1ccco1) is a furan derivative. The thiol group is explicitly identified as the -SH functional group attached to the chiral carbon.",
+            "functional_group_identification": "The thiol group (-SH) is located on the chiral carbon (position: C4 in the chain). The thioether (-S-C-) is part of the main chain connecting to the furan ring.",
+            "delete_strategy": "The thiol group (-SH) is removed by deleting the entire -CH2-SH branch (CS group) from the chiral carbon. This leaves the chiral carbon with three substituents (butyl chain, thioether, hydrogen), which is resolved by retaining the stereochemistry and adjusting bonding.",
+            "add_strategy": "A halo group (e.g., -Cl) is added to the primary carbon of the remaining thioether chain (C8 in the main chain) to maintain simplicity and chemical viability. This position allows substitution without disrupting stereochemistry.",
+            "feasibility_analysis": "Thiol deletion is chemically reasonable via reductive or oxidative cleavage. Adding a halogen to a primary carbon is feasible via radical halogenation or nucleophilic substitution. The modified structure retains stereochemical integrity and avoids steric clashes.",
+            "output": "CCC[C@H](CSC(Cl)Cc1ccco1)"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule CC(C)c1ccc(OCc2nnc(S)n2C)cc1 by removing a thiol and adding a hydroxyl.",
+        "molecule": "CC(C)c1ccc(OCc2nnc(S)n2C)cc1",
+        "removed_group": "thiol",
+        "added_group": "hydroxyl",
+        "reference": "CC(C)c1ccc(OCc2nnc(O)n2C)cc1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule is a substituted benzene ring with an isopropyl group (CC(C)) at position 1 and an ethoxy group (OCc2nnc(S)n2C) at position 4. The ethoxy group connects to a 5-membered heterocyclic ring containing two nitrogens, a sulfur (S), and a methyl group.",
+            "functional_group_identification": "The sulfur atom (S) in the heterocyclic ring is part of a thiol (-SH) group, attached to the carbon in the ring. The thiol is located in the heterocyclic portion: OCc2nnc(S)n2C.",
+            "delete_strategy": "The thiol group (-SH) is removed by replacing the sulfur atom (S) in the heterocyclic ring with a hydrogen atom. This converts the heterocycle from OCc2nnc(S)n2C to OCc2nnc([H])n2C (simplified as OCc2nncn2C in SMILES).",
+            "add_strategy": "A hydroxyl group (-OH) is added to the benzene ring at position 2 (ortho to the isopropyl group and meta to the ethoxy group) to minimize steric hindrance and align with directing effects of existing substituents.",
+            "feasibility_analysis": "Removing the thiol is chemically viable if the sulfur is a substituent (not part of the ring skeleton). Adding a hydroxyl to the benzene ring is feasible via electrophilic substitution, given the activating nature of the isopropyl and ethoxy groups.",
+            "output": "CC(C)c1c(O)ccc(OCc2nncn2C)cc1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C[NH+]1CCc2c(sc3nc(S)n(C4CCCCC4)c(=O)c23)C1 by removing a thiol and adding a hydroxyl.",
+        "molecule": "C[NH+]1CCc2c(sc3nc(S)n(C4CCCCC4)c(=O)c23)C1",
+        "removed_group": "thiol",
+        "added_group": "hydroxyl",
+        "reference": "C[NH+]1CCc2c(sc3nc(O)n(C4CCCCC4)c(=O)c23)C1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a bicyclic structure with an ammonium group ([NH+]), a thiophene-like ring (with sulfur atoms), a cyclohexane substituent (C4CCCCC4), a thiol group (-SH), and a carbonyl group (C=O). The thiol group is explicitly identified in the SMILES as part of the 'nc(S)' fragment.",
+            "functional_group_identification": "The thiol group (-SH) is located on the carbon adjacent to the nitrogen in the 'nc(S)' segment. The cyclohexane substituent (C4CCCCC4) is attached to the nitrogen in the 'n(C4CCCCC4)' group.",
+            "delete_strategy": "Remove the sulfur atom (S) in the 'nc(S)' fragment to delete the thiol group, converting it to 'ncn'.",
+            "add_strategy": "Add a hydroxyl group (-OH) to the cyclohexane ring (C4CCCCC4) by replacing one hydrogen atom on the ring with -OH, forming a cyclohexanol substituent (C4C(O)CCCC4). This position is chemically reasonable for substitution.",
+            "feasibility_analysis": "Thiol deletion is straightforward as sulfur removal does not disrupt aromaticity or core stability. Adding -OH to cyclohexane is feasible via oxidation or substitution, forming a stable cyclohexanol group. The modification maintains overall molecular integrity.",
+            "output": "C[NH+]1CCc2c(sc3ncn(C4C(O)CCCC4)c(=O)c23)C1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C=CC(=O)N(C(=O)C=C)[C@H](CS)C(=O)[O-] by removing a thiol and adding a nitrile.",
+        "molecule": "C=CC(=O)N(C(=O)C=C)[C@H](CS)C(=O)[O-]",
+        "removed_group": "thiol",
+        "added_group": "nitrile",
+        "reference": "C=CC(=O)N(C(=O)C=C)[C@H](C#N)C(=O)[O-]",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The molecule contains a conjugated diene (C=C), two amide groups (C(=O)N), a chiral center with a thiol (-SH) group (CS), a carboxylate anion (C(=O)[O-]), and multiple carbonyls. The thiol is attached to the chiral carbon ([C@H](CS)...).",
+            "functional_group_identification": "The thiol group (-SH) is located on the chiral carbon ([C@H](CS)...). The carboxylate and amides occupy other positions. The nitrile (-C\u2261N) must replace a structurally compatible site.",
+            "delete_strategy": "Remove the sulfur atom (S) from the thiol group (-SH) on the chiral carbon. This converts the -SH group to a hydrogen, simplifying [C@H](CS)... to [C@H](C)... while retaining stereochemistry.",
+            "add_strategy": "Replace the carboxylate group (C(=O)[O-]) attached to the chiral carbon with a nitrile (-C\u2261N). The carboxylate is chemically viable for conversion via Schmidt reaction or similar pathways.",
+            "feasibility_analysis": "Deleting the thiol is straightforward in SMILES modification. Converting carboxylate to nitrile is chemically plausible under acidic conditions (e.g., Schmidt reaction). Stereochemistry at the chiral center is preserved as substituent priorities remain consistent.",
+            "output": "C=CC(=O)N(C(=O)C=C)[C@H](C)C#N"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule C[NH+](Cc1cccc(C#N)c1)CC1(CS)CCC1 by removing a thiol and adding a nitrile.",
+        "molecule": "C[NH+](Cc1cccc(C#N)c1)CC1(CS)CCC1",
+        "removed_group": "thiol",
+        "added_group": "nitrile",
+        "reference": "C[NH+](Cc1cccc(C#N)c1)CC1(C#N)CCC1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a central ammonium group ([NH+]) connected to three substituents: a methyl group (C-), a benzyl-like group (Cc1cccc(C#N)c1) with an existing nitrile, and a cyclopentane ring (CC1(CS)CCC1) containing a thiol (-SH) group. The thiol is located on the cyclopentane ring as part of the CS branch.",
+            "functional_group_identification": "The thiol (-SH) is identified on the cyclopentane ring at the position marked by the sulfur atom (CS). The existing nitrile (C#N) is on the aromatic ring of the benzyl-like group.",
+            "delete_strategy": "The thiol (-SH) is removed by replacing the sulfur atom (S) in the CS group with a hydrogen, converting the CS branch into a CH2 group. This modifies the cyclopentane ring from CC1(CS)CCC1 to CC1(C)CCC1.",
+            "add_strategy": "A new nitrile group (C#N) is added to the carbon in the cyclopentane ring that previously held the thiol. This carbon (now CH2 after thiol deletion) is substituted with a nitrile, forming a C(C#N) group to maintain valence.",
+            "feasibility_analysis": "Deleting the thiol by replacing S with H is chemically valid, as it retains the ring structure. Adding a nitrile to the CH2 group is feasible via substitution (e.g., using cyanide under SN2 conditions), though steric hindrance in the cyclopentane may affect reaction efficiency. The resulting structure adheres to valence rules.",
+            "output": "C[NH+](Cc1cccc(C#N)c1)CC1(C(C#N))CCC1"
+        }
+    },
+    {
+        "Instruction": "Modify the molecule SCC1(COC/C=C/c2ccccc2)CCC1 by removing a thiol and adding a nitro.",
+        "molecule": "SCC1(COC/C=C/c2ccccc2)CCC1",
+        "removed_group": "thiol",
+        "added_group": "nitro",
+        "reference": "O=[N+]([O-])CC1(COC/C=C/c2ccccc2)CCC1",
+        "task": "sub",
+        "json_results": {
+            "molecule_analysis": "The input molecule contains a cyclopentane ring (SCC1...CCC1) with a thiol (-SH) group attached to a methylene bridge (S-C-). The cyclopentane is substituted with a chain containing an ether (COC), a trans double bond (/C=C/), and a benzene ring (c2ccccc2).",
+            "functional_group_identification": "The thiol group is located at the terminal sulfur atom (S) bonded to the methylene bridge (S-C-). The benzene ring (c2ccccc2) is attached via the trans double bond and ether chain.",
+            "add_strategy": "The nitro group (-NO\u2082) can be added to the benzene ring via electrophilic aromatic substitution. The para position relative to the existing vinyl chain substituent is chemically favorable for nitration.",
+            "delete_strategy": "The thiol group (-SH) is removed by deleting the sulfur atom (S), leaving the adjacent carbon bonded to the cyclopentane ring. The methylene bridge (C-) remains intact.",
+            "feasibility_analysis": "Removing the thiol is straightforward, as it only requires eliminating the sulfur atom. Adding a nitro group to the benzene ring is chemically viable under nitration conditions (e.g., HNO\u2083/H\u2082SO\u2084). The trans double bond and ether group do not hinder this reaction.",
+            "output": "CC1(COC/C=C/c2ccc([N+](=O)[O-])cc2)CCC1"
+        }
+    }
+]

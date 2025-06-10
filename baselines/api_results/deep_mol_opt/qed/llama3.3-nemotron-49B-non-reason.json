@@ -1,0 +1,862 @@
+[
+    {
+        "id": "b8c70dfc-4f16-470d-8315-9c3e3ff92d9a",
+        "src_smiles": "Cn1ccnc1SCC(=O)Nc1cccc([N+](=O)[O-])c1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cn1ccnc1SCC(=O)Nc1ccc([N](=O)[O-])c1"
+        }
+    },
+    {
+        "id": "72830aba-206b-46dd-b807-7d0154eef4dc",
+        "src_smiles": "O=C(O)c1cn(COCCO)c2ccc([N+](=O)[O-])cc2c1=O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(O)c1cn(COCCO)c2ccc([N](=O)[O])cc2c1=O"
+        }
+    },
+    {
+        "id": "cd407e6e-66d8-455b-80f0-e8beeefa150a",
+        "src_smiles": "CCOC(=O)c1cnc2ccnn2c1SCC",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CCOC(=O)c1cnc2ccnn2c1SCC"
+    },
+    {
+        "id": "57fabe19-721e-4f85-96ee-9f4bc0c279ab",
+        "src_smiles": "C=CCSc1cc(C)nc2c(-c3ccccc3)c(C)nn12",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C)c1ccc2c(c1)N(C)Nc1ccc(C)cc1S"
+        }
+    },
+    {
+        "id": "c9cd1d64-92d9-49c9-b3bf-144ed64ab512",
+        "src_smiles": "COCCSc1nnc(NC(=O)CSc2ccccc2)s1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COCCSc1nnc(NC(=O)Nc2ccccc2)s1"
+        }
+    },
+    {
+        "id": "ca514e49-1ac6-4a9a-ba85-23bed676762d",
+        "src_smiles": "O=C1NC(=O)C(=Cc2ccc(-c3cccc([N+](=O)[O-])c3)o2)S1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C1NC(=O)C(=Cc2ccc(-c3ccccc3)o2)S1"
+        }
+    },
+    {
+        "id": "501e6971-de01-488e-89b6-64bc91dde84b",
+        "src_smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CCCCCC(=O)Nc1ccccc1)N"
+        }
+    },
+    {
+        "id": "151c11fe-b5eb-4449-a593-8f133fcacb3c",
+        "src_smiles": "CON(C)C(NC(C)=O)C(=O)NCc1ccccc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CON(C)C(NC(C)=O)C(=O)NCc1ccccc1"
+        }
+    },
+    {
+        "id": "2a1be5ae-b61a-443e-a48a-f6bac83174b1",
+        "src_smiles": "O=C(C=Cc1ccc(C(=O)c2ccc3ccccc3n2)cc1)NO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(C=Cc1ccc(C(=O)c2ccc3ccccc3n2)cc1)N"
+        }
+    },
+    {
+        "id": "f329a679-cac2-4061-b3bf-2e8d68c0b050",
+        "src_smiles": "O=C(O)CN1C(=O)SC(=Cc2cccc([N+](=O)[O-])c2)C1=O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(O)CN1C(=O)SC(=Cc2ccc([N+]([O-])O)c2)C1=O"
+        }
+    },
+    {
+        "id": "747de4a7-7b04-4398-9d22-e51b4187597e",
+        "src_smiles": "O=C(CCCc1ccc(CCCCc2ccccc2)cc1)NO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CCCc1ccc(C(C)CCc2ccccc2)cc1)N"
+        }
+    },
+    {
+        "id": "57ab240b-f55c-4c43-8218-e31691957867",
+        "src_smiles": "C#CCCCC(=O)c1cc2c(c(C(C)(C)C)c1)OCC2",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCOc1cc2c(c(C(C)(C)C)c1)OCC2C(=O)CC"
+        }
+    },
+    {
+        "id": "bdde3019-88ee-42a6-95cf-e645bd9bb01f",
+        "src_smiles": "CN(c1ccc(C=CC(=O)NO)cc1)S(=O)(=O)c1ccccc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CN(c1ccc(C=CC(=O)N)cc1)S(=O)(=O)c1ccccc1"
+    },
+    {
+        "id": "31f21185-8722-4c9a-9458-e6abcb08dc2d",
+        "src_smiles": "O=C(NC(=S)NCc1ccco1)c1ccc([N+](=O)[O-])cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(NC(=S)NCc1ccco1)c1ccc(F)cc1"
+        }
+    },
+    {
+        "id": "5a594e13-15d9-44cd-bb4d-5f09fe1ea45f",
+        "src_smiles": "CSc1nccc(C#Cc2ccc(CC(C)NC(C)=O)cc2)n1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(C)NC(C)=Oc1ccc(C#Cc2nccc(CS)cn2)cc1"
+    },
+    {
+        "id": "027f2a4e-35f8-4869-bb28-9f7b4a078d1b",
+        "src_smiles": "COc1ccc(C(=O)Nc2cccc(OC(=O)c3ccco3)c2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(C(=O)Nc2ccccc2)cc1"
+        }
+    },
+    {
+        "id": "13315d3c-6456-4e67-a1d0-e7c9e2227efa",
+        "src_smiles": "CN(CC(=O)Nc1ccc(S(N)(=O)=O)cc1)C(=N)N",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CN(Cc1ccc(Nc2ccc(C(=N)N)cc2)cc1)C(=N)N"
+    },
+    {
+        "id": "9b69ff92-09bb-475a-aa5d-2df26dd485ee",
+        "src_smiles": "CCCCCCOc1ccc(C(=O)CCN2CCCCC2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCCCOc1ccc(C(=O)NCCN2CCCCC2)cc1"
+        }
+    },
+    {
+        "id": "c20e28d5-6cfa-438a-bed4-4978353df91a",
+        "src_smiles": "CC(=O)NC(=Cc1ccc2c(c1)OCO2)C(=O)NCCCO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(=O)NC(=Cc1ccc2c(c1)OCO2)C(=O)NCCCO"
+    },
+    {
+        "id": "555c0b8b-c9d8-4bc1-b224-28cf056f8a2a",
+        "src_smiles": "CC(=O)NCC1CN(c2ccc(C(C)=NO)cc2)C(=O)O1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(=O)NCC1CN(c2ccc(C(C)=NO)cc2)C(=O)O1"
+    },
+    {
+        "id": "cb2078fe-5cbe-4d7c-9c7e-3893e739139a",
+        "src_smiles": "CC(=NO)c1ccc(N2C(=O)C3CC=C(Cl)CC3C2=O)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(=NO)c1ccc(N2C(=O)C3CC=C(Cl)CC3C2=O)cc1"
+    },
+    {
+        "id": "bdee35ed-23e5-4ec1-a18b-916cfaedbe05",
+        "src_smiles": "CCSCCSc1nnc(-c2ccc([N+](=O)[O-])cc2)s1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CCSCCSc1nnc(-c2ccc([N+](=O)[O-])cc2)s1"
+    },
+    {
+        "id": "23ba6ed2-8def-4d03-9ce8-c195f9695be1",
+        "src_smiles": "O=C(O)C=Cc1cn(Cc2ccc([N+](=O)[O-])cc2)c2ccccc12",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(O)C=Cc1cn(Cc2ccc([N](=O)[O])cc2)c2ccccc12"
+        }
+    },
+    {
+        "id": "48d342d5-966b-4720-a7a8-dc352f43ab50",
+        "src_smiles": "COc1ccc2c(CSCCBr)cc(=O)oc2c1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc2c(CSCCCH2)cc(=O)oc2c1"
+        }
+    },
+    {
+        "id": "3697edfa-ff12-4c90-a28b-e37fe3faa6a1",
+        "src_smiles": "O=C(OCc1cn(-c2ccc([N+](=O)[O-])cc2)nn1)C1CCCN1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(Oc1cn(-c2ccc([N+](=O)[O-])cc2)nn1)C1CCN(C)C1"
+        }
+    },
+    {
+        "id": "aa4a8b00-aeb7-41a7-a2e7-35e958a610f5",
+        "src_smiles": "COc1ccc(CCNC(=O)CSc2nncn2N)cc1OC",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(CCNC(=O)Nc2nncn2N)cc1OC"
+        }
+    },
+    {
+        "id": "09d03606-a95a-4e86-ab62-22b24752cfbe",
+        "src_smiles": "C#CCCCOc1ccc2c(C)cc(=O)oc2c1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCOc1ccc2c(C)cc(=O)oc2c1"
+        }
+    },
+    {
+        "id": "73367d07-f49b-4057-a428-f3a92353b13a",
+        "src_smiles": "C#CCOCC(Cn1cncn1)c1ccc(Cl)cc1Cl",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCOCC(Cn1cncn1)c1ccc(F)cc1F"
+        }
+    },
+    {
+        "id": "3333179b-0a86-4857-9d79-02034e8a99a7",
+        "src_smiles": "CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1"
+    },
+    {
+        "id": "11accd92-2166-4b20-b75f-0e22b2806576",
+        "src_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cn1c(=O)c2c(ncn2C(O))n(C)c1=O"
+        }
+    },
+    {
+        "id": "e1e23e11-d08e-4ef4-8d91-00cb98dfb6ea",
+        "src_smiles": "Nc1ccc(C=CC(=O)Nc2cccc(Cl)c2)cc1O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Nc1ccc(C=CC(=O)Nc2ccccc2)cc1O"
+        }
+    },
+    {
+        "id": "57c7ef5d-a666-4fcd-8ddd-ce6836975a31",
+        "src_smiles": "Cc1cn(C2CC(NC(=O)CC(=O)O)C(CO)O2)c(=O)[nH]c1=O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCc1cn(C2CC(NC(=O)C(C)C(=O)O)C(CO)O2)c(=O)[nH]c1=O"
+        }
+    },
+    {
+        "id": "7dbd5406-abf4-41b6-a4c2-381032c68bde",
+        "src_smiles": "CC(N)C(NC(=O)c1ccc(C#Cc2ccccc2)cc1)C(=O)NO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(N)C(NC(=O)c1ccc(C#Cc2ccccc2)cc1)C(=O)NO"
+    },
+    {
+        "id": "bced9b89-54c6-4a06-aef2-5d4d2ac8f612",
+        "src_smiles": "CN=C(NC#N)NCCn1nc(-c2ccccc2)ccc1=O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CN=C(NC#N)NCCn1nc(-c2ccccc2)ccc1=O"
+    },
+    {
+        "id": "c124bf86-770d-4674-8670-925edc3a953e",
+        "src_smiles": "CC(N)C(NC(=O)c1ccc(C#Cc2ccccc2)cc1)C(=O)NO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(N)C(NC(=O)c1ccc(C#Cc2ccccc2)cc1)C(=O)NO"
+    },
+    {
+        "id": "ed5a18aa-87f6-4d34-9c5b-3ee485be8beb",
+        "src_smiles": "COc1nc(OCC(=N)NO)nc(N2CCOCC2)n1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1nc(OCC(=N)NO)nc(N2CCOCC2)n1"
+        }
+    },
+    {
+        "id": "358a4341-fb30-4ede-b0af-65f61a97a8fd",
+        "src_smiles": "Cc1nc(C#Cc2cnc(SC(C)(C)C)nc2)cs1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCc1nc(C#Cc2cnc(Nc3ccc(C)cc3)nc2)cs1"
+        }
+    },
+    {
+        "id": "42b2e150-1c3c-4ff4-9796-fef2fa0f7431",
+        "src_smiles": "C[N+]([O-])=Cc1ccc2c(c1)OCO2",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC[N+]([O-])=Cc1ccc2c(c1)OCO2"
+        }
+    },
+    {
+        "id": "add98843-c0e4-4d10-a8c8-37a48047b699",
+        "src_smiles": "NC(=NO)c1ccc(C=Cc2ccc(O)cc2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "NC(=NO)c1ccc(C=Cc2ccc(O)cc2)cc1"
+        }
+    },
+    {
+        "id": "bc0c9ff7-ddd1-44c8-a607-fb93e7d73bba",
+        "src_smiles": "Nc1ccccc1-c1cc(=O)c2ccc3ccccc3c2o1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Nc1ccccc1-c1cc(=O)c2ccc3ccccc3c2o1"
+        }
+    },
+    {
+        "id": "a4682a33-ada1-4408-bf99-385571b04728",
+        "src_smiles": "NS(=O)(=O)c1ccc(NC(=S)NC(=O)c2cccc([N+](=O)[O-])c2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "NS(=O)(=O)c1ccc(NC(=S)Nc2ccccc2)cc1"
+        }
+    },
+    {
+        "id": "e648741d-488c-43ea-830f-45b262ccc2dc",
+        "src_smiles": "O=C(Nc1ccccc1)N1CCN(Cc2ccc(C=Cc3ccccc3)cc2)CC1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(Nc1ccccc1)N1CCN(Cc2ccc(Cc3ccccc3)cc2)CC1"
+        }
+    },
+    {
+        "id": "c0906ca2-580b-47dd-b6ad-cce67421cdcc",
+        "src_smiles": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cc([N+]([O-])(=O))c(c1)O"
+        }
+    },
+    {
+        "id": "5a4fdcc1-9a78-425c-bd72-d0e047d56879",
+        "src_smiles": "Cc1c(Cc2cccc([N+](=O)[O-])c2)c(=O)oc2cc(OC(=O)N(C)C)ccc12",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCc1c(Cc2cccc([N+](=O)[O-])c2)c(=O)oc2cc(OC(=O)N)ccc12"
+        }
+    },
+    {
+        "id": "b37e2c7f-e767-4e8d-a397-742ddbb98598",
+        "src_smiles": "O=C(COC(=O)c1ccccc1)Nc1ccc(Cl)cc1C(=O)c1ccccc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(COC(=O)c1ccccc1)Nc1ccc(F)cc1C(=O)c1ccccc1"
+        }
+    },
+    {
+        "id": "f8c1f715-1c93-4a48-bb0a-553f4edd048f",
+        "src_smiles": "Cn1cnc2cc(-c3ccc(C(=N)NO)cc3)nc(N3CCC(CO)C3)c2c1=O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cn1cnc2cc(-c3ccc(C(=N)N)cc3)nc(N3CCC(CO)C3)c2c1=O"
+        }
+    },
+    {
+        "id": "011c68e1-4480-49e5-9a25-fcc95ca9ec00",
+        "src_smiles": "COCCSc1nnc(NC(=O)CCS(=O)(=O)Cc2ccccc2)s1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COCCSc1nnc(NC(=O)CCS(=O)(=O)Nc2ccccc2)s1"
+        }
+    },
+    {
+        "id": "aff7d175-01ed-42b3-838b-6433991da16d",
+        "src_smiles": "O=C(CSc1ncccn1)Nc1ccc(S(=O)(=O)N2CCCCC2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CSc1ncccn1)Nc1ccc(S(=O)(=O)N2CCCN2)cc1"
+        }
+    },
+    {
+        "id": "9fdd22a3-63eb-4c02-b96f-f5b3bd0a234d",
+        "src_smiles": "O=C(Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1)c1cccc([N+](=O)[O-])c1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(Nc1ccc(S(=O)(=O)Nc2ccn2)cc1)c1cc([N+]([O-])(=O))cc1"
+        }
+    },
+    {
+        "id": "36856db3-145d-496d-b9f8-e86fa4ecd9d4",
+        "src_smiles": "CCC(=O)Oc1ccc(NC(=O)c2ccc(S(=O)(=O)N3CCCC3)cc2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCOc1ccc(NC(=O)c2ccc(S(=O)(=O)N3CCCN3)cc2)cc1"
+        }
+    },
+    {
+        "id": "05464f21-040e-452e-9fb4-b5127afcf1ae",
+        "src_smiles": "O=C(CCCC1CCN(S(=O)(=O)c2ccc3c(c2)CCO3)CC1)NO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CCCC1CCN(S(=O)(=O)c2ccc3c(c2)CO3)CC1)N"
+        }
+    },
+    {
+        "id": "82f09443-b82f-4be2-87df-d4c03232093c",
+        "src_smiles": "O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CCCCCc1ccccc1)c1ncc(-c2cc([N](=O)[O])ccn2)o1"
+        }
+    },
+    {
+        "id": "73b31801-d960-41e0-bd15-77621f033092",
+        "src_smiles": "CCN1c2ncc(COc3cc[n+]([O-])cc3)cc2C(=O)N(C)c2cccnc21",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CCN1c2ncc(COc3cc[n+]([O-])cc3)cc2C(=O)N(C)c2cccnc21"
+    },
+    {
+        "id": "86346f5a-d7e5-429e-8baa-598fb0a6a806",
+        "src_smiles": "COc1ccc(C(=O)Nc2ccccc2-c2nc3ncccc3[nH]2)cc1OC",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(C(=O)Nc2ccccc2-c2nc3ncccc3[nH]2)cc1OC"
+        }
+    },
+    {
+        "id": "b30b9d76-2f33-4252-b5a7-b7b64dbf591f",
+        "src_smiles": "CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CN(C)CCCOc1cc(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21"
+        }
+    },
+    {
+        "id": "6dbdf5e9-c2f0-43c7-a9ee-a04e421fa2ae",
+        "src_smiles": "O=C(NCC1CCCO1)C(=Cc1cccc([N+](=O)[O-])c1)NC(=O)c1ccccc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(NCC1CCCO1)C(=Cc1cccc(c1)N)NC(=O)c1ccccc1"
+        }
+    },
+    {
+        "id": "b974107a-c74a-4c28-b86d-ad72125884e3",
+        "src_smiles": "O=C(C=Cc1ccc(CCNC(=O)c2ccc3c(c2)OCO3)cc1)NO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(C=Cc1ccc(CCNC(=O)c2ccc3c(c2)OCO3)cc1)N"
+        }
+    },
+    {
+        "id": "e1c00da7-e421-4a28-bc1e-2d3ce5a7c58a",
+        "src_smiles": "CNC(=O)C(Cc1ccccc1)NC(=O)C(CC(C)C)C(C)(C)C(=O)NO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C)NC(=O)C(Cc1ccccc1)NC(=O)C(C)C"
+        }
+    },
+    {
+        "id": "1a8f6887-94b5-4cf0-b3a2-ecd30954bc4e",
+        "src_smiles": "COc1cc(C=C(C#N)c2ccccn2)ccc1OCc1ccccc1Cl",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cc(C=C(C#N)c2cccnc2)ccc1OCc1ccccc1F"
+        }
+    },
+    {
+        "id": "07067f77-6068-4b10-87e4-ebb9bf11246e",
+        "src_smiles": "C=CCn1c(=O)c2[nH]c(Cc3ccc(N)cc3)nc2n(CCCC)c1=O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "C=CCn1c(=O)c2[nH]c(Cc3ccc(O)cc3)nc2n(Cc4ccc(N)cc4)c1=O"
+        }
+    },
+    {
+        "id": "2764a174-67c8-412d-843d-b7fb4f1c44b8",
+        "src_smiles": "CCC1(CC)C(=O)N(COC(=O)c2ccccc2)C1S(=O)(=O)c1ccccc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(C)C(=O)N(COC(=O)c1ccccc1)C(C)S(=O)(=O)c1ccccc1"
+        }
+    },
+    {
+        "id": "ad924426-d94c-4d05-b872-6a87e034035b",
+        "src_smiles": "Nc1ccc(-c2nnc(NC(=O)Nc3ccc(Cl)c(Cl)c3)s2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "Nc1ccc(-c2nnc(NC(=O)Nc3ccc(F)c(F)c3)s2)cc1"
+    },
+    {
+        "id": "33ef3d87-b6c7-4981-a4ce-b01bbdf2620d",
+        "src_smiles": "COc1cc(N)c(C=Cc2cc(OC)c(OC)c(OC)c2)cc1[N+](=O)[O-]",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cc(N)c(C=Cc2cc(OC)c(OC)c(OC)c2)cc1[N+](=O)[O-]"
+        }
+    },
+    {
+        "id": "61bad20d-ceda-4699-acd6-fcb542a75a3a",
+        "src_smiles": "Cc1ccc(SCCC(=O)Nc2ccc(OCc3ccccc3)cc2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1ccc(SCCC(=O)Nc2ccc(OCc3ccccc3)cc2)cc1"
+        }
+    },
+    {
+        "id": "37cca7b5-22cd-44a3-9084-2c2711354079",
+        "src_smiles": "C=CCNC(=O)NC(=O)CN1C(=O)NC(c2ccccc2)(c2ccccc2)C1=O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "C=CCNC(=O)Nc1ccc(cc1)C(=O)Nc1ccc(cc1)C(=O)N"
+        }
+    },
+    {
+        "id": "1d44bccf-cee9-4296-be6f-41b7c0d6ca5d",
+        "src_smiles": "O=C(CCCCCC(c1c[nH]c2ccccc12)c1c[nH]c2ccccc12)NO",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CCCCCC(c1c[nH]c2ccccc12)c1c[nH]c2ccccc12)N"
+        }
+    },
+    {
+        "id": "1b83c131-ba02-4580-91a8-93c56bddf6c0",
+        "src_smiles": "Cc1ccc(NC(=O)C(=Cc2ccc([N+](=O)[O-])cc2)NC(=O)c2ccccc2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1ccc(NC(=O)C(=Cc2ccc([N](=O)[O-])cc2)NC(=O)c2ccccc2)cc1"
+        }
+    },
+    {
+        "id": "9ef2dabd-0441-4d2d-b387-edb218a29107",
+        "src_smiles": "Cc1cc2c(c(=O)o1)C=C1CCC(C(C)CSc3ncccn3)CC1O2",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCc1cc2c(c(=O)o1)C=C1CCC(C(C)CSC2Nc3cccn3)CC1O2"
+        }
+    },
+    {
+        "id": "ac079947-f547-4e70-b7c1-ebd8ccfc2164",
+        "src_smiles": "O=C1CC(N2CCN(c3ccc([N+](=O)[O-])cc3)CC2)C(=O)N1c1ccccc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C1CC(N2CCN(c3ccc([N](=O)[O-])cc3)CC2)C(=O)N1c1ccccc1"
+        }
+    },
+    {
+        "id": "7c102794-bcbd-4818-9b1c-3f937557ae50",
+        "src_smiles": "COc1ccc(C=C(C)C(=O)c2cc(OC)c(OC)c(OC)c2)cc1[N+](=O)[O-]",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(C=C(C)c2cc(OC)c(OC)c(OC)c2)cc1[N+](=O)[O-]"
+        }
+    },
+    {
+        "id": "998e2198-a8b2-4db5-aedc-55d636565b41",
+        "src_smiles": "COc1ccc(Cl)cc1C(=O)NCCc1ccc(CCC(=O)NO)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(Cl)cc1C(=O)NCCc1ccc(CCC(=O)N)cc1"
+        }
+    },
+    {
+        "id": "a4f9121b-94a8-4731-8438-260ed08712d3",
+        "src_smiles": "O=C(Oc1cc(O)c2c(c1)OC(c1ccc(O)cc1)CC2=O)c1cccs1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(Oc1cc(O)c2c(c1)OC(c1ccc(O)cc1)CC2=O)c1cccs1"
+        }
+    },
+    {
+        "id": "7e7429e1-2378-4732-b0d0-5b6fa3439dff",
+        "src_smiles": "Nc1cnc(-c2ccc(-c3ccccc3CSc3ccncn3)cc2F)cn1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Nc1cnc(-c2ccc(-c3ccccc3SC)cc2F)cn1"
+        }
+    },
+    {
+        "id": "c374d1ed-e722-4e98-a58f-ebdcd97296cc",
+        "src_smiles": "CCOc1ccccc1NS(=O)(=O)c1cc(-c2cnc(C3CC3)o2)ccc1C",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCOc1ccccc1NS(=O)(=O)c1cc(-c2cnc(C3CC3)o2)ccc1C"
+        }
+    },
+    {
+        "id": "2017a5fd-93e4-48a7-a8f8-2b7a2f867beb",
+        "src_smiles": "COc1ccc(C(=O)Nc2ccc(-c3nc4ncccc4[nH]3)cc2)cc1OC",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(C(=O)Nc2ccc(-c3nc4ncccc4[nH]3)cc2)cc1OC"
+        }
+    },
+    {
+        "id": "e841bc37-bff8-4118-8fc5-552b9d22b0d1",
+        "src_smiles": "O=C(Nc1ccnc(F)c1)c1ccc(-c2noc(C(F)(F)F)n2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(Nc1ccnc(F)c1)c1ccc(-c2ncc(C(F)(F)F)n2)cc1"
+        }
+    },
+    {
+        "id": "b226cbd8-e449-4f88-9420-1c51a5a08576",
+        "src_smiles": "O=C(CSc1cccc[n+]1[O-])Nc1ccccc1Oc1ccccc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CSc1cccc[n+]1[O-])Nc1ccccc1Oc1ccccc1"
+        }
+    },
+    {
+        "id": "7ed50be0-1136-4485-80a8-0e8a501f9aaa",
+        "src_smiles": "CCCCOC(=O)c1ccc(NC(=O)C2(c3cccs3)CCOCC2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCOc1ccc(NC(=O)C2CCOCC2)cc1"
+        }
+    },
+    {
+        "id": "ba7e2db3-df4e-463f-823a-c4955c29f5fb",
+        "src_smiles": "COC(=O)C1=C(C)N=C(C)C(=C(O)OC)C1c1ccc(Cl)c([N+](=O)[O-])c1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC(=O)Nc1ccc(C)cc1C(=O)Oc1cc(C)ccc1"
+        }
+    },
+    {
+        "id": "090266c4-53a5-4d6c-b8e8-972853ecd2b4",
+        "src_smiles": "CC(NC(=O)Nc1cc2[nH]nc(NC(C)c3ccccn3)c2cn1)c1ccccc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(NC(=O)Nc1cc2[nH]nc(NC(C)c3ccccc3)c2cn1)c1ccccc1"
+    },
+    {
+        "id": "a1ebc3d7-a991-4619-ab65-62289c145ad3",
+        "src_smiles": "COc1ccc(NC(=O)COc2ccc(C(=O)Nc3cccc(F)c3)c3ccccc23)cc1OC",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1ccc(NC(=O)COc2ccc(C(=O)Nc3ccccc3)c3ccccc23)cc1OC"
+        }
+    },
+    {
+        "id": "aba24b74-0908-4d8c-a6e8-5e092fec84ad",
+        "src_smiles": "Cc1cc(O)cc(C)c1CC(N)C(=O)N1Cc2ccccc2CC1C(=O)Nc1nn[nH]n1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1cc(O)cc(C)c1CC(N)C(=O)Nc1ccccc1"
+        }
+    },
+    {
+        "id": "6c022aa0-356b-4a0b-b8c8-e08f4d4fde2a",
+        "src_smiles": "CC(CCCNc1ccccc1)N(c1cc(Cl)ccc1CO)S(=O)(=O)c1ccc(Cl)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(CCCNc1ccccc1)N(c1cc(F)ccc1CO)S(=O)(=O)c1ccc(F)cc1"
+    },
+    {
+        "id": "1d147855-084a-46f6-882f-111c4fba16e3",
+        "src_smiles": "O=C(CCl)Nc1ccc(N2CCN(CC(O)(Cn3cncn3)c3ccc(F)cc3F)CC2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(CCl)Nc1ccc(N2CCN(Cc3ccc(F)cc3F)c3ccc(C(O)Nc4cncn4)cc3)cc1"
+        }
+    },
+    {
+        "id": "c4875858-db22-40a6-ada7-c629c76dbe1a",
+        "src_smiles": "CC1=C(CC(=O)OCCCCO)c2cc(F)ccc2C1=Cc1ccc(S(C)(=O)=O)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC1=C(CC(=O)OCCCCO)c2cc(F)ccc2C1=Cc1ccc(O)cc1"
+    },
+    {
+        "id": "1c7f5978-71e4-4bbe-99e6-5bce5f9b8e78",
+        "src_smiles": "Nc1cnc(-c2ccc(C3CCC3)c(OCC(O)CNc3cc(N)ncn3)c2F)cn1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Nc1cnc(-c2ccc(C3CCC3)c(OCC(O)C)c2F)cn1"
+        }
+    },
+    {
+        "id": "9d42b21e-194a-4a13-94e0-6a25a05fa304",
+        "src_smiles": "COc1cccc(C(=O)Nc2ccc(-c3ccc(S(=O)(=O)NC(C(=O)O)C(C)C)cc3)cc2)c1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "COc1cccc(C(=O)Nc2ccc(-c3ccc(S(=O)(=O)NC(C(=O)O)CC)cc3)cc2)c1"
+        }
+    },
+    {
+        "id": "a3fc6c44-2859-417e-8fa5-18a640f92d73",
+        "src_smiles": "NS(=O)(=O)c1ccc(Nc2nccc(-c3ccc(NC(=O)Cc4cccs4)cc3)n2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "NS(=O)(=O)c1ccc(Nc2nccc(-c3ccc(NC(=O)Cc4cccs4)cc3)n2)cc1"
+        }
+    },
+    {
+        "id": "797597a2-0abe-4d7d-bffc-d9d21d1dd240",
+        "src_smiles": "Cc1oc(=O)oc1COC(=O)C(C)(C)Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CC1=CC=CC=C1C(=O)OCC(=O)NCC1=CC=CC=C1"
+        }
+    },
+    {
+        "id": "2f16514f-6d12-4853-91ff-ab2b82fb9fe1",
+        "src_smiles": "Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3)cc2)c(=O)n(-c2ccccc2)n1C"
+        }
+    },
+    {
+        "id": "990745ef-9abd-4f3b-a598-a4148456385b",
+        "src_smiles": "CN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3-c2cc([N+](=O)[O-])cn2C)CC1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3-c2cc([N+](=O)[O-])cn2C)CC1"
+    },
+    {
+        "id": "ff763def-e696-4d34-a0fb-53a996a17af6",
+        "src_smiles": "O=C(Nc1ccccc1C(=O)N1CCOCC1)c1ccc(CSc2ccccc2)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(Nc1ccccc1C(=O)N1CCOCC1)c1ccc(COc2ccccc2)cc1"
+        }
+    },
+    {
+        "id": "dca197f5-411f-4b0f-95e7-d30f3cbef80f",
+        "src_smiles": "CN(C(=O)c1ccc(-c2nc(C3CCOCC3)cnc2N)cc1F)C(CO)c1ccccc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CN(C(=O)c1ccc(-c2nc(C3CCOCC3)cnc2N)cc1F)C(CO)c1ccccc1"
+        }
+    },
+    {
+        "id": "c7426e82-53da-4f6a-b0c7-9fa3b57e6153",
+        "src_smiles": "CC(Sc1ncccn1)C(=O)Nc1ncc(Cc2cccc3ccccc23)s1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(Cc1ncccn1)C(=O)Nc1ncc(Cc2ccc(C)cc2)s1"
+    },
+    {
+        "id": "63856cb4-880f-4558-9c43-5da8d1db9196",
+        "src_smiles": "CCCCOC(=O)CC1N=C(c2ccc(Cl)cc2)c2cc(OC)ccc2-n2c(C)nnc21",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCCOc1ccc(Cc2nccn2C)c(c1)N=C(c1ccc(OC)cc1)c1cc(Cl)ccc1"
+        }
+    },
+    {
+        "id": "cb919293-97b6-46f2-a6b0-c2bd3fa915fd",
+        "src_smiles": "Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCc1cc(C#N)cc(C(=O)c2c(C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1"
+        }
+    },
+    {
+        "id": "e48ced47-8655-42ae-9c95-363aaeb4ff2e",
+        "src_smiles": "O=C(C=Cc1ccco1)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "O=C(NC(Cc1ccccc1)C(=O)O)C(C=Cc1ccco1)NC(Cc1ccccc1)C(=O)N"
+        }
+    },
+    {
+        "id": "778beebd-bafc-4634-ad5c-8a35c8f9413f",
+        "src_smiles": "CC(C)C(NS(=O)(=O)c1ccc(-c2ccc(COc3cccc(F)c3)cc2)cc1)C(=O)O",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": "CC(C)C(NS(=O)(=O)c1ccc(-c2ccc(COc3ccccc3)cc2)cc1)C(=O)O"
+    },
+    {
+        "id": "935646ad-0701-4b6a-acf1-2b8486a3ff88",
+        "src_smiles": "Cc1ccc(NC(=O)CN2C(=O)SC(=Cc3ccc(-c4ccc(Cl)c(C(=O)O)c4)o3)C2=O)cc1",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "Cc1ccc(NC(=O)CN2C(=O)SC(=Cc3ccc(-c4ccc(F)c(C(=O)O)c4)o3)C2=O)cc1"
+        }
+    },
+    {
+        "id": "38ce2daf-77f1-4241-9f85-5372f8a7c104",
+        "src_smiles": "CNC(=O)N(C)CC(O)CN1C2CCC1CC(NC(=O)c1cc3ccccc3n(C(C)C)c1=O)C2",
+        "prop": "qed",
+        "raw_cot": null,
+        "json_results": {
+            "Final Target Molecule": "CCN(C(=O)Nc1ccc(cc1)C(=O)NCCN2CCN(C(C)C)C2=O)CC(O)N"
+        }
+    }
+]

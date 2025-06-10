@@ -1,0 +1,286 @@
+[
+    {
+        "smiles": "CC(C)n1cnc2c(NCc3ccc(-c4ccccc4)cc3)nc(N(CCO)CCO)nc21",
+        "ring_system_scaffold": "c1ccc(-c2ccccc2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Cc1ccc(C(=NO)NCCN2CCOCC2)c(Oc2cccc(F)c2)n1",
+        "ring_system_scaffold": "C1COCCN1",
+        "task": "ring_system_scaffold",
+        "json_results": "I need to determine if the ring system scaffold C1COCCN1 is present in the input molecule.\n\nLooking at the input molecule Cc1ccc(C(=NO)NCCN2CCOCC2)c(Oc2cccc(F)c2)n1:\n- It contains several ring systems\n- One part is N2CCOCC2, which represents a morpholine ring (C1COCCN1)\n\nThe C1COCCN1 scaffold (morpholine ring) is indeed present in the molecule.\n\n```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3cc(Cl)ccc3Cl)c2cc1OCCCCCC(=O)NO",
+        "ring_system_scaffold": "c1ccc2ncncc2c1",
+        "task": "ring_system_scaffold",
+        "json_results": "To determine if the ring system scaffold is in the molecule, I need to analyze both structures and check if the scaffold is present in the molecule.\n\nThe input molecule is: `COc1cc2ncnc(Nc3cc(Cl)ccc3Cl)c2cc1OCCCCCC(=O)NO`\nThe ring system scaffold is: `c1ccc2ncncc2c1`\n\nThe scaffold represents a quinoline-like bicyclic system with two fused rings - a benzene ring fused with a pyridine ring containing two nitrogen atoms in specific positions.\n\nLooking at the input molecule, I can identify that it contains a quinazoline core (similar to quinoline but with an additional nitrogen) with the pattern `c1cc2ncnc-c2cc1`. This matches the core ring structure of the scaffold.\n\n```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "NC(=O)OC(CCN1CCN(c2ccc([N+](=O)[O-])cc2)CC1)c1ccccc1",
+        "ring_system_scaffold": "c1ccc(N2CCNCC2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CNC(=O)C(NC(=O)C(CC(C)C)C(C(=O)NO)C1CCCC1)C(C)(C)C",
+        "ring_system_scaffold": "C1CCCC1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "ring_system_scaffold": "c1ccccc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCOC(=O)c1cnc2ccnn2c1SCC",
+        "ring_system_scaffold": "c1cnc2ccnn2c1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCC(=O)NCCCCN1CCN(c2ccccc2OC)CC1",
+        "ring_system_scaffold": "c1ccc(N2CCNCC2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21",
+        "ring_system_scaffold": "c1ccc(-c2ccccc2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CCC(O)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12",
+        "ring_system_scaffold": "c1cc2[nH]ncc2cn1",
+        "task": "ring_system_scaffold",
+        "json_results": "To determine if the ring system scaffold is in the molecule, I'll analyze both structures.\n\nThe input molecule SMILES: `CCC(O)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12`\nThe ring system scaffold: `c1cc2[nH]ncc2cn1`\n\nLooking at the molecule, I can see it contains a bicyclic system with an [nH]n portion connected to another ring. This matches the pattern in the ring system scaffold, which describes a specific bicyclic heterocyclic structure.\n\nWhen I analyze the core ring system in the input molecule, it contains the exact scaffold specified: a bicyclic system with the nitrogen atoms arranged in the pattern shown in the scaffold.\n\n```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1ccc(-c2csc3ncnc(NCCCC(=O)O)c23)cc1C",
+        "ring_system_scaffold": "c1ccc(-c2csc3ncncc23)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C",
+        "ring_system_scaffold": "c1ccc(-n2cccn2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": "To determine if the ring system scaffold is in the molecule, I need to analyze both structures carefully.\n\nThe input molecule SMILES is:\n`Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C`\n\nThe ring system scaffold SMILES is:\n`c1ccc(-n2cccn2)cc1`\n\nThe ring system scaffold represents a phenyl ring connected to a pyrazole ring through a nitrogen atom. Looking at the input molecule, there is a phenyl ring connected to a different kind of nitrogen-containing heterocycle (a pyrazolone), not the specific pyrazole structure required in the scaffold.\n\n{\n    \"output\": \"No\"\n}"
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(OC(F)F)c2cn1)c1ccccc1",
+        "ring_system_scaffold": "c1cc2[nH]ncc2cn1",
+        "task": "ring_system_scaffold",
+        "json_results": "I'll analyze if the ring system scaffold is present in the molecule.\n\n```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CN(C)C1CCN(CCc2c(COc3ccccc3CO)sc3ccccc23)CC1",
+        "ring_system_scaffold": "c1ccc2sccc2c1",
+        "task": "ring_system_scaffold",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "O=c1cnc2cnc(OCc3ccccc3)nc2n1Cc1ccc(F)cc1",
+        "ring_system_scaffold": "c1cnc2ncncc2n1",
+        "task": "ring_system_scaffold",
+        "json_results": "To determine if the ring system scaffold is present in the molecule, I need to compare the ring systems.\n\nThe molecule SMILES: O=c1cnc2cnc(OCc3ccccc3)nc2n1Cc1ccc(F)cc1\nThe ring system scaffold: c1cnc2ncncc2n1\n\nLooking at the molecule, it contains a fused bicyclic system (c1cnc2cnc...nc2n1) which matches the basic ring system scaffold (c1cnc2ncncc2n1) - both represent a pteridine-like bicyclic structure.\n\n```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "FC(F)(F)c1ccccc1-c1nccc(NCc2ccccc2)n1",
+        "ring_system_scaffold": "c1ccc(-c2ncccn2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": "To determine if the ring system scaffold is in the molecule, I need to compare the structures.\n\n```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(c1ccc(Br)o1)N1CCc2ccccc21",
+        "ring_system_scaffold": "c1ccc2c(c1)CCN2",
+        "task": "ring_system_scaffold",
+        "json_results": "To determine if the ring system scaffold is in the molecule, I need to check if the specific ring system structure is present as a substructure in the input molecule.\n\nLet me analyze both structures:\n\nInput Molecule: `O=C(c1ccc(Br)o1)N1CCc2ccccc21`\nRing System Structure: `c1ccc2c(c1)CCN2`\n\nThe ring system structure represents a tetrahydroquinoline scaffold (a benzene ring fused with a partially saturated nitrogen-containing 6-membered ring).\n\nLooking at the input molecule, it contains `N1CCc2ccccc21` which matches the ring system scaffold `c1ccc2c(c1)CCN2`. Both represent the same tetrahydroquinoline substructure.\n\n```json\n{\"output\": \"Yes\"}\n```"
+    },
+    {
+        "smiles": "C=CCNC(=O)NC(=O)CN1C(=O)NC(c2ccccc2)(c2ccccc2)C1=O",
+        "ring_system_scaffold": "c1ccc(C2(c3ccccc3)CNCN2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "No"
+        }
+    },
+    {
+        "smiles": "O=C(O)CSc1nonc1-c1ccccc1",
+        "ring_system_scaffold": "c1ccc(-c2cnon2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": "```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CC1CCCCN1CCC(CCN(C(C)C)C(C)C)(C(N)=O)c1ccccc1F",
+        "ring_system_scaffold": "C1CCNCC1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(C(=O)N1CCN(c2cccc(C(F)(F)F)c2)CC1)N1C(=O)CC(C)(C)C1=O",
+        "ring_system_scaffold": "c1ccc(N2CCNCC2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": "To determine if the ring system scaffold is in the molecule, I need to analyze both structures.\n\nThe input molecule has SMILES: `CC(C(=O)N1CCN(c2cccc(C(F)(F)F)c2)CC1)N1C(=O)CC(C)(C)C1=O`\n\nThe ring system scaffold has SMILES: `c1ccc(N2CCNCC2)cc1`\n\nThe scaffold contains a benzene ring connected to a piperazine ring. Looking at the input molecule, it also contains a piperazine ring (N1CCN...CC1) connected to a benzene ring (c2cccc(C(F)(F)F)c2), though the benzene in the input molecule has a CF3 substituent.\n\nSince the ring system scaffold is concerned with the core cyclic structures and their connectivity pattern (benzene connected to piperazine), and this pattern is present in the input molecule regardless of substituents, the scaffold is indeed present in the molecule.\n\n```json\n{\"output\": \"Yes\"}\n```"
+    },
+    {
+        "smiles": "O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1",
+        "ring_system_scaffold": "c1ccc(-c2cnco2)nc1",
+        "task": "ring_system_scaffold",
+        "json_results": "I need to determine if the ring system scaffold `c1ccc(-c2cnco2)nc1` is present in the input molecule `O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1`.\n\nLooking at the molecule structure:\n- The input molecule contains a phenyl ring (benzene), an oxazole ring, and a pyridine ring with a nitro group\n- The scaffold contains a pyridine ring connected to an oxazole ring\n\nComparing these structures, the input molecule does contain the core ring system scaffold pattern of a pyridine connected to an oxazole, although with some additional substituents.\n\n```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CN1CCN(CC(=O)Nc2ccc(Sc3ccc(Cl)cc3)cc2)CC1",
+        "ring_system_scaffold": "C1CNCCN1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(c1nc(C2CC2)no1)N1CCN(Cc2cccc(F)c2F)CC1",
+        "ring_system_scaffold": "c1nc(C2CC2)no1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC",
+        "ring_system_scaffold": "c1ccc2ncncc2c1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "c1ccc(Nc2ccc(Oc3nccnc3C3CCOC3)cc2)nc1",
+        "ring_system_scaffold": "c1cnc(C2CCOC2)cn1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(OCc1ccccc1)C1COC(c2cccc(F)c2)=N1",
+        "ring_system_scaffold": "c1ccc(C2=NCCO2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": "I need to determine if the given ring system scaffold is present in the molecule.\n\nLet me analyze both structures:\n\nInput Molecule: `O=C(OCc1ccccc1)C1COC(c2cccc(F)c2)=N1`\nRing System Structure: `c1ccc(C2=NCCO2)cc1`\n\nThe ring system scaffold contains a benzene ring attached to an oxazoline ring (C2=NCCO2). \n\nIn the input molecule, we have:\n- A benzyl carbamate group (OCc1ccccc1)\n- An oxazoline ring (C1COC(...)=N1)\n- A fluorobenzene ring (c2cccc(F)c2)\n\nThe input molecule has an oxazoline ring, but it's connected to a fluorobenzene, not a regular benzene as in the scaffold. The connectivity pattern is different from the specified ring system scaffold.\n\n```json\n{\"output\": \"No\"}\n```"
+    },
+    {
+        "smiles": "Oc1ccc(Nc2ncnc3scc(-c4ccccc4)c23)cc1",
+        "ring_system_scaffold": "c1ccc(-c2csc3ncncc23)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=S(=O)(NCCCCCO)c1ccc(-c2ccc(O)cc2)cc1",
+        "ring_system_scaffold": "c1ccc(-c2ccccc2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CCC(C(=O)NC(C#N)CC(N)=O)N(Cc1ccc(-c2cccc(F)c2F)cc1)S(C)(=O)=O",
+        "ring_system_scaffold": "c1ccc(-c2ccccc2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)F)c2cn1)c1ccccc1",
+        "ring_system_scaffold": "c1cc2[nH]ncc2cn1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1",
+        "ring_system_scaffold": "c1ccccc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "Fc1ccc(-c2nc[nH]c2-c2ccncc2)cc1",
+        "ring_system_scaffold": "c1ccc(-c2nc[nH]c2-c2ccncc2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC1C2Cc3ccc(N)cc3C1(C)CCN2",
+        "ring_system_scaffold": "c1ccc2c(c1)CC1CC2CCN1",
+        "task": "ring_system_scaffold",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cccc(CN2CCC(NC(=O)CNC(=O)c3cccc(C(F)(F)F)c3)C2)c1",
+        "ring_system_scaffold": "c1ccccc1",
+        "task": "ring_system_scaffold",
+        "json_results": "```json\n{\n    \"output\": \"Yes\"\n}\n```"
+    },
+    {
+        "smiles": "CC1CC(C)CN(S(=O)(=O)c2ccc(C(=O)NCc3ccco3)cc2)C1",
+        "ring_system_scaffold": "C1CCNCC1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "ring_system_scaffold": "c1ccc(-c2cnc3ncncc3c2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": "I need to determine if the ring system scaffold is present in the molecule.\n\n```json\n{\n    \"output\": \"No\"\n}\n```"
+    },
+    {
+        "smiles": "CON=C(CCN1CCN(c2ccccn2)CC1)c1ccccc1",
+        "ring_system_scaffold": "c1ccc(N2CCNCC2)nc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "O=C(CCCC1CCN(S(=O)(=O)c2ccc3c(c2)CCO3)CC1)NO",
+        "ring_system_scaffold": "c1ccc2c(c1)CCO2",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    },
+    {
+        "smiles": "c1cc(Nc2ccon2)nc(Nc2ccc(N3CCOCC3)cc2)n1",
+        "ring_system_scaffold": "c1ccc(N2CCOCC2)cc1",
+        "task": "ring_system_scaffold",
+        "json_results": {
+            "output": "Yes"
+        }
+    }
+]

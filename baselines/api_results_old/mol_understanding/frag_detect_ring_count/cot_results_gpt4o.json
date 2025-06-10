@@ -1,0 +1,172 @@
+[
+    {
+        "smiles": "CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1",
+        "ring": "c1ccccc1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 5
+        }
+    },
+    {
+        "smiles": "CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1",
+        "ring": "c1ccccc1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 3
+        }
+    },
+    {
+        "smiles": "CC(=O)N1CCN(c2ccc(NCc3ccc(C)cc3)cc2)CC1",
+        "ring": "c1ccccc1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": "```json\n{\n    \"count\": 3\n}\n``` "
+    },
+    {
+        "smiles": "CN1CCN(CC(=O)Nc2ccc(Sc3ccc(Cl)cc3)cc2)CC1",
+        "ring": "c1ccccc1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 3
+        }
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(NC(C)c3ccccn3)c2cn1)c1ccccc1",
+        "ring": "c1ccncc1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 4
+        }
+    },
+    {
+        "smiles": "CCN1c2ncc(COc3cc[n+]([O-])cc3)cc2C(=O)N(C)c2cccnc21",
+        "ring": "c1ccncc1",
+        "count": 3,
+        "task": "ring_count",
+        "json_results": {
+            "count": 4
+        }
+    },
+    {
+        "smiles": "Cc1cc(-c2n[nH]c3cc(NC(=O)NCc4ccc(C#N)cc4)ncc23)ccn1",
+        "ring": "c1ccncc1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": "```json\n{\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "CCS(=O)(=O)NC1CCC(Nc2cc(-c3cccc(NCc4cccc(F)c4)n3)c(Cl)cn2)CC1",
+        "ring": "c1ccncc1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": "```json\n{\n    \"count\": 4\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1",
+        "ring": "C1CCNC1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 3
+        }
+    },
+    {
+        "smiles": "Cc1ccnc(Oc2ccccc2-c2ccc(-c3cnc(N)nc3)c(F)c2)n1",
+        "ring": "c1cncnc1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 3
+        }
+    },
+    {
+        "smiles": "NC(=O)c1cccc2c(NCc3cccc(Nc4ncccn4)c3)ncnc12",
+        "ring": "c1cncnc1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 3
+        }
+    },
+    {
+        "smiles": "O=C(O)CCCC1C2CCCN3CCCC(CN1CCO)C23",
+        "ring": "C1CCNCC1",
+        "count": 3,
+        "task": "ring_count",
+        "json_results": {
+            "count": 3
+        }
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)C1CC(N)C(N3CCC(C)CC3=O)CN1CC2",
+        "ring": "C1CCNCC1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": "```json\n{\n    \"count\": 3\n}\n```"
+    },
+    {
+        "smiles": "CN1CCC2(CC1)CCN(C(=O)c1cccc(F)c1)CC2",
+        "ring": "C1CCNCC1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 3
+        }
+    },
+    {
+        "smiles": "c1cc(OCCCN2CCCCC2)ccc1CN1CCCCC1",
+        "ring": "C1CCNCC1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 3
+        }
+    },
+    {
+        "smiles": "COc1ccccc1N1CCN(CCCCNC(=O)C2CC3CCCC3C2)CC1",
+        "ring": "C1CCCC1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 4
+        }
+    },
+    {
+        "smiles": "COC1CN(c2cc(-c3cnc(N)c(OC(F)F)c3)nc(N3CCC3)n2)C1",
+        "ring": "C1CNC1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 5
+        }
+    },
+    {
+        "smiles": "O=C(CCCCCC(c1c[nH]c2ccccc12)c1c[nH]c2ccccc12)NO",
+        "ring": "c1cc[nH]c1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": "```json\n{\n    \"count\": 3\n}\n```"
+    },
+    {
+        "smiles": "CSc1nc2ccc3nc(NC(=O)c4ccco4)sc3c2s1",
+        "ring": "c1cscn1",
+        "count": 2,
+        "task": "ring_count",
+        "json_results": {
+            "count": 3
+        }
+    },
+    {
+        "smiles": "CC(C)n1cnc2c(NCc3ccc(-c4ccccc4)cc3)nc(N(CCO)CCO)nc21",
+        "ring": "c1cncnc1",
+        "count": 1,
+        "task": "ring_count",
+        "json_results": {
+            "count": 4
+        }
+    }
+]

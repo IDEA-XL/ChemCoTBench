@@ -1,0 +1,362 @@
+[
+    {
+        "smiles": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2F)CC1",
+        "largest_scaffold": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2)CC1",
+        "id": "3b056e54-4449-4b85-b223-0996ecd49199",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc(cc1)c1ccc(cc1)c1ccncc1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc(cc1)c1ccc(cc1)c1ccncc1"
+        }
+    },
+    {
+        "smiles": "Cc1ccc(-c2nnc(SCc3ccccc3)o2)c(O)c1",
+        "largest_scaffold": "c1ccc(CSc2nnc(-c3ccccc3)o2)cc1",
+        "id": "4dda54a8-0590-405e-91b9-def49268ea31",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)ccc2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc2"
+        }
+    },
+    {
+        "smiles": "Cc1c(-c2ccc(O)cc2)n(Cc2ccc(O)cc2)c2ccc(O)cc12",
+        "largest_scaffold": "c1ccc(Cn2c(-c3ccccc3)cc3ccccc32)cc1",
+        "id": "3219bdcb-e94c-4f65-b409-ebe3eb1eb5d7",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)ccc2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc2"
+        }
+    },
+    {
+        "smiles": "CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12",
+        "largest_scaffold": "c1cncc(CNc2cc3cccnc3cn2)c1",
+        "id": "82e72a62-beb0-4e59-ae05-4a2029a78b8d",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1cnc2cncnc12\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1cnc2cncnc12"
+        }
+    },
+    {
+        "smiles": "CCN(CC)S(=O)(=O)c1ccc(C(=O)NCCCn2ccnc2)cc1",
+        "largest_scaffold": "O=C(NCCCn1ccnc1)c1ccccc1",
+        "id": "35e6545d-62a4-40cc-87d6-74b5b4357046",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc(cc1)c1ccc(cc1)\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc(cc1)c1ccc(cc1)"
+        }
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)-c1cc(Nc3c(Cl)cccc3Cl)nc(=O)n1CC2",
+        "largest_scaffold": "O=c1nc(Nc2ccccc2)cc2n1CCc1ccccc1-2",
+        "id": "d900963f-a474-456b-8877-62b98262b9d8",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c1ccc2-c1ccc2c1ccc2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c1ccc2-c1ccc2c1ccc2"
+        }
+    },
+    {
+        "smiles": "CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C",
+        "largest_scaffold": "O=C(C1CCCCC1)N1CCC2CC1Cc1ccccc12",
+        "id": "a2d9c515-ef30-4fe6-9bb1-7e48fe8f0d3d",
+        "raw_results": "{\n    \"Output Scaffold\": \"C12CCN(C1)C2\"\n}",
+        "json_results": {
+            "Output Scaffold": "C12CCN(C1)C2"
+        }
+    },
+    {
+        "smiles": "CC(C)n1cnc2c(NCc3ccccc3)ncnc21",
+        "largest_scaffold": "c1ccc(CNc2ncnc3[nH]cnc23)cc1",
+        "id": "78c7cfc0-b0cd-49fc-89c5-d0e3682a77db",
+        "raw_results": "{\n    \"Output Scaffold\": \"C1=NC=NC2=C1N=CN2\"\n}",
+        "json_results": {
+            "Output Scaffold": "C1=NC=NC2=C1N=CN2"
+        }
+    },
+    {
+        "smiles": "CCc1ncnc(-c2ccc(C(=O)N3CCN(CCN)CC3)c(Cl)c2)c1C#Cc1ccc(N)nc1",
+        "largest_scaffold": "O=C(c1ccc(-c2ncncc2C#Cc2cccnc2)cc1)N1CCNCC1",
+        "id": "ad93cfd6-af4b-4a0b-bdd7-2abe82d554b5",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ncnc2c1ccc2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ncnc2c1ccc2"
+        }
+    },
+    {
+        "smiles": "COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC",
+        "largest_scaffold": "O=C(C=Cc1ccccc1)N1CCN(c2ncc3ccccc3n2)CC1",
+        "id": "0c8ab679-ccaa-48f9-872a-bc36eb763f44",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)c(=O)n2c3ccc(c3)N\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)c(=O)n2c3ccc(c3)N"
+        }
+    },
+    {
+        "smiles": "Nc1c(C(=O)c2cccc(C(O)CO)c2)cnn1-c1ccc(F)cc1",
+        "largest_scaffold": "O=C(c1ccccc1)c1cnn(-c2ccccc2)c1",
+        "id": "4aa1c578-8cfa-42a2-8efe-1d7fb2df7490",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)ccc3c2ccc3\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc3c2ccc3"
+        }
+    },
+    {
+        "smiles": "O=C(NCC1CCCO1)C(=Cc1cccc([N+](=O)[O-])c1)NC(=O)c1ccccc1",
+        "largest_scaffold": "O=C(NCC1CCCO1)C(=Cc1ccccc1)NC(=O)c1ccccc1",
+        "id": "0ca249f6-f15c-4ae0-86c4-6ac32478471e",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc(cc1)c1ccc(cc1)c1ccc(cc1)\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc(cc1)c1ccc(cc1)c1ccc(cc1)"
+        }
+    },
+    {
+        "smiles": "C=Cc1ccc(C2CC3CCC(C2C(=O)OC)N3C)cc1",
+        "largest_scaffold": "c1ccc(C2CC3CCC(C2)N3)cc1",
+        "id": "b686beb7-9639-4038-bd15-f494518b26c5",
+        "raw_results": "{\n    \"Output Scaffold\": \"C1=CC=CC=C1\"\n}",
+        "json_results": {
+            "Output Scaffold": "C1=CC=CC=C1"
+        }
+    },
+    {
+        "smiles": "CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1",
+        "largest_scaffold": "O=C(Nc1cc2ccccc2cn1)C1CC1",
+        "id": "8327c291-595d-4f75-b1c8-75c21c69b791",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2ccncc2c1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2ccncc2c1"
+        }
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1",
+        "largest_scaffold": "c1ccc(OC2CCN(c3ccnc(N4CCCC4)n3)C2)cc1",
+        "id": "6ced8476-ae7f-4990-b982-db7a5c4b0cdc",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc(cc1)c1ccc(cc1)c1ccc(cc1)\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc(cc1)c1ccc(cc1)c1ccc(cc1)"
+        }
+    },
+    {
+        "smiles": "Cc1ccnc(Oc2ccccc2-c2ccc(-c3cnc(N)nc3)c(F)c2)n1",
+        "largest_scaffold": "c1cnc(Oc2ccccc2-c2ccc(-c3cncnc3)cc2)nc1",
+        "id": "0d39a677-f29a-4e73-ade9-8910fee6d42c",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccnc2c1ccc2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccnc2c1ccc2"
+        }
+    },
+    {
+        "smiles": "CCc1ccccc1NC(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O",
+        "largest_scaffold": "O=C(Cn1ncn2c(cc3sccc32)c1=O)Nc1ccccc1",
+        "id": "e2c64751-97f0-4dca-8d07-3099541f8a85",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)ccc3c2ccc3\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc3c2ccc3"
+        }
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(NC(C)c3ccccn3)c2cn1)c1ccccc1",
+        "largest_scaffold": "O=C(NCc1ccccc1)Nc1cc2[nH]nc(NCc3ccccn3)c2cn1",
+        "id": "514760e1-53de-4170-ac42-e3a48ae374fd",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)c1[nH]nc2c1ccc1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)c1[nH]nc2c1ccc1"
+        }
+    },
+    {
+        "smiles": "CC1CN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)CCN1",
+        "largest_scaffold": "O=c1ccn(C2CC2)c2cc(N3CCNCC3)ccc12",
+        "id": "6990affd-616b-4105-a455-c3663da4d6cd",
+        "raw_results": "{\n    \"Output Scaffold\": \"C1CN(c2cc3cc(C(=O)N3)c2Cl)CCN1\"\n}",
+        "json_results": {
+            "Output Scaffold": "C1CN(c2cc3cc(C(=O)N3)c2Cl)CCN1"
+        }
+    },
+    {
+        "smiles": "CC(=O)NCC1CN(c2ccc(C(C)=NO)cc2)C(=O)O1",
+        "largest_scaffold": "O=C1OCCN1c1ccccc1",
+        "id": "56990c94-922e-4d4c-9cdf-446606a8eb78",
+        "raw_results": "{\n    \"Output Scaffold\": \"C1CNCC1C(=O)O\"\n}",
+        "json_results": {
+            "Output Scaffold": "C1CNCC1C(=O)O"
+        }
+    },
+    {
+        "smiles": "NC(=O)c1cncnc1Nc1cccc(C(F)(F)F)c1",
+        "largest_scaffold": "c1ccc(Nc2ccncn2)cc1",
+        "id": "74d85382-cdb1-4bf9-9ca7-7adfbd67a11f",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1cncnc1Nc1cccc1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1cncnc1Nc1cccc1"
+        }
+    },
+    {
+        "smiles": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)cc(O)c12",
+        "largest_scaffold": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)ccc12",
+        "id": "460562c2-585c-44a6-b669-70fad2c01418",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)ccc3c2ccc3\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc3c2ccc3"
+        }
+    },
+    {
+        "smiles": "O=C(O)Cc1ccc2c(c1)C(O)(C(F)(F)F)c1ccccc1-2",
+        "largest_scaffold": "c1ccc2c(c1)Cc1ccccc1-2",
+        "id": "1820a58a-0215-4bcd-bdd9-7bb91696fb4c",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)C1=CC=CC=C1-2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)C1=CC=CC=C1-2"
+        }
+    },
+    {
+        "smiles": "Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCCC(O)C3)nc21",
+        "largest_scaffold": "O=c1[nH]c2nc(N3CCCCC3)ncc2cc1Oc1ccccc1",
+        "id": "c7266eb0-a4d9-41b2-80ed-ed0b38bc6060",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c3ccccc3nc2c1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c3ccccc3nc2c1"
+        }
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "largest_scaffold": "O=C(NCc1ccccc1)Nc1cc2[nH]ncc2cn1",
+        "id": "529b176e-9efd-4fa4-9acb-ac576560602f",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)c1[nH]nc2c1ccc1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)c1[nH]nc2c1ccc1"
+        }
+    },
+    {
+        "smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
+        "largest_scaffold": "c1ccccc1",
+        "id": "9ade6290-e86d-4749-b16d-261730c4e157",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccccc1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccccc1"
+        }
+    },
+    {
+        "smiles": "Cc1cc(C(N)=O)ccc1-n1c(CCC(=O)O)ccc1-c1ccc(-c2cnn(C)c2)cc1",
+        "largest_scaffold": "c1ccc(-n2cccc2-c2ccc(-c3cn[nH]c3)cc2)cc1",
+        "id": "ec2658a0-69e2-4057-b724-f811071891db",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc(cc1)-c1ccc(cc1)-c1ccc(cc1)\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc(cc1)-c1ccc(cc1)-c1ccc(cc1)"
+        }
+    },
+    {
+        "smiles": "O=C(C=CNc1ccccc1C(=O)O)c1cccs1",
+        "largest_scaffold": "O=C(C=CNc1ccccc1)c1cccs1",
+        "id": "d8e9ce67-605b-4eac-acce-a605b5401a6f",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)c1cccs1c2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)c1cccs1c2"
+        }
+    },
+    {
+        "smiles": "N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O",
+        "largest_scaffold": "O=c1ccc2cnc(NCc3ccccc3)nc2n1C1CCCC1",
+        "id": "95037035-c01e-4730-84e5-bb8196ecccbe",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1c2cnc3c4c2cnc4n3c1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1c2cnc3c4c2cnc4n3c1"
+        }
+    },
+    {
+        "smiles": "Cc1[nH]c2ccc(Cl)cc2c1-c1ccnc(N2CCCC2)n1",
+        "largest_scaffold": "c1ccc2c(-c3ccnc(N4CCCC4)n3)c[nH]c2c1",
+        "id": "cb9ec2c2-5aa0-435d-b8b7-e3046a8385c4",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)c1ccnc1c2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)c1ccnc1c2"
+        }
+    },
+    {
+        "smiles": "CN(Cc1ccco1)c1nc(-c2cccc(C#N)c2)nc2ccccc12",
+        "largest_scaffold": "c1ccc(-c2nc(NCc3ccco3)c3ccccc3n2)cc1",
+        "id": "43006ab1-a42c-45b5-854d-ea7e391b65c5",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)nc2c1ccccc1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)nc2c1ccccc1"
+        }
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)C1CC(N)C(N3CC(C)CCC3=O)CN1CC2",
+        "largest_scaffold": "O=C1CCCCN1C1CCC2c3ccccc3CCN2C1",
+        "id": "c792a1f4-bb97-4b29-a5e8-3e57b12242f5",
+        "raw_results": "{\n    \"Output Scaffold\": \"C1CC2CC(N)C(N)C2C1\"\n}",
+        "json_results": {
+            "Output Scaffold": "C1CC2CC(N)C(N)C2C1"
+        }
+    },
+    {
+        "smiles": "Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12",
+        "largest_scaffold": "O=C(Cc1ccccc1)Nc1ccc2ccc(=O)oc2c1",
+        "id": "a836bfc8-2e7d-46f8-a8ec-e2c9308c8dc6",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)ccc2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc2"
+        }
+    },
+    {
+        "smiles": "O=c1cc(-c2cccc(O)c2)oc2c1ccc1ccccc12",
+        "largest_scaffold": "O=c1cc(-c2ccccc2)oc2c1ccc1ccccc12",
+        "id": "029eed33-3af4-4f28-becd-1a083e4b05a0",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)ccc1c2ccc1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc1c2ccc1"
+        }
+    },
+    {
+        "smiles": "COc1ccc(C(=O)NC(C)c2nccs2)cc1OC1CCN(C(C)C)CC1",
+        "largest_scaffold": "O=C(NCc1nccs1)c1cccc(OC2CCNCC2)c1",
+        "id": "7dd0fa93-6b4a-4578-9d8e-ddf391e2394c",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)ccc2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc2"
+        }
+    },
+    {
+        "smiles": "O=C(c1ccccc1)N1CCCC(Nc2ccc(F)cc2)C1",
+        "largest_scaffold": "O=C(c1ccccc1)N1CCCC(Nc2ccccc2)C1",
+        "id": "d24a7c27-77d3-40fb-91c0-7806db685ea2",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccccc1N1CCCCN1\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccccc1N1CCCCN1"
+        }
+    },
+    {
+        "smiles": "CCC1(CC)C(=O)N(COC(=O)c2ccccc2)C1S(=O)(=O)c1ccccc1",
+        "largest_scaffold": "O=C(OCN1C(=O)CC1S(=O)(=O)c1ccccc1)c1ccccc1",
+        "id": "786c82e7-0ce9-4765-a574-fe17be383b95",
+        "raw_results": "{\n    \"Output Scaffold\": \"C1CC2CC1CC2\"\n}",
+        "json_results": {
+            "Output Scaffold": "C1CC2CC1CC2"
+        }
+    },
+    {
+        "smiles": "O=C(NC(=S)NCc1ccco1)c1ccc([N+](=O)[O-])cc1",
+        "largest_scaffold": "O=C(NC(=S)NCc1ccco1)c1ccccc1",
+        "id": "1ea204c0-006d-4041-9103-dcd20519821e",
+        "raw_results": "{\n    \"Output Scaffold\": \"c1ccc2c(c1)ccc2\"\n}",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc2"
+        }
+    },
+    {
+        "smiles": "CC(C)C(=O)NC1CCN(Cc2ccccc2)CC1",
+        "largest_scaffold": "c1ccc(CN2CCCCC2)cc1",
+        "id": "8805d835-cab8-41a4-834d-1231c881538e",
+        "raw_results": "{\n    \"Output Scaffold\": \"C1CCNCC1\"\n}",
+        "json_results": {
+            "Output Scaffold": "C1CCNCC1"
+        }
+    },
+    {
+        "smiles": "CCOC(=O)CC(NC(=O)C1CCCN1)C1OC2OC(C)(C)OC2C1OC",
+        "largest_scaffold": "O=C(NCC1CC2OCOC2O1)C1CCCN1",
+        "id": "74d2e0f9-ea2a-482b-a2d6-b9e4c88f8222",
+        "raw_results": "{\n    \"Output Scaffold\": \"C1CCCN1C1OC2OC1C2\"\n}",
+        "json_results": {
+            "Output Scaffold": "C1CCCN1C1OC2OC1C2"
+        }
+    }
+]

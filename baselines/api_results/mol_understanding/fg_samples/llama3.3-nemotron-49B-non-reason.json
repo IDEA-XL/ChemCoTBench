@@ -1,0 +1,1002 @@
+[
+    {
+        "smiles": "CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "id": "c4a17177-feed-48f8-96c0-db6c559cd607",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1cccc(Cl)c1-c1ccc(COC2COc3nc([N+](=O)[O-])cn3C2)cc1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "id": "f5e53081-aa91-4299-93b2-e2872549ce6f",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1ccc(OCC(=O)Nc2ccc3c(c2)nc(CCNC(=O)c2ccco2)n3C)cc1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 2,
+        "id": "75ac86d0-42c2-4f87-bf59-68f95ad582cd",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 3,
+        "id": "d88ab146-a9a3-4065-b7ce-8eea6adfff70",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "id": "5c0ecb44-f175-4ccc-9790-f0625bae0c55",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 2,
+        "id": "19745b36-fffa-469f-bad1-eb721c8d79e2",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "id": "7e9f0a91-7857-471a-accb-0b8316f174b0",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCC(=O)NC1CCc2c(Cl)c(OC)c(OC)c(OC)c2-c2ccc(OC)c(=O)cc21",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "id": "d674639a-80d6-4d35-af00-17eefd391f4d",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "id": "1e9f5641-e00e-4e09-a968-5d67395a7870",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COCCNC1CCC(Nc2cc(-c3nc(NCC4CCOCC4)ccc3Cl)c(Cl)cn2)CC1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "id": "084cdef0-7703-48bc-a957-aec87818a519",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "NC(=O)c1cccc2c(NCc3cccc(Nc4nccs4)c3)ncnc12",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "id": "c1103988-53aa-4f6e-ba6e-0d24c3c49d6d",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "id": "82bd4874-6b6f-48dd-b33c-4a1b16f0b92f",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "id": "f8d75df8-9b62-42ed-a424-2274bc43468a",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C(Nc1ccnc(F)c1)c1ccc(-c2noc(C(F)(F)F)n2)cc1",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "id": "eda8ac7f-03c9-4123-9e9a-387e7a7512b5",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCOC(=O)C1(C(=O)NC(Cc2ccc(-c3ccccc3OC)cc2)C(=O)O)CCCO1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "id": "ccdc72ed-5f70-4bed-adbd-98ffe1985685",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "id": "84c2ad5d-a8e2-40eb-a6e4-d433dfe06b1c",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "id": "000a444b-a2fb-4bd1-964b-7c02d419dcbc",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCOC(=O)c1c(S(=O)(=O)NCC(=O)Nc2cc(C)ccc2C)c(C)n(C)c1C",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "id": "9c16f0e9-5c21-4f32-9964-e6b0c4082489",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CSc1nc(N)cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "id": "d2e6c465-b76e-4165-8d8b-d3e0597cd6f1",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CSc1ncc(C(=O)Nc2ccc(C)c(Cl)c2)c(-c2ccccc2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "id": "a0ca6855-19f8-4e2c-96c3-99ce11972b31",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COC(=O)c1cccc(-c2cccc(OCC(O)CN3CCc4ccccc4C3)c2)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "id": "36b77f70-8181-46b9-829b-f59a82c10243",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "id": "03ebf273-362d-4b20-a898-795076a4af71",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "id": "85cb0dfe-60e7-4541-9a10-66f04faff52e",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C(Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "id": "cc58b2cd-d76b-43c3-bfbc-2e66101538f2",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C(Nc1ccc2oc(Cc3ccccc3)nc2c1)c1ccc([N+](=O)[O-])cc1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "id": "13493aa1-9c28-4416-ae1e-75d8ac113adc",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCOC(=O)C1CCCN(Cc2nc3ccc([N+](=O)[O-])cc3c(=O)n2-c2ccc(OC)cc2OC)C1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "id": "35b994d0-1968-4dfa-ab76-5a68bc98ca24",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "Cc1c(Cc2cccc([N+](=O)[O-])c2)c(=O)oc2cc(OC(=O)N(C)C)ccc12",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "id": "9ab36c69-694a-4866-b38a-63411779f96f",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COC(=O)C1=C(C)N=C(C)C(=C(O)OC)C1c1ccc(Cl)c([N+](=O)[O-])c1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "id": "9d10a27c-5072-4cbc-8d6b-97b8f808199f",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "id": "e568623d-dc42-40da-beb1-6d3f20b3ded1",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CN1CCN(Cc2ccc(C(=O)NN(c3nc(C#N)ncc3Br)C3CCC3)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "id": "966b7182-8ed7-426a-a659-aa145e909520",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCC(C(=O)NC(C#N)CC(N)=O)N(Cc1ccc(-c2cccc(F)c2F)cc1)S(C)(=O)=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "id": "218fe46c-a51f-40d7-8a0d-13e7a64e6afc",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "id": "60ec4101-b758-4011-9482-e3ffeb727d8a",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCOc1ccccc1NS(=O)(=O)c1cc(-c2cnc(C3CC3)o2)ccc1C",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "id": "59b1f79e-44e5-44ed-8342-ff30479af13e",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(C)N(c1ccc(C(C)(O)C(F)(F)F)cc1)S(=O)(=O)c1ccccc1C1CC1",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "id": "9c27352a-3164-471d-9505-bafd9c7dcf1d",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(Nc2nccc(-c3ccc(NC(=O)Cc4cccs4)cc3)n2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "id": "2226d835-c73f-4a1c-a39c-f5030db7d025",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CN2CCN(c3ccccc3)CC2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "id": "f372b407-aedc-4e4e-a11b-2f85eae427a5",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "id": "451086c2-3858-4070-8cf5-68dc51b519c2",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "id": "a7b18ed4-21fc-4d24-8ac7-d9eee85a2c6a",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CS(=O)(=O)Nc1ccc(-c2cnc3cccc(Nc4ncccc4Cl)c3c2)cc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "id": "de0d91a2-9d05-4a35-9627-9bc4fd4d5e55",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(CCn1ccc(-c2ccc(F)cc2)cc1=O)(C(=O)NO)S(C)(=O)=O",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "id": "c35a4d81-e58b-415e-a918-a2890c7a52a3",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N(C)CC4CCOC4)ncc3Cl)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "id": "76cd5b5a-fdd0-4c22-bccd-2cb7e9342961",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "id": "449d3674-45b0-4ee4-a68a-734f8a312f2b",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "C=CCOCCn1c(SC)nc(-c2ccc(F)cc2)c1-c1ccnc(NC(C)=O)c1",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "id": "e82fc553-2653-4640-a868-e9f6010f2b0f",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCC1OC(C(C)=CC(C)C=CC2C(C)C2C=CC2OC(CC(C)=O)CC(O)C2O)CC=C1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "id": "8ab24dda-bddd-4f6b-9a22-d2b9ee27c1e1",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3ccnc(N4CCCC(F)(F)C4)n3)C2)cc1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "id": "fb78c41e-c51c-45ca-9d36-524ac96776e0",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COC1CCCN(c2nccc(N3CCC(Oc4ccc(C(C)NC(C)=O)cc4)C3)n2)C1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "id": "043c1b81-e9dd-4496-a6d1-8c7070421105",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CNC(=O)C(NC(=O)C(CC(C)C)C(C(=O)NO)C1CCCC1)C(C)(C)C",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "id": "2b84310a-14ee-4208-8d64-82e37389aa14",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(C(=O)Nc1ncc(SCc2ncc(C(C)(C)C)o2)s1)c1ccccc1",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "id": "940a1b9b-0612-4a88-b716-593de946f8f3",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "C#Cc1cc(Oc2cnc(NCC(C)O)nc2N)c(C(C)C)cc1OC",
+        "fg_name": "acetylenes",
+        "fg_smarts": "*-[C;D2]#[C;D1;H]",
+        "fg_label": "-C#CH",
+        "fg_num": 1,
+        "id": "a6ef69fc-5e48-4630-818c-6464cdaa3709",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=S)NC(=O)c2cccc([N+](=O)[O-])c2)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "id": "8eefd3d2-1262-4f0f-abfa-412fb4f51fa0",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1ccc(NC(=S)N(CCN2CCOCC2)Cc2ccccc2F)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "id": "7998aa5c-1255-4789-afa5-74d6be240c81",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "fg_name": "methyl sulfonamide",
+        "fg_smarts": "*-[N;D2]-[S;D4](=[O;D1])(=[O;D1])-[C;D1;H3]",
+        "fg_label": "-NHSO2CH3",
+        "fg_num": 1,
+        "id": "cad76fe8-c277-4d96-8d82-5695c5f822d4",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "Cc1oc(-c2ccccc2)nc1CCNC(=O)c1ccc([S@@](C)=O)cc1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "id": "5430c044-68af-447d-bafe-138b5b0ec42f",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "C=CCn1c(SCc2nnc([S-])n2-c2ccccc2)nnc1-c1ccccc1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "id": "9b88fbd8-07d6-47d5-bb1e-9e0721fa1d92",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "C[C@@H]1CCC/C(=N/[NH+]=C(/[S-])NCc2ccccc2)C1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "id": "e639593f-6894-4790-946f-3130275b23a6",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "C[C@H](NC(=O)NCCC[S@](C)=O)c1ccc(Cl)s1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "id": "66ff358c-16a5-4bff-b225-062b1d674959",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C=NC(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "id": "d63677ef-2e1d-4fa9-aaef-1895ec092102",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COS(=O)(=O)c1ccc(Cl)c2ccccc12",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "id": "9b195dea-a1d2-40d1-9dfd-113ef49cddd5",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCOc1cc(NC(=O)c2ccccc2)c(OCC)cc1[N+]#N",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "id": "f3afc1df-db07-4887-91db-7f0831b7e243",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=S(=O)([O-])c1ccc(Cl)c2cccnc12",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "id": "5da41f04-ee94-4ab9-81cc-5c86c1e59d3e",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=S1(=O)C[C@@H](Nc2ccccc2)[C@@H](S(=O)(=O)[O-])C1",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "id": "962b44fe-6712-4d2f-a9b9-dbf861041f49",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C(N=C=S)c1cccc(C(F)(F)F)c1F",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "id": "ecd6150b-d7bb-49ef-b2a7-7a56c35da62c",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "N#[N+]c1[nH]nc2nnc(-c3ccccc3)c(-c3ccccc3)c12",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "id": "6d2a0300-f099-4b51-b788-63b0a71e5543",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C=Nc1ccc2c(c1)O[C@@H](F)C(F)(F)O2",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "id": "9f48e805-e58b-4358-98f5-ea22a419a0ff",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC1(C)[C@H]2CC[C@]1(C)C(=O)[C@@H]2N=C=S",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "id": "ce66c8f4-984d-497a-b8c5-320915121033",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCCc1n[nH]c2c([O-])nc(-c3cc(S(=O)(=O)Cl)ccc3OCC)nc12",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "id": "6b05af44-07a0-4d3f-a064-dfc2fd3d4b96",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COS(=O)(=O)[C@@H]1C(=O)[C@]2(C)CC[C@H]1C2(C)C",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "id": "0e42ad7b-04c9-4e8d-8828-b1d952c4cb11",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "Cc1nn(C(C)C)cc1S(=O)(=O)Cl",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "id": "cff5cebb-b0c6-4075-8ac4-d3d948e865cb",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "N=Nc1ccccc1-c1ccc([N+](=O)[O-])cc1[N+](=O)[O-]",
+        "fg_name": "hydrazines",
+        "fg_smarts": "*-[N;D2]=[N;D1]",
+        "fg_label": "-N=N",
+        "fg_num": 1,
+        "id": "683dc058-e9d4-43a4-9f98-6839054cb0c5",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "id": "9fdcc4a9-166c-48ff-b7af-da06ddbc6905",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "id": "f21551bc-4093-49da-8e6f-c5312411a466",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C1c2ccccc2C(=O)N1CCOC(=S)Nc1ccc(F)cc1F",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "id": "571cc86e-7089-4b72-bd79-900d5ab46674",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1c(N2CCCC(N)C2)c(F)c(N)c2c(=O)c(C(=O)O)cn(C3CC3)c12",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "id": "1767ef08-850c-487b-bfa1-d8113d704876",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)O)cc1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "id": "d35185e7-19e4-48ce-9e5c-7f1b7d21a667",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "id": "de8eaa8a-e1ce-4483-be70-d26b1627ba85",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "Nc1cnc(-c2ccc(C3CCC3)c(OCC(O)CNc3cc(N)ncn3)c2F)cn1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 2,
+        "id": "ff164e14-2fdf-46a3-8d94-34cfcbe354cd",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "N#CCC1(n2cc(C(N)=O)c(Nc3ccnc(F)c3)n2)CCC(NCc2ccc(O)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "id": "efae4cbd-aa08-49dc-935b-69c95e97a74a",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCCCOC(=O)c1ccc(NC(=O)C2(c3cccs3)CCOCC2)cc1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "id": "beaf6a9d-eea1-4f4d-9594-fee755b274a3",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "id": "f1990209-6652-4f83-9c2c-97d59f8cd9e5",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COCCCNC(=O)c1c(C)nn(-c2ccc(F)cc2)c1-n1cccc1",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "id": "92ec0de7-288d-43f8-b8f7-3f462f9933f8",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "id": "33c5da22-47b0-4dda-b1ff-3876e556cb82",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "id": "d6caf083-586f-4ecc-ad0e-b8be81da5b55",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "id": "7779deb4-b28e-4160-a75e-3a266085ad81",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3cccc(C(F)(F)F)c3)ccc2C)n1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "id": "2c66d256-917f-402b-8ff8-0c4cec6bf98c",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CS(=O)(=O)c1ccc2nc(-c3ccc(Br)cc3)[nH]c2c1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "id": "9f70e8d6-9a64-4177-affe-5606a301413f",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(=O)N1c2ccc(S(=O)(=O)N3CCC(C(=O)Nc4ncccc4C)CC3)cc2CC1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "id": "b67387ee-67ea-482a-9295-fc7ae7aa8271",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "Cc1cc(O)cc(C)c1CC(N)C(=O)N1Cc2ccccc2CC1C(=O)Nc1nn[nH]n1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "id": "3c611ae8-795b-436a-9c43-15f3c8cad7a4",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCCCCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 2,
+        "id": "3039e7ef-e869-47af-b4e8-df7769805e20",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Oc2ccccc2O)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "id": "cc20ebff-8112-447e-b824-a47ee9827ca2",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "id": "c5b1373a-263d-4d22-b0ae-7e34ada0593f",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 2,
+        "id": "d419467c-2186-4648-be54-8aea5fc79828",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COC(=O)c1ccc(-c2ccc(C=C3SC(=O)NC3=O)o2)c(O)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "id": "cf0c01af-0424-4a65-8ba2-23c653a1a338",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(=O)NC(C)Cc1ccc(C#Cc2ccc(OCc3cnco3)cc2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "id": "75f036f9-aa4a-4b17-bb69-72117a98f318",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "id": "4bd75f2f-0e9e-4024-b49e-ffc3abe13c58",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "id": "cf1b9e9b-3687-4389-9ab7-46f03a5ece05",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCC(=O)NO",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "id": "8fe8ee11-2a21-4fb0-b86e-cf78a12c4b1c",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "N#Cc1ccc(Oc2ccc(NC(=O)CC(CC(=O)O)c3ccccc3)cc2)cc1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "id": "98914a92-3325-4cc2-8135-cc5671f8870c",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCCCOC(=O)CC1N=C(c2ccc(Cl)cc2)c2cc(OC)ccc2-n2c(C)nnc21",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "id": "8bf91075-18d3-47d1-90ce-b4f62ef7cc0e",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OCc3ccccc3)c2)[nH]1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "id": "d867ed8f-e8e0-473a-8a18-4f3eb8e6be61",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    },
+    {
+        "smiles": "CCOC(=O)Nc1ncc(Oc2cc(I)c(OC)cc2C(C)C)c(N)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "id": "970a57ba-40c5-4361-a664-5a47f568ca83",
+        "raw_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details.",
+        "json_results": "Sure, I'm ready. Please provide the Input Molecule and the Fragment details."
+    }
+]

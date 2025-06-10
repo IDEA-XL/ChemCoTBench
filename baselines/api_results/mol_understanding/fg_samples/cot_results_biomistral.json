@@ -1,0 +1,1720 @@
+[
+    {
+        "smiles": "CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "Counting the number of a specified fragment in a given molecule.",
+            "matching_analysis": "The given molecule contains four instances of the specified fragment 'side-chain hydroxyls' (OH).",
+            "count": 4
+        }
+    },
+    {
+        "smiles": "COc1cccc(Cl)c1-c1ccc(COC2COc3nc([N+](=O)[O-])cn3C2)cc1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "The input Molecule contains one instance of the specified fragment.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "COc1ccc(OCC(=O)Nc2ccc3c(c2)nc(CCNC(=O)c2ccco2)n3C)cc1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 3,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"Describes and matches the input molecule with the fragment\",\n\"count\": 0\n}"
+    },
+    {
+        "smiles": "CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"amide fragment\",\n\"matching\\_analysis\": \"Matching of fragments in the given molecule\",\n\"count\": 3\n}"
+    },
+    {
+        "smiles": "COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"fragment structure analysis\",\n    \"matching\\_analysis\": \"The input molecule contains 4 fragments that match the specified fragment SMILES: -X.\",\n    \"count\": 4\n}"
+    },
+    {
+        "smiles": "CCC(=O)NC1CCc2c(Cl)c(OC)c(OC)c(OC)c2-c2ccc(OC)c(=O)cc21",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 3\n}"
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Substring matching\",\n\"matching\\_analysis\": \"The input molecule contains the substring OMe.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "COCCNC1CCC(Nc2cc(-c3nc(NCC4CCOCC4)ccc3Cl)c(Cl)cn2)CC1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 0"
+    },
+    {
+        "smiles": "NC(=O)c1cccc2c(NCc3cccc(Nc4nccs4)c3)ncnc12",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment Structure Analysis\",\n\"matching\\_analysis\": \"The input Molecule contains two occurrences of the specified fragment.\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input Molecule with the fragment",
+            "count": 5
+        }
+    },
+    {
+        "smiles": "O=C(Nc1ccnc(F)c1)c1ccc(-c2noc(C(F)(F)F)n2)cc1",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input Molecule with the fragment",
+            "count": 4
+        }
+    },
+    {
+        "smiles": "CCOC(=O)C1(C(=O)NC(Cc2ccc(-c3ccccc3OC)cc2)C(=O)O)CCCO1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment is ethoxy group (-OEt)\",\n\"matching\\_analysis\": \"The input molecule contains 5 ethoxy groups (-OEt).\",\n\"count\": 5\n}"
+    },
+    {
+        "smiles": "CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 1"
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"Matching analysis of input molecule with fragment \\\"-COOR\\\" (ester)\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CCOC(=O)c1c(S(=O)(=O)NCC(=O)Nc2cc(C)ccc2C)c(C)n(C)c1C",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment Analysis\",\n\"matching\\_analysis\": \"The input molecule contains the specified fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CSc1nc(N)cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input Molecule with the fragment",
+            "count": 3
+        }
+    },
+    {
+        "smiles": "CSc1ncc(C(=O)Nc2ccc(C)c(Cl)c2)c(-c2ccccc2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment is -SCH3 with one carbon atom connected to two hydrogen atoms and one sulfur atom\",\n\"matching\\_analysis\": \"The given Input Molecule contains two fragments which match with the provided fragment SMILES '-SCH3'. The first fragment is matched at position 4 where it forms a bond with the oxygen atom. The second fragment is matched at position 6 where it forms a bond with nitrogen atom.\",\n\"count\": 2"
+    },
+    {
+        "smiles": "COC(=O)c1cccc(-c2cccc(OCC(O)CN3CCc4ccccc4C3)c2)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 7\n}"
+    },
+    {
+        "smiles": "COC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"methyl ester group analysis\",\n\"matching\\_analysis\": \"The input molecule contains one carbonyl methyl ester fragment.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Molecule contains one nitro group fragment.\",\n\"matching\\_analysis\": \"The input molecule has one NO2 fragment present in its structure.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "O=C(Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "The input molecule is a phenyl sulfonamide derivative with one nitro group attached to the benzene ring. The fragment nitro is a functional group commonly found in various compounds, including drugs, pesticides, and dyes.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "O=C(Nc1ccc2oc(Cc3ccccc3)nc2c1)c1ccc([N+](=O)[O-])cc1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "json_results": " {\n```json\n{\n    \"fragment_structure\": \"fragment structure analysis\",\n    \"matching_analysis\": \"describe and match the input molecule with the fragment\",\n    \"count\": 4\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)C1CCCN(Cc2nc3ccc([N+](=O)[O-])cc3c(=O)n2-c2ccc(OC)cc2OC)C1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 1"
+    },
+    {
+        "smiles": "Cc1c(Cc2cccc([N+](=O)[O-])c2)c(=O)oc2cc(OC(=O)N(C)C)ccc12",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input Molecule with the fragment",
+            "count": 4
+        }
+    },
+    {
+        "smiles": "COC(=O)C1=C(C)N=C(C)C(=C(O)OC)C1c1ccc(Cl)c([N+](=O)[O-])c1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"molecular graph\",\n\"matching\\_analysis\": \"analyze the presence of the fragment in the molecule\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "json_results": " {\n```json\n{\n    \"fragment_structure\": \"Fragment iso-cyanic acid (1)\",\n    \"matching_analysis\": \"The input molecule matches exactly with the fragment.\",\n    \"count\": 1\n}\n```\n}"
+    },
+    {
+        "smiles": "CN1CCN(Cc2ccc(C(=O)NN(c3nc(C#N)ncc3Br)C3CCC3)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "CN1CCN(Cc2ccc(C(=O)NN(c3nc(C#N)ncc3Br)C3CCC3)cc2)CC1",
+            "matching_analysis": "The fragment '-C#N' was found at positions 5 and 18 in the input molecule 'CN1CCN(Cc2ccc(C(=O)NN(c3nc(C#N)ncc3Br)C3CCC3)cc2)CC1'.",
+            "count": 2
+        }
+    },
+    {
+        "smiles": "CCC(C(=O)NC(C#N)CC(N)=O)N(Cc1ccc(-c2cccc(F)c2F)cc1)S(C)(=O)=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"Describes and matches the input molecule with the given fragment\",\n\"count\": 3\n}"
+    },
+    {
+        "smiles": "N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "json_results": " {\"fragment\\_structure\":\"fragment structure analysis\",\"matching\\_analysis\":\"describe and match the input Molecule with the fragment\",\"count\":1}"
+    },
+    {
+        "smiles": "CCOc1ccccc1NS(=O)(=O)c1cc(-c2cnc(C3CC3)o2)ccc1C",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The given molecule has one sub-structure matched to the given fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CC(C)N(c1ccc(C(C)(O)C(F)(F)F)cc1)S(=O)(=O)c1ccccc1C1CC1",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(Nc2nccc(-c3ccc(NC(=O)Cc4cccs4)cc3)n2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"primary sulfonamide\",\n    \"matching_analysis\": \"The input molecule contains one occurrence of the fragment '-SO2NH2' which is a primary sulfonamide group.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CN2CCN(c3ccccc3)CC2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"primary sulfonamide\",\n\"matching\\_analysis\": \"The input molecule contains one fragment matching the given fragment. The fragment is located at position C5 and has a nitrogen atom substituted by an amino group (-NH2). The fragment is not directly bonded to the nitrogen atom at position N1 which is a part of the carbonyl group.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "The input molecule contains the fragment \"-C(=O)O\". This fragment belongs to the functional group category 'carboxylic acids'.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains one occurrence of the specified fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CS(=O)(=O)Nc1ccc(-c2cnc3cccc(Nc4ncccc4Cl)c3c2)cc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input molecule with the fragment\",\n\"count\": 3"
+    },
+    {
+        "smiles": "CC(CCn1ccc(-c2ccc(F)cc2)cc1=O)(C(=O)NO)S(C)(=O)=O",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N(C)CC4CCOC4)ncc3Cl)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"fragment structure analysis\",\n    \"matching_analysis\": \"describe and match the input Molecule with the fragment\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "-NC(=O)CH3",
+            "matching_analysis": "The fragment 'methyl amide' was found in the molecule with the SMILES string CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2).",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "C=CCOCCn1c(SC)nc(-c2ccc(F)cc2)c1-c1ccnc(NC(C)=O)c1",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"terminal aldehyde\",\n\"matching\\_analysis\": \"Matching Analysis:\\n\\nThe input molecule contains 1 fragment with a terminal aldehyde group. The fragment has the following structure:\\n -C(=O)H\\nThe fragment is located at the end of the molecule, connected to carbon atoms.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CCC1OC(C(C)=CC(C)C=CC2C(C)C2C=CC2OC(CC(C)=O)CC(O)C2O)CC=C1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 0\n}"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3ccnc(N4CCCC(F)(F)C4)n3)C2)cc1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"Matching analysis: The fragment -C(=O)CH3 was found at index 0 in the molecule. It consists of 1 carbon atoms, 1 oxygen atom and 1 hydrogen atom.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "COC1CCCN(c2nccc(N3CCC(Oc4ccc(C(C)NC(C)=O)cc4)C3)n2)C1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"The fragment contains a single atom (carbon or oxygen) bonded to a hydrogen atom and one lone pair of electrons.\",\n\"matching\\_analysis\": \"The given input molecule contains two carbonyl methyl groups with the exact same fragment structure.\",\n\"count\": 2"
+    },
+    {
+        "smiles": "CNC(=O)C(NC(=O)C(CC(C)C)C(C(=O)NO)C1CCCC1)C(C)(C)C",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"t-butyl\",\n\"matching\\_analysis\": \"The fragment -tBu was found at position 2 and 5 of the molecule.\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CC(C(=O)Nc1ncc(SCc2ncc(C(C)(C)C)o2)s1)c1ccccc1",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input Molecule with the fragment",
+            "count": 3
+        }
+    },
+    {
+        "smiles": "C#Cc1cc(Oc2cnc(NCC(C)O)nc2N)c(C(C)C)cc1OC",
+        "fg_name": "acetylenes",
+        "fg_smarts": "*-[C;D2]#[C;D1;H]",
+        "fg_label": "-C#CH",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Substructure search\",\n\"matching\\_analysis\": \"The input molecule contains 3 fragments matching the provided fragment.\",\n\"count\": 3"
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=S)NC(=O)c2cccc([N+](=O)[O-])c2)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input Molecule with the fragment",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "COc1ccc(NC(=S)N(CCN2CCOCC2)Cc2ccccc2F)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "json_results": " {\n```json\n{\n    \"fragment_structure\": \"thiocarbonyl group\",\n    \"matching_analysis\": \"The given input molecule contains one fragment named thiocarbonyl.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "fg_name": "methyl sulfonamide",
+        "fg_smarts": "*-[N;D2]-[S;D4](=[O;D1])(=[O;D1])-[C;D1;H3]",
+        "fg_label": "-NHSO2CH3",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"fragment structure analysis\",\n    \"matching\\_analysis\": \"The input molecule contains two methyl sulfonamide fragments.\",\n    \"count\": 2\n}"
+    },
+    {
+        "smiles": "Cc1oc(-c2ccccc2)nc1CCNC(=O)c1ccc([S@@](C)=O)cc1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"Matching analysis for the molecule and fragment:\\n\\nInput Molecule: Cc1oc(-c2ccccc2)nc1CCNC(=O)c1ccc([S@@](C)=O)cc1\\nFragment SMILES: -SOCH3\\nFragment Name: methyl sulfinyl\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "C=CCn1c(SCc2nnc([S-])n2-c2ccccc2)nnc1-c1ccccc1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains one fragment named \\\"thiol\\\". This fragment is identified as a sulfur atom (-S), which is part of two heterocyclic rings in the molecule.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "C[C@@H]1CCC/C(=N/[NH+]=C(/[S-])NCc2ccccc2)C1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment matching analysis\",\n\"matching\\_analysis\": \"Matching the thiols fragment (-S) in the given input molecule\",\n\"count\": 3\n}"
+    },
+    {
+        "smiles": "C[C@H](NC(=O)NCCC[S@](C)=O)c1ccc(Cl)s1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"methyl sulfinyl fragment\",\n\"matching\\_analysis\": \"The molecule contains one methyl sulfinyl fragment (-SOCH3).\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "O=C=NC(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"isocyanate has two atoms (carbon and nitrogen) connected by a double bond.\",\n\"matching\\_analysis\": \"In the input molecule, there are three nitrogen atoms and three carbon atoms. The first nitrogen atom and the second nitrogen atom are connected to each other via a double bond, forming a cyclic structure. The third nitrogen atom is also connected to three carbon atoms via single bonds. However, this third nitrogen atom does not have a double bond connection to any of the carbon atoms. Therefore, this nitrogen atom cannot form a ring structure with its attached carbon atoms. This means that only two fragments of the isocyanate group exist in the input molecule.\",\n\"count\": 2"
+    },
+    {
+        "smiles": "COS(=O)(=O)c1ccc(Cl)c2ccccc12",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input molecule with the fragment\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CCOc1cc(NC(=O)c2ccccc2)c(OCC)cc1[N+]#N",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"fragment structure analysis\",\n    \"matching\\_analysis\": \"The input molecule matches one of the fragments.\",\n    \"count\": 1\n}"
+    },
+    {
+        "smiles": "O=S(=O)([O-])c1ccc(Cl)c2cccnc12",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input molecule with the fragment\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "O=S1(=O)C[C@@H](Nc2ccccc2)[C@@H](S(=O)(=O)[O-])C1",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"sulfonic acid\",\n\"matching\\_analysis\": \"The fragment '-SO3H' was found in the molecule 'O=S1(=O)C[C@@H](Nc2ccccc2)[C@@H](S(=O)(=O)[O-])C1'.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "O=C(N=C=S)c1cccc(C(F)(F)F)c1F",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "json_results": " {\"fragment_structure\":\"isothiocyanate\",\"matching_analysis\":\"Matching fragment SMILES '-N=C=S' with the input molecule 'O=C(N=C=S)c1cccc(C(F)(F)F)c1F'\", found 2 fragments.\",\"count\":2}"
+    },
+    {
+        "smiles": "N#[N+]c1[nH]nc2nnc(-c3ccccc3)c(-c3ccccc3)c12",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "json_results": " {\n```json\n{\n    \"fragment_structure\": \"Counting fragment occurrences in molecules\",\n    \"matching_analysis\": \"The input molecule is a polycyclic aromatic compound containing several benzene rings connected via alkyl chains. The fragment SMILES represents the substructural pattern of diazo compounds which are characterized by a double bond between two nitrogen atoms. In this case, the diazo fragment appears twice within the input molecule.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "O=C=Nc1ccc2c(c1)O[C@@H](F)C(F)(F)O2",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CC1(C)[C@H]2CC[C@]1(C)C(=O)[C@@H]2N=C=S",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"isothiocyanate\",\n    \"matching_analysis\": \"The input molecule contains one occurrence of the isothiocyanate fragment\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CCCc1n[nH]c2c([O-])nc(-c3cc(S(=O)(=O)Cl)ccc3OCC)nc12",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"fragment structure analysis\",\n    \"matching_analysis\": \"The input molecule contains one sulfonyl chloride fragment.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "COS(=O)(=O)[C@@H]1C(=O)[C@]2(C)CC[C@H]1C2(C)C",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"methyl ester sulfonyl\",\n\"matching\\_analysis\": \"The input Molecule has one methyl ester sulfonyl fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "Cc1nn(C(C)C)cc1S(=O)(=O)Cl",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The fragment sulfonyl chloride (-SO2Cl) is present in the input molecule.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "N=Nc1ccccc1-c1ccc([N+](=O)[O-])cc1[N+](=O)[O-]",
+        "fg_name": "hydrazines",
+        "fg_smarts": "*-[N;D2]=[N;D1]",
+        "fg_label": "-N=N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"Substructural search\",\n    \"matching_analysis\": \"The given molecule contains one fragment of type carboxylic acid.\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input Molecule contains one occurrence of the given Fragment\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "O=C1c2ccccc2C(=O)N1CCOC(=S)Nc1ccc(F)cc1F",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Substructural search\",\n\"matching\\_analysis\": \"The input molecule contains one instance of the specified fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "COc1c(N2CCCC(N)C2)c(F)c(N)c2c(=O)c(C(=O)O)cn(C3CC3)c12",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment is cyclopropyl\",\n\"matching\\_analysis\": \"The input molecule contains one cyclopropyl group, located at position C4H5N(CCCCC)C(F)(=O)CN(C3CC3)\",\n\"count\": 1"
+    },
+    {
+        "smiles": "COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)O)cc1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule is C16H14N2O4 with molecular weight of 306.29 g/mol. The fragment is -OMe with molecular weight of 50.04 g/mol.\",\n\"count\": 0"
+    },
+    {
+        "smiles": "O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"the input molecule contains one occurrence of oximes\",\n\"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "Nc1cnc(-c2ccc(C3CCC3)c(OCC(O)CNc3cc(N)ncn3)c2F)cn1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"primary amines\",\n\"matching\\_analysis\": \"The input Molecule contains one instance of the specified fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "N#CCC1(n2cc(C(N)=O)c(Nc3ccnc(F)c3)n2)CCC(NCc2ccc(O)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The molecule has one instance of the specified fragment.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CCCCOC(=O)c1ccc(NC(=O)C2(c3cccs3)CCOCC2)cc1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "ester group analysis",
+            "matching_analysis": "The input molecule contains one ester group (-COOR)",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"trifluoromethyl group\",\n    \"matching\\_analysis\": \"The input molecule contains one instance of the trifluoromethyl fragment.\",\n    \"count\": 1\n}"
+    },
+    {
+        "smiles": "COCCCNC(=O)c1c(C)nn(-c2ccc(F)cc2)c1-n1cccc1",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment analysis by SMILES\",\n\"matching\\_analysis\": \"The fragment '-C(=O)N' was found in the molecule 'COCCCNC(=O)c1c(C)nn(-c2ccc(F)cc2)c1-n1cccc1'\",\n\"count\": 1"
+    },
+    {
+        "smiles": "C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Counting the occurrences of the specified fragment (side-chain aldehydes or ketones) in the molecule.\",\n\"matching\\_analysis\": \"The input molecule contains three aldehydes or ketone groups.\",\n\"count\": 3"
+    },
+    {
+        "smiles": "CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment Structure Analysis\",\n\"matching\\_analysis\": \"Describing and matching the input Molecule with the specified Fragment Name using their respective SMILES strings\",\n\"count\": 4\n}"
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"Methyl sulfonyl\",\n    \"matching_analysis\": \"The input molecule contains one instance of methyl sulfonyl fragment.\",\n    \"count\": \"1\"\n}\n```"
+    },
+    {
+        "smiles": "CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3cccc(C(F)(F)F)c3)ccc2C)n1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Substructure search\",\n\"matching\\_analysis\": \"The input molecule is searched for the presence of the given fragment.\",\n\"count\": 0\n}"
+    },
+    {
+        "smiles": "CS(=O)(=O)c1ccc2nc(-c3ccc(Br)cc3)[nH]c2c1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "json_results": " ```json{\n    \"fragment_structure\": \"fragment structure analysis\",\n    \"matching_analysis\": \"describe and match the input Molecule with the fragment\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)N1c2ccc(S(=O)(=O)N3CCC(C(=O)Nc4ncccc4C)CC3)cc2CC1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "The terminal aldehyde fragment is present 2 times in the given molecule",
+            "count": 2
+        }
+    },
+    {
+        "smiles": "Cc1cc(O)cc(C)c1CC(N)C(=O)N1Cc2ccccc2CC1C(=O)Nc1nn[nH]n1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"substructural fragment analysis\",\n\"matching\\_analysis\": \"The input Molecule contains one instance of fragment '-N', which is a primary amine.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CCCCCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"the input molecule contains two halogen atoms\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Oc2ccccc2O)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment containing ethoxy group\",\n\"matching\\_analysis\": \"The Input Molecule contains one matching fragment named ethoxy.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input molecule with the fragment\",\n\"count\": 3\n}"
+    },
+    {
+        "smiles": "CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 4\n}"
+    },
+    {
+        "smiles": "COC(=O)c1ccc(-c2ccc(C=C3SC(=O)NC3=O)o2)c(O)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment analysis by SMILES.\",\n\"matching\\_analysis\": \"The input molecule is COC(=O)c1ccc(-c2ccc(C=C3SC(=O)NC3=O)o2)c(O)c1 (SMILES: Cc1ccccc1C(=O)c2ccccc2C(C(C)=C3CC(=O)N3C(=O)3)O). The fragment name is carbonyl methyl ester (-C(=O)OMe). The number of fragments matching the input molecule is 1.\",\n\"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "CC(=O)NC(C)Cc1ccc(C#Cc2ccc(OCc3cnco3)cc2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "The input molecule contains three methyl amide fragments.",
+            "count": 3
+        }
+    },
+    {
+        "smiles": "COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains one carbonyl methyl ester fragment which is the same as the provided fragment.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input molecule with the fragment",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCC(=O)NO",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment_structure\": \"Fragment Structure Analysis\",\n\"matching_analysis\": \"The given input molecule contains one matching fragment with side-chain hydroxyls.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "N#Cc1ccc(Oc2ccc(NC(=O)CC(CC(=O)O)c3ccccc3)cc2)cc1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains three carboxylic acid fragments.\",\n\"count\": 3"
+    },
+    {
+        "smiles": "CCCCOC(=O)CC1N=C(c2ccc(Cl)cc2)c2cc(OC)ccc2-n2c(C)nnc21",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"methoxy group analysis\",\n\"matching\\_analysis\": \"The input molecule contains a methoxy group.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OCc3ccccc3)c2)[nH]1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"Methylthio fragment\",\n    \"matching\\_analysis\": \"The input molecule contains one methylthio fragment.\",\n    \"count\": 1\n}"
+    },
+    {
+        "smiles": "CCOC(=O)Nc1ncc(Oc2cc(I)c(OC)cc2C(C)C)c(N)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment_structure\": \"ethoxy group\",\n\"matching_analysis\": \"Matching the input molecule with the fragment named 'ethoxy'\",\n\"count\": 3"
+    },
+    {
+        "smiles": "CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"Describing and matching the input molecule with the fragment\",\n\"count\": 3"
+    },
+    {
+        "smiles": "COc1cccc(Cl)c1-c1ccc(COC2COc3nc([N+](=O)[O-])cn3C2)cc1",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input Molecule with the fragment",
+            "count": 5
+        }
+    },
+    {
+        "smiles": "COc1ccc(OCC(=O)Nc2ccc3c(c2)nc(CCNC(=O)c2ccco2)n3C)cc1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains one fragment of the given fragment name, namely side-chain aldehydes or ketones.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 3,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"Describing and matching the input molecule with the fragment.\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment_structure\": \"amide\",\n\"matching_analysis\": \"The fragment -C(=O)N was found 3 times in the input Molecule.\",\n\"count\": 3"
+    },
+    {
+        "smiles": "COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"Substring Analysis\",\n\"matching\\_analysis\": \"The given molecule is scanned for substrings matching the provided fragment name.\",\n\"count\": 0\n}"
+    },
+    {
+        "smiles": "Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"Describing and matching the input molecule with the given fragment.\",\n\"count\": 5\n}"
+    },
+    {
+        "smiles": "CCC(=O)NC1CCc2c(Cl)c(OC)c(OC)c(OC)c2-c2ccc(OC)c(=O)cc21",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"Fragment structure analysis\",\n    \"matching\\_analysis\": \"The input molecule contains 3 halogen atoms\",\n    \"count\": 3\n}"
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment_structure\": \"fragment structure analysis\",\n\"matching_analysis\": \"The molecular formula for the given molecule is C45H49FN6O3. The fragment structure provided is -OMe.\",\n\"count\": \"There are two fragments (-OMe) in the given molecule.\""
+    },
+    {
+        "smiles": "COCCNC1CCC(Nc2cc(-c3nc(NCC4CCOCC4)ccc3Cl)c(Cl)cn2)CC1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "methoxy",
+            "matching_analysis": "The molecule contains one methoxy group, which can be seen in the fragment '-OMe'. The methoxy group is attached to carbon atom C6 of the benzene ring.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "NC(=O)c1cccc2c(NCc3cccc(Nc4nccs4)c3)ncnc12",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Substructural search to identify fragments within the input molecule based on their SMILES representation.\",\n\"matching\\_analysis\": \"The input molecule contains three primary amine fragments (-N).\",\n\"count\": 3"
+    },
+    {
+        "smiles": "Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input molecule with the fragment\",\n\"count\": 3"
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 10\n}"
+    },
+    {
+        "smiles": "O=C(Nc1ccnc(F)c1)c1ccc(-c2noc(C(F)(F)F)n2)cc1",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"fragment structure analysis\",\n    \"matching\\_analysis\": \"Describing and matching the input molecule with the fragment.\",\n    \"count\": 6\n}"
+    },
+    {
+        "smiles": "CCOC(=O)C1(C(=O)NC(Cc2ccc(-c3ccccc3OC)cc2)C(=O)O)CCCO1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"The given molecule contains one ethoxy group.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"fragment structure analysis\",\n    \"matching\\_analysis\": \"The input molecule contains one ethoxy group (-OEt).\",\n    \"count\": 1\n}"
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Molecule contains ester functionality\",\n\"matching\\_analysis\": \"The input molecule contains an ester functional group which matches with the given fragment\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CCOC(=O)c1c(S(=O)(=O)NCC(=O)Nc2cc(C)ccc2C)c(C)n(C)c1C",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"Describing the matching analysis between the input Molecule and the fragment.\",\n\"count\": 3\n}"
+    },
+    {
+        "smiles": "CSc1nc(N)cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 4"
+    },
+    {
+        "smiles": "CSc1ncc(C(=O)Nc2ccc(C)c(Cl)c2)c(-c2ccccc2)n1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "The input molecule contains two fragments of methylthio.",
+            "count": 2
+        }
+    },
+    {
+        "smiles": "COC(=O)c1cccc(-c2cccc(OCC(O)CN3CCc4ccccc4C3)c2)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "-C(=O)OMe",
+            "matching_analysis": "The input molecule contains 1 matching fragment '-C(=O)OMe'. The fragment is located at position RDKit MolID 5505564825970010.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "COC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Carbonyl methyl ester is a functional group commonly found in organic compounds and contains a carbon-oxygen-carbon moiety with one or more hydroxyl (-OH) groups attached to a carbonyl (-CO-) group.\",\n\"matching\\_analysis\": \"The input molecule contains 1 occurrence of the specified fragment structure.\\ The fragment matches at position C(=O)O in the molecule.\",\n\"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"The fragment is a nitro (-NO2) group.\",\n    \"matching\\_analysis\": \"The input molecule contains one nitro (-NO2) group.\",\n    \"count\": 1\n}"
+    },
+    {
+        "smiles": "O=C(Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1)c1cccc([N+](=O)[O-])c1",
+        "fg_name": "nitro",
+        "fg_smarts": "*-[N;D3](=[O;D1])[O;D1]",
+        "fg_label": "-NO2",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"fragment structure analysis\",\n    \"matching\\_analysis\": \"The input molecule contains one occurrence of the nitro fragment.\",\n    \"count\": 1\n}"
+    },
+    {
+        "smiles": "O=C(Nc1ccc2oc(Cc3ccccc3)nc2c1)c1ccc([N+](=O)[O-])cc1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment is a nitroso group (-N=O)\",\n\"matching\\_analysis\": \"The nitroso group (-N=O) is present in the molecule.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CCOC(=O)C1CCCN(Cc2nc3ccc([N+](=O)[O-])cc3c(=O)n2-c2ccc(OC)cc2OC)C1",
+        "fg_name": "nitroso",
+        "fg_smarts": "*-[N;R0]=[O;D1]",
+        "fg_label": "-N=O",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"Matching analysis for the input molecule and fragment nitroso.\",\n\"count\": 0"
+    },
+    {
+        "smiles": "Cc1c(Cc2cccc([N+](=O)[O-])c2)c(=O)oc2cc(OC(=O)N(C)C)ccc12",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"The Fragment's SMILES is '=N-O' and its Name is 'oximes'. The Fragment can be found 3 times in the Input Molecule.\",\n\"count\": 3"
+    },
+    {
+        "smiles": "COC(=O)C1=C(C)N=C(C)C(=C(O)OC)C1c1ccc(Cl)c([N+](=O)[O-])c1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"substructural search\",\n\"matching\\_analysis\": \"The fragment is present in the molecule.\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Substructure search\",\n\"matching\\_analysis\": \"The input molecule contains one occurrence of the specified fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CN1CCN(Cc2ccc(C(=O)NN(c3nc(C#N)ncc3Br)C3CCC3)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CCC(C(=O)NC(C#N)CC(N)=O)N(Cc1ccc(-c2cccc(F)c2F)cc1)S(C)(=O)=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"fragment structure analysis\",\n    \"matching_analysis\": \"The fragment 'nitrile' contains the group -CN.\",\n    \"count\": 4\n}\n```"
+    },
+    {
+        "smiles": "N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 1,
+        "json_results": " {\"fragment\\_structure\":\"fragment structure analysis\",\"matching\\_analysis\":\"describe and match the input Molecule with the fragment\",\"count\":6}"
+    },
+    {
+        "smiles": "CCOc1ccccc1NS(=O)(=O)c1cc(-c2cnc(C3CC3)o2)ccc1C",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"Describing and matching the input molecule with the specified fragment.\",\n\"count\": 4\n}"
+    },
+    {
+        "smiles": "CC(C)N(c1ccc(C(C)(O)C(F)(F)F)cc1)S(=O)(=O)c1ccccc1C1CC1",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment_structure\": \"fragment structure analysis\",\n\"matching_analysis\": \"The input molecule contains one fragment named 'cyclopropyl'. The fragment is located at position C1.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(Nc2nccc(-c3ccc(NC(=O)Cc4cccs4)cc3)n2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 0\n}"
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CN2CCN(c3ccccc3)CC2)cc1",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"primary sulfonamide\",\n    \"matching\\_analysis\": \"The input Molecule contains one occurrence of the specified fragment.\",\n    \"count\": 1\n}"
+    },
+    {
+        "smiles": "CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The fragment -C(=O)O was found at position (0, 6) in the molecule CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"carboxylic acids\",\n    \"matching_analysis\": \"The given molecule contains two carboxylic acid fragments.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "CS(=O)(=O)Nc1ccc(-c2cnc3cccc(Nc4ncccc4Cl)c3c2)cc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"methyl sulfonyl substructural search\",\n\"matching\\_analysis\": \"The input molecule contains one methyl sulfonyl fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CC(CCn1ccc(-c2ccc(F)cc2)cc1=O)(C(=O)NO)S(C)(=O)=O",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Substructure search\",\n\"matching\\_analysis\": \"The molecular formula is C26H24N2O7S, which contains one methyl sulfonyl group.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N(C)CC4CCOC4)ncc3Cl)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains one occurrence of the fragment -NC(=O)CH3.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"methyl amide fragment in the molecule is present\",\n\"matching\\_analysis\": \"The given molecule contains one methyl amide fragment.\\ The fragment matched with the given SMILES: -NC(=O)CH3.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "C=CCOCCn1c(SC)nc(-c2ccc(F)cc2)c1-c1ccnc(NC(C)=O)c1",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"terminal aldehyde\",\n    \"matching\\_analysis\": \"The input molecule contains three instances of the given fragment (i.e., three aldehydes).\",\n    \"count\": 3\n}"
+    },
+    {
+        "smiles": "CCC1OC(C(C)=CC(C)C=CC2C(C)C2C=CC2OC(CC(C)=O)CC(O)C2O)CC=C1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"terminal aldehyde\",\n\"matching\\_analysis\": \"The input molecule contains one instance of the specified fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3ccnc(N4CCCC(F)(F)C4)n3)C2)cc1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"carbonyl methyl\",\n\"matching\\_analysis\": \"Input Molecule contains 2 fragments with name 'carbonyl methyl'. The first matching starts from atom C1 and continues to atom O5. Another matching starts from atom O8 and continues to atom C7. Both fragments have different positions in the molecule.\",\n\"count\": 2"
+    },
+    {
+        "smiles": "COC1CCCN(c2nccc(N3CCC(Oc4ccc(C(C)NC(C)=O)cc4)C3)n2)C1",
+        "fg_name": "carbonyl methyl",
+        "fg_smarts": "*-C(=O)-[C;D1;H3]",
+        "fg_label": "-C(=O)CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 3"
+    },
+    {
+        "smiles": "CNC(=O)C(NC(=O)C(CC(C)C)C(C(=O)NO)C1CCCC1)C(C)(C)C",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input molecule with the fragment",
+            "count": 2
+        }
+    },
+    {
+        "smiles": "CC(C(=O)Nc1ncc(SCc2ncc(C(C)(C)C)o2)s1)c1ccccc1",
+        "fg_name": "t-butyl",
+        "fg_smarts": "*-[C;D4]([C;D1])([C;D1])-[C;D1]",
+        "fg_label": "-tBu",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"fragment structure analysis\",\n    \"matching_analysis\": \"describe and match the input Molecule with the fragment\",\n    \"count\": 1\n}\n```"
+    },
+    {
+        "smiles": "C#Cc1cc(Oc2cnc(NCC(C)O)nc2N)c(C(C)C)cc1OC",
+        "fg_name": "acetylenes",
+        "fg_smarts": "*-[C;D2]#[C;D1;H]",
+        "fg_label": "-C#CH",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input molecule with the fragment\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "NS(=O)(=O)c1ccc(NC(=S)NC(=O)c2cccc([N+](=O)[O-])c2)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"Fragment is a thiocarbonyl group.\",\n    \"matching\\_analysis\": \"The input molecule contains one thiocarbonyl group.\",\n    \"count\": 1\n}"
+    },
+    {
+        "smiles": "COc1ccc(NC(=S)N(CCN2CCOCC2)Cc2ccccc2F)cc1",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment is a thiocarbonyl group (-=S-) which contains one sulfur atom and two bonded nitrogen atoms.\",\n\"matching\\_analysis\": \"The input molecule contains 3 thiocarbonyl groups.\",\n\"count\": 3"
+    },
+    {
+        "smiles": "CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1",
+        "fg_name": "methyl sulfonamide",
+        "fg_smarts": "*-[N;D2]-[S;D4](=[O;D1])(=[O;D1])-[C;D1;H3]",
+        "fg_label": "-NHSO2CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment is a substructure of a molecule\",\n\"matching\\_analysis\": \"Input Molecule contains two fragments of the specified structure: one at position 7 and the other at position 9.\",\n\"count\": 2"
+    },
+    {
+        "smiles": "Cc1oc(-c2ccccc2)nc1CCNC(=O)c1ccc([S@@](C)=O)cc1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "describe and match the input Molecule with the fragment",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "C=CCn1c(SCc2nnc([S-])n2-c2ccccc2)nnc1-c1ccccc1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "json_results": " {\n```json\n{\n    \"fragment_structure\": \"fragment structure analysis\",\n    \"matching_analysis\": \"describe and match the input Molecule with the fragment\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "C[C@@H]1CCC/C(=N/[NH+]=C(/[S-])NCc2ccccc2)C1",
+        "fg_name": "thiols",
+        "fg_smarts": "*-[S;D1]",
+        "fg_label": "-S",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "C[C@H](NC(=O)NCCC[S@](C)=O)c1ccc(Cl)s1",
+        "fg_name": "methyl sulfinyl",
+        "fg_smarts": "*-[S;D3](=O)-[C;D1]",
+        "fg_label": "-SOCH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Methyl sulfinyl group\",\n\"matching\\_analysis\": \"The input molecule contains two methyl sulfinyl fragments, each located at the terminal position on a phenyl ring.\",\n\"count\": 2"
+    },
+    {
+        "smiles": "O=C=NC(c1ccccc1)(c1ccccc1)c1ccccc1",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"isocyanate\",\n\"matching\\_analysis\": \"The input molecule contains one isocyanate fragment.\",\n\"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "COS(=O)(=O)c1ccc(Cl)c2ccccc12",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"methyl ester sulfonyl\",\n\"matching\\_analysis\": \"The given input molecule contains one instance of the specified fragment.\",\n\"count\": \"1\"\n}"
+    },
+    {
+        "smiles": "CCOc1cc(NC(=O)c2ccccc2)c(OCC)cc1[N+]#N",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains one fragment named diazo.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "O=S(=O)([O-])c1ccc(Cl)c2cccnc12",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 1"
+    },
+    {
+        "smiles": "O=S1(=O)C[C@@H](Nc2ccccc2)[C@@H](S(=O)(=O)[O-])C1",
+        "fg_name": "sulfonic acid",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D1]",
+        "fg_label": "-SO3H",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment contains a sulfur atom bonded to two oxygen atoms (one of which is also bonded to a hydrogen atom) and one carbon atom.\",\n\"matching\\_analysis\": \"The input molecule contains a sulfate group (-SO42-) and one amine group (-NH2). The sulfate group is fully matched with the fragment, while the amine group is not. Only one instance of the fragment was found in the molecule.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "O=C(N=C=S)c1cccc(C(F)(F)F)c1F",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Molecular fragments are defined as substructures that can exist independently and contain atoms or groups of atoms that may or may not include hydrogen.\",\n\"matching\\_analysis\": \"The given input molecule contains one fragment named isothiocyanate which matches the fragment SMILES provided.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "N#[N+]c1[nH]nc2nnc(-c3ccccc3)c(-c3ccccc3)c12",
+        "fg_name": "diazo",
+        "fg_smarts": "*-[N;D2]#[N;D1]",
+        "fg_label": "-N#N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 2"
+    },
+    {
+        "smiles": "O=C=Nc1ccc2c(c1)O[C@@H](F)C(F)(F)O2",
+        "fg_name": "isocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[O;D1]",
+        "fg_label": "-N=C=O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains one isocyanate fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CC1(C)[C@H]2CC[C@]1(C)C(=O)[C@@H]2N=C=S",
+        "fg_name": "isothiocyanate",
+        "fg_smarts": "*-[N;D2]=[C;D2]=[S;D1]",
+        "fg_label": "-N=C=S",
+        "fg_num": 1,
+        "json_results": " {\n    \"fragment\\_structure\": \"fragment structure analysis\",\n    \"matching\\_analysis\": \"describe and match the input molecule with the fragment\",\n    \"count\": 4\n}"
+    },
+    {
+        "smiles": "CCCc1n[nH]c2c([O-])nc(-c3cc(S(=O)(=O)Cl)ccc3OCC)nc12",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains one fragment named 'sulfonyl chloride' with the SMILES '-SO2Cl'\",\n\"count\": 1"
+    },
+    {
+        "smiles": "COS(=O)(=O)[C@@H]1C(=O)[C@]2(C)CC[C@H]1C2(C)C",
+        "fg_name": "methyl ester sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]",
+        "fg_label": "-SO3CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The fragment is present at the position 4, 9, 10, and 17 of the molecule.\",\n\"count\": 4\n}"
+    },
+    {
+        "smiles": "Cc1nn(C(C)C)cc1S(=O)(=O)Cl",
+        "fg_name": "sulfonyl chloride",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[Cl]",
+        "fg_label": "-SO2Cl",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The given fragment SMILES '-SO2Cl' is found in the input Molecule 'Cc1nn(C(C)C)cc1S(=O)(=O)Cl'\",\n\"count\": 1"
+    },
+    {
+        "smiles": "N=Nc1ccccc1-c1ccc([N+](=O)[O-])cc1[N+](=O)[O-]",
+        "fg_name": "hydrazines",
+        "fg_smarts": "*-[N;D2]=[N;D1]",
+        "fg_label": "-N=N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment contains functional group 'carboxylic acids' defined as '-C(=O)O'\",\n\"matching\\_analysis\": \"Input Molecule: CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1\\nFragment Name: carboxylic acids\\nFragment SMILES: -C(=O)O\",\n\"count\": 1"
+    },
+    {
+        "smiles": "NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21",
+        "fg_name": "primary sulfonamide",
+        "fg_smarts": "*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]",
+        "fg_label": "-SO2NH2",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Molecular fragment\",\n\"matching\\_analysis\": \"The input molecule is matched against the specified fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "O=C1c2ccccc2C(=O)N1CCOC(=S)Nc1ccc(F)cc1F",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule has one occurrence of fragment thiocarbonyls.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "COc1c(N2CCCC(N)C2)c(F)c(N)c2c(=O)c(C(=O)O)cn(C3CC3)c12",
+        "fg_name": "cyclopropyl",
+        "fg_smarts": "*-[C;D3]1-[C;D2]-[C;D2]1",
+        "fg_label": "-cPropyl",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule contains one occurrence of the specified cyclopropyl fragment.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)O)cc1",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"substructure search\",\n\"matching\\_analysis\": \"The molecule contains one fragment named methoxy.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1",
+        "fg_name": "oximes",
+        "fg_smarts": "*=[N;R0]-[O;D1]",
+        "fg_label": "=N-O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 3"
+    },
+    {
+        "smiles": "Nc1cnc(-c2ccc(C3CCC3)c(OCC(O)CNc3cc(N)ncn3)c2F)cn1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 2,
+        "json_results": {
+            "fragment_structure": "fragment structure analysis",
+            "matching_analysis": "Describing and matching the input molecule with the fragment",
+            "count": 5
+        }
+    },
+    {
+        "smiles": "N#CCC1(n2cc(C(N)=O)c(Nc3ccnc(F)c3)n2)CCC(NCc2ccc(O)cc2)CC1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"Describing the input molecule's fragment containing the specified fragment name and matching it with the fragment.\",\n\"count\": 4\n}"
+    },
+    {
+        "smiles": "CCCCOC(=O)c1ccc(NC(=O)C2(c3cccs3)CCOCC2)cc1",
+        "fg_name": "ester",
+        "fg_smarts": "[#6](=[#8])-[OX2]-[#6]",
+        "fg_label": "-COOR",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "Fragment Name: ester, Matching Analysis: The input molecule contains one ester group (-COOR), Count: 1"
+        }
+    },
+    {
+        "smiles": "CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2",
+        "fg_name": "trifluoromethyl",
+        "fg_smarts": "*-[C;D4](F)(F)F",
+        "fg_label": "-CF3",
+        "fg_num": 1,
+        "json_results": " ```json\n{\n    \"fragment_structure\": \"trifluoromethyl\",\n    \"matching_analysis\": \"The input molecule contains two instances of trifluoromethyl.\",\n    \"count\": 2\n}\n```"
+    },
+    {
+        "smiles": "COCCCNC(=O)c1c(C)nn(-c2ccc(F)cc2)c1-n1cccc1",
+        "fg_name": "amide",
+        "fg_smarts": "[#6][C](=O)[NX3][#6]",
+        "fg_label": "-C(=O)N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"amide group analysis\",\n\"matching\\_analysis\": \"The input molecule contains a -C(=O)N fragment, which is commonly known as an amide group. This fragment is present at the center of the molecule.\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "side-chain aldehydes or ketones",
+            "matching_analysis": "The input molecule contains one fragment that matches the given fragment structure.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1",
+        "fg_name": "cyano",
+        "fg_smarts": "*-[C;D2]#[N;D1]",
+        "fg_label": "-C#N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3cccc(C(F)(F)F)c3)ccc2C)n1",
+        "fg_name": "side-chain aldehydes or ketones",
+        "fg_smarts": "*=[O;D1]",
+        "fg_label": "=O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 0\n}"
+    },
+    {
+        "smiles": "CS(=O)(=O)c1ccc2nc(-c3ccc(Br)cc3)[nH]c2c1",
+        "fg_name": "methyl sulfonyl",
+        "fg_smarts": "*-[S;D4](=O)(=O)-[C;D1;H3]",
+        "fg_label": "-SO2CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment SMILES: -SO2CH3\",\n\"matching\\_analysis\": \"The input molecule matches with the fragment at multiple locations.\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CC(=O)N1c2ccc(S(=O)(=O)N3CCC(C(=O)Nc4ncccc4C)CC3)cc2CC1C",
+        "fg_name": "terminal aldehyde",
+        "fg_smarts": "*-C(=O)-[C;D1]",
+        "fg_label": "-C(=O)H",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 1\n}"
+    },
+    {
+        "smiles": "Cc1cc(O)cc(C)c1CC(N)C(=O)N1Cc2ccccc2CC1C(=O)Nc1nn[nH]n1",
+        "fg_name": "primary amines",
+        "fg_smarts": "*-[N;D1]",
+        "fg_label": "-N",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"Fragment structure analysis\",\n\"matching\\_analysis\": \"The input molecule matches the given fragment.\",\n\"count\": 2\n}"
+    },
+    {
+        "smiles": "CCCCCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "halogens",
+        "fg_smarts": "*-[#9,#17,#35,#53]",
+        "fg_label": "-X",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 4"
+    },
+    {
+        "smiles": "CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Oc2ccccc2O)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "ethoxy",
+            "matching_analysis": "The input molecule contains one ethoxy group.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC",
+        "fg_name": "thiocarbonyls",
+        "fg_smarts": "*=[S;D1]",
+        "fg_label": "=S",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "thiocarbonyls",
+            "matching_analysis": "matching the molecule with the fragment using the provided SMILES",
+            "count": 3
+        }
+    },
+    {
+        "smiles": "CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21",
+        "fg_name": "nitriles",
+        "fg_smarts": "*#[N;D1]",
+        "fg_label": "#N",
+        "fg_num": 2,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 3"
+    },
+    {
+        "smiles": "COC(=O)c1ccc(-c2ccc(C=C3SC(=O)NC3=O)o2)c(O)c1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "json_results": " Here is the response in JSON format:\n```json\n{\n    \"fragment_structure\": \"fragment structure analysis\",\n    \"matching_analysis\": \"describe and match the input Molecule with the fragment\",\n    \"count\": 4\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)Cc1ccc(C#Cc2ccc(OCc3cnco3)cc2)cc1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 4\n}"
+    },
+    {
+        "smiles": "COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1",
+        "fg_name": "carbonyl methyl ester",
+        "fg_smarts": "*-C(=O)[O;D2]-[C;D1;H3]",
+        "fg_label": "-C(=O)OMe",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "-C(=O)OMe",
+            "matching_analysis": "The input molecule contains one instance of the specified fragment with the same functional groups.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1",
+        "fg_name": "methyl amide",
+        "fg_smarts": "*-[N;D2]-[C;D3](=O)-[C;D1;H3]",
+        "fg_label": "-NC(=O)CH3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "[CC(=O)N][ncc2cc(-c3c(Cl)cccc3Cl)c(=O)]n[C]",
+            "matching_analysis": "The fragment SMILES '-NC(=O)CH3' is found in the input molecule 'CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1'. This can be confirmed by analyzing the fragment structure.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCC(=O)NO",
+        "fg_name": "side-chain hydroxyls",
+        "fg_smarts": "*-[O;D1]",
+        "fg_label": "-O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 3"
+    },
+    {
+        "smiles": "N#Cc1ccc(Oc2ccc(NC(=O)CC(CC(=O)O)c3ccccc3)cc2)cc1",
+        "fg_name": "carboxylic acids",
+        "fg_smarts": "*-C(=O)[O;D1]",
+        "fg_label": "-C(=O)O",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"describe and match the input Molecule with the fragment\",\n\"count\": 4\n}"
+    },
+    {
+        "smiles": "CCCCOC(=O)CC1N=C(c2ccc(Cl)cc2)c2cc(OC)ccc2-n2c(C)nnc21",
+        "fg_name": "methoxy",
+        "fg_smarts": "*-[O;D2]-[C;D1;H3]",
+        "fg_label": "-OMe",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"fragment structure analysis\",\n\"matching\\_analysis\": \"The fragment -OMe is present in the input molecule at position 3, thus there is one instance of this fragment in the given molecule.\",\n\"count\": 1"
+    },
+    {
+        "smiles": "CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OCc3ccccc3)c2)[nH]1",
+        "fg_name": "methylthio",
+        "fg_smarts": "*-[S;D2]-[C;D1;H3]",
+        "fg_label": "-SCH3",
+        "fg_num": 1,
+        "json_results": {
+            "fragment_structure": "-SCH3",
+            "matching_analysis": "The fragment 'methylthio' was found in the molecule structure.",
+            "count": 1
+        }
+    },
+    {
+        "smiles": "CCOC(=O)Nc1ncc(Oc2cc(I)c(OC)cc2C(C)C)c(N)n1",
+        "fg_name": "ethoxy",
+        "fg_smarts": "*-[O;D2]-[C;D2]-[C;D1;H3]",
+        "fg_label": "-OEt",
+        "fg_num": 1,
+        "json_results": " {\n\"fragment\\_structure\": \"The input molecule contains one ethoxy fragment.\\\",\",\n\"matching\\_analysis\": \"The ethoxy fragment matches to the '-OEt' SMILES pattern and is located at position 1 in the input molecule.\",\n\"count\": 1"
+    }
+]

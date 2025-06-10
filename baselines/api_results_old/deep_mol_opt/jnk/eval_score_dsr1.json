@@ -1,0 +1,15 @@
+{
+    "improvement": {
+        "mean": -0.10910000000000007,
+        "variance": 0.019718190000000007,
+        "min": -0.53,
+        "max": 0.27,
+        "success_rate": 0.19,
+        "best_rate": 0.0
+    },
+    "scaffold": {
+        "hard": 0.13,
+        "soft": 0.3227016919337896
+    },
+    "invalid_rate": 0.0
+}
