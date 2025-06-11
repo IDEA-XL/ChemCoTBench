@@ -5,10 +5,9 @@ from tqdm import tqdm
 
 from openai import OpenAI
 ds_client = OpenAI(
-    api_key="sk-fbAqopQ5lgukYauf74401607Ca3f4cB0B77f7f5a3b75B032", 
+    api_key="your-key", 
     base_url="https://api.bltcy.ai/v1"
 )
-
 def task_specific_system_content(taskname):   
     # if taskname == "add":   
     #     system_content = f"""
