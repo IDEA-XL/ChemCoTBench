@@ -4,8 +4,8 @@ from tqdm import tqdm
 
 from openai import OpenAI
 ds_client = OpenAI(
-    api_key="sk-6d2a6aa8e8614801b4b92768195e8600", 
-    base_url="https://api.deepseek.com"
+    api_key="your-key", 
+    base_url="https://api.bltcy.ai/v1"
 )
 
 def update_json_file(info_dict, file_name='data.json'):
