@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/HowardLi1984/ChemCoTBench/blob/main/figures/chemcotbench-intro.png?raw=true" alt="BioProBench Logo" width="900"/>
+  <img src="https://github.com/HowardLi1984/ChemCoTBench/blob/main/figures/chemcotbench-intro.png?raw=true" alt="ChemCoTBench Logo" width="900"/>
 </div>
 
 
@@ -16,7 +16,7 @@
 ---
 
 <div align="center">
-  <img src="https://github.com/HowardLi1984/ChemCoTBench/blob/main/figures/chemcot-distribution.png" alt="BioProBench Logo" width="1000"/>
+  <img src="https://github.com/HowardLi1984/ChemCoTBench/blob/main/figures/chemcot-distribution.png" alt="ChemCoTBench Logo" width="1000"/>
 </div>
 
 ChemCoTBench features:
@@ -56,12 +56,12 @@ To visualize the Dataset Samples, and the baseline Leaderboard, please check the
 * **ChemCoTBench:** [https://huggingface.co/datasets/OpenMol/ChemCoTBench](https://huggingface.co/datasets/OpenMol/ChemCoTBench)
 * **Large-scale ChemCoTDataset:** [https://huggingface.co/datasets/OpenMol/ChemCoTBench-CoT](https://huggingface.co/datasets/OpenMol/ChemCoTBench-CoT)
 
-The evaluation metrics are being reconstructed and will be available soon!
-
+The evaluation script can refer to [baselines/evaluation_example.ipynb](baselines/evaluation_example.ipynb)
+> NOTE: for jnk evaluation, the oracle pkl is old. So please change to some old env.
 ---
 
 ## 🤝 Contributing
-We welcome contributions to enhance BioProBench, including:
+We welcome contributions to enhance ChemCoTBench, including:
   - New chemical sources
   - 🧪 Additional chemical domains
   - 🧠 Novel evaluation tasks
