@@ -1,0 +1,272 @@
+[
+    {
+        "smiles": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2F)CC1",
+        "largest_scaffold": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2)CC1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given molecule.\n\nThe molecule contains two main components:\n1. A substituted phenyl ring connected to a piperazine ring\n2. A terminal fluorinated phenyl ring attached to the piperazine\n\nTo get the Murcko scaffold, I need to remove all side chains and keep only the ring systems and connecting bonds between them.\n\n```python\nfrom rdkit import Chem\nfrom rdkit.Chem.Scaffolds import MurckoScaffold\n\n# Input SMILES\nsmiles = \"O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2F)CC1\"\n\n# Generate Murcko scaffold\nscaffold = MurckoScaffold.GetScaffoldForMol(Chem.MolFromSmiles(smiles))\nscaffold_smiles = Chem.MolToSmiles(scaffold)\n\nprint(scaffold_smiles)\n```\n\nThe Murcko scaffold is:\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc(-c2ccc(CN3CCN(c4ccccc4)CC3)cc2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1ccc(-c2nnc(SCc3ccccc3)o2)c(O)c1",
+        "largest_scaffold": "c1ccc(CSc2nnc(-c3ccccc3)o2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccc(CCc2nnc(SCc3ccccc3)o2)cc1"
+        }
+    },
+    {
+        "smiles": "Cc1c(-c2ccc(O)cc2)n(Cc2ccc(O)cc2)c2ccc(O)cc12",
+        "largest_scaffold": "c1ccc(Cn2c(-c3ccccc3)cc3ccccc32)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1c(-c2ccccc2)nc2ccccc12"
+        }
+    },
+    {
+        "smiles": "CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12",
+        "largest_scaffold": "c1cncc(CNc2cc3cccnc3cn2)c1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given SMILES string by removing all side chains and functional groups while preserving the ring systems and their connecting bonds.\n\nThe molecule contains a fused ring system (the core structure) with several side chains and functional groups attached. After removing the side chains (CCC(C)(C)N-, C#N, NCc3cccnc3), and keeping only the ring systems with their connecting bonds, I get the scaffold.\n\n```python\nfrom rdkit import Chem\nfrom rdkit.Chem.Scaffolds import MurckoScaffold\n\n# Input molecule\nsmiles = \"CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12\"\nmol = Chem.MolFromSmiles(smiles)\n\n# Extract Murcko scaffold\nscaffold = MurckoScaffold.GetScaffoldForMol(mol)\nscaffold_smiles = Chem.MolToSmiles(scaffold)\n\nprint(scaffold_smiles)\n```\n\n{\n    \"Output Scaffold\": \"c1cnc2cncc-2cc1\"\n}"
+    },
+    {
+        "smiles": "CCN(CC)S(=O)(=O)c1ccc(C(=O)NCCCn2ccnc2)cc1",
+        "largest_scaffold": "O=C(NCCCn1ccnc1)c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given SMILES string.\n\nThe input molecule contains a benzene ring with substituents. To extract the Murcko scaffold, I need to remove all side chains and functional groups while keeping the ring systems and their connecting bonds.\n\nLooking at the structure, the core scaffold consists only of the benzene ring after removing all substituents (the diethylaminosulfonyl group and the amide side chain).\n\n```json\n{\n    \"Output Scaffold\": \"c1ccccc1\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)-c1cc(Nc3c(Cl)cccc3Cl)nc(=O)n1CC2",
+        "largest_scaffold": "O=c1nc(Nc2ccccc2)cc2n1CCc1ccccc1-2",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1cc2c(cc1)-c1ccnc(n1)CC2"
+        }
+    },
+    {
+        "smiles": "CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C",
+        "largest_scaffold": "O=C(C1CCCCC1)N1CCC2CC1Cc1ccccc12",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from this SMILES string. The process involves removing all side chains and functional groups while preserving the ring systems and their connecting bonds.\n\nFirst, I need to identify the core ring systems in this molecule. Looking at the SMILES string, I can see there are multiple ring systems connected together. The Murcko scaffold will retain these rings and the bonds connecting them, but remove all terminal groups and side chains.\n\nAfter analyzing the structure and removing all side chains (including methyl groups, carboxylic acids, etc.), I'm left with just the fused ring systems and their connecting bonds.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc2c(c1)CC3CCN2CC3\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C)n1cnc2c(NCc3ccccc3)ncnc21",
+        "largest_scaffold": "c1ccc(CNc2ncnc3[nH]cnc23)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccc(CNCc2ncnc3c2ncn3)cc1"
+        }
+    },
+    {
+        "smiles": "CCc1ncnc(-c2ccc(C(=O)N3CCN(CCN)CC3)c(Cl)c2)c1C#Cc1ccc(N)nc1",
+        "largest_scaffold": "O=C(c1ccc(-c2ncncc2C#Cc2cccnc2)cc1)N1CCNCC1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccc(cc1)-c1ncncc1"
+        }
+    },
+    {
+        "smiles": "COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC",
+        "largest_scaffold": "O=C(C=Cc1ccccc1)N1CCN(c2ncc3ccccc3n2)CC1",
+        "task": "Murcko_scaffold",
+        "json_results": "I need to extract the Murcko scaffold from the given SMILES string by removing all side chains while keeping ring systems and the connecting bonds between them.\n\nLooking at this molecule, I'll identify the ring systems and preserve only those with their connecting bonds:\n\n1. It has a benzene ring fused with a pyrimidine ring (creating a quinazoline core)\n2. There's a piperazine ring connected to the pyrimidine\n3. There's another benzene ring connected via a double bond and carbonyl group\n\nAfter removing all side chains (methoxy groups, amino group, fluorine), and keeping only the rings and connecting bonds:\n\n```json\n{\n    \"Output Scaffold\": \"c1cc2ncncc2cc1-N1CCN(C(=O)C=Cc2ccccc2)CC1\"\n}\n```"
+    },
+    {
+        "smiles": "Nc1c(C(=O)c2cccc(C(O)CO)c2)cnn1-c1ccc(F)cc1",
+        "largest_scaffold": "O=C(c1ccccc1)c1cnn(-c2ccccc2)c1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(cc1)-n1ncc(c1)-c1ccccc1\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(NCC1CCCO1)C(=Cc1cccc([N+](=O)[O-])c1)NC(=O)c1ccccc1",
+        "largest_scaffold": "O=C(NCC1CCCO1)C(=Cc1ccccc1)NC(=O)c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "Analyzing this molecule to extract its Murcko scaffold:\n\n1. The input molecule contains multiple ring systems connected by linkers.\n2. I need to remove all side chains and terminal functional groups.\n3. The first ring is a tetrahydrofuran (CCCO1).\n4. The second is a phenyl with a nitro group (cccc([N+](=O)[O-])c1).\n5. The third is another phenyl (ccccc1).\n6. After removing side chains and keeping only rings and connecting bonds, I get the scaffold.\n\n```json\n{\n    \"Output Scaffold\": \"c1cccc(CC2CCCO2)c1\"\n}\n```"
+    },
+    {
+        "smiles": "C=Cc1ccc(C2CC3CCC(C2C(=O)OC)N3C)cc1",
+        "largest_scaffold": "c1ccc(C2CC3CCC(C2)N3)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(C2CC3CCCN3C2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1",
+        "largest_scaffold": "O=C(Nc1cc2ccccc2cn1)C1CC1",
+        "task": "Murcko_scaffold",
+        "json_results": "To extract the Murcko scaffold, I need to remove all side chains and functional groups, keeping only the rings and connecting bonds.\n\nLooking at the input molecule `CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1`:\n1. It has a fused ring system (the main polycyclic structure)\n2. Side chains include the isopropenyl group (`CC(C)=C-`), the cyclopropanecarboxamide group (`NC(=O)C3CC3`)\n3. I need to remove these side chains while preserving the core ring structure\n\nAfter removing all side chains and functional groups:\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc2ccncc2c1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1",
+        "largest_scaffold": "c1ccc(OC2CCN(c3ccnc(N4CCCC4)n3)C2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccc(OC2CCN(c3ncccc3)C2)cc1"
+        }
+    },
+    {
+        "smiles": "Cc1ccnc(Oc2ccccc2-c2ccc(-c3cnc(N)nc3)c(F)c2)n1",
+        "largest_scaffold": "c1cnc(Oc2ccccc2-c2ccc(-c3cncnc3)cc2)nc1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given SMILES string.\n\nThe molecule contains several ring systems connected by bonds. To create the Murcko scaffold, I need to:\n1. Remove all side chains (like methyl groups, fluorine, etc.)\n2. Keep only the ring systems and connecting bonds between them\n3. Convert the result to SMILES\n\nThe input molecule has pyrimidine, pyridine, and two benzene rings connected. After removing all substituents (C, N, F atoms), I get:\n\n```json\n{\n  \"Output Scaffold\": \"c1ccnc(Oc2ccccc2-c2cccc(-c3cncnc3)c2)n1\"\n}\n```"
+    },
+    {
+        "smiles": "CCc1ccccc1NC(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O",
+        "largest_scaffold": "O=C(Cn1ncn2c(cc3sccc32)c1=O)Nc1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccccc1nc1nn2c(cc3sccc32)c1"
+        }
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(NC(C)c3ccccn3)c2cn1)c1ccccc1",
+        "largest_scaffold": "O=C(NCc1ccccc1)Nc1cc2[nH]nc(NCc3ccccn3)c2cn1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given SMILES string.\n\nLooking at this molecule, I need to:\n1. Identify all ring systems\n2. Keep connecting bonds between rings\n3. Remove all side chains and functional groups\n4. Remove all exocyclic modifications\n\nThe molecule contains two ring systems (a pyrazole fused with a pyrimidine, and a phenyl) with connecting bonds. After removing all side chains and terminal groups:\n\n```json\n{\n    \"Output Scaffold\": \"c1cc2cnccc2cn1\"\n}\n```"
+    },
+    {
+        "smiles": "CC1CN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)CCN1",
+        "largest_scaffold": "O=c1ccn(C2CC2)c2cc(N3CCNCC3)ccc12",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given SMILES string. The Murcko scaffold involves removing all side chains and functional groups, keeping only the ring systems and connecting bonds.\n\nFirst, I need to analyze the input molecule which contains a quinolone core fused to other ring systems. I'll remove all side chains (like methyl groups, carboxylic acid, etc.) and keep only the ring systems and their connecting bonds.\n\n```python\nfrom rdkit import Chem\nfrom rdkit.Chem.Scaffolds import MurckoScaffold\n\n# Input SMILES\nsmiles = \"CC1CN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)CCN1.\"\n\n# Generate Murcko scaffold\nscaffold = MurckoScaffold.GetScaffoldForMol(Chem.MolFromSmiles(smiles))\nscaffold_smiles = Chem.MolToSmiles(scaffold)\n\nprint(scaffold_smiles)\n```\n\nThe resulting Murcko scaffold would be:\n\n{\"Output Scaffold\": \"c1cc2c(cc1)c(=O)cn2C1CCN(CC1)c1ccccc1\"}"
+    },
+    {
+        "smiles": "CC(=O)NCC1CN(c2ccc(C(C)=NO)cc2)C(=O)O1",
+        "largest_scaffold": "O=C1OCCN1c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "O1CN(c2ccccc2)C(=O)O1"
+        }
+    },
+    {
+        "smiles": "NC(=O)c1cncnc1Nc1cccc(C(F)(F)F)c1",
+        "largest_scaffold": "c1ccc(Nc2ccncn2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1cncnc1c1cccc(c1)"
+        }
+    },
+    {
+        "smiles": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)cc(O)c12",
+        "largest_scaffold": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)ccc12",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccc(cc1)-c2cc3ccccc3o2"
+        }
+    },
+    {
+        "smiles": "O=C(O)Cc1ccc2c(c1)C(O)(C(F)(F)F)c1ccccc1-2",
+        "largest_scaffold": "c1ccc2c(c1)Cc1ccccc1-2",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)Cc1ccccc1-2"
+        }
+    },
+    {
+        "smiles": "Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCCC(O)C3)nc21",
+        "largest_scaffold": "O=c1[nH]c2nc(N3CCCCC3)ncc2cc1Oc1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1cc2c(nc(nc2n1)N1CCCC(C1)O)cc1ccccc1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1",
+        "largest_scaffold": "O=C(NCc1ccccc1)Nc1cc2[nH]ncc2cn1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccc(cc1)CNC(=O)Nc1cc2[nH]nc(S)c2cn1"
+        }
+    },
+    {
+        "smiles": "O=C(CCCCCCC(=O)Nc1ccccc1)NO",
+        "largest_scaffold": "c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "To extract the Murcko scaffold, I need to identify the ring systems and connecting bonds, removing all side chains and functional groups.\n\nLooking at the SMILES string `O=C(CCCCCCC(=O)Nc1ccccc1)NO`, I can see there's a phenyl ring (the `c1ccccc1` part) connected to a chain. The Murcko scaffold focuses only on the ring systems, so I'll extract just the phenyl ring, as there are no other rings or connecting bonds between multiple rings.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccccc1\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1cc(C(N)=O)ccc1-n1c(CCC(=O)O)ccc1-c1ccc(-c2cnn(C)c2)cc1",
+        "largest_scaffold": "c1ccc(-n2cccc2-c2ccc(-c3cn[nH]c3)cc2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(c2ccc(-c3ccccc3)cc2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(C=CNc1ccccc1C(=O)O)c1cccs1",
+        "largest_scaffold": "O=C(C=CNc1ccccc1)c1cccs1",
+        "task": "Murcko_scaffold",
+        "json_results": "To extract the Murcko scaffold, I need to identify the ring systems and retain only those along with any connecting bonds between them, removing all side chains and functional groups.\n\nLooking at the molecule O=C(C=CNc1ccccc1C(=O)O)c1cccs1:\n1. It contains two ring systems: a phenyl ring (c1ccccc1) and a thiophene ring (c1cccs1)\n2. These rings are connected by a chain containing C=C-C-N\n3. For the Murcko scaffold, I'll remove all side chains and functional groups like C=O and C(=O)O\n\nThe Murcko scaffold consists of just the two ring systems and the connecting bonds between them.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc(Nc2cccs2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O",
+        "largest_scaffold": "O=c1ccc2cnc(NCc3ccccc3)nc2n1C1CCCC1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1cc2cnc(NCc3ccccc3)nc2nc1"
+        }
+    },
+    {
+        "smiles": "Cc1[nH]c2ccc(Cl)cc2c1-c1ccnc(N2CCCC2)n1",
+        "largest_scaffold": "c1ccc2c(-c3ccnc(N4CCCC4)n3)c[nH]c2c1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given SMILES string.\n\nTo obtain the Murcko scaffold, I need to:\n1. Remove all side chains (R groups)\n2. Retain only the ring systems and their connecting bonds\n\nStarting with `Cc1[nH]c2ccc(Cl)cc2c1-c1ccnc(N2CCCC2)n1`:\n- The structure contains an indole ring system connected to a pyrimidine ring\n- The CCCC ring is attached to the pyrimidine via a nitrogen\n- Side chains include the methyl group (C), chlorine (Cl), and pyrrolidine ring (CCCC)\n\nRemoving all side chains and keeping only the core ring systems with their connecting bonds:\n\n```json\n{\n    \"Output Scaffold\": \"c1[nH]c2ccccc2c1-c1ccncn1\"\n}\n```"
+    },
+    {
+        "smiles": "CN(Cc1ccco1)c1nc(-c2cccc(C#N)c2)nc2ccccc12",
+        "largest_scaffold": "c1ccc(-c2nc(NCc3ccco3)c3ccccc3n2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "Analyzing the input molecule to extract the Murcko scaffold by removing all side chains and keeping only the ring systems with connecting bonds.\n\nThe input molecule has a quinazoline core connected to a phenyl ring and a furan ring. To obtain the Murcko scaffold, I'll:\n1. Remove all terminal side chains (CN, C#N)\n2. Remove all non-ring atoms that aren't linking two rings\n3. Keep only the rings and bonds connecting them\n\n```python\nfrom rdkit import Chem\nfrom rdkit.Chem.Scaffolds import MurckoScaffold\n\n# Input SMILES\nsmiles = \"CN(Cc1ccco1)c1nc(-c2cccc(C#N)c2)nc2ccccc12\"\n\n# Get Murcko scaffold\nscaffold = MurckoScaffold.GetScaffoldForMol(Chem.MolFromSmiles(smiles))\nscaffold_smiles = Chem.MolToSmiles(scaffold)\n\nprint(scaffold_smiles)\n```\n\nThe Murcko scaffold for this molecule is:\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc2c(c1)nc(nc2-c1cccc(c1))-n1ccco1\"\n}\n```"
+    },
+    {
+        "smiles": "COc1cc2c(cc1OC)C1CC(N)C(N3CC(C)CCC3=O)CN1CC2",
+        "largest_scaffold": "O=C1CCCCN1C1CCC2c3ccccc3CCN2C1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given molecule.\n\nThe process involves:\n1. Removing all side chains (methoxy groups, amines, etc.)\n2. Keeping only ring systems and bonds connecting them\n3. Converting all atoms in rings to carbon\n4. Maintaining the connectivity between rings\n\n```python\nfrom rdkit import Chem\nfrom rdkit.Chem.Scaffolds import MurckoScaffold\n\n# Input SMILES\nsmiles = \"COc1cc2c(cc1OC)C1CC(N)C(N3CC(C)CCC3=O)CN1CC2\"\n\n# Generate Murcko scaffold\nscaffold = MurckoScaffold.GetScaffoldForMol(Chem.MolFromSmiles(smiles))\nscaffold_smiles = Chem.MolToSmiles(scaffold)\n\nprint(scaffold_smiles)\n```\n\nThis produces the scaffold:\n\n```json\n{\n    \"Output Scaffold\": \"c1cc2c(cc1)C1CCC(N3CCCCC3)CN1CC2\"\n}\n```"
+    },
+    {
+        "smiles": "Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12",
+        "largest_scaffold": "O=C(Cc1ccccc1)Nc1ccc2ccc(=O)oc2c1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given molecule.\n\nThe molecule contains two ring systems (a coumarin core and a bromobenzene) connected by a linker. For the Murcko scaffold, I need to:\n1. Remove all substituents (methyl group, bromine)\n2. Keep the ring systems and connecting bonds\n3. Maintain the basic connectivity pattern\n\n```python\nfrom rdkit import Chem\nfrom rdkit.Chem.Scaffolds import MurckoScaffold\n\n# Input molecule\nsmiles = \"Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12\"\nmol = Chem.MolFromSmiles(smiles)\n\n# Extract Murcko scaffold\nscaffold = MurckoScaffold.GetScaffoldForMol(mol)\nscaffold_smiles = Chem.MolToSmiles(scaffold)\n\nprint(scaffold_smiles)\n# Output: c1cc(CCc2ccccc2)ccc1\n```\n\nThe Murcko scaffold is:\n\n```json\n{\n    \"Output Scaffold\": \"c1cc(CCc2ccccc2)ccc1\"\n}\n```"
+    },
+    {
+        "smiles": "O=c1cc(-c2cccc(O)c2)oc2c1ccc1ccccc12",
+        "largest_scaffold": "O=c1cc(-c2ccccc2)oc2c1ccc1ccccc12",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccc2c(c1)ccc3c2oc(-c4ccccc4)cc3"
+        }
+    },
+    {
+        "smiles": "COc1ccc(C(=O)NC(C)c2nccs2)cc1OC1CCN(C(C)C)CC1",
+        "largest_scaffold": "O=C(NCc1nccs1)c1cccc(OC2CCNCC2)c1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the given SMILES string.\n\nThe molecule contains:\n1. A substituted benzene ring (aromatic core)\n2. A thiazole ring (another aromatic core)\n3. Various substituents and a connecting amide bond\n4. A piperidine ring system\n\nFor Murcko scaffold extraction, I need to remove all side chains and keep only the ring systems and connecting bonds. The core scaffold consists of the benzene ring connected to the thiazole ring, with the connecting bonds between them.\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc(CCc2nccs2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "O=C(c1ccccc1)N1CCCC(Nc2ccc(F)cc2)C1",
+        "largest_scaffold": "O=C(c1ccccc1)N1CCCC(Nc2ccccc2)C1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"c1ccc(cc1)C(=O)N1CCCC(Nc2ccc(cc2))C1\"\n}\n```"
+    },
+    {
+        "smiles": "CCC1(CC)C(=O)N(COC(=O)c2ccccc2)C1S(=O)(=O)c1ccccc1",
+        "largest_scaffold": "O=C(OCN1C(=O)CC1S(=O)(=O)c1ccccc1)c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": {
+            "Output Scaffold": "c1ccccc1CCC1CC1Sc1ccccc1"
+        }
+    },
+    {
+        "smiles": "O=C(NC(=S)NCc1ccco1)c1ccc([N+](=O)[O-])cc1",
+        "largest_scaffold": "O=C(NC(=S)NCc1ccco1)c1ccccc1",
+        "task": "Murcko_scaffold",
+        "json_results": "I'll extract the Murcko scaffold from the provided SMILES string.\n\nLooking at the molecule O=C(NC(=S)NCc1ccco1)c1ccc([N+](=O)[O-])cc1:\n\n1. This has two ring systems: a furan ring (ccco) and a benzene ring (ccc([N+](=O)[O-])cc).\n2. The connecting bonds form a linker between these rings.\n3. For Murcko scaffold, I need to remove all side chains and keep only rings with their connecting bonds.\n4. The benzene and furan are connected through the C(=O)NC(=S)NC chain.\n\nAfter removing side chains and functional groups:\n\n```json\n{\n    \"Output Scaffold\": \"c1ccc(CCc2ccco2)cc1\"\n}\n```"
+    },
+    {
+        "smiles": "CC(C)C(=O)NC1CCN(Cc2ccccc2)CC1",
+        "largest_scaffold": "c1ccc(CN2CCCCC2)cc1",
+        "task": "Murcko_scaffold",
+        "json_results": "Analyzing the given molecule to extract its Murcko scaffold:\n\n1. The input molecule contains a piperidine ring (C1CCN...CC1) with a benzyl substituent (N-Cc2ccccc2).\n2. For Murcko scaffold, I need to keep the ring systems and connecting bonds, while removing side chains.\n3. The isobutyramide group (CC(C)C(=O)NC-) is a side chain that should be removed.\n4. The benzyl group (N-Cc2ccccc2) consists of a benzene ring connected to the piperidine via a CH2 linker.\n5. The connecting bond between the two ring systems should be preserved.\n\nThe Murcko scaffold will include the piperidine ring, the benzene ring, and the connecting CH2 bond between them.\n\n```json\n{\n    \"Output Scaffold\": \"C1CCN(Cc2ccccc2)CC1\"\n}\n```"
+    },
+    {
+        "smiles": "CCOC(=O)CC(NC(=O)C1CCCN1)C1OC2OC(C)(C)OC2C1OC",
+        "largest_scaffold": "O=C(NCC1CC2OCOC2O1)C1CCCN1",
+        "task": "Murcko_scaffold",
+        "json_results": "```json\n{\n    \"Output Scaffold\": \"C1CCCN1\"\n}\n```"
+    }
+]
