@@ -58,8 +58,20 @@ To visualize the Dataset Samples, and the baseline Leaderboard, please check the
 
 The evaluation script can refer to [baselines/evaluation_example.ipynb](baselines/evaluation_example.ipynb)
 > NOTE: for jnk evaluation, the oracle pkl is old. So please change to some old env.
----
 
+---
+## 🧠 Evaluation Functions
+
+To facilitate adoption, we have created an abstraction for the evaluation functions of the numerous subtasks spanning the four main tasks in ChemCoTBench. This offers researchers a streamlined process for rapid benchmarking through a single function call.
+
+```
+1. Molecule Understanding: baseline_and_eval/molund_eval_demo.ipynb
+2. Molecule Editing: baseline_and_eval/moledit_eval_demo.ipynb
+3. Molecule Optimization: baseline_and_eval/molopt_eval_demo.ipynb
+4. Reactions: baseline_and_eval/rxn_eval_demo.ipynb
+```
+
+---
 ## 🤝 Contributing
 We welcome contributions to enhance ChemCoTBench, including:
   - New chemical sources
