@@ -100,6 +100,10 @@ def mol_prop(mol, prop):
         return sum([atom.GetAtomicNum() == 84 for atom in mol.GetAtoms()])
     
     ## Functional groups
+    elif prop == "num_benzene":
+        smarts = '[cR1]1[cR1][cR1][cR1][cR1][cR1]1'
+        matches = mol.GetSubstructMatches(Chem.MolFromSmarts(smarts))
+        return len(matches)
     elif prop == "num_benzene_ring":
         smarts = '[cR1]1[cR1][cR1][cR1][cR1][cR1]1'
         matches = mol.GetSubstructMatches(Chem.MolFromSmarts(smarts))
@@ -190,6 +194,7 @@ def is_valid_smiles(smiles):
         return False
 
 GROUP_SET={
+    "benzene",
     "benzene_ring",
     "hydroxyl",
     "anhydride",
@@ -213,6 +218,7 @@ GROUP_SET={
 
 GROUP_TO_SMARTS = {
     # 芳香环类
+    "benzene": "[cR1]1[cR1][cR1][cR1][cR1][cR1]1",       # 苯环(使用环原子标记)
     "benzene_ring": "[cR1]1[cR1][cR1][cR1][cR1][cR1]1",  # 苯环(使用环原子标记)
     
     # 含氧官能团
